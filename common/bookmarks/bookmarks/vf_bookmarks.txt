@@ -1,0 +1,50 @@
+﻿vf_bm_7886 = { #a year before aenar leaves
+	start_date = 7888.1.1
+	is_playable = yes
+	group = vf_bm_group_7886
+
+	weight = {
+		value = 100
+	}
+
+	character = {
+		name = "bookmark_vf_aenar"
+		dynasty = dynn_Targaryen
+		dynasty_splendor_level = 1
+		type = male
+		birth = 7846.1.1
+		title = c_dragonstone
+		government = feudal_government
+		culture = high_valyrian
+		religion = valyrian
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = Targaryen_13
+		position = { 780 300 }
+
+		animation = personality_bold
+
+		character = {
+			name = "bookmark_vf_gaemon"
+			relation = "BOOKMARK_RELATION_WIFE"
+			dynasty = dynn_Targaryen
+			type = female
+			birth = 7868.1.1
+			culture = high_valyrian
+			religion = valyrian
+			history_id = Targaryen_14
+			animation = personality_bold
+		}
+
+		character = {
+			name = "bookmark_vf_daenys"
+			relation = "BOOKMARK_RELATION_WIFE"
+			dynasty = dynn_Targaryen
+			type = female
+			birth = 7870.1.1
+			culture = high_valyrian
+			religion = valyrian
+			history_id = Targaryen_15
+			animation = idle
+		}
+	}
+}
