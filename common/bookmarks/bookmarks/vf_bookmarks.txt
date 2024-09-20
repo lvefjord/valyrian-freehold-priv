@@ -47,4 +47,33 @@
 			animation = idle
 		}
 	}
+	
+	character = {
+		name = "bookmark_vf_daemon"
+		dynasty = dynn_Atreides
+		dynasty_splendor_level = 1
+		type = male
+		birth = 7869.1.1
+		title = c_ilvonys
+		government = feudal_government
+		culture = high_valyrian
+		religion = valyrian
+		difficulty = BOOKMARK_CHARACTER_DIFFICULTY_EASY
+		history_id = Atreides_1
+		position { 500 300 }
+
+		animation = martial
+
+		character = {
+			name = "bookmark_vf_naerys"
+			relation = "BOOKMARK_RELATION_WIFE"
+			dynasty = dynn_Atreides
+			type = female
+			birth = 7871.1.1
+			culture = high_valyrian
+			religion = valyrian
+			history_id = Atreides_2
+			animation = idle
+		}
+	}
 }
