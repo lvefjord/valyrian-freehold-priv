@@ -1,0 +1,535 @@
+﻿# OLD VALYRIA
+
+# HOUSE ATREIDES (id = dynn_Atreides)
+# There is only power, and those too weak to seek it
+Atreides_1 = {
+	name = Daemon # Daemon, the Sword of the Evening
+	dynasty = dynn_Atreides
+	dna = Atreides_1
+
+	martial = 10
+	diplomacy = 3
+	intrigue = 3
+	stewardship = 7
+	learning = 6
+	prowess = 12
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_5
+	trait = intellect_good_2
+	trait = beauty_good_2
+	trait = pensive
+	trait = brave
+	trait = diligent
+	trait = patient
+	trait = temperate
+	trait = education_martial_prowess_5
+	trait = lifestyle_blademaster_3_history
+
+	disallow_random_traits = yes
+
+	7869.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7882.1.1 = { trait = dragonrider } # PH Dragon (Create)
+	7885.1.1 = {
+		give_nickname = nick_the_sword_of_the_evening
+		effect = { 
+			add_character_flag = claimed_dusk
+			add_character_flag = is_sword_of_evening
+		}
+	}
+	7887.1.1 = { add_spouse = Atreides_2 } # Naerys Atreides
+}
+Atreides_2 = {
+	name = Naerys # Wife of Lord Daemon
+	dynasty = dynn_Atreides
+	dna = Atreides_2
+
+	martial = 2
+	diplomacy = 9
+	intrigue = 5
+	stewardship = 7
+	learning = 6
+	prowess = 3
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_3
+	trait = beauty_good_2
+	trait = charming
+	trait = compassionate
+	trait = patient
+	trait = just
+	trait = calm
+	trait = education_martial_prowess_1
+
+	disallow_random_traits = yes
+
+	7871.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7885.1.1 = { trait = dragonrider } # PH Dragon (Create)
+}
+
+# HOUSE QORBAREON (id = dynn_Qorbareon) IN HONOR OF QAnon
+Qorbareon_1 = {
+	name = Rhaelene # Aunt and wife of Lord Rhaemon
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_1
+
+	martial = 0
+	diplomacy = 7
+	intrigue = 8
+	stewardship = 4
+	learning = 6
+	prowess = 0
+
+	religon = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_3
+	trait = impatient
+	trait = gluttonous
+	trait = trusting
+	trait = lustful
+
+	disallow_random_traits = yes
+
+	7827.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Qorbareon_2 = {
+	name = Rhaemon # Lord Rhaemon Qorbareon
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_2
+
+	martial = 4
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 7
+	learning = 5
+	prowess = 5
+	fertility = 2.0
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_stewardship_3
+	trait = beauty_good_2
+	trait = bossy
+	trait = brave
+	trait = diligent
+	trait = vengeful
+	trait = arrogant
+	trait = education_martial_prowess_3
+
+	disallow_random_traits = yes
+
+	7856.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7872.1.1 = { add_spose = Qorbareon_1 } # Rhaelene Qorbareon
+	7888.1.1 = { add_spouse = Qorbareon_9 } # Aemma Qorbareon
+}
+Qorbareon_3 = {
+	name = Arano # Brother of Lord Rhaemon
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_3
+
+	#martial = 
+	#diplomacy = 
+	#intrigue = 
+	#stewardship = 
+	#learning = 
+	#prowess = 
+
+	religion = valyrian
+	culture = high_valyrian
+
+	#trait = education_
+
+	disallow_random_traits = yes
+
+	7867.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Qorbareon_4 = {
+	name = Rogo # Brother of Lord Rhaemon
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_4
+
+	#martial = 
+	#diplomacy = 
+	#intrigue = 
+	#stewardship = 
+	#learning = 
+	#prowess = 
+
+	religion = valyrian
+	culture = high_valyrian
+
+	#trait = education_
+
+	disallow_random_traits = yes
+
+	7869.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Qorbareon_5 = {
+	name = Ellara # Sister of Lord Rhaemon
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_5
+
+	#martial = 
+	#diplomacy = 
+	#intrigue = 
+	#stewardship = 
+	#learning = 
+	#prowess = 
+
+	religion = valyrian
+	culture = high_valyrian
+
+	#trait = education_
+
+	disallow_random_traits = yes
+
+	7873.1.1 {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Qorbareon_6 = {
+	name = Laerion # Son of Lord Rhaemon
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_6
+
+	martial = 3
+	diplomacy = 6
+	intrigue = 5
+	stewardship = 8
+	learning = 10
+	prowess = 2
+
+	religion = valyrian
+	culture = high_valyrian
+
+	father = Qorbareon_2
+	mother = Qorbareon_1
+
+	trait = education_learning_4
+	trait = twin
+	trait = pensive
+	trait = humble
+	trait = honest
+	trait = shy
+	trait = forgiving
+	trait = theologian
+	trait = scholar
+	trait = devoted
+
+	disallow_random_traits = yes
+
+	7873.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Qorbareon_7 = {
+	name = Daerion # Son of Lord Rhaemon
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_7
+
+	martial = 5
+	diplomacy = 4
+	intrigue = 3
+	stewardship = 2 
+	learning = 2
+	prowess = 12
+
+	religion = valyrian
+	culture = high_valyrian
+
+	father = Qorbareon_2
+	mother = Qorbareon_1
+
+	trait = education_martial_1
+	trait = intellect_bad_1
+	trait = twin
+	trait = rowdy
+	trait = brave
+	trait = wrathful
+	trait = lustful
+	trait = gardener
+	trait = education_martial_prowess_1
+
+	disallow_random_traits = yes
+
+	7873.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Qorbareon_8 = {
+	name = Dyaerys # Son of Lord Rhaemon
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_8
+
+	martial = 4
+	diplomacy = 9
+	intrigue = 5
+	stewardship = 7
+	learning = 8
+	prowess = 3
+
+	religion = valyrian
+	culture = high_valyrian
+
+	father = Qorbareon_2
+	mother = Qorbareon_1
+
+	trait = education_intrigue_5
+	trait = beauty_good_3
+	trait = intellect_good_3
+	trait = twin
+	trait = curious
+	trait = ambitious
+	trait = craven
+	trait = chaste
+	trait = greedy
+
+	disallow_random_traits = yes
+
+	7873.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Qorbareon_9 = {
+	name = Aemma # Second wife of Lord Rhaemon
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_9
+
+	#martial = 
+	#diplomacy = 
+	#intrigue = 
+	#stewardship = 
+	#learning = 
+	#prowess =
+
+	#trait = education_
+
+	disallow_random_traits = yes
+
+	7872.1.1 = {
+		birth= yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+
+# HOUSE STAVARYEN (id = dynn_Stavaryen) IN HONOR OF QAnon
+Stavaryen_1 = {
+	name = Vargo # Lord Vargo Stavaryen
+	dynasty = dynn_Stavaryen
+	dna = Stavaryen_1
+
+	martial = 5
+	diplomacy = 5
+	intrigue = 10
+	stewardship = 4
+	learning = 7
+	prowess = 3
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_4
+	trait = charming
+	trait = craven
+	trait = wrathful
+	trait = chaste
+	trait = vengeful
+
+	disallow_random_traits = yes
+
+	7818.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7852.1.1 = { add_spouse = Stavaryen_2 } # Norenya Stavaryen
+}
+Stavaryen_2 = {
+	name = Norenya # Wife of Lord Vargo
+	dynasty = dynn_Stavaryen
+	dna = Stavaryen_2
+
+	martial = 4
+	diplomacy = 3
+	intrigue = 9
+	stewardship = 8
+	learning = 6
+	prowess = 2
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_3
+	trait = rowdy
+	trait = wrathful
+	trait = lustful
+	trait = greedy
+	trait = sadistic
+
+	disallow_random_traits = yes
+
+	7829.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Stavaryen_3 = {
+	name = Vaenora # Daughter of Lord Vargo
+	dynasty = dynn_Stavaryen
+	dna = Stavaryen_3
+	
+	martial = 2
+	diplomacy = 7
+	intrigue = 1
+	stewardship = 6
+	learning = 4
+	prowess = 2
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_stewardship_2
+	trait = bossy
+	trait = trusting
+	trait = impatient
+	trait = just
+	trait = humble
+
+	disallow_random_traits = yes
+
+	7853.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Stavaryen_4 = {
+	name = Vargo # Son of Lord Vargo
+	dynasty = dynn_Stavaryen
+	dna = Stavaryen_4
+
+	martial = 1
+	diplomacy = 1
+	intrigue = 0
+	stewardship = 0
+	learning = 2
+	prowess = 0
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = pensive
+	trait = physique_bad_3
+	trait = weak
+
+	disallow_random_traits = yes
+
+	7854.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7859.1.1 = {
+		trait = ill
+		death = { death_reason = death_ill }
+	}
+}
+Stavaryen_5 = {
+	name = Parios # Son of Lord Vargo
+	dynasty = dynn_Stavaryen
+	dna = Stavaryen_5
+
+	martial = 3
+	diplomacy = 0
+	intrigue = 0
+	stewardship = 0
+	learning = 1
+	prowess = 2
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = rowdy
+	trait = physique_bad_2
+	trait = bleeder
+
+	disallow_random_traits = yes
+
+	7858.1.1 = {
+		death = { death_reason = death_wounds }
+	}
+}
+Stavaryen_6 = {
+	name = Naesys # Daughter of Lord Vargo
+	dynasty = dynn_Stavaryen
+	dna = Stavaryen_6
+
+	martial = 2
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 8
+	learning = 4
+	prowess = 2
+
+	trait = curious
+	trait = honest
+	trait = gregarious
+	trait = greedy
+	trait = vengeful
+
+	disallow_random_traits = yes
+
+	7866.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Stavaryen_7 = {
+	name = Garios # Son of Lord Vargo
+	dynasty = dynn_Stavaryen
+	dna = Stavaryen_7
+
+	martial = 2
+	diplomacy = 4
+	intrigue = 3
+	stewardship = 5
+	learning = 7
+	prowess = 1
+
+	trait = curious
+	trait = shy
+	trait = cynical
+	trait = impatient
+
+	disallow_random_traits = yes
+
+	7876.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
