@@ -1,0 +1,23 @@
+﻿definitions = "definition.csv"
+provinces = "provinces.png"
+rivers = "rivers.png"
+topology = "heightmap.heightmap"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+island_region = "island_region.txt"
+seasons = "seasons.txt"
+
+sea_zones = RANGE { 6167  6497 }
+sea_zones = RANGE { 6890  6895 }
+impassable_seas = RANGE { 2958  2960 }
+impassable_seas = RANGE { 6619  6889 }
+impassable_seas = RANGE { 6896  7246 }
+impassable_seas = RANGE { 7249  7258 }
+impassable_seas = RANGE { 7269  7279 }
+lakes = RANGE { 6599  6618 }
+lakes = LIST { 7247 }
+lakes = LIST { 7248 }
+impassable_mountains = RANGE { 2224  2250 }
+impassable_mountains = RANGE { 6100  6166 }
+impassable_mountains = RANGE { 7267  7268 }
+river_provinces = RANGE { 6498  6598 }
