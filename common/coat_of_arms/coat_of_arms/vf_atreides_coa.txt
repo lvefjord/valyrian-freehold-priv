@@ -1,0 +1,11 @@
+﻿dynn_Atreides = {
+	pattern = "pattern_solid.dds"
+	color1 = "agot_black"
+	color2 = "agot_black"
+	colored_emblem = {
+		texture = "cl_white.dds"
+		color1 = "agot_silver"
+		color2 = "agot_silver"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}

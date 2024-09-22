@@ -1,0 +1,22 @@
+﻿# OLD VALYRIAN DYNASTIES
+
+# HOUSE ATREIDES (id = dynn_Atreides)
+dynn_Atreides = {
+	name = "dynn_Atreides"
+	culture = "high_valyrian"
+	motto = dynn_Atreides_motto # There is only power, and those too weak to seek it
+}
+
+# HOUSE QORBAREON (id = dynn_Qorbareon)
+dynn_Qorbareon = {
+	name = "dynn_Qorbareon"
+	culture = "high_valyrian"
+	motto = dynn_Qorbareon_motto # ?
+}
+
+# HOUSE STAVARYEN (id = dynn_Stavaryen)
+dynn_Stavaryen = {
+	name = "dynn_Stavaryen"
+	culture = "high_valyrian"
+	motto = dynn_Stavaryen_motto # ?
+}
