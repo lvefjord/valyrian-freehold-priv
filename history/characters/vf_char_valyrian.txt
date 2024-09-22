@@ -415,6 +415,9 @@ Stavaryen_3 = {
 	religion = valyrian
 	culture = high_valyrian
 
+	father = Stavaryen_1
+	mother = Stavaryen_2
+
 	trait = education_stewardship_2
 	trait = bossy
 	trait = trusting
@@ -443,6 +446,9 @@ Stavaryen_4 = {
 
 	religion = valyrian
 	culture = high_valyrian
+
+	father = Stavaryen_1
+	mother = Stavaryen_2
 
 	trait = pensive
 	trait = physique_bad_3
@@ -474,6 +480,9 @@ Stavaryen_5 = {
 	religion = valyrian
 	culture = high_valyrian
 
+	father = Stavaryen_1
+	mother = Stavaryen_2
+
 	trait = rowdy
 	trait = physique_bad_2
 	trait = bleeder
@@ -495,6 +504,12 @@ Stavaryen_6 = {
 	stewardship = 8
 	learning = 4
 	prowess = 2
+
+	religion = valyrian
+	culture = high_valyrian
+
+	father = Stavaryen_1
+	mother = Stavaryen_2
 
 	trait = curious
 	trait = honest
@@ -520,6 +535,12 @@ Stavaryen_7 = {
 	stewardship = 5
 	learning = 7
 	prowess = 1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	father = Stavaryen_1
+	mother = Stavaryen_2
 
 	trait = curious
 	trait = shy
