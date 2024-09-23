@@ -1,0 +1,56 @@
+﻿# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region.
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+###########################################################################
+# World Regions
+#	These groups are mutually exclusive on the same tier & should cover every part of the map
+###########################################################################
+
+world_valyrian_peninsula = {
+	duchies = {
+		d_valyria
+		d_aeksakogon
+		d_aerebagon
+		d_albilemagon
+		d_amazverdagon
+		d_baririon
+		d_bevumbagon
+		d_daeremagon
+		d_dobotedaves
+		d_eledris
+		d_engitsos
+		d_geliotikun
+		d_govilirion
+		d_idinnon
+		d_irūdir
+		d_jaehenka
+		d_jelebagon
+		d_keskydoso
+		d_kisagon
+		d_levitsos
+		d_loragon
+		d_mazioragon
+		d_memebagon
+		d_meri
+		d_pikibagon
+		d_qablos
+		d_qanemagon
+		d_qelilla
+		d_parkliapos
+		d_paletilla
+		d_ozletagon
+		d_oregon
+		d_obagon
+		d_ñoghoqitta
+		d_muñazma
+		d_mivojughagon
+		d_midemagon
+		d_lentazma
+		d_kyvanon
+	}
+}
