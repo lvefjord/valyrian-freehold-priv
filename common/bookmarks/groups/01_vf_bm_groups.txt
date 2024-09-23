@@ -1,3 +1,3 @@
-﻿vf_bm_group_7886 = {
+﻿vf_bm_group_7888 = {
 	default_start_date = 7888.1.1
 }
