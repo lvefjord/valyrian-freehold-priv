@@ -1,7 +1,7 @@
-﻿vf_bm_7886 = { #a year before aenar leaves
+﻿vf_bm_7888 = { #a year before aenar leaves
 	start_date = 7888.1.1
 	is_playable = yes
-	group = vf_bm_group_7886
+	group = vf_bm_group_7888
 
 	weight = {
 		value = 100

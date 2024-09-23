@@ -1,0 +1,3055 @@
+﻿#################### b_baelior ###################
+############# c_aelzor - d_valyria #############
+8060 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_caerynar ###################
+############# c_aelzor - d_valyria #############
+8061 = {
+	holding = none
+}
+################### b_daelys ###################
+############# c_aelzor - d_valyria #############
+8062 = {
+	holding = none
+}
+################### b_erythor ###################
+############# c_aelzor - d_valyria #############
+8063 = {
+	holding = none
+}
+#################### b_faelion ###################
+############# c_velys - d_valyria #############
+8064 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_gaenor ###################
+############# c_velys - d_valyria #############
+8065 = {
+	holding = none
+}
+################### b_haeroxis ###################
+############# c_velys - d_valyria #############
+8066 = {
+	holding = none
+}
+#################### b_ilythar ###################
+############# c_daelthor - d_valyria #############
+8067 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_jaelonys ###################
+############# c_daelthor - d_valyria #############
+8068 = {
+	holding = none
+}
+################### b_kaerthos ###################
+############# c_daelthor - d_valyria #############
+8069 = {
+	holding = none
+}
+################### b_laenysor ###################
+############# c_daelthor - d_valyria #############
+8070 = {
+	holding = none
+}
+################### b_maerion ###################
+############# c_daelthor - d_valyria #############
+8071 = {
+	holding = none
+}
+#################### b_naelion ###################
+############# c_rhaenor - d_valyria #############
+8072 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_oeryxos ###################
+############# c_rhaenor - d_valyria #############
+8073 = {
+	holding = none
+}
+################### b_paerysor ###################
+############# c_rhaenor - d_valyria #############
+8074 = {
+	holding = none
+}
+#################### b_qaenyth ###################
+############# c_naeryth - d_valyria #############
+8075 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_raelion ###################
+############# c_naeryth - d_valyria #############
+8076 = {
+	holding = none
+}
+################### b_saelthos ###################
+############# c_naeryth - d_valyria #############
+8077 = {
+	holding = none
+}
+################### b_taerynox ###################
+############# c_naeryth - d_valyria #############
+8078 = {
+	holding = none
+}
+################### b_ulethor ###################
+############# c_naeryth - d_valyria #############
+8079 = {
+	holding = none
+}
+#################### b_vaerynar ###################
+############# c_valthar - d_valyria #############
+8080 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_xaelys ###################
+############# c_valthar - d_valyria #############
+8081 = {
+	holding = none
+}
+#################### b_yaerithos ###################
+############# c_oelyth - d_valyria #############
+8082 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_zaenor ###################
+############# c_oelyth - d_valyria #############
+8083 = {
+	holding = none
+}
+################### b_baeloris ###################
+############# c_oelyth - d_valyria #############
+8084 = {
+	holding = none
+}
+################### b_daeryx ###################
+############# c_oelyth - d_valyria #############
+8085 = {
+	holding = none
+}
+################### b_faelthys ###################
+############# c_oelyth - d_valyria #############
+8086 = {
+	holding = none
+}
+#################### b_gaelthar ###################
+############# c_qaenor - d_valyria #############
+8087 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_haerynor ###################
+############# c_qaenor - d_valyria #############
+8088 = {
+	holding = none
+}
+################### b_ilythion ###################
+############# c_qaenor - d_valyria #############
+8089 = {
+	holding = none
+}
+################### b_jaelarys ###################
+############# c_qaenor - d_valyria #############
+8090 = {
+	holding = none
+}
+################### b_kaerysor ###################
+############# c_qaenor - d_valyria #############
+8091 = {
+	holding = none
+}
+#################### b_laerithos ###################
+############# c_gaelthor - d_valyria #############
+8092 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_maelyxor ###################
+############# c_gaelthor - d_valyria #############
+8093 = {
+	holding = none
+}
+################### b_naerysor ###################
+############# c_gaelthor - d_valyria #############
+8094 = {
+	holding = none
+}
+#################### b_oerysor ###################
+############# c_haelyx - d_valyria #############
+8095 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_paenor ###################
+############# c_haelyx - d_valyria #############
+8096 = {
+	holding = none
+}
+################### b_qaelion ###################
+############# c_haelyx - d_valyria #############
+8097 = {
+	holding = none
+}
+################### b_raethor ###################
+############# c_haelyx - d_valyria #############
+8098 = {
+	holding = none
+}
+#################### b_saelion ###################
+############# c_maenor - d_valyria #############
+8099 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_taeryx ###################
+############# c_maenor - d_valyria #############
+8100 = {
+	holding = none
+}
+################### b_ulyxor ###################
+############# c_maenor - d_valyria #############
+8101 = {
+	holding = none
+}
+#################### b_vaeryx ###################
+############# c_xaeryth - d_valyria #############
+8102 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_xaelythos ###################
+############# c_xaeryth - d_valyria #############
+8103 = {
+	holding = none
+}
+################### b_yaenyth ###################
+############# c_xaeryth - d_valyria #############
+8104 = {
+	holding = none
+}
+#################### b_zaelthar ###################
+############# c_vaelythor - d_valyria #############
+8105 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_aerionor ###################
+############# c_vaelythor - d_valyria #############
+8106 = {
+	holding = none
+}
+################### b_daelith ###################
+############# c_vaelythor - d_valyria #############
+8107 = {
+	holding = none
+}
+################### b_faelynor ###################
+############# c_vaelythor - d_valyria #############
+8108 = {
+	holding = none
+}
+#################### b_aelthar ###################
+############# c_yrnith - d_valyria #############
+8109 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_brynox ###################
+############# c_yrnith - d_valyria #############
+8110 = {
+	holding = none
+}
+################### b_caelynor ###################
+############# c_yrnith - d_valyria #############
+8111 = {
+	holding = none
+}
+################### b_daerithon ###################
+############# c_yrnith - d_valyria #############
+8112 = {
+	holding = none
+}
+#################### b_erylxar ###################
+############# c_zhaenor - d_valyria #############
+8113 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_faelyth ###################
+############# c_zhaenor - d_valyria #############
+8114 = {
+	holding = none
+}
+################### b_gaerynox ###################
+############# c_zhaenor - d_valyria #############
+8115 = {
+	holding = none
+}
+################### b_haelynor ###################
+############# c_zhaenor - d_valyria #############
+8116 = {
+	holding = none
+}
+#################### b_ilyxor ###################
+############# c_laerion - d_valyria #############
+8117 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_jaelrys ###################
+############# c_laerion - d_valyria #############
+8118 = {
+	holding = none
+}
+################### b_kaerion ###################
+############# c_laerion - d_valyria #############
+8119 = {
+	holding = none
+}
+################### b_laenothor ###################
+############# c_laerion - d_valyria #############
+8120 = {
+	holding = none
+}
+#################### b_maenoxar ###################
+############# c_saelzor - d_valyria #############
+8121 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_naelythor ###################
+############# c_saelzor - d_valyria #############
+8122 = {
+	holding = none
+}
+################### b_oelyxar ###################
+############# c_saelzor - d_valyria #############
+8123 = {
+	holding = none
+}
+#################### b_paelthar ###################
+############# c_paelion - d_valyria #############
+8124 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_qaerynor ###################
+############# c_paelion - d_valyria #############
+8125 = {
+	holding = none
+}
+################### b_raenysar ###################
+############# c_paelion - d_valyria #############
+8126 = {
+	holding = none
+}
+################### b_saelythor ###################
+############# c_paelion - d_valyria #############
+8127 = {
+	holding = none
+}
+#################### b_taelthor ###################
+############# c_erythor - d_valyria #############
+8128 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_ulythion ###################
+############# c_erythor - d_valyria #############
+8129 = {
+	holding = none
+}
+################### b_vaenithos ###################
+############# c_erythor - d_valyria #############
+8130 = {
+	holding = none
+}
+#################### b_xaelthor ###################
+############# c_qaelyx - d_valyria #############
+8131 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_yaelryn ###################
+############# c_qaelyx - d_valyria #############
+8132 = {
+	holding = none
+}
+################### b_zaelion ###################
+############# c_qaelyx - d_valyria #############
+8133 = {
+	holding = none
+}
+################### b_aelthion ###################
+############# c_qaelyx - d_valyria #############
+8134 = {
+	holding = none
+}
+#################### b_brynor ###################
+############# c_aerith - d_valyria #############
+8135 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_caenythar ###################
+############# c_aerith - d_valyria #############
+8136 = {
+	holding = none
+}
+################### b_daenyr ###################
+############# c_aerith - d_valyria #############
+8137 = {
+	holding = none
+}
+################### b_erynor ###################
+############# c_aerith - d_valyria #############
+8138 = {
+	holding = none
+}
+#################### b_faelionor ###################
+############# c_raelyx - d_valyria #############
+8139 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_gaelthor ###################
+############# c_raelyx - d_valyria #############
+8140 = {
+	holding = none
+}
+################### b_haelysar ###################
+############# c_raelyx - d_valyria #############
+8141 = {
+	holding = none
+}
+################### b_ilythor ###################
+############# c_raelyx - d_valyria #############
+8142 = {
+	holding = none
+}
+#################### b_jaenoxor ###################
+############# c_daenyth - d_valyria #############
+8143 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_kaeryth ###################
+############# c_daenyth - d_valyria #############
+8144 = {
+	holding = none
+}
+################### b_laethosar ###################
+############# c_daenyth - d_valyria #############
+8145 = {
+	holding = none
+}
+################### b_maelynar ###################
+############# c_daenyth - d_valyria #############
+8146 = {
+	holding = none
+}
+#################### b_naelyx ###################
+############# c_vaelor - d_valyria #############
+8147 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_oelythor ###################
+############# c_vaelor - d_valyria #############
+8148 = {
+	holding = none
+}
+################### b_paerythos ###################
+############# c_vaelor - d_valyria #############
+8149 = {
+	holding = none
+}
+################### b_qaelynor ###################
+############# c_vaelor - d_valyria #############
+8150 = {
+	holding = none
+}
+#################### b_raelthys ###################
+############# c_maelrion - d_valyria #############
+8151 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_saelthor ###################
+############# c_maelrion - d_valyria #############
+8152 = {
+	holding = none
+}
+################### b_taenor ###################
+############# c_maelrion - d_valyria #############
+8153 = {
+	holding = none
+}
+################### b_ulenor ###################
+############# c_maelrion - d_valyria #############
+8154 = {
+	holding = none
+}
+#################### b_vaelthor ###################
+############# c_jaelys - d_valyria #############
+8155 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_xaerynor ###################
+############# c_jaelys - d_valyria #############
+8156 = {
+	holding = none
+}
+################### b_yaelyx ###################
+############# c_jaelys - d_valyria #############
+8157 = {
+	holding = none
+}
+################### b_zaeryth ###################
+############# c_jaelys - d_valyria #############
+8158 = {
+	holding = none
+}
+#################### b_aelthor ###################
+############# c_zhaeryth - d_valyria #############
+8159 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_brynaris ###################
+############# c_zhaeryth - d_valyria #############
+8160 = {
+	holding = none
+}
+################### b_caenithar ###################
+############# c_zhaeryth - d_valyria #############
+8161 = {
+	holding = none
+}
+################### b_daelyxar ###################
+############# c_zhaeryth - d_valyria #############
+8162 = {
+	holding = none
+}
+################### b_erythion ###################
+############# c_zhaeryth - d_valyria #############
+8163 = {
+	holding = none
+}
+#################### b_faelthar ###################
+############# c_faenys - d_valyria #############
+8164 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_gaeryxar ###################
+############# c_faenys - d_valyria #############
+8165 = {
+	holding = none
+}
+################### b_haelionor ###################
+############# c_faenys - d_valyria #############
+8166 = {
+	holding = none
+}
+#################### b_ilythosar ###################
+############# c_oelryth - d_valyria #############
+8167 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_jaelthor ###################
+############# c_oelryth - d_valyria #############
+8168 = {
+	holding = none
+}
+################### b_kaelthar ###################
+############# c_oelryth - d_valyria #############
+8169 = {
+	holding = none
+}
+################### b_laerynor ###################
+############# c_oelryth - d_valyria #############
+8170 = {
+	holding = none
+}
+#################### b_maelryx ###################
+############# c_qaelyth - d_valyria #############
+8171 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_naelythos ###################
+############# c_qaelyth - d_valyria #############
+8172 = {
+	holding = none
+}
+################### b_oerynor ###################
+############# c_qaelyth - d_valyria #############
+8173 = {
+	holding = none
+}
+################### b_paelyxar ###################
+############# c_qaelyth - d_valyria #############
+8174 = {
+	holding = none
+}
+#################### b_qaelthor ###################
+############# c_brythor - d_valyria #############
+8175 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_raelionor ###################
+############# c_brythor - d_valyria #############
+8176 = {
+	holding = none
+}
+################### b_saelysor ###################
+############# c_brythor - d_valyria #############
+8177 = {
+	holding = none
+}
+################### b_taerynor ###################
+############# c_brythor - d_valyria #############
+8178 = {
+	holding = none
+}
+#################### b_ulythar ###################
+############# c_xaelyth - d_valyria #############
+8179 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_vaelyxar ###################
+############# c_xaelyth - d_valyria #############
+8180 = {
+	holding = none
+}
+################### b_xaelion ###################
+############# c_xaelyth - d_valyria #############
+8181 = {
+	holding = none
+}
+################### b_yaelthar ###################
+############# c_xaelyth - d_valyria #############
+8182 = {
+	holding = none
+}
+#################### b_zaelynor ###################
+############# c_ilythar - d_valyria #############
+8183 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_aerythos ###################
+############# c_ilythar - d_valyria #############
+8184 = {
+	holding = none
+}
+################### b_bryxar ###################
+############# c_ilythar - d_valyria #############
+8185 = {
+	holding = none
+}
+################### b_caelythos ###################
+############# c_ilythar - d_valyria #############
+8186 = {
+	holding = none
+}
+#################### b_daelionor ###################
+############# c_haenith - d_valyria #############
+8187 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_elynthar ###################
+############# c_haenith - d_valyria #############
+8188 = {
+	holding = none
+}
+################### b_faeryn ###################
+############# c_haenith - d_valyria #############
+8189 = {
+	holding = none
+}
+#################### b_gaerynor ###################
+############# c_aelion - d_valyria #############
+8190 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_haelthys ###################
+############# c_aelion - d_valyria #############
+8191 = {
+	holding = none
+}
+################### b_ilynthos ###################
+############# c_aelion - d_valyria #############
+8192 = {
+	holding = none
+}
+################### b_jaelythor ###################
+############# c_aelion - d_valyria #############
+8193 = {
+	holding = none
+}
+#################### b_kaelryn ###################
+############# c_zaelthor - d_valyria #############
+8194 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_laeryth ###################
+############# c_zaelthor - d_valyria #############
+8195 = {
+	holding = none
+}
+################### b_maerythar ###################
+############# c_zaelthor - d_valyria #############
+8196 = {
+	holding = none
+}
+#################### b_naelthos ###################
+############# c_vaenor - d_valyria #############
+8197 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_oelthor ###################
+############# c_vaenor - d_valyria #############
+8198 = {
+	holding = none
+}
+################### b_paelrys ###################
+############# c_vaenor - d_valyria #############
+8199 = {
+	holding = none
+}
+################### b_qaelyxar ###################
+############# c_vaenor - d_valyria #############
+8200 = {
+	holding = none
+}
+#################### b_raelthor ###################
+############# c_jaenyth - d_valyria #############
+8201 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_saelthion ###################
+############# c_jaenyth - d_valyria #############
+8202 = {
+	holding = none
+}
+################### b_taenythar ###################
+############# c_jaenyth - d_valyria #############
+8203 = {
+	holding = none
+}
+#################### b_ulaeryn ###################
+############# c_laenith - d_valyria #############
+8204 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_vaerthar ###################
+############# c_laenith - d_valyria #############
+8205 = {
+	holding = none
+}
+################### b_xaelith ###################
+############# c_laenith - d_valyria #############
+8206 = {
+	holding = none
+}
+################### b_yaelysor ###################
+############# c_laenith - d_valyria #############
+8207 = {
+	holding = none
+}
+#################### b_zaelthor ###################
+############# c_elythar - d_valyria #############
+8208 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_aelthionor ###################
+############# c_elythar - d_valyria #############
+8209 = {
+	holding = none
+}
+################### b_brythosar ###################
+############# c_elythar - d_valyria #############
+8210 = {
+	holding = none
+}
+################### b_caelysar ###################
+############# c_elythar - d_valyria #############
+8211 = {
+	holding = none
+}
+################### b_daenthor ###################
+############# c_elythar - d_valyria #############
+8212 = {
+	holding = none
+}
+#################### b_elyxar ###################
+############# c_naelrion - d_valyria #############
+8213 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_faelthysor ###################
+############# c_naelrion - d_valyria #############
+8214 = {
+	holding = none
+}
+################### b_gaelynor ###################
+############# c_naelrion - d_valyria #############
+8215 = {
+	holding = none
+}
+################### b_haerthar ###################
+############# c_naelrion - d_valyria #############
+8216 = {
+	holding = none
+}
+#################### b_ilyxion ###################
+############# c_paenor - d_valyria #############
+8217 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_jaelthionor ###################
+############# c_paenor - d_valyria #############
+8218 = {
+	holding = none
+}
+################### b_kaeryxar ###################
+############# c_paenor - d_valyria #############
+8219 = {
+	holding = none
+}
+################### b_laelythor ###################
+############# c_paenor - d_valyria #############
+8220 = {
+	holding = none
+}
+#################### b_maelryn ###################
+############# c_vaelion - d_valyria #############
+8221 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_naelionor ###################
+############# c_vaelion - d_valyria #############
+8222 = {
+	holding = none
+}
+################### b_oelthar ###################
+############# c_vaelion - d_valyria #############
+8223 = {
+	holding = none
+}
+#################### b_paelithor ###################
+############# c_zhaelyth - d_valyria #############
+8224 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_qaerionor ###################
+############# c_zhaelyth - d_valyria #############
+8225 = {
+	holding = none
+}
+################### b_raelthion ###################
+############# c_zhaelyth - d_valyria #############
+8226 = {
+	holding = none
+}
+################### b_saelryn ###################
+############# c_zhaelyth - d_valyria #############
+8227 = {
+	holding = none
+}
+#################### b_taerythar ###################
+############# c_xaelor - d_valyria #############
+8228 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_ulythor ###################
+############# c_xaelor - d_valyria #############
+8229 = {
+	holding = none
+}
+################### b_vaelionor ###################
+############# c_xaelor - d_valyria #############
+8230 = {
+	holding = none
+}
+################### b_xaenor ###################
+############# c_xaelor - d_valyria #############
+8231 = {
+	holding = none
+}
+#################### b_yaerthosar ###################
+############# c_ulenor - d_valyria #############
+8232 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_zaelryn ###################
+############# c_ulenor - d_valyria #############
+8233 = {
+	holding = none
+}
+################### b_aerythion ###################
+############# c_ulenor - d_valyria #############
+8234 = {
+	holding = none
+}
+################### b_brynionor ###################
+############# c_ulenor - d_valyria #############
+8235 = {
+	holding = none
+}
+#################### b_caelthar ###################
+############# c_saelion - d_valyria #############
+8236 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_daelysar ###################
+############# c_saelion - d_valyria #############
+8237 = {
+	holding = none
+}
+################### b_erynthos ###################
+############# c_saelion - d_valyria #############
+8238 = {
+	holding = none
+}
+################### b_faerithor ###################
+############# c_saelion - d_valyria #############
+8239 = {
+	holding = none
+}
+#################### b_gaerythar ###################
+############# c_ilyzor - d_valyria #############
+8240 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_haelryx ###################
+############# c_ilyzor - d_valyria #############
+8241 = {
+	holding = none
+}
+################### b_ilynor ###################
+############# c_ilyzor - d_valyria #############
+8242 = {
+	holding = none
+}
+################### b_jaelithosar ###################
+############# c_ilyzor - d_valyria #############
+8243 = {
+	holding = none
+}
+#################### b_kaenor ###################
+############# c_maelyth - d_valyria #############
+8244 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_laerythos ###################
+############# c_maelyth - d_valyria #############
+8245 = {
+	holding = none
+}
+################### b_maelrythos ###################
+############# c_maelyth - d_valyria #############
+8246 = {
+	holding = none
+}
+#################### b_naelthar ###################
+############# c_brynith - d_valyria #############
+8247 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_oelysor ###################
+############# c_brynith - d_valyria #############
+8248 = {
+	holding = none
+}
+################### b_paelion ###################
+############# c_brynith - d_valyria #############
+8249 = {
+	holding = none
+}
+#################### b_qaelryn ###################
+############# c_qaelith - d_valyria #############
+8250 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_raelysar ###################
+############# c_qaelith - d_valyria #############
+8251 = {
+	holding = none
+}
+################### b_saelythion ###################
+############# c_qaelith - d_valyria #############
+8252 = {
+	holding = none
+}
+################### b_taerthosar ###################
+############# c_qaelith - d_valyria #############
+8253 = {
+	holding = none
+}
+################### b_ulenor ###################
+############# c_qaelith - d_valyria #############
+8254 = {
+	holding = none
+}
+#################### b_vaelythor ###################
+############# c_taelion - d_valyria #############
+8255 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_xaelthar ###################
+############# c_taelion - d_valyria #############
+8256 = {
+	holding = none
+}
+################### b_yaelthos ###################
+############# c_taelion - d_valyria #############
+8257 = {
+	holding = none
+}
+#################### b_zaenor ###################
+############# c_gaenor - d_valyria #############
+8258 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_aelrynor ###################
+############# c_gaenor - d_valyria #############
+8259 = {
+	holding = none
+}
+#################### b_brythion ###################
+############# c_faelrion - d_valyria #############
+8260 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_caelythor ###################
+############# c_faelrion - d_valyria #############
+8261 = {
+	holding = none
+}
+################### b_daelythor ###################
+############# c_faelrion - d_valyria #############
+8262 = {
+	holding = none
+}
+#################### b_erythos ###################
+############# c_haerith - d_valyria #############
+8263 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_faenor ###################
+############# c_haerith - d_valyria #############
+8264 = {
+	holding = none
+}
+#################### b_gaerythion ###################
+############# c_vaeryth - d_valyria #############
+8265 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_haelyxar ###################
+############# c_vaeryth - d_valyria #############
+8266 = {
+	holding = none
+}
+################### b_ilyrion ###################
+############# c_vaeryth - d_valyria #############
+8267 = {
+	holding = none
+}
+################### b_jaenor ###################
+############# c_vaeryth - d_valyria #############
+8268 = {
+	holding = none
+}
+#################### b_kaelthion ###################
+############# c_xaenor - d_valyria #############
+8269 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_laenythar ###################
+############# c_xaenor - d_valyria #############
+8270 = {
+	holding = none
+}
+################### b_maerythion ###################
+############# c_xaenor - d_valyria #############
+8271 = {
+	holding = none
+}
+################### b_naelrysor ###################
+############# c_xaenor - d_valyria #############
+8272 = {
+	holding = none
+}
+#################### b_oelthion ###################
+############# c_jaelion - d_valyria #############
+8273 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_paenyth ###################
+############# c_jaelion - d_valyria #############
+8274 = {
+	holding = none
+}
+################### b_qaelythos ###################
+############# c_jaelion - d_valyria #############
+8275 = {
+	holding = none
+}
+################### b_raelythor ###################
+############# c_jaelion - d_valyria #############
+8276 = {
+	holding = none
+}
+################### b_saeryth ###################
+############# c_jaelion - d_valyria #############
+8277 = {
+	holding = none
+}
+#################### b_taelysar ###################
+############# c_naenith - d_valyria #############
+8278 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_ulythosar ###################
+############# c_naenith - d_valyria #############
+8279 = {
+	holding = none
+}
+################### b_vaelrythar ###################
+############# c_naenith - d_valyria #############
+8280 = {
+	holding = none
+}
+################### b_xaelrynor ###################
+############# c_naenith - d_valyria #############
+8281 = {
+	holding = none
+}
+#################### b_yaelrys ###################
+############# c_raelion - d_valyria #############
+8282 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_zaelionor ###################
+############# c_raelion - d_valyria #############
+8283 = {
+	holding = none
+}
+################### b_aelthysor ###################
+############# c_raelion - d_valyria #############
+8284 = {
+	holding = none
+}
+#################### b_brynoris ###################
+############# c_aelrion - d_valyria #############
+8285 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_caelrythar ###################
+############# c_aelrion - d_valyria #############
+8286 = {
+	holding = none
+}
+################### b_daelthor ###################
+############# c_aelrion - d_valyria #############
+8287 = {
+	holding = none
+}
+################### b_elythor ###################
+############# c_aelrion - d_valyria #############
+8288 = {
+	holding = none
+}
+#################### b_faelryn ###################
+############# c_qaenith - d_valyria #############
+8289 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_gaenithos ###################
+############# c_qaenith - d_valyria #############
+8290 = {
+	holding = none
+}
+################### b_haelrynor ###################
+############# c_qaenith - d_valyria #############
+8291 = {
+	holding = none
+}
+################### b_ilythar ###################
+############# c_qaenith - d_valyria #############
+8292 = {
+	holding = none
+}
+#################### b_jaelthosar ###################
+############# c_gaelion - d_valyria #############
+8293 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_kaerthar ###################
+############# c_gaelion - d_valyria #############
+8294 = {
+	holding = none
+}
+################### b_laenor ###################
+############# c_gaelion - d_valyria #############
+8295 = {
+	holding = none
+}
+################### b_maelryxar ###################
+############# c_gaelion - d_valyria #############
+8296 = {
+	holding = none
+}
+################### b_naelythor ###################
+############# c_gaelion - d_valyria #############
+8297 = {
+	holding = none
+}
+#################### b_oelionor ###################
+############# c_saenor - d_valyria #############
+8298 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_paelythor ###################
+############# c_saenor - d_valyria #############
+8299 = {
+	holding = none
+}
+################### b_qaelthionor ###################
+############# c_saenor - d_valyria #############
+8300 = {
+	holding = none
+}
+################### b_raelithor ###################
+############# c_saenor - d_valyria #############
+8301 = {
+	holding = none
+}
+#################### b_saelthos ###################
+############# c_aenythor - d_valyria #############
+8302 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_taenor ###################
+############# c_aenythor - d_valyria #############
+8303 = {
+	holding = none
+}
+################### b_ulaeryth ###################
+############# c_aenythor - d_valyria #############
+8304 = {
+	holding = none
+}
+################### b_vaelythar ###################
+############# c_aenythor - d_valyria #############
+8305 = {
+	holding = none
+}
+#################### b_xaelithos ###################
+############# c_velrion - d_valyria #############
+8306 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_yaelrythar ###################
+############# c_velrion - d_valyria #############
+8307 = {
+	holding = none
+}
+################### b_zaelthion ###################
+############# c_velrion - d_valyria #############
+8308 = {
+	holding = none
+}
+#################### b_aerynoth ###################
+############# c_daelryn - d_valyria #############
+8309 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_bryxionor ###################
+############# c_daelryn - d_valyria #############
+8310 = {
+	holding = none
+}
+################### b_caelryxar ###################
+############# c_daelryn - d_valyria #############
+8311 = {
+	holding = none
+}
+################### b_daelrythor ###################
+############# c_daelryn - d_valyria #############
+8312 = {
+	holding = none
+}
+#################### b_elynor ###################
+############# c_rhaelyth - d_valyria #############
+8313 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_faelthionor ###################
+############# c_rhaelyth - d_valyria #############
+8314 = {
+	holding = none
+}
+################### b_gaelrythos ###################
+############# c_rhaelyth - d_valyria #############
+8315 = {
+	holding = none
+}
+#################### b_haelrynor ###################
+############# c_naelthor - d_valyria #############
+8316 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_ilythionor ###################
+############# c_naelthor - d_valyria #############
+8317 = {
+	holding = none
+}
+################### b_jaeryn ###################
+############# c_naelthor - d_valyria #############
+8318 = {
+	holding = none
+}
+################### b_kaenythar ###################
+############# c_naelthor - d_valyria #############
+8319 = {
+	holding = none
+}
+################### b_laelythar ###################
+############# c_naelthor - d_valyria #############
+8320 = {
+	holding = none
+}
+#################### b_maelion ###################
+############# c_valenor - d_valyria #############
+8321 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_naerythor ###################
+############# c_valenor - d_valyria #############
+8322 = {
+	holding = none
+}
+################### b_oelthysor ###################
+############# c_valenor - d_valyria #############
+8323 = {
+	holding = none
+}
+#################### b_paenor ###################
+############# c_oelyrion - d_valyria #############
+8324 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_qaelrythor ###################
+############# c_oelyrion - d_valyria #############
+8325 = {
+	holding = none
+}
+################### b_raelthosar ###################
+############# c_oelyrion - d_valyria #############
+8326 = {
+	holding = none
+}
+################### b_saenythor ###################
+############# c_oelyrion - d_valyria #############
+8327 = {
+	holding = none
+}
+#################### b_taelionor ###################
+############# c_qaelrion - d_valyria #############
+8328 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_ulenithos ###################
+############# c_qaelrion - d_valyria #############
+8329 = {
+	holding = none
+}
+################### b_vaelryn ###################
+############# c_qaelrion - d_valyria #############
+8330 = {
+	holding = none
+}
+################### b_xaelythion ###################
+############# c_qaelrion - d_valyria #############
+8331 = {
+	holding = none
+}
+#################### b_yaelthor ###################
+############# c_gaelyr - d_valyria #############
+8332 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_zaelithar ###################
+############# c_gaelyr - d_valyria #############
+8333 = {
+	holding = none
+}
+################### b_aelryn ###################
+############# c_gaelyr - d_valyria #############
+8334 = {
+	holding = none
+}
+#################### b_brynithos ###################
+############# c_haelthor - d_valyria #############
+8335 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_caelionor ###################
+############# c_haelthor - d_valyria #############
+8336 = {
+	holding = none
+}
+################### b_daelthionor ###################
+############# c_haelthor - d_valyria #############
+8337 = {
+	holding = none
+}
+################### b_erythar ###################
+############# c_haelthor - d_valyria #############
+8338 = {
+	holding = none
+}
+#################### b_faelrynor ###################
+############# c_maeryn - d_valyria #############
+8339 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_gaelthionor ###################
+############# c_maeryn - d_valyria #############
+8340 = {
+	holding = none
+}
+################### b_haenor ###################
+############# c_maeryn - d_valyria #############
+8341 = {
+	holding = none
+}
+################### b_ilyrithos ###################
+############# c_maeryn - d_valyria #############
+8342 = {
+	holding = none
+}
+#################### b_jaelythos ###################
+############# c_xaelynor - d_valyria #############
+8343 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_kaelythion ###################
+############# c_xaelynor - d_valyria #############
+8344 = {
+	holding = none
+}
+################### b_laelionor ###################
+############# c_xaelynor - d_valyria #############
+8345 = {
+	holding = none
+}
+#################### b_maelthysor ###################
+############# c_vaenyth - d_valyria #############
+8346 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_naenor ###################
+############# c_vaenyth - d_valyria #############
+8347 = {
+	holding = none
+}
+################### b_oelryn ###################
+############# c_vaenyth - d_valyria #############
+8348 = {
+	holding = none
+}
+#################### b_paelthosar ###################
+############# c_yrithor - d_valyria #############
+8349 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_qaenithar ###################
+############# c_yrithor - d_valyria #############
+8350 = {
+	holding = none
+}
+################### b_raenor ###################
+############# c_yrithor - d_valyria #############
+8351 = {
+	holding = none
+}
+#################### b_saelryn ###################
+############# c_zhaenyth - d_valyria #############
+8352 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_taelrythos ###################
+############# c_zhaenyth - d_valyria #############
+8353 = {
+	holding = none
+}
+################### b_ulenthor ###################
+############# c_zhaenyth - d_valyria #############
+8354 = {
+	holding = none
+}
+#################### b_vaelthysor ###################
+############# c_laelthor - d_valyria #############
+8355 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_xaelthorion ###################
+############# c_laelthor - d_valyria #############
+8356 = {
+	holding = none
+}
+#################### b_yaelrythos ###################
+############# c_saelrion - d_valyria #############
+8357 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_zaelythionor ###################
+############# c_saelrion - d_valyria #############
+8358 = {
+	holding = none
+}
+################### b_aelthysor ###################
+############# c_saelrion - d_valyria #############
+8359 = {
+	holding = none
+}
+################### b_brynoris ###################
+############# c_saelrion - d_valyria #############
+8360 = {
+	holding = none
+}
+################### b_caelythionor ###################
+############# c_saelrion - d_valyria #############
+8361 = {
+	holding = none
+}
+#################### b_daenithar ###################
+############# c_paelys - d_valyria #############
+8362 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_elynthosar ###################
+############# c_paelys - d_valyria #############
+8363 = {
+	holding = none
+}
+################### b_faelthor ###################
+############# c_paelys - d_valyria #############
+8364 = {
+	holding = none
+}
+#################### b_gaelithor ###################
+############# c_elynor - d_valyria #############
+8365 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_haelrythos ###################
+############# c_elynor - d_valyria #############
+8366 = {
+	holding = none
+}
+################### b_ilyxarion ###################
+############# c_elynor - d_valyria #############
+8367 = {
+	holding = none
+}
+################### b_jaenythos ###################
+############# c_elynor - d_valyria #############
+8368 = {
+	holding = none
+}
+#################### b_kaenor ###################
+############# c_qaenithor - d_valyria #############
+8369 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_laelthor ###################
+############# c_qaenithor - d_valyria #############
+8370 = {
+	holding = none
+}
+################### b_maelythos ###################
+############# c_qaenithor - d_valyria #############
+8371 = {
+	holding = none
+}
+#################### b_naelyxion ###################
+############# c_aerionor - d_valyria #############
+8372 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_oelithar ###################
+############# c_aerionor - d_valyria #############
+8373 = {
+	holding = none
+}
+################### b_paeltharion ###################
+############# c_aerionor - d_valyria #############
+8374 = {
+	holding = none
+}
+################### b_qaelrynor ###################
+############# c_aerionor - d_valyria #############
+8375 = {
+	holding = none
+}
+#################### b_raelithion ###################
+############# c_raelthorion - d_valyria #############
+8376 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_saelithar ###################
+############# c_raelthorion - d_valyria #############
+8377 = {
+	holding = none
+}
+################### b_taenorion ###################
+############# c_raelthorion - d_valyria #############
+8378 = {
+	holding = none
+}
+################### b_ulerythos ###################
+############# c_raelthorion - d_valyria #############
+8379 = {
+	holding = none
+}
+#################### b_vaelrythor ###################
+############# c_daelynor - d_valyria #############
+8380 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_xaelrythar ###################
+############# c_daelynor - d_valyria #############
+8381 = {
+	holding = none
+}
+################### b_yaenithar ###################
+############# c_daelynor - d_valyria #############
+8382 = {
+	holding = none
+}
+################### b_zaelrythor ###################
+############# c_daelynor - d_valyria #############
+8383 = {
+	holding = none
+}
+################### b_aelrythosar ###################
+############# c_daelynor - d_valyria #############
+8384 = {
+	holding = none
+}
+#################### b_bryntor ###################
+############# c_vaelrion - d_valyria #############
+8385 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_caerynor ###################
+############# c_vaelrion - d_valyria #############
+8386 = {
+	holding = none
+}
+################### b_daelthys ###################
+############# c_vaelrion - d_valyria #############
+8387 = {
+	holding = none
+}
+################### b_elythorion ###################
+############# c_vaelrion - d_valyria #############
+8388 = {
+	holding = none
+}
+#################### b_faelrynion ###################
+############# c_maelryth - d_valyria #############
+8389 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_gaelryn ###################
+############# c_maelryth - d_valyria #############
+8390 = {
+	holding = none
+}
+################### b_haenythor ###################
+############# c_maelryth - d_valyria #############
+8391 = {
+	holding = none
+}
+################### b_ilynthion ###################
+############# c_maelryth - d_valyria #############
+8392 = {
+	holding = none
+}
+#################### b_jaelythorion ###################
+############# c_jaeryn - d_valyria #############
+8393 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_kaeltharion ###################
+############# c_jaeryn - d_valyria #############
+8394 = {
+	holding = none
+}
+################### b_laelithar ###################
+############# c_jaeryn - d_valyria #############
+8395 = {
+	holding = none
+}
+################### b_maelrynor ###################
+############# c_jaeryn - d_valyria #############
+8396 = {
+	holding = none
+}
+################### b_naelrythos ###################
+############# c_jaeryn - d_valyria #############
+8397 = {
+	holding = none
+}
+#################### b_oelrythar ###################
+############# c_zhaelor - d_valyria #############
+8398 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_paelthorion ###################
+############# c_zhaelor - d_valyria #############
+8399 = {
+	holding = none
+}
+################### b_qaerythos ###################
+############# c_zhaelor - d_valyria #############
+8400 = {
+	holding = none
+}
+################### b_raelthionor ###################
+############# c_zhaelor - d_valyria #############
+8401 = {
+	holding = none
+}
+#################### b_saenithor ###################
+############# c_faelith - d_valyria #############
+8402 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_taelrynor ###################
+############# c_faelith - d_valyria #############
+8403 = {
+	holding = none
+}
+################### b_ulytharion ###################
+############# c_faelith - d_valyria #############
+8404 = {
+	holding = none
+}
+################### b_vaenythor ###################
+############# c_faelith - d_valyria #############
+8405 = {
+	holding = none
+}
+#################### b_xaerynoris ###################
+############# c_oelrynor - d_valyria #############
+8406 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_yaelionor ###################
+############# c_oelrynor - d_valyria #############
+8407 = {
+	holding = none
+}
+################### b_zaeltharion ###################
+############# c_oelrynor - d_valyria #############
+8408 = {
+	holding = none
+}
+################### b_aelyzōnor ###################
+############# c_oelrynor - d_valyria #############
+8409 = {
+	holding = none
+}
+################### b_brynzīros ###################
+############# c_oelrynor - d_valyria #############
+8410 = {
+	holding = none
+}
+#################### b_caenōrax ###################
+############# c_qaelthor - d_valyria #############
+8411 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_daelyssar ###################
+############# c_qaelthor - d_valyria #############
+8412 = {
+	holding = none
+}
+################### b_erylxōth ###################
+############# c_qaelthor - d_valyria #############
+8413 = {
+	holding = none
+}
+################### b_faelyzīr ###################
+############# c_qaelthor - d_valyria #############
+8414 = {
+	holding = none
+}
+#################### b_gaenytar ###################
+############# c_brynysor - d_valyria #############
+8415 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_haelryzor ###################
+############# c_brynysor - d_valyria #############
+8416 = {
+	holding = none
+}
+################### b_ilythōxar ###################
+############# c_brynysor - d_valyria #############
+8417 = {
+	holding = none
+}
+################### b_jaelrythos ###################
+############# c_brynysor - d_valyria #############
+8418 = {
+	holding = none
+}
+################### b_kaenyxion ###################
+############# c_brynysor - d_valyria #############
+8419 = {
+	holding = none
+}
+#################### b_laelyrthar ###################
+############# c_xaelionor - d_valyria #############
+8420 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_maelyssor ###################
+############# c_xaelionor - d_valyria #############
+8421 = {
+	holding = none
+}
+################### b_naelyxōr ###################
+############# c_xaelionor - d_valyria #############
+8422 = {
+	holding = none
+}
+################### b_oelrynos ###################
+############# c_xaelionor - d_valyria #############
+8423 = {
+	holding = none
+}
+################### b_paelrythor ###################
+############# c_xaelionor - d_valyria #############
+8424 = {
+	holding = none
+}
+#################### b_qaelythax ###################
+############# c_ilynor - d_valyria #############
+8425 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_raelyssion ###################
+############# c_ilynor - d_valyria #############
+8426 = {
+	holding = none
+}
+################### b_saenyzōr ###################
+############# c_ilynor - d_valyria #############
+8427 = {
+	holding = none
+}
+################### b_taelrythar ###################
+############# c_ilynor - d_valyria #############
+8428 = {
+	holding = none
+}
+################### b_ulenyxor ###################
+############# c_ilynor - d_valyria #############
+8429 = {
+	holding = none
+}
+#################### b_vaelyxion ###################
+############# c_haelryth - d_valyria #############
+8430 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_xaelyzor ###################
+############# c_haelryth - d_valyria #############
+8431 = {
+	holding = none
+}
+################### b_yaelrythor ###################
+############# c_haelryth - d_valyria #############
+8432 = {
+	holding = none
+}
+#################### b_zaelythar ###################
+############# c_aelrith - d_valyria #############
+8433 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_aenyssar ###################
+############# c_aelrith - d_valyria #############
+8434 = {
+	holding = none
+}
+################### b_brythōsior ###################
+############# c_aelrith - d_valyria #############
+8435 = {
+	holding = none
+}
+################### b_caelyxōth ###################
+############# c_aelrith - d_valyria #############
+8436 = {
+	holding = none
+}
+#################### b_daelythorax ###################
+############# c_zaelryth - d_valyria #############
+8437 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_elyzōnor ###################
+############# c_zaelryth - d_valyria #############
+8438 = {
+	holding = none
+}
+################### b_faenyxion ###################
+############# c_zaelryth - d_valyria #############
+8439 = {
+	holding = none
+}
+################### b_gaelrythax ###################
+############# c_zaelryth - d_valyria #############
+8440 = {
+	holding = none
+}
+#################### b_haelyrthos ###################
+############# c_vaelorion - d_valyria #############
+8441 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_ilynzorion ###################
+############# c_vaelorion - d_valyria #############
+8442 = {
+	holding = none
+}
+################### b_jaelthorax ###################
+############# c_vaelorion - d_valyria #############
+8443 = {
+	holding = none
+}
+################### b_kaelōthor ###################
+############# c_vaelorion - d_valyria #############
+8444 = {
+	holding = none
+}
+################### b_laelyxion ###################
+############# c_vaelorion - d_valyria #############
+8445 = {
+	holding = none
+}
+#################### b_maelrythos ###################
+############# c_jaenorion - d_valyria #############
+8446 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_naelthorion ###################
+############# c_jaenorion - d_valyria #############
+8447 = {
+	holding = none
+}
+################### b_oelythar ###################
+############# c_jaenorion - d_valyria #############
+8448 = {
+	holding = none
+}
+################### b_paelzorax ###################
+############# c_jaenorion - d_valyria #############
+8449 = {
+	holding = none
+}
+#################### b_qaeltharion ###################
+############# c_laelythor - d_valyria #############
+8450 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_raelithōs ###################
+############# c_laelythor - d_valyria #############
+8451 = {
+	holding = none
+}
+################### b_saelynorax ###################
+############# c_laelythor - d_valyria #############
+8452 = {
+	holding = none
+}
+#################### b_taelrynos ###################
+############# c_elythorion - d_valyria #############
+8453 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_ulaeryxar ###################
+############# c_elythorion - d_valyria #############
+8454 = {
+	holding = none
+}
+################### b_vaelrythōs ###################
+############# c_elythorion - d_valyria #############
+8455 = {
+	holding = none
+}
+################### b_xaelytharion ###################
+############# c_elythorion - d_valyria #############
+8456 = {
+	holding = none
+}
+################### b_yaelrynor ###################
+############# c_elythorion - d_valyria #############
+8457 = {
+	holding = none
+}
+#################### b_zaelthorion ###################
+############# c_naelythar - d_valyria #############
+8458 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_aelyzor ###################
+############# c_naelythar - d_valyria #############
+8459 = {
+	holding = none
+}
+################### b_bryxion ###################
+############# c_naelythar - d_valyria #############
+8460 = {
+	holding = none
+}
+################### b_caenor ###################
+############# c_naelythar - d_valyria #############
+8461 = {
+	holding = none
+}
+#################### b_daelyxar ###################
+############# c_paelzor - d_valyria #############
+8462 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_elythor ###################
+############# c_paelzor - d_valyria #############
+8463 = {
+	holding = none
+}
+################### b_faelzor ###################
+############# c_paelzor - d_valyria #############
+8464 = {
+	holding = none
+}
+#################### b_gaelryx ###################
+############# c_vaelysor - d_valyria #############
+8465 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_haelyth ###################
+############# c_vaelysor - d_valyria #############
+8466 = {
+	holding = none
+}
+################### b_ilynar ###################
+############# c_vaelysor - d_valyria #############
+8467 = {
+	holding = none
+}
+################### b_jaelthor ###################
+############# c_vaelysor - d_valyria #############
+8468 = {
+	holding = none
+}
+#################### b_kaelyx ###################
+############# c_zhaelthor - d_valyria #############
+8469 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_laelyth ###################
+############# c_zhaelthor - d_valyria #############
+8470 = {
+	holding = none
+}
+################### b_maelrys ###################
+############# c_zhaelthor - d_valyria #############
+8471 = {
+	holding = none
+}
+################### b_naelzor ###################
+############# c_zhaelthor - d_valyria #############
+8472 = {
+	holding = none
+}
+################### b_oelryn ###################
+############# c_zhaelthor - d_valyria #############
+8473 = {
+	holding = none
+}
+#################### b_paelthor ###################
+############# c_xaelythion - d_valyria #############
+8474 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_qaelion ###################
+############# c_xaelythion - d_valyria #############
+8475 = {
+	holding = none
+}
+################### b_raelthos ###################
+############# c_xaelythion - d_valyria #############
+8476 = {
+	holding = none
+}
+#################### b_saelthor ###################
+############# c_ulythar - d_valyria #############
+8477 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_taelryn ###################
+############# c_ulythar - d_valyria #############
+8478 = {
+	holding = none
+}
+################### b_ulythar ###################
+############# c_ulythar - d_valyria #############
+8479 = {
+	holding = none
+}
+################### b_vaelyx ###################
+############# c_ulythar - d_valyria #############
+8480 = {
+	holding = none
+}
+#################### b_xaelys ###################
+############# c_saelynor - d_valyria #############
+8481 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_yaelion ###################
+############# c_saelynor - d_valyria #############
+8482 = {
+	holding = none
+}
+################### b_zaelyx ###################
+############# c_saelynor - d_valyria #############
+8483 = {
+	holding = none
+}
+################### b_aelionor ###################
+############# c_saelynor - d_valyria #############
+8484 = {
+	holding = none
+}
+#################### b_brythos ###################
+############# c_ilyrion - d_valyria #############
+8485 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_caenith ###################
+############# c_ilyrion - d_valyria #############
+8486 = {
+	holding = none
+}
+################### b_daelthos ###################
+############# c_ilyrion - d_valyria #############
+8487 = {
+	holding = none
+}
+################### b_elyxar ###################
+############# c_ilyrion - d_valyria #############
+8488 = {
+	holding = none
+}
+################### b_faelion ###################
+############# c_ilyrion - d_valyria #############
+8489 = {
+	holding = none
+}
+#################### b_gaenys ###################
+############# c_maenythor - d_valyria #############
+8490 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_haelthar ###################
+############# c_maenythor - d_valyria #############
+8491 = {
+	holding = none
+}
+################### b_ilythor ###################
+############# c_maenythor - d_valyria #############
+8492 = {
+	holding = none
+}
+################### b_jaelion ###################
+############# c_maenythor - d_valyria #############
+8493 = {
+	holding = none
+}
+################### b_kaelys ###################
+############# c_maenythor - d_valyria #############
+8494 = {
+	holding = none
+}
+#################### b_laenor ###################
+############# c_brythorion - d_valyria #############
+8495 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_maelyxar ###################
+############# c_brythorion - d_valyria #############
+8496 = {
+	holding = none
+}
+################### b_naelthar ###################
+############# c_brythorion - d_valyria #############
+8497 = {
+	holding = none
+}
+################### b_oelion ###################
+############# c_brythorion - d_valyria #############
+8498 = {
+	holding = none
+}
+#################### b_paelith ###################
+############# c_qaenorion - d_valyria #############
+8499 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_qaenys ###################
+############# c_qaenorion - d_valyria #############
+8500 = {
+	holding = none
+}
+################### b_raenor ###################
+############# c_qaenorion - d_valyria #############
+8501 = {
+	holding = none
+}
+################### b_saelthos ###################
+############# c_qaenorion - d_valyria #############
+8502 = {
+	holding = none
+}
+#################### b_taelion ###################
+############# c_taelythar - d_valyria #############
+8503 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_ulionor ###################
+############# c_taelythar - d_valyria #############
+8504 = {
+	holding = none
+}
+################### b_vaelthar ###################
+############# c_taelythar - d_valyria #############
+8505 = {
+	holding = none
+}
+################### b_xaenor ###################
+############# c_taelythar - d_valyria #############
+8506 = {
+	holding = none
+}
+#################### b_yaelthar ###################
+############# c_gaelzor - d_valyria #############
+8507 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_zaenys ###################
+############# c_gaelzor - d_valyria #############
+8508 = {
+	holding = none
+}
+################### b_aelyzōr ###################
+############# c_gaelzor - d_valyria #############
+8509 = {
+	holding = none
+}
+################### b_brynōs ###################
+############# c_gaelzor - d_valyria #############
+8510 = {
+	holding = none
+}
+#################### b_caenōr ###################
+############# c_faelynor - d_valyria #############
+8511 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_daelyxōs ###################
+############# c_faelynor - d_valyria #############
+8512 = {
+	holding = none
+}
+################### b_erylthōs ###################
+############# c_faelynor - d_valyria #############
+8513 = {
+	holding = none
+}
+#################### b_faelzōr ###################
+############# c_haenorion - d_valyria #############
+8514 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_gaenythōs ###################
+############# c_haenorion - d_valyria #############
+8515 = {
+	holding = none
+}
+################### b_haelōr ###################
+############# c_haenorion - d_valyria #############
+8516 = {
+	holding = none
+}
+#################### b_ilynzōr ###################
+############# c_vaelzorion - d_valyria #############
+8517 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_jaelrōs ###################
+############# c_vaelzorion - d_valyria #############
+8518 = {
+	holding = none
+}
+################### b_kaelythōr ###################
+############# c_vaelzorion - d_valyria #############
+8519 = {
+	holding = none
+}
+################### b_laenōr ###################
+############# c_vaelzorion - d_valyria #############
+8520 = {
+	holding = none
+}
+#################### b_maelzōr ###################
+############# c_xaelrynor - d_valyria #############
+8521 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_naelysōr ###################
+############# c_xaelrynor - d_valyria #############
+8522 = {
+	holding = none
+}
+################### b_oelthōs ###################
+############# c_xaelrynor - d_valyria #############
+8523 = {
+	holding = none
+}
+################### b_paelrynōs ###################
+############# c_xaelrynor - d_valyria #############
+8524 = {
+	holding = none
+}
+################### b_qaelzōr ###################
+############# c_xaelrynor - d_valyria #############
+8525 = {
+	holding = none
+}
+#################### b_raelithōs ###################
+############# c_jaelrithor - d_valyria #############
+8526 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_saelyrōs ###################
+############# c_jaelrithor - d_valyria #############
+8527 = {
+	holding = none
+}
+################### b_taelythōr ###################
+############# c_jaelrithor - d_valyria #############
+8528 = {
+	holding = none
+}
+#################### b_ulyrōs ###################
+############# c_naerythion - d_valyria #############
+8529 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_vaenōs ###################
+############# c_naerythion - d_valyria #############
+8530 = {
+	holding = none
+}
+################### b_xaelyzōs ###################
+############# c_naerythion - d_valyria #############
+8531 = {
+	holding = none
+}
+################### b_yaelrōs ###################
+############# c_naerythion - d_valyria #############
+8532 = {
+	holding = none
+}
+#################### b_zaelithōr ###################
+############# c_raelythor - d_valyria #############
+8533 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_aenōr ###################
+############# c_raelythor - d_valyria #############
+8534 = {
+	holding = none
+}
+################### b_bryzōr ###################
+############# c_raelythor - d_valyria #############
+8535 = {
+	holding = none
+}
+################### b_caelithōs ###################
+############# c_raelythor - d_valyria #############
+8536 = {
+	holding = none
+}
+#################### b_daenōs ###################
+############# c_aelyrion - d_valyria #############
+8537 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_elythōr ###################
+############# c_aelyrion - d_valyria #############
+8538 = {
+	holding = none
+}
+################### b_faelysōr ###################
+############# c_aelyrion - d_valyria #############
+8539 = {
+	holding = none
+}
+################### b_gaelzōr ###################
+############# c_aelyrion - d_valyria #############
+8540 = {
+	holding = none
+}
+#################### b_haelthōs ###################
+############# c_qaelythorion - d_valyria #############
+8541 = {
+	culture = high_valyrian
+	religion = valyrian
+	holding = castle_holding
+	7824.1.1 = {
+		buildings = { castle_02 }
+	}
+}
+################### b_ilynōr ###################
+############# c_qaelythorion - d_valyria #############
+8542 = {
+	holding = none
+}
+################### b_jaelithōs ###################
+############# c_qaelythorion - d_valyria #############
+8543 = {
+	holding = none
+}
+################### b_kaenōs ###################
+############# c_qaelythorion - d_valyria #############
+8544 = {
+	holding = none
+}
