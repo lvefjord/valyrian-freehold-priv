@@ -1,0 +1,7 @@
+﻿graphical_valyrian_peninsula = {
+	graphical = yes
+	color = { 0 0 1 }
+	regions = {
+		world_valyrian_peninsula
+	}
+}
