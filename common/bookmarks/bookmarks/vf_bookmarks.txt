@@ -54,8 +54,8 @@
 		dynasty_splendor_level = 1
 		type = male
 		birth = 7869.1.1
-		title = c_ilvonys
-		government = feudal_government
+		title = e_valyria
+		government = freehold_government
 		culture = high_valyrian
 		religion = valyrian
 		difficulty = BOOKMARK_CHARACTER_DIFFICULTY_EASY

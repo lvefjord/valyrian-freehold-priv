@@ -1,0 +1,24 @@
+﻿k_valyria = {
+	7885.5.1 = {
+		holder = Atreides_1
+		liege = e_valyria
+		succession_laws = { freehold_archonate_succession_law }
+		government = freehold_government
+	}
+}
+d_valyria = {
+	7885.5.1 = {
+		holder = Atreides_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_valyria = {
+	7885.5.1 = {
+		holder = Atreides_1
+		liege = d_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
