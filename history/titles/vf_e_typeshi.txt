@@ -1,0 +1,25 @@
+﻿e_valyria = {
+	1065.2.1 = {
+		succession_laws = { freehold_primarch_succession_law }
+		government = freehold_government
+	}
+	7885.5.1 = {
+		holder = Atreides_1
+		effect = { # AGOT TODO
+			#agot_set_empire_tier_realm_paramountcy = yes
+			if = {	# Set Court Language to Common
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_language = language_valyrian
+					if = {
+						limit = { NOT = { knows_court_language_of = this } }
+						learn_court_language_of = this
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,187 @@
+﻿title_succesion_laws = {
+	freehold_single_heir_succession_law = {
+		can_have = {
+			government_has_flag = government_is_freehold
+		}
+		can_pass = {
+			government_has_flag = government_is_freehold
+		}
+		should_start_with = {
+			government_has_flag = government_is_freehold
+		}
+		succession = {
+			order_of_succession = inheritance
+			traversal_order = children
+			rank = oldest
+			title_division = single_heir
+		}
+		flag = advanced_succession_law
+		modifier = {
+			glory_hound_opinion = -10
+			parochial_opinion = -5
+			player_heir_opinion = 20
+			eligible_child_except_player_heir_opinion = -5
+		}
+		pass_cost = {
+			prestige = change_succession_law_prestige_cost
+		}
+		revoke_cost = {
+			prestige = change_succession_law_prestige_cost
+		}
+
+		ai_will_do = {
+			value = 100
+		}
+	}
+	freehold_archonate_succession_law = {
+		can_have = {
+			government_has_flag = government_is_freehold
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			tier = tier_kingdom
+		}
+		succession = {
+			order_of_succession = election
+			election_type = freehold_archonate_elective
+		}
+		flag = elective_succession_law
+		revoke_cost = {
+			prestige = 15000
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		on_pass = {
+			scope:title = {
+				title_capital_county = { add_title_law = freehold_archonate_succession_attached_titles_law }
+				title_capital_county.duchy = { add_title_law = freehold_archonate_succession_attached_titles_law }
+			}
+		}
+	}
+	freehold_archonate_succession_attached_titles_law = {
+		can_have = {
+			OR = {
+				primary_title = { has_title_law = freehold_archonate_succession_law }
+				has_character_flag = transferring_title
+			}
+		}
+		can_keep = {
+			OR = {
+				primary_title = { has_title_law = freehold_archonate_succession_law }
+				has_character_flag = transferring_title
+			}
+		}
+		can_pass = {
+			always = no
+		}
+		can_title_have = {
+			always = yes
+		}
+		should_show_for_title = { always = no }
+		succession = {
+			order_of_succession = player_heir
+		}
+		flag = elective_succession_law
+		revoke_cost = {
+			prestige = 150000
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		ai_will_do = {
+			value = 0
+		}
+	}
+	freehold_primarch_succession_law = {
+		can_have = {
+			government_has_flag = government_is_freehold
+		}
+		can_pass = {
+			can_change_title_law_trigger = yes
+		}
+		can_title_have = {
+			this = title:e_valyria
+		}
+		succession = {
+			order_of_succession = election
+			election_type = freehold_primarch_elective
+		}
+		flag = elective_succession_law
+		revoke_cost = {
+			prestige = 15000
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		on_pass = {
+			scope:title = {
+				title_capital_county = { add_title_law = freehold_primarch_succession_attached_titles_law }
+				title_capital_county.duchy = { add_title_law = freehold_primarch_succession_attached_titles_law }
+			}
+		}
+		ai_will_do = {
+			value = 0
+		}
+	}
+	freehold_primarch_succession_attached_titles_law = {
+		can_have = {
+			OR = {
+				primary_title = { has_title_law = freehold_primarch_succession_law }
+				has_character_flag = transferring_title
+			}
+		}
+		can_keep = {
+			OR = {
+				primary_title = { has_title_law = freehold_primarch_succession_law }
+				has_character_flag = transferring_title
+			}
+		}
+		can_pass = {
+			always = no
+		}
+		can_title_have = {
+			always = yes
+		}
+		should_show_for_title = { always = no }
+		succession = {
+			order_of_succession = player_heir
+		}
+		flag = elective_succession_law
+		revoke_cost = {
+			prestige = 150000
+		}
+		pass_cost = {
+			prestige = change_title_succession_law_prestige_cost
+		}
+		ai_will_do = {
+			value = 0
+		}
+	}
+	freehold_dictatorship_succession_law = {
+		can_have = {
+			government_has_flag = government_is_freehold
+		}
+		can_pass = {
+			dread >= 100
+		}
+		can_title_have = {
+			holder = { government_has_flag = government_is_freehold }
+		}
+		succession = {
+			order_of_succession = player_heir
+		}
+		flag = elective_succession_law
+		modifier = {
+			vassal_opinion = -50
+		}
+		pass_cost = {
+			prestige = 15000
+		}
+		ai_will_do = {
+			value = 0
+		}
+	}
+}

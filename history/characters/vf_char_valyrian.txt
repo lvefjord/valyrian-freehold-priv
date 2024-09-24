@@ -48,6 +48,7 @@ Atreides_2 = {
 	name = Naerys # Wife of Lord Daemon
 	dynasty = dynn_Atreides
 	dna = Atreides_2
+	female = yes
 
 	martial = 2
 	diplomacy = 9
@@ -82,6 +83,7 @@ Qorbareon_1 = {
 	name = Rhaelene # Aunt and wife of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_1
+	female = yes
 
 	martial = 0
 	diplomacy = 7
@@ -90,7 +92,7 @@ Qorbareon_1 = {
 	learning = 6
 	prowess = 0
 
-	religon = valyrian
+	religion = valyrian
 	culture = high_valyrian
 
 	trait = education_intrigue_3
@@ -137,7 +139,7 @@ Qorbareon_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
-	7872.1.1 = { add_spose = Qorbareon_1 } # Rhaelene Qorbareon
+	7872.1.1 = { add_spouse = Qorbareon_1 } # Rhaelene Qorbareon
 	7888.1.1 = { add_spouse = Qorbareon_9 } # Aemma Qorbareon
 }
 Qorbareon_3 = {
@@ -192,6 +194,7 @@ Qorbareon_5 = {
 	name = Ellara # Sister of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_5
+	female = yes
 
 	#martial = 
 	#diplomacy = 
@@ -207,7 +210,7 @@ Qorbareon_5 = {
 
 	disallow_random_traits = yes
 
-	7873.1.1 {
+	7873.1.1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
@@ -322,6 +325,7 @@ Qorbareon_9 = {
 	name = Aemma # Second wife of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_9
+	female = yes
 
 	#martial = 
 	#diplomacy = 
@@ -338,6 +342,7 @@ Qorbareon_9 = {
 		birth= yes
 		add_character_flag = has_scripted_appearance
 	}
+	7888.1.1 = { add_spouse = Qorbareon_2 } # Rhaemon Qorbareon
 }
 
 # HOUSE STAVARYEN (id = dynn_Stavaryen) IN HONOR OF QAnon
@@ -375,6 +380,7 @@ Stavaryen_2 = {
 	name = Norenya # Wife of Lord Vargo
 	dynasty = dynn_Stavaryen
 	dna = Stavaryen_2
+	female = yes
 
 	martial = 4
 	diplomacy = 3
@@ -404,6 +410,7 @@ Stavaryen_3 = {
 	name = Vaenora # Daughter of Lord Vargo
 	dynasty = dynn_Stavaryen
 	dna = Stavaryen_3
+	female = yes
 	
 	martial = 2
 	diplomacy = 7
@@ -497,6 +504,7 @@ Stavaryen_6 = {
 	name = Naesys # Daughter of Lord Vargo
 	dynasty = dynn_Stavaryen
 	dna = Stavaryen_6
+	female = yes
 
 	martial = 2
 	diplomacy = 6
