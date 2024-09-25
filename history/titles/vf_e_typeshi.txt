@@ -3,6 +3,29 @@
 		succession_laws = { freehold_primarch_succession_law }
 		government = freehold_government
 	}
+	2640.6.9 = {
+		effect = {
+			holder ?= {
+				if = {
+					limit = {
+						NOT = { has_realm_law = slavery_allowed_law }
+					}
+					add_realm_law = slavery_allowed_law
+				}
+			}
+			every_in_de_jure_hierarchy = {
+				set_variable = historical_slavery
+				holder ?= {
+					if = {
+						limit = {
+							NOT = { has_realm_law = slavery_allowed_law }
+						}
+						add_realm_law = slavery_allowed_law
+					}
+				}
+			}
+		}
+	}
 	7885.5.1 = {
 		holder = Atreides_1
 		effect = { # AGOT TODO

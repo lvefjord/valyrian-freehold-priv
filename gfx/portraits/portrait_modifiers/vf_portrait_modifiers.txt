@@ -1,0 +1,114 @@
+﻿vf_historical_accessories = {
+	usage = game
+	selection_behavior = max
+	priority = 2
+
+	Atreides_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_fp1_01
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 0
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_western_high_nobility_clothes_male_pants
+				accessory = male_clothes_westerland_doublet_02
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				age > 4
+				this = character:Atreides_1
+				is_male = yes
+			}
+		}
+	}
+	Atreides_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_clothes
+				accessory = female_clothes_special_dragon_rider_dynastic_alt_01
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				age > 4
+				this = character:Atreides_2
+				is_female = yes
+			}
+		}
+	}
+	Melnibone_1 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 0
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = male_hair_fp2_iberian_muslim_03
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = valyrian_war_nobility_clothes
+				accessory = male_clothes_valyrian_war_03
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				age > 4
+				this = character:Melnibone_1
+				is_male = yes
+			}
+		}
+	}
+	Melnibone_2 = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = all_hairstyles
+				accessory = female_hair_fp2_iberian_christian_01
+				type = female
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = agot_all_clothes
+				accessory = female_clothes_secular_fp2_iberian_christian_nobility_01_high
+				type = female
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				age > 4
+				this = character:Melnibone_2
+				is_female = yes
+			}
+		}
+	}
+}

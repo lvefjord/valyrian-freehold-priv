@@ -1,0 +1,29 @@
+﻿on_game_start = {
+	on_actions = {
+		vf_game_start
+	}
+}
+
+vf_game_start = {
+	effect = {
+		vf_artifact_setup = yes
+		vf_dragon_setup = yes
+
+		if = {
+			limit = { character:Targaryen_13 = { is_alive = yes } }
+			create_title_and_vassal_change = {
+				type = swear_fealty
+				save_scope_as = title_change
+				add_claim_on_loss = no
+			}
+			character:Targaryen_13 = {
+				change_liege = {
+					liege = title:e_valyria.holder
+					change = scope:title_change
+				}
+				change_government = freehold_government
+			}
+			resolve_title_and_vassal_change = scope:title_change
+		}
+	}
+}

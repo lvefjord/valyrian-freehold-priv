@@ -20,3 +20,9 @@ dynn_Stavaryen = {
 	culture = "high_valyrian"
 	motto = dynn_Stavaryen_motto # ?
 }
+
+dynn_Melnibone = {
+	name = "dynn_Melnibone"
+	culture = "high_valyrian"
+	motto = dynn_Melnibone_motto # ?
+}

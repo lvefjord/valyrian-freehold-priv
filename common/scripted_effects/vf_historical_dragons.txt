@@ -1,0 +1,44 @@
+﻿vf_dragon_setup = {
+		if = { # Flamefang
+		limit = { exists = character:dragon_flamefang }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_flamefang
+			dragon_age = character:dragon_flamefang.age
+			gene_dragon_skin_value = 0.18
+			gene_dragon_highlight_hue = 0.58
+			gene_dragon_highlight_value = 0.55
+			gene_dragon_eye_hue = 0.16
+			gene_dragon_eye_value = 0.33
+			gene_dragon_horn_hue = 1.0
+			gene_dragon_horn_value = 0.0
+			gene_dragon_brow_width = 1.0
+			gene_dragon_cheek_width = 0.26
+			gene_dragon_chin_profile = 1.0
+			gene_dragon_crest_depth = 0.59
+			gene_dragon_head_roundness = 0.99
+			gene_dragon_horns_eyebrow_length = 0.31
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 4
+			gene_dragon_main_horn_shape_value = 0.36
+			gene_dragon_jaw_width = 0.47
+			gene_dragon_lower_jaw_height = 0.48
+			gene_dragon_lower_jaw_width = 0.13
+			gene_dragon_old_neck = 0.22
+			gene_dragon_outer_brow_height = 0.18
+			gene_dragon_snout_height = 0.56
+			gene_dragon_snout_length = 0.25
+			gene_dragon_snout_profile = 0.36
+			gene_dragon_snout_width = 0.36
+			gene_dragon_upper_jaw_width = 0.03
+			gene_dragon_center_fin_size = 0.12
+			gene_dragon_back_spike_size = 0.87
+			gene_dragon_horns_eyebrow = 0.34
+			gene_dragon_neck_spike_size = 0.73
+			gene_dragon_side_fin_size = 0.97
+			gene_dragon_snout_end_width = 0.29
+			gene_dragon_neck_length = 0.0
+			gene_dragon_tail_length = 0.64
+			gene_dragon_skin_hue = 1.0
+		}
+	}
+}

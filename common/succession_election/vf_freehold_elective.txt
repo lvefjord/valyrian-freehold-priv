@@ -51,6 +51,9 @@
 		add = {
 			type = holder_direct_vassals
 			limit = {
+				primary_title = {
+					target_is_de_jure_liege_or_above = title:k_valyria
+				}
 				is_adult = yes
 				is_landed = yes
 				primary_title.tier >= tier_county
