@@ -1,0 +1,6 @@
+﻿vf_artifact_setup = {
+	if = {
+		limit = { game_start_date = 7888.1.1 }
+		character:Melnibone_1 ?= { vf_create_stormbringer_vs_artifact_effect = { OWNER = THIS } }
+	}
+}

@@ -1,0 +1,4 @@
+﻿is_atreides_1 = {
+	exists = character:Atreides_1
+	this = character:Atreides_1
+}

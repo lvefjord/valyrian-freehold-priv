@@ -1,0 +1,7 @@
+﻿vs_stormbringer_modifier = {
+	prowess_no_portrait = 35
+	monthly_prestige = 0.2
+	stress_loss_mult = -0.3
+	health = 1
+	dread_baseline_add = 100
+}

@@ -1,0 +1,44 @@
+﻿	#effect = { ### MAKE DRAGONS FOR THE MAIN GUYS > GIVE THEM DRAGONRIDER > PUT THIS IN THE DRAGONS HISTORY EFFECT
+	#	agot_tame_dragon = {
+	#		TAMER = character:Varezys_1 # Aurion Varezys
+	#		DRAGON = ROOT
+	#	}
+	#}
+
+dragon_flamefang= {
+	name = Flamefang
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7692.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7876.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Melnibone_1 # Elric
+				DRAGON = ROOT
+			}
+		}
+	}
+}

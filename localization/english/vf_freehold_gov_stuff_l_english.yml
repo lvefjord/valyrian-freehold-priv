@@ -1,0 +1,33 @@
+﻿l_english:
+ freehold_government:0 "Freehold"
+ freehold_government_adjective:0 "Freehold"
+ freehold_government_realm:0 "Castle Holdings"
+ freehold_government_vassals_label:1 "Freehold [obligations|E] are based on each [vassal|E]'s [feudal_contract|E]"
+
+ freehold_government_desc:1 "The Valyrian Freehold is a vast realm where every freeholder has a voice. It is ruled by the Primarch who is elected from among the current Archons."
+
+ freehold_archonate_elective:0 "Archonate Elective"
+ freehold_archonate_elective_electors:0 "Freeholders"
+ freehold_archonate_elective_candidates:0 "Freeholders"
+ freehold_primarch_elective:0 "Primarchonate Elective"
+ freehold_primarch_elective_electors:0 "Archons"
+ freehold_primarch_elective_candidates:0 "Archons"
+
+ freehold_single_heir_succession_law:0 "Primogeniture"
+ freehold_single_heir_succession_law_subname:0 "Primogeniture"
+
+ freehold_archonate_succession_law:0 "Archonate Elective"
+ freehold_archonate_succession_law_subname:0 "Archonate Elective"
+
+ freehold_archonate_succession_attached_titles_law:0 "Archonate Elective"
+ freehold_archonate_succession_attached_titles_law_effects:0 "This title will follow the kingdom's election (I hope double check this)"
+ freehold_archonate_succession_attached_titles_law_subname:0 ""
+
+ freehold_primarch_succession_law:0 "Primarchonate Elective"
+ freehold_primarch_succession_law_subname:0 "Primarchonate Elective"
+ freehold_primarch_succession_attached_titles_law:0 "Primarchonate Elective"
+ freehold_primarch_succession_attached_titles_law_effects:0 "This title will follow the kingdom's election (I hope double check this)"
+ freehold_primarch_succession_attached_titles_law_subname:0 ""
+
+ freehold_dictatorship_succession_law:0 "Dictatorship"
+ freehold_dictatorship_succession_law_subname:0 "Dictatorial"

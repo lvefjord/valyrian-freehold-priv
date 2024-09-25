@@ -30,6 +30,7 @@ Atreides_1 = {
 
 	disallow_random_traits = yes
 
+
 	7869.1.1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
@@ -558,6 +559,47 @@ Stavaryen_7 = {
 	disallow_random_traits = yes
 
 	7876.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+
+Melnibone_1 = {
+	name = Elric # The White Wolf
+	dynasty = dynn_Melnibone
+	dna = Targaryen_96
+
+	religion = valyrian
+	culture = high_valyrian
+
+	give_nickname = nick_the_white_wolf
+
+	trait = education_learning_5
+	trait = albino
+	trait = physique_bad_2
+	trait = depressed_1
+	trait = patient
+	trait = just
+	trait = lifestyle_mystic_3_history
+
+	7863.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7875.1.1 = { trait = dragonrider } # Flamefang (Done)
+	7885.1.1 = { add_spouse = Melnibone_2 }
+}
+
+Melnibone_2 = {
+	name = Cymoril # Elrics bae
+	dynasty = dynn_Melnibone
+	female = yes
+	dna = Targaryen_97
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7860.1.1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}

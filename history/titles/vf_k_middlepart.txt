@@ -1,6 +1,6 @@
 ﻿k_firekingdom = {
 	7885.5.1 = {
-		holder = Qorbareon_2
+		holder = Melnibone_1
 		liege = e_valyria
 		succession_laws = { freehold_archonate_succession_law }
 		government = freehold_government
@@ -8,7 +8,7 @@
 }
 d_memebagon = {
 	7885.5.1 = {
-		holder = Qorbareon_2
+		holder = Melnibone_1
 		liege = k_firekingdom
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government
@@ -16,7 +16,7 @@ d_memebagon = {
 }
 c_daelynor = {
 	7885.5.1 = {
-		holder = Qorbareon_2
+		holder = Melnibone_1
 		liege = d_memebagon
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government

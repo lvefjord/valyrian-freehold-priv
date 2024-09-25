@@ -1,0 +1,47 @@
+﻿vf_create_stormbringer_vs_artifact_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = vs_stormbringer_name
+		visuals = vs_orphan_maker_visuals
+		description = vs_stormbringer_description
+		type = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		template = vs_orphan_maker_template
+		history = {
+			type = created_before_history
+			date = 3238.1.1
+		}
+		modifier = vs_stormbringer_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = {
+			name = valyrian_steel
+			value = yes
+		}
+		set_variable = {
+			name = orphan_maker_artifact
+			value = yes
+		}
+		set_variable = {
+			name = historical_unique_artifact
+			value = yes
+		}
+		set_variable = {
+			name = traditional_house_owner
+			value = dynasty:dynn_Roxton.dynasty_founder.house
+		}
+		agot_add_artifact_history = {
+			ARTIFACT = this
+			TYPE = inherited
+			DATE = 7885.1.1
+			RECIPIENT = character:Melnibone_1
+		}
+	}
+}
