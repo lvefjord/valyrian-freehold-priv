@@ -1,0 +1,115 @@
+﻿EMPEROR_ARCHONATE_MALE = {
+	type = character
+
+	text = {
+		trigger = { primary_title = title:e_valyria }
+		localization_key = valyrian_primarch_male
+	}
+	text = {
+		trigger = { primary_spouse.primary_title = title:e_valyria }
+		localization_key = king_archonate_female_spouse
+	}
+	text = {
+		fallback = yes
+		localization_key = emperor_archonate_male_fallback
+	}
+}
+EMPEROR_ARCHONATE_FEMALE = {
+	type = character
+
+	text = {
+		trigger = { primary_title = title:e_valyria }
+		localization_key = valyrian_primarch_female
+	}
+	text = {
+		fallback = yes
+		localization_key = emperor_archonate_female_fallback
+	}
+}
+
+KINGDOM_ARCHONATE_MALE = {
+	type = character
+
+	text = {
+		trigger = {
+			OR = {
+				primary_title = title:k_valyria
+				primary_title = title:k_landsoflongsummer
+				primary_title = title:k_firekingdom
+			}
+		}
+		localization_key = valyrian_archon_male
+	}
+	text = {
+		trigger = {
+			OR = {
+				primary_spouse.primary_title = title:k_valyria
+				primary_spouse.primary_title = title:k_landsoflongsummer
+				primary_spouse.primary_title = title:k_firekingdom
+			}
+		}
+		localization_key = king_archonate_female_spouse
+	}
+	text = {
+		fallback = yes
+		localization_key = king_archonate_male_fallback
+	}
+}
+KINGDOM_ARCHONATE_FEMALE = {
+	type = character
+
+	text = {
+		trigger = {
+			OR = {
+				primary_title = title:k_valyria
+				primary_title = title:k_landsoflongsummer
+				primary_title = title:k_firekingdom
+			}
+		}
+		localization_key = valyrian_archon_female
+	}
+	text = {
+		trigger = {
+			OR = {
+				primary_spouse.primary_title = title:k_valyria
+				primary_spouse.primary_title = title:k_landsoflongsummer
+				primary_spouse.primary_title = title:k_firekingdom
+			}
+		}
+		localization_key = king_archonate_female_spouse
+	}
+	text = {
+		fallback = yes
+		localization_key = king_archonate_female_fallback
+	}
+}
+
+FREEHOLD_MALE = {
+	type = character
+
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+		}
+		localization_key = count_freehold_male
+	}
+	text = {
+		fallback = yes
+		localization_key = count_freehold_male
+	}
+}
+
+FREEHOLD_FEMALE = {
+	type = character
+
+	text = {
+		trigger = {
+			highest_held_title_tier = tier_county
+		}
+		localization_key = count_freehold_female
+	}
+	text = {
+		fallback = yes
+		localization_key = count_freehold_female
+	}
+}
