@@ -1,0 +1,89 @@
+﻿# titles
+kingdom_freehold = {
+	type = title
+	tier = kingdom
+	priority = 50
+	governments = { freehold_government }
+}
+empire_freehold = {
+	type = title
+	tier = empire
+	priority = 101
+	governments = { freehold_government }
+}
+
+# holders
+king_archonate_male_spouse = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 999
+	top_liege = no
+	governments = { freehold_government }
+}
+king_archonate_female_spouse = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 999
+	top_liege = no
+	governments = { freehold_government }
+}
+king_archonate_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 1000
+	top_liege = no
+	only_holder = yes
+	governments = { freehold_government }
+}
+king_archonate_female = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 1000
+	top_liege = no
+	only_holder = yes
+	governments = { freehold_government }
+}
+####################
+emperor_archonate_male_spouse = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 1001
+	governments = { freehold_government }
+}
+emperor_archonate_female_spouse = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 1001
+	governments = { freehold_government }
+}
+emperor_archonate_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 1002
+	only_holder = yes
+	governments = { freehold_government }
+}
+emperor_archonate_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 1002
+	only_holder = yes
+	governments = { freehold_government }
+}
+####################
