@@ -25,7 +25,7 @@
 
 		character = {
 			name = "bookmark_vf_gaemon"
-			relation = "BOOKMARK_RELATION_WIFE"
+			relation = "BOOKMARK_RELATION_SON"
 			dynasty = dynn_Targaryen
 			type = female
 			birth = 7868.1.1
@@ -37,7 +37,7 @@
 
 		character = {
 			name = "bookmark_vf_daenys"
-			relation = "BOOKMARK_RELATION_WIFE"
+			relation = "BOOKMARK_RELATION_DAUGHTER"
 			dynasty = dynn_Targaryen
 			type = female
 			birth = 7870.1.1

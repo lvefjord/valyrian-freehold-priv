@@ -1,5 +1,8 @@
 ﻿# OLD VALYRIAN DYNASTIES
 
+# If adding valyrian and/or dragonriding dynasties, remember to add them to dynasty setup in vf_game_start.txt
+
+
 # HOUSE ATREIDES (id = dynn_Atreides)
 dynn_Atreides = {
 	name = "dynn_Atreides"

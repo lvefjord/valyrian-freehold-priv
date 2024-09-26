@@ -22,3 +22,21 @@ c_valyria = {
 		government = freehold_government
 	}
 }
+
+d_aerebagon = {
+	7885.5.1 = {
+		holder = Stavaryen_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+
+d_amazverdagon = {
+	7885.5.1 = {
+		holder = Qorbareon_2
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
