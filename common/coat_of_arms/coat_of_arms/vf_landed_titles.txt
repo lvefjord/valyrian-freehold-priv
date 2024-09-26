@@ -1,0 +1,6 @@
+﻿e_valyria = {
+	pattern="val_pattern_12.dds"
+	color1=agot_black
+	color2=rgb { 191 14 14 }
+	color3=rgb { 100 5 70 }
+}

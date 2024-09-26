@@ -25,5 +25,22 @@ vf_game_start = {
 			}
 			resolve_title_and_vassal_change = scope:title_change
 		}
+		# Dynasty setup
+		
+		### Dynasty related setup
+		# Manage Incest restrictions if they're not valyrian faith
+		# dynasty:dynn_Targaryen = { set_variable = agot_allow_adelphogamous_incest }
+
+		# Manage valyrian_heritage_dynasty_modifier and dragonrider_house_modifier
+		dynasty:dynn_Atreides = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Qorbareon = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Stavaryen = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Melnibone = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+
+
+		dynasty:dynn_Atreides.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Qorbareon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Stavaryen.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Melnibone.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 	}
 }

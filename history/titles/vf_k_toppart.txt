@@ -22,3 +22,29 @@ c_paelion = {
 		government = freehold_government
 	}
 }
+
+d_oregon = {
+	7885.5.1 = {
+		holder = Mataeryon_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+
+d_paletilla = {
+	7885.5.1 = {
+		holder = Urnebar_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_lentazma = {
+	7885.5.1 = {
+		holder = Sonaryen_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}

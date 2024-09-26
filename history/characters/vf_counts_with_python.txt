@@ -1,0 +1,1386 @@
+mrcount_1 = {
+	name = Aelyx
+	dynasty = dynn_Arranion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7862.11.17 = {
+		birth = yes
+	}
+}
+mrcount_2 = {
+	name = Bearlerion
+	dynasty = dynn_Raegaros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7868.12.20 = {
+		birth = yes
+	}
+}
+mrcount_3 = {
+	name = Bearlerion
+	dynasty = dynn_Celereon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7840.10.17 = {
+		birth = yes
+	}
+}
+mrcount_4 = {
+	name = Daemion
+	dynasty = dynn_Laergyr
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7859.9.19 = {
+		birth = yes
+	}
+}
+mrcount_5 = {
+	name = Aegor
+	dynasty = dynn_Mazigonys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7846.7.29 = {
+		birth = yes
+	}
+}
+mrcount_6 = {
+	name = Aelor
+	dynasty = dynn_Haeteros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7847.9.22 = {
+		birth = yes
+	}
+}
+mrcount_7 = {
+	name = Valarr
+	dynasty = dynn_Unendia
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7847.8.10 = {
+		birth = yes
+	}
+}
+mrcount_8 = {
+	name = Aeryn
+	dynasty = dynn_Orbareon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7850.9.15 = {
+		birth = yes
+	}
+}
+mrcount_9 = {
+	name = Maekar
+	dynasty = dynn_Quptys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7840.8.8 = {
+		birth = yes
+	}
+}
+mrcount_10 = {
+	name = Bearlerion
+	dynasty = dynn_Tyvar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7843.6.29 = {
+		birth = yes
+	}
+}
+mrcount_11 = {
+	name = Aethan
+	dynasty = dynn_Daomiorys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7842.10.28 = {
+		birth = yes
+	}
+}
+mrcount_12 = {
+	name = Vaegon
+	dynasty = dynn_Orbareon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7842.1.5 = {
+		birth = yes
+	}
+}
+mrcount_13 = {
+	name = Valarr
+	dynasty = dynn_Ondoryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7852.12.16 = {
+		birth = yes
+	}
+}
+mrcount_14 = {
+	name = Aelyx
+	dynasty = dynn_Arranion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7848.7.4 = {
+		birth = yes
+	}
+}
+mrcount_15 = {
+	name = Gaemon
+	dynasty = dynn_Kastaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7859.11.4 = {
+		birth = yes
+	}
+}
+mrcount_16 = {
+	name = Rhaegar
+	dynasty = dynn_Valzyren
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7857.12.21 = {
+		birth = yes
+	}
+}
+mrcount_17 = {
+	name = Jaehaerys
+	dynasty = dynn_Jenqeleon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7848.12.21 = {
+		birth = yes
+	}
+}
+mrcount_18 = {
+	name = Matarys
+	dynasty = dynn_Jelmazeon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7844.2.15 = {
+		birth = yes
+	}
+}
+mrcount_19 = {
+	name = Valarr
+	dynasty = dynn_Gelenkys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7869.1.13 = {
+		birth = yes
+	}
+}
+mrcount_20 = {
+	name = Maegor
+	dynasty = dynn_Atroksiarys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7868.9.2 = {
+		birth = yes
+	}
+}
+mrcount_21 = {
+	name = Aethan
+	dynasty = dynn_Pyllyr
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7861.7.5 = {
+		birth = yes
+	}
+}
+mrcount_22 = {
+	name = Aelor
+	dynasty = dynn_Ezimatheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7858.11.7 = {
+		birth = yes
+	}
+}
+mrcount_23 = {
+	name = Aerion
+	dynasty = dynn_Nuqiryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7839.1.29 = {
+		birth = yes
+	}
+}
+mrcount_24 = {
+	name = Daemon
+	dynasty = dynn_Haeteros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7852.9.4 = {
+		birth = yes
+	}
+}
+mrcount_25 = {
+	name = Maelor
+	dynasty = dynn_Gryvetheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7854.6.18 = {
+		birth = yes
+	}
+}
+mrcount_26 = {
+	name = Jaehaerys
+	dynasty = dynn_Henaeris
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7842.4.15 = {
+		birth = yes
+	}
+}
+mrcount_27 = {
+	name = Rhaegar
+	dynasty = dynn_Tresys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7871.10.7 = {
+		birth = yes
+	}
+}
+mrcount_28 = {
+	name = Daemon
+	dynasty = dynn_Qogrorys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7862.12.20 = {
+		birth = yes
+	}
+}
+mrcount_29 = {
+	name = Maenar
+	dynasty = dynn_Tresys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7871.3.22 = {
+		birth = yes
+	}
+}
+mrcount_30 = {
+	name = Daemion
+	dynasty = dynn_Atroksiarys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7865.12.26 = {
+		birth = yes
+	}
+}
+mrcount_31 = {
+	name = Gaemon
+	dynasty = dynn_Anogaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7841.6.1 = {
+		birth = yes
+	}
+}
+mrcount_32 = {
+	name = Aelor
+	dynasty = dynn_Jenqeleon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7870.5.29 = {
+		birth = yes
+	}
+}
+mrcount_33 = {
+	name = Rhaegar
+	dynasty = dynn_Quptys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7845.4.11 = {
+		birth = yes
+	}
+}
+mrcount_34 = {
+	name = Aemond
+	dynasty = dynn_Urnebar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7850.5.8 = {
+		birth = yes
+	}
+}
+mrcount_35 = {
+	name = Maegor
+	dynasty = dynn_Qupteneon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7853.1.29 = {
+		birth = yes
+	}
+}
+mrcount_36 = {
+	name = Aeryn
+	dynasty = dynn_Tyvar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7846.12.12 = {
+		birth = yes
+	}
+}
+mrcount_37 = {
+	name = Maegon
+	dynasty = dynn_Henaeris
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7868.7.14 = {
+		birth = yes
+	}
+}
+mrcount_38 = {
+	name = Maelor
+	dynasty = dynn_Anogaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7845.5.16 = {
+		birth = yes
+	}
+}
+mrcount_39 = {
+	name = Maekar
+	dynasty = dynn_Gryvetheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7866.2.14 = {
+		birth = yes
+	}
+}
+mrcount_40 = {
+	name = Valerion
+	dynasty = dynn_Perzys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7846.10.6 = {
+		birth = yes
+	}
+}
+mrcount_41 = {
+	name = Valerion
+	dynasty = dynn_Gelionar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7847.6.6 = {
+		birth = yes
+	}
+}
+mrcount_42 = {
+	name = Daeron
+	dynasty = dynn_Tistaleon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7864.5.12 = {
+		birth = yes
+	}
+}
+mrcount_43 = {
+	name = Aerys
+	dynasty = dynn_Quptys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7863.4.27 = {
+		birth = yes
+	}
+}
+mrcount_44 = {
+	name = Aenar
+	dynasty = dynn_Sytivilar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7839.1.11 = {
+		birth = yes
+	}
+}
+mrcount_45 = {
+	name = Aemond
+	dynasty = dynn_Ruakys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7841.9.23 = {
+		birth = yes
+	}
+}
+mrcount_46 = {
+	name = Aerion
+	dynasty = dynn_Mazigonys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7857.5.18 = {
+		birth = yes
+	}
+}
+mrcount_47 = {
+	name = Aegor
+	dynasty = dynn_Ezimatheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7870.1.18 = {
+		birth = yes
+	}
+}
+mrcount_48 = {
+	name = Bearaxes
+	dynasty = dynn_Hoskagys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7869.6.22 = {
+		birth = yes
+	}
+}
+mrcount_49 = {
+	name = Bearlerion
+	dynasty = dynn_Gevgarys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7858.10.27 = {
+		birth = yes
+	}
+}
+mrcount_50 = {
+	name = Aeryn
+	dynasty = dynn_Gelionar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7859.2.29 = {
+		birth = yes
+	}
+}
+mrcount_51 = {
+	name = Aemond
+	dynasty = dynn_Ezimatheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7852.5.2 = {
+		birth = yes
+	}
+}
+mrcount_52 = {
+	name = Baelor
+	dynasty = dynn_Haedaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7864.10.29 = {
+		birth = yes
+	}
+}
+mrcount_53 = {
+	name = Haegon
+	dynasty = dynn_Voksia
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7839.6.5 = {
+		birth = yes
+	}
+}
+mrcount_54 = {
+	name = Rhaegel
+	dynasty = dynn_Hoskagys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7850.7.4 = {
+		birth = yes
+	}
+}
+mrcount_55 = {
+	name = Aethan
+	dynasty = dynn_Ondoryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7842.7.14 = {
+		birth = yes
+	}
+}
+mrcount_56 = {
+	name = Aelyx
+	dynasty = dynn_Quptys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7849.9.24 = {
+		birth = yes
+	}
+}
+mrcount_57 = {
+	name = Aelor
+	dynasty = dynn_Celereon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7865.7.5 = {
+		birth = yes
+	}
+}
+mrcount_58 = {
+	name = Aegor
+	dynasty = dynn_Anogaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7866.3.16 = {
+		birth = yes
+	}
+}
+mrcount_59 = {
+	name = Aemond
+	dynasty = dynn_Valzyren
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7863.9.21 = {
+		birth = yes
+	}
+}
+mrcount_60 = {
+	name = Maelys
+	dynasty = dynn_Quptys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7845.2.14 = {
+		birth = yes
+	}
+}
+mrcount_61 = {
+	name = Valerion
+	dynasty = dynn_Zaldrizyen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7869.6.7 = {
+		birth = yes
+	}
+}
+mrcount_62 = {
+	name = Matarys
+	dynasty = dynn_Kastaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7844.8.5 = {
+		birth = yes
+	}
+}
+mrcount_63 = {
+	name = Maenar
+	dynasty = dynn_Raegaros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7847.6.27 = {
+		birth = yes
+	}
+}
+mrcount_64 = {
+	name = Jaehaerys
+	dynasty = dynn_Maznareon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7871.12.16 = {
+		birth = yes
+	}
+}
+mrcount_65 = {
+	name = Jaehaerys
+	dynasty = dynn_Quptys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7841.7.6 = {
+		birth = yes
+	}
+}
+mrcount_66 = {
+	name = Valerion
+	dynasty = dynn_Anogaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7859.2.10 = {
+		birth = yes
+	}
+}
+mrcount_67 = {
+	name = Aenys
+	dynasty = dynn_Sytivilar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7846.5.26 = {
+		birth = yes
+	}
+}
+mrcount_68 = {
+	name = Daeron
+	dynasty = dynn_Pirtiryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7845.2.23 = {
+		birth = yes
+	}
+}
+mrcount_69 = {
+	name = Maegon
+	dynasty = dynn_Voksia
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7863.4.18 = {
+		birth = yes
+	}
+}
+mrcount_70 = {
+	name = Bearaxes
+	dynasty = dynn_Qogrorys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7855.1.27 = {
+		birth = yes
+	}
+}
+mrcount_71 = {
+	name = Aenar
+	dynasty = dynn_Ronnon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7856.10.10 = {
+		birth = yes
+	}
+}
+mrcount_72 = {
+	name = Aegor
+	dynasty = dynn_Daomiorys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7850.6.23 = {
+		birth = yes
+	}
+}
+mrcount_73 = {
+	name = Maelor
+	dynasty = dynn_Jenqeleon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7848.2.24 = {
+		birth = yes
+	}
+}
+mrcount_74 = {
+	name = Maenar
+	dynasty = dynn_Merntys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7849.7.22 = {
+		birth = yes
+	}
+}
+mrcount_75 = {
+	name = Beargar
+	dynasty = dynn_Perzys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7862.1.12 = {
+		birth = yes
+	}
+}
+mrcount_76 = {
+	name = Rhaegel
+	dynasty = dynn_Urnebar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7852.5.11 = {
+		birth = yes
+	}
+}
+mrcount_77 = {
+	name = Aelyx
+	dynasty = dynn_Gevgarys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7857.10.5 = {
+		birth = yes
+	}
+}
+mrcount_78 = {
+	name = Bearlerion
+	dynasty = dynn_Gelenkys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7849.1.29 = {
+		birth = yes
+	}
+}
+mrcount_79 = {
+	name = Viserys
+	dynasty = dynn_Manaereon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7868.7.29 = {
+		birth = yes
+	}
+}
+mrcount_80 = {
+	name = Daemion
+	dynasty = dynn_Ilirigys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7839.8.13 = {
+		birth = yes
+	}
+}
+mrcount_81 = {
+	name = Maekar
+	dynasty = dynn_Manaereon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7864.1.10 = {
+		birth = yes
+	}
+}
+mrcount_82 = {
+	name = Maegor
+	dynasty = dynn_Huretheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7857.2.29 = {
+		birth = yes
+	}
+}
+mrcount_83 = {
+	name = Maenar
+	dynasty = dynn_Kessatheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7846.9.15 = {
+		birth = yes
+	}
+}
+mrcount_84 = {
+	name = Daemon
+	dynasty = dynn_Atroksiarys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7841.7.2 = {
+		birth = yes
+	}
+}
+mrcount_85 = {
+	name = Aenys
+	dynasty = dynn_Laeseon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7855.10.6 = {
+		birth = yes
+	}
+}
+mrcount_86 = {
+	name = Rhaegar
+	dynasty = dynn_Hoskagys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7856.6.13 = {
+		birth = yes
+	}
+}
+mrcount_87 = {
+	name = Aerion
+	dynasty = dynn_Kostagar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7865.10.15 = {
+		birth = yes
+	}
+}
+mrcount_88 = {
+	name = Aegor
+	dynasty = dynn_Kastaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7846.9.12 = {
+		birth = yes
+	}
+}
+mrcount_89 = {
+	name = Aelyx
+	dynasty = dynn_Sonaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7855.1.14 = {
+		birth = yes
+	}
+}
+mrcount_90 = {
+	name = Maenar
+	dynasty = dynn_Arranion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7858.3.25 = {
+		birth = yes
+	}
+}
+mrcount_91 = {
+	name = Gaemon
+	dynasty = dynn_Valzyren
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7841.10.27 = {
+		birth = yes
+	}
+}
+mrcount_92 = {
+	name = Rhaegel
+	dynasty = dynn_Henaeris
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7846.1.17 = {
+		birth = yes
+	}
+}
+mrcount_93 = {
+	name = Baelon
+	dynasty = dynn_Qogrorys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7845.4.26 = {
+		birth = yes
+	}
+}
+mrcount_94 = {
+	name = Aelyx
+	dynasty = dynn_Gelenkys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7871.7.1 = {
+		birth = yes
+	}
+}
+mrcount_95 = {
+	name = Vaegon
+	dynasty = dynn_Haedaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7856.3.18 = {
+		birth = yes
+	}
+}
+mrcount_96 = {
+	name = Bearlerion
+	dynasty = dynn_Pirtiryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7868.4.7 = {
+		birth = yes
+	}
+}
+mrcount_97 = {
+	name = Haegon
+	dynasty = dynn_Hoskagys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7856.9.17 = {
+		birth = yes
+	}
+}
+mrcount_98 = {
+	name = Haegon
+	dynasty = dynn_Orbareon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7842.3.5 = {
+		birth = yes
+	}
+}
+mrcount_99 = {
+	name = Vaegon
+	dynasty = dynn_Tistaleon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7851.4.24 = {
+		birth = yes
+	}
+}
+mrcount_100 = {
+	name = Daemion
+	dynasty = dynn_Ezimatheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7838.11.13 = {
+		birth = yes
+	}
+}
+mrcount_101 = {
+	name = Aenar
+	dynasty = dynn_Haedaryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7855.1.23 = {
+		birth = yes
+	}
+}
+mrcount_102 = {
+	name = Vaegon
+	dynasty = dynn_Atroksiarys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7864.6.19 = {
+		birth = yes
+	}
+}
+mrcount_103 = {
+	name = Aenar
+	dynasty = dynn_Pyllyr
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7863.10.14 = {
+		birth = yes
+	}
+}
+mrcount_104 = {
+	name = Aethan
+	dynasty = dynn_Zaldrizyen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7867.1.26 = {
+		birth = yes
+	}
+}
+mrcount_105 = {
+	name = Aenys
+	dynasty = dynn_Gevgarys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7851.5.26 = {
+		birth = yes
+	}
+}
+mrcount_106 = {
+	name = Beargar
+	dynasty = dynn_Ilirigys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7859.8.9 = {
+		birth = yes
+	}
+}
+mrcount_107 = {
+	name = Aeryn
+	dynasty = dynn_Manaereon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7840.7.11 = {
+		birth = yes
+	}
+}
+mrcount_108 = {
+	name = Maenar
+	dynasty = dynn_Mazigonys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7840.6.6 = {
+		birth = yes
+	}
+}
+mrcount_109 = {
+	name = Aelor
+	dynasty = dynn_Gryvetheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7864.6.9 = {
+		birth = yes
+	}
+}
+mrcount_110 = {
+	name = Daemion
+	dynasty = dynn_Jentys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7848.8.22 = {
+		birth = yes
+	}
+}
+mrcount_111 = {
+	name = Matarys
+	dynasty = dynn_Laergyr
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7840.2.14 = {
+		birth = yes
+	}
+}
+mrcount_112 = {
+	name = Aethan
+	dynasty = dynn_Sytivilar
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7871.7.24 = {
+		birth = yes
+	}
+}
+mrcount_113 = {
+	name = Daemon
+	dynasty = dynn_Hoskagys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7860.9.25 = {
+		birth = yes
+	}
+}
+mrcount_114 = {
+	name = Haegon
+	dynasty = dynn_Raegaros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7857.10.26 = {
+		birth = yes
+	}
+}
+mrcount_115 = {
+	name = Aeryn
+	dynasty = dynn_Gelenkys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7856.12.22 = {
+		birth = yes
+	}
+}
+mrcount_116 = {
+	name = Valerion
+	dynasty = dynn_Jenqeleon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7868.8.19 = {
+		birth = yes
+	}
+}
+mrcount_117 = {
+	name = Aegor
+	dynasty = dynn_Syzeon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7862.6.13 = {
+		birth = yes
+	}
+}
+mrcount_118 = {
+	name = Rhaegar
+	dynasty = dynn_Pirtiryen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7862.11.16 = {
+		birth = yes
+	}
+}
+mrcount_119 = {
+	name = Matarys
+	dynasty = dynn_Arranion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7844.1.5 = {
+		birth = yes
+	}
+}
+mrcount_120 = {
+	name = Aemon
+	dynasty = dynn_Tistaleon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7838.7.19 = {
+		birth = yes
+	}
+}
+mrcount_121 = {
+	name = Jaehaerys
+	dynasty = dynn_Huretheon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7855.10.26 = {
+		birth = yes
+	}
+}
+mrcount_122 = {
+	name = Maelys
+	dynasty = dynn_Zaldrizyen
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7861.4.9 = {
+		birth = yes
+	}
+}
+mrcount_123 = {
+	name = Aeryn
+	dynasty = dynn_Hurys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7841.1.11 = {
+		birth = yes
+	}
+}
+mrcount_124 = {
+	name = Daemion
+	dynasty = dynn_Unendia
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7860.10.19 = {
+		birth = yes
+	}
+}
+mrcount_125 = {
+	name = Daeron
+	dynasty = dynn_Galgaeron
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7866.11.14 = {
+		birth = yes
+	}
+}
+mrcount_126 = {
+	name = Bearlerion
+	dynasty = dynn_Perzys
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7859.9.22 = {
+		birth = yes
+	}
+}
