@@ -1,6 +1,6 @@
 ﻿k_firekingdom = {
 	7885.5.1 = {
-		holder = Melnibone_1
+		holder = Mataeryon_1
 		liege = e_valyria
 		succession_laws = { freehold_archonate_succession_law }
 		government = freehold_government
@@ -8,7 +8,7 @@
 }
 d_memebagon = {
 	7885.5.1 = {
-		holder = Melnibone_1
+		holder = Mataeryon_1
 		liege = k_firekingdom
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government
@@ -16,8 +16,56 @@ d_memebagon = {
 }
 c_daelynor = {
 	7885.5.1 = {
-		holder = Melnibone_1
+		holder = Mataeryon_1
 		liege = d_memebagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_irūdir = {
+	7885.5.1 = {
+		holder = Vermaxos_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_brynysor = {
+	7885.5.1 = {
+		holder = Vermaxos_1
+		liege = d_irūdir
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_idinnon = {
+	7885.5.1 = {
+		holder = Paelinox_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_vaenor = {
+	7885.5.1 = {
+		holder = Paelinox_1
+		liege = d_idinnon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_pikibagon = {
+	7885.5.1 = {
+		holder = Ramessid_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_oelrynor = {
+	7885.5.1 = {
+		holder = Ramessid_1
+		liege = d_pikibagon
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government
 	}

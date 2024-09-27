@@ -8,6 +8,7 @@ vf_game_start = {
 	effect = {
 		vf_artifact_setup = yes
 		vf_dragon_setup = yes
+		too_lazy_to_change_the_generated_counties_liege_in_the_files_effect = yes
 
 		if = {
 			limit = { character:Targaryen_13 = { is_alive = yes } }
@@ -36,11 +37,35 @@ vf_game_start = {
 		dynasty:dynn_Qorbareon = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
 		dynasty:dynn_Stavaryen = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
 		dynasty:dynn_Melnibone = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Jentys = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Azantys = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Issaros = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Jaelarys = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Zalarys = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Vaeritrix = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Aegustys = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Taenys = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Zaldrizys = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Vermaxos = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Paelinox = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Ramessid = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
 
 
 		dynasty:dynn_Atreides.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 		dynasty:dynn_Qorbareon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 		dynasty:dynn_Stavaryen.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 		dynasty:dynn_Melnibone.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Jentys.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Azantys.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Issaros.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Jaelarys.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Zalarys.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Vaeritrix.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Aegustys.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Taenys.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Zaldrizys.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Vermaxos.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Paelinox.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Ramessid.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 	}
 }

@@ -25,8 +25,16 @@ c_paelion = {
 
 d_oregon = {
 	7885.5.1 = {
-		holder = Mataeryon_1
+		holder = Stavaryen_1
 		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_oelyth = {
+	7885.5.1 = {
+		holder = Stavaryen_1
+		liege = d_oregon
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government
 	}
@@ -40,10 +48,26 @@ d_paletilla = {
 		government = freehold_government
 	}
 }
+c_yrnith = {
+	7885.5.1 = {
+		holder = Urnebar_1
+		liege = d_paletilla
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
 d_lentazma = {
 	7885.5.1 = {
 		holder = Sonaryen_1
 		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_maenythor = {
+	7885.5.1 = {
+		holder = Sonaryen_1
+		liege = d_lentazma
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government
 	}
