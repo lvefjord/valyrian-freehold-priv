@@ -790,7 +790,6 @@ Ramessid_1 = {
 	culture = high_valyrian
 
 	trait = education_martial_5
-	trait = pure_blooded
 	trait = arrogant
 	trait = ambitious
 	trait = brave
