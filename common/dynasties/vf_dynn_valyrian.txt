@@ -2,7 +2,6 @@
 
 # If adding valyrian and/or dragonriding dynasties, remember to add them to dynasty setup in vf_game_start.txt
 
-
 # HOUSE ATREIDES (id = dynn_Atreides)
 dynn_Atreides = {
 	name = "dynn_Atreides"
@@ -28,4 +27,58 @@ dynn_Melnibone = {
 	name = "dynn_Melnibone"
 	culture = "high_valyrian"
 	motto = dynn_Melnibone_motto # ?
+}
+
+dynn_Jentys = {
+	name = "dynn_Jentys"
+	culture = "high_valyrian"
+}
+dynn_Azantys = {
+	name = "dynn_Azantys"
+	culture = "high_valyrian"
+}
+
+dynn_Issaros = {
+	name = "dynn_Issaros"
+	culture = "high_valyrian"
+}
+
+dynn_Jaelarys = {
+	name = "dynn_Jaelarys"
+	culture = "high_valyrian"
+}
+
+dynn_Zalarys = {
+	name = "dynn_Zalarys"
+	culture = "high_valyrian"
+}
+
+dynn_Vaeritrix = {
+	name = "dynn_Vaeritrix"
+	culture = "high_valyrian"
+}
+
+dynn_Aegustys = {
+	name = "dynn_Aegustys"
+	culture = "high_valyrian"
+}
+
+dynn_Taenys = {
+	name = "dynn_Taenys"
+	culture = "high_valyrian"
+}
+
+dynn_Zaldrizys = {
+	name = "dynn_Zaldrizys"
+	culture = "high_valyrian"
+}
+
+dynn_Vermaxos = {
+	name = "dynn_Vermaxos"
+	culture = "high_valyrian"
+}
+
+dynn_Paelinox = {
+	name = "dynn_Paelinox"
+	culture = "high_valyrian"
 }

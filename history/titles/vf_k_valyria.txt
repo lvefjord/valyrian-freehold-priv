@@ -25,8 +25,16 @@ c_valyria = {
 
 d_aerebagon = {
 	7885.5.1 = {
-		holder = Stavaryen_1
+		holder = Melnibone_1
 		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_jaelion = {
+	7885.5.1 = {
+		holder = Melnibone_1
+		liege = d_aerebagon
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government
 	}
@@ -36,6 +44,175 @@ d_amazverdagon = {
 	7885.5.1 = {
 		holder = Qorbareon_2
 		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_naelrion = {
+	7885.5.1 = {
+		holder = Qorbareon_2
+		liege = d_amazverdagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_aeksakogon = {
+	7885.5.1 = {
+		holder = Jentys_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_haelthor = {
+	7885.5.1 = {
+		holder = Jentys_1
+		liege = d_aeksakogon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+
+d_albilemagon = {
+	7885.5.1 = {
+		holder = Jentys_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_vaeryth = {
+	7885.5.1 = {
+		holder = Jentys_1
+		liege = d_albilemagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_baririon = {
+	7885.5.1 = {
+		holder = Azantys_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_ulenor = {
+	7885.5.1 = {
+		holder = Azantys_1
+		liege = d_baririon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_geliotikun = {
+	7885.5.1 = {
+		holder = Issaros_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_elythar = {
+	7885.5.1 = {
+		holder = Issaros_1
+		liege = d_geliotikun
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_govilirion = {
+	7885.5.1 = {
+		holder = Jaelarys_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_zaelthor = {
+	7885.5.1 = {
+		holder = Jaelarys_1
+		liege = d_govilirion
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_bevumbagon = {
+	7885.5.1 = {
+		holder = Zalarys_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_gaelion = {
+	7885.5.1 = {
+		holder = Zalarys_1
+		liege = d_bevumbagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_daeremagon = {
+	7885.5.1 = {
+		holder = Vaeritrix_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_naelthor = {
+	7885.5.1 = {
+		holder = Vaeritrix_1
+		liege = d_daeremagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_dobotedaves = {
+	7885.5.1 = {
+		holder = Aegustys_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_oelyrion = {
+	7885.5.1 = {
+		holder = Aegustys_1
+		liege = d_dobotedaves
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_eledris = {
+	7885.5.1 = {
+		holder = Taenys_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_qaelrion = {
+	7885.5.1 = {
+		holder = Taenys_1
+		liege = d_eledris
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_engitsos = {
+	7885.5.1 = {
+		holder = Zaldrizys_1
+		liege = k_valyria
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_saelion = {
+	7885.5.1 = {
+		holder = Zaldrizys_1
+		liege = d_engitsos
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government
 	}

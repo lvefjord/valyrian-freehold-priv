@@ -41,4 +41,650 @@
 			gene_dragon_skin_hue = 1.0
 		}
 	}
+	if = { # Dragon_duncan
+	limit = { exists = character:dragon_duncan }
+	agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+		DRAGON = character:dragon_duncan
+		dragon_age = character:dragon_duncan.age
+		gene_dragon_skin_value = 0.06
+		gene_dragon_highlight_hue = 0.58
+		gene_dragon_highlight_value = 0.15
+		gene_dragon_eye_hue = 0.15
+		gene_dragon_eye_value = 0.50
+		gene_dragon_horn_hue = 0.93
+		gene_dragon_horn_value = 0.67
+		gene_dragon_brow_width = 0.27
+		gene_dragon_cheek_width = 0.48
+		gene_dragon_chin_profile = 0.89
+		gene_dragon_crest_depth = 0.66
+		gene_dragon_head_roundness = 0.28
+		gene_dragon_horns_eyebrow_length = 0.54
+		# Horn shape Template is 1-10
+		gene_dragon_main_horn_shape_template = 3
+		gene_dragon_main_horn_shape_value = 0.87
+		gene_dragon_jaw_width = 0.31
+		gene_dragon_lower_jaw_height = 0.38
+		gene_dragon_lower_jaw_width = 0.16
+		gene_dragon_old_neck = 0.61
+		gene_dragon_outer_brow_height = 0.61
+		gene_dragon_snout_height = 0.39
+		gene_dragon_snout_length = 0.03
+		gene_dragon_snout_profile = 0.18
+		gene_dragon_snout_width = 0.89
+		gene_dragon_upper_jaw_width = 0.95
+		gene_dragon_center_fin_size = 0.25
+		gene_dragon_back_spike_size = 0.66
+		gene_dragon_horns_eyebrow = 0.51
+		gene_dragon_neck_spike_size = 0.30
+		gene_dragon_side_fin_size = 0.86
+		gene_dragon_snout_end_width = 0.32
+		gene_dragon_neck_length = 0.88
+		gene_dragon_tail_length = 0.75
+		gene_dragon_skin_hue = 0.29
+		}
+	}
+
+	if = { # Dragon_jaeqaelix
+		limit = { exists = character:dragon_jaeqaelix }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_jaeqaelix
+			dragon_age = character:dragon_jaeqaelix.age
+			gene_dragon_skin_value = 0.61
+			gene_dragon_highlight_hue = 0.74
+			gene_dragon_highlight_value = 0.30
+			gene_dragon_eye_hue = 0.96
+			gene_dragon_eye_value = 0.13
+			gene_dragon_horn_hue = 0.79
+			gene_dragon_horn_value = 0.50
+			gene_dragon_brow_width = 0.48
+			gene_dragon_cheek_width = 0.91
+			gene_dragon_chin_profile = 0.30
+			gene_dragon_crest_depth = 0.36
+			gene_dragon_head_roundness = 0.39
+			gene_dragon_horns_eyebrow_length = 0.02
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 8
+			gene_dragon_main_horn_shape_value = 0.98
+			gene_dragon_jaw_width = 0.36
+			gene_dragon_lower_jaw_height = 0.09
+			gene_dragon_lower_jaw_width = 0.97
+			gene_dragon_old_neck = 0.90
+			gene_dragon_outer_brow_height = 0.23
+			gene_dragon_snout_height = 0.65
+			gene_dragon_snout_length = 0.14
+			gene_dragon_snout_profile = 0.04
+			gene_dragon_snout_width = 0.79
+			gene_dragon_upper_jaw_width = 0.60
+			gene_dragon_center_fin_size = 0.36
+			gene_dragon_back_spike_size = 0.65
+			gene_dragon_horns_eyebrow = 0.42
+			gene_dragon_neck_spike_size = 0.42
+			gene_dragon_side_fin_size = 0.18
+			gene_dragon_snout_end_width = 0.56
+			gene_dragon_neck_length = 0.19
+			gene_dragon_tail_length = 0.25
+			gene_dragon_skin_hue = 0.84
+		}
+	}
+
+	if = { # Dragon_shellox
+		limit = { exists = character:dragon_shellox }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_shellox
+			dragon_age = character:dragon_shellox.age
+			gene_dragon_skin_value = 0.64
+			gene_dragon_highlight_hue = 0.00
+			gene_dragon_highlight_value = 0.81
+			gene_dragon_eye_hue = 0.67
+			gene_dragon_eye_value = 0.90
+			gene_dragon_horn_hue = 0.73
+			gene_dragon_horn_value = 0.39
+			gene_dragon_brow_width = 0.95
+			gene_dragon_cheek_width = 0.82
+			gene_dragon_chin_profile = 0.29
+			gene_dragon_crest_depth = 0.38
+			gene_dragon_head_roundness = 0.71
+			gene_dragon_horns_eyebrow_length = 0.55
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 10
+			gene_dragon_main_horn_shape_value = 0.86
+			gene_dragon_jaw_width = 0.36
+			gene_dragon_lower_jaw_height = 0.26
+			gene_dragon_lower_jaw_width = 0.61
+			gene_dragon_old_neck = 0.16
+			gene_dragon_outer_brow_height = 0.27
+			gene_dragon_snout_height = 0.48
+			gene_dragon_snout_length = 0.54
+			gene_dragon_snout_profile = 0.87
+			gene_dragon_snout_width = 0.45
+			gene_dragon_upper_jaw_width = 0.42
+			gene_dragon_center_fin_size = 0.54
+			gene_dragon_back_spike_size = 0.66
+			gene_dragon_horns_eyebrow = 0.42
+			gene_dragon_neck_spike_size = 0.89
+			gene_dragon_side_fin_size = 0.75
+			gene_dragon_snout_end_width = 0.12
+			gene_dragon_neck_length = 0.19
+			gene_dragon_tail_length = 0.86
+			gene_dragon_skin_hue = 0.65
+		}
+	}
+
+	if = { # Dragon_arraks
+		limit = { exists = character:dragon_arraks }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_arraks
+			dragon_age = character:dragon_arraks.age
+			gene_dragon_skin_value = 0.99
+			gene_dragon_highlight_hue = 0.48
+			gene_dragon_highlight_value = 0.05
+			gene_dragon_eye_hue = 0.94
+			gene_dragon_eye_value = 0.62
+			gene_dragon_horn_hue = 0.57
+			gene_dragon_horn_value = 0.14
+			gene_dragon_brow_width = 0.53
+			gene_dragon_cheek_width = 0.46
+			gene_dragon_chin_profile = 0.98
+			gene_dragon_crest_depth = 0.39
+			gene_dragon_head_roundness = 0.34
+			gene_dragon_horns_eyebrow_length = 1.00
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 7
+			gene_dragon_main_horn_shape_value = 0.51
+			gene_dragon_jaw_width = 0.96
+			gene_dragon_lower_jaw_height = 0.07
+			gene_dragon_lower_jaw_width = 0.12
+			gene_dragon_old_neck = 0.14
+			gene_dragon_outer_brow_height = 0.74
+			gene_dragon_snout_height = 0.87
+			gene_dragon_snout_length = 0.08
+			gene_dragon_snout_profile = 0.29
+			gene_dragon_snout_width = 0.26
+			gene_dragon_upper_jaw_width = 0.95
+			gene_dragon_center_fin_size = 0.15
+			gene_dragon_back_spike_size = 0.10
+			gene_dragon_horns_eyebrow = 0.27
+			gene_dragon_neck_spike_size = 0.64
+			gene_dragon_side_fin_size = 0.25
+			gene_dragon_snout_end_width = 0.14
+			gene_dragon_neck_length = 0.71
+			gene_dragon_tail_length = 0.54
+			gene_dragon_skin_hue = 0.86
+		}
+	}
+
+	if = { # Dragon_bantāzma
+		limit = { exists = character:dragon_bantāzma }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_bantāzma
+			dragon_age = character:dragon_bantāzma.age
+			gene_dragon_skin_value = 0.88
+			gene_dragon_highlight_hue = 0.01
+			gene_dragon_highlight_value = 1.00
+			gene_dragon_eye_hue = 0.39
+			gene_dragon_eye_value = 0.12
+			gene_dragon_horn_hue = 0.09
+			gene_dragon_horn_value = 0.10
+			gene_dragon_brow_width = 0.98
+			gene_dragon_cheek_width = 0.63
+			gene_dragon_chin_profile = 0.70
+			gene_dragon_crest_depth = 0.25
+			gene_dragon_head_roundness = 0.15
+			gene_dragon_horns_eyebrow_length = 0.02
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 8
+			gene_dragon_main_horn_shape_value = 0.27
+			gene_dragon_jaw_width = 0.24
+			gene_dragon_lower_jaw_height = 0.79
+			gene_dragon_lower_jaw_width = 0.48
+			gene_dragon_old_neck = 0.14
+			gene_dragon_outer_brow_height = 0.67
+			gene_dragon_snout_height = 0.49
+			gene_dragon_snout_length = 0.82
+			gene_dragon_snout_profile = 0.74
+			gene_dragon_snout_width = 0.10
+			gene_dragon_upper_jaw_width = 0.49
+			gene_dragon_center_fin_size = 0.91
+			gene_dragon_back_spike_size = 0.31
+			gene_dragon_horns_eyebrow = 0.86
+			gene_dragon_neck_spike_size = 0.40
+			gene_dragon_side_fin_size = 0.70
+			gene_dragon_snout_end_width = 0.11
+			gene_dragon_neck_length = 0.17
+			gene_dragon_tail_length = 0.67
+			gene_dragon_skin_hue = 0.57
+		}
+	}
+
+	if = { # Dragon_ezarion
+		limit = { exists = character:dragon_ezarion }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_ezarion
+			dragon_age = character:dragon_ezarion.age
+			gene_dragon_skin_value = 0.48
+			gene_dragon_highlight_hue = 0.14
+			gene_dragon_highlight_value = 0.86
+			gene_dragon_eye_hue = 0.08
+			gene_dragon_eye_value = 0.21
+			gene_dragon_horn_hue = 0.34
+			gene_dragon_horn_value = 0.60
+			gene_dragon_brow_width = 0.49
+			gene_dragon_cheek_width = 0.31
+			gene_dragon_chin_profile = 0.46
+			gene_dragon_crest_depth = 0.94
+			gene_dragon_head_roundness = 0.15
+			gene_dragon_horns_eyebrow_length = 0.29
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 7
+			gene_dragon_main_horn_shape_value = 0.83
+			gene_dragon_jaw_width = 0.01
+			gene_dragon_lower_jaw_height = 0.14
+			gene_dragon_lower_jaw_width = 0.62
+			gene_dragon_old_neck = 0.24
+			gene_dragon_outer_brow_height = 0.93
+			gene_dragon_snout_height = 0.22
+			gene_dragon_snout_length = 0.18
+			gene_dragon_snout_profile = 0.76
+			gene_dragon_snout_width = 0.61
+			gene_dragon_upper_jaw_width = 0.05
+			gene_dragon_center_fin_size = 0.06
+			gene_dragon_back_spike_size = 0.38
+			gene_dragon_horns_eyebrow = 0.22
+			gene_dragon_neck_spike_size = 0.60
+			gene_dragon_side_fin_size = 0.09
+			gene_dragon_snout_end_width = 0.62
+			gene_dragon_neck_length = 0.14
+			gene_dragon_tail_length = 0.36
+			gene_dragon_skin_hue = 0.39
+		}
+	}
+
+	if = { # Dragon_geratrix
+		limit = { exists = character:dragon_geratrix }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_geratrix
+			dragon_age = character:dragon_geratrix.age
+			gene_dragon_skin_value = 0.58
+			gene_dragon_highlight_hue = 0.41
+			gene_dragon_highlight_value = 0.90
+			gene_dragon_eye_hue = 0.08
+			gene_dragon_eye_value = 0.64
+			gene_dragon_horn_hue = 0.09
+			gene_dragon_horn_value = 0.31
+			gene_dragon_brow_width = 0.17
+			gene_dragon_cheek_width = 0.63
+			gene_dragon_chin_profile = 0.88
+			gene_dragon_crest_depth = 0.75
+			gene_dragon_head_roundness = 0.23
+			gene_dragon_horns_eyebrow_length = 0.72
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 5
+			gene_dragon_main_horn_shape_value = 0.54
+			gene_dragon_jaw_width = 0.08
+			gene_dragon_lower_jaw_height = 0.38
+			gene_dragon_lower_jaw_width = 0.85
+			gene_dragon_old_neck = 0.30
+			gene_dragon_outer_brow_height = 0.12
+			gene_dragon_snout_height = 0.88
+			gene_dragon_snout_length = 0.73
+			gene_dragon_snout_profile = 0.73
+			gene_dragon_snout_width = 0.08
+			gene_dragon_upper_jaw_width = 0.14
+			gene_dragon_center_fin_size = 0.04
+			gene_dragon_back_spike_size = 0.69
+			gene_dragon_horns_eyebrow = 0.98
+			gene_dragon_neck_spike_size = 0.03
+			gene_dragon_side_fin_size = 0.44
+			gene_dragon_snout_end_width = 0.62
+			gene_dragon_neck_length = 0.04
+			gene_dragon_tail_length = 0.65
+			gene_dragon_skin_hue = 0.51
+		}
+	}
+
+	if = { # Dragon_katla
+		limit = { exists = character:dragon_katla }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_katla
+			dragon_age = character:dragon_katla.age
+			gene_dragon_skin_value = 0.11
+			gene_dragon_highlight_hue = 0.67
+			gene_dragon_highlight_value = 0.73
+			gene_dragon_eye_hue = 0.23
+			gene_dragon_eye_value = 0.32
+			gene_dragon_horn_hue = 0.73
+			gene_dragon_horn_value = 0.64
+			gene_dragon_brow_width = 0.65
+			gene_dragon_cheek_width = 0.52
+			gene_dragon_chin_profile = 0.68
+			gene_dragon_crest_depth = 0.47
+			gene_dragon_head_roundness = 0.08
+			gene_dragon_horns_eyebrow_length = 0.89
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 4
+			gene_dragon_main_horn_shape_value = 0.97
+			gene_dragon_jaw_width = 0.60
+			gene_dragon_lower_jaw_height = 0.06
+			gene_dragon_lower_jaw_width = 0.92
+			gene_dragon_old_neck = 0.37
+			gene_dragon_outer_brow_height = 0.67
+			gene_dragon_snout_height = 0.81
+			gene_dragon_snout_length = 0.43
+			gene_dragon_snout_profile = 0.52
+			gene_dragon_snout_width = 0.33
+			gene_dragon_upper_jaw_width = 0.14
+			gene_dragon_center_fin_size = 0.88
+			gene_dragon_back_spike_size = 0.68
+			gene_dragon_horns_eyebrow = 0.39
+			gene_dragon_neck_spike_size = 0.33
+			gene_dragon_side_fin_size = 0.08
+			gene_dragon_snout_end_width = 0.16
+			gene_dragon_neck_length = 0.05
+			gene_dragon_tail_length = 0.36
+			gene_dragon_skin_hue = 0.68
+		}
+	}
+
+	if = { # Dragon_gravyx
+		limit = { exists = character:dragon_gravyx }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_gravyx
+			dragon_age = character:dragon_gravyx.age
+			gene_dragon_skin_value = 0.88
+			gene_dragon_highlight_hue = 0.05
+			gene_dragon_highlight_value = 0.71
+			gene_dragon_eye_hue = 0.23
+			gene_dragon_eye_value = 0.85
+			gene_dragon_horn_hue = 0.01
+			gene_dragon_horn_value = 0.59
+			gene_dragon_brow_width = 0.02
+			gene_dragon_cheek_width = 0.69
+			gene_dragon_chin_profile = 0.20
+			gene_dragon_crest_depth = 0.28
+			gene_dragon_head_roundness = 0.30
+			gene_dragon_horns_eyebrow_length = 0.73
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 3
+			gene_dragon_main_horn_shape_value = 0.98
+			gene_dragon_jaw_width = 0.65
+			gene_dragon_lower_jaw_height = 0.67
+			gene_dragon_lower_jaw_width = 0.69
+			gene_dragon_old_neck = 0.94
+			gene_dragon_outer_brow_height = 0.82
+			gene_dragon_snout_height = 0.54
+			gene_dragon_snout_length = 0.12
+			gene_dragon_snout_profile = 0.53
+			gene_dragon_snout_width = 0.40
+			gene_dragon_upper_jaw_width = 0.04
+			gene_dragon_center_fin_size = 0.42
+			gene_dragon_back_spike_size = 0.25
+			gene_dragon_horns_eyebrow = 0.45
+			gene_dragon_neck_spike_size = 0.65
+			gene_dragon_side_fin_size = 0.22
+			gene_dragon_snout_end_width = 0.38
+			gene_dragon_neck_length = 0.94
+			gene_dragon_tail_length = 0.66
+			gene_dragon_skin_hue = 0.93
+		}
+	}
+
+	if = { # Dragon_zaesar
+		limit = { exists = character:dragon_zaesar }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_zaesar
+			dragon_age = character:dragon_zaesar.age
+			gene_dragon_skin_value = 0.08
+			gene_dragon_highlight_hue = 0.88
+			gene_dragon_highlight_value = 0.43
+			gene_dragon_eye_hue = 0.99
+			gene_dragon_eye_value = 0.18
+			gene_dragon_horn_hue = 0.76
+			gene_dragon_horn_value = 0.38
+			gene_dragon_brow_width = 0.35
+			gene_dragon_cheek_width = 0.73
+			gene_dragon_chin_profile = 0.96
+			gene_dragon_crest_depth = 0.91
+			gene_dragon_head_roundness = 0.74
+			gene_dragon_horns_eyebrow_length = 0.75
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 6
+			gene_dragon_main_horn_shape_value = 0.10
+			gene_dragon_jaw_width = 0.96
+			gene_dragon_lower_jaw_height = 0.66
+			gene_dragon_lower_jaw_width = 0.42
+			gene_dragon_old_neck = 0.29
+			gene_dragon_outer_brow_height = 0.43
+			gene_dragon_snout_height = 0.54
+			gene_dragon_snout_length = 0.30
+			gene_dragon_snout_profile = 0.64
+			gene_dragon_snout_width = 0.07
+			gene_dragon_upper_jaw_width = 0.22
+			gene_dragon_center_fin_size = 0.47
+			gene_dragon_back_spike_size = 0.70
+			gene_dragon_horns_eyebrow = 0.04
+			gene_dragon_neck_spike_size = 0.56
+			gene_dragon_side_fin_size = 0.67
+			gene_dragon_snout_end_width = 0.54
+			gene_dragon_neck_length = 0.43
+			gene_dragon_tail_length = 0.38
+			gene_dragon_skin_hue = 0.91
+		}
+	}
+
+	if = { # Dragon_arostys
+		limit = { exists = character:dragon_arostys }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_arostys
+			dragon_age = character:dragon_arostys.age
+			gene_dragon_skin_value = 0.70
+			gene_dragon_highlight_hue = 0.29
+			gene_dragon_highlight_value = 0.29
+			gene_dragon_eye_hue = 0.96
+			gene_dragon_eye_value = 0.23
+			gene_dragon_horn_hue = 0.80
+			gene_dragon_horn_value = 0.86
+			gene_dragon_brow_width = 0.09
+			gene_dragon_cheek_width = 0.70
+			gene_dragon_chin_profile = 0.68
+			gene_dragon_crest_depth = 0.05
+			gene_dragon_head_roundness = 0.14
+			gene_dragon_horns_eyebrow_length = 0.31
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 8
+			gene_dragon_main_horn_shape_value = 0.32
+			gene_dragon_jaw_width = 0.19
+			gene_dragon_lower_jaw_height = 0.39
+			gene_dragon_lower_jaw_width = 0.60
+			gene_dragon_old_neck = 0.77
+			gene_dragon_outer_brow_height = 0.03
+			gene_dragon_snout_height = 0.20
+			gene_dragon_snout_length = 0.65
+			gene_dragon_snout_profile = 0.14
+			gene_dragon_snout_width = 0.81
+			gene_dragon_upper_jaw_width = 0.81
+			gene_dragon_center_fin_size = 0.22
+			gene_dragon_back_spike_size = 0.99
+			gene_dragon_horns_eyebrow = 0.54
+			gene_dragon_neck_spike_size = 0.71
+			gene_dragon_side_fin_size = 0.63
+			gene_dragon_snout_end_width = 0.66
+			gene_dragon_neck_length = 0.34
+			gene_dragon_tail_length = 0.68
+			gene_dragon_skin_hue = 0.19
+		}
+	}
+
+	if = { # Dragon_haeron
+		limit = { exists = character:dragon_haeron }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_haeron
+			dragon_age = character:dragon_haeron.age
+			gene_dragon_skin_value = 0.96
+			gene_dragon_highlight_hue = 0.77
+			gene_dragon_highlight_value = 0.84
+			gene_dragon_eye_hue = 0.81
+			gene_dragon_eye_value = 0.53
+			gene_dragon_horn_hue = 0.82
+			gene_dragon_horn_value = 0.38
+			gene_dragon_brow_width = 0.33
+			gene_dragon_cheek_width = 0.87
+			gene_dragon_chin_profile = 0.49
+			gene_dragon_crest_depth = 0.45
+			gene_dragon_head_roundness = 0.70
+			gene_dragon_horns_eyebrow_length = 0.43
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 4
+			gene_dragon_main_horn_shape_value = 0.49
+			gene_dragon_jaw_width = 0.32
+			gene_dragon_lower_jaw_height = 0.31
+			gene_dragon_lower_jaw_width = 0.32
+			gene_dragon_old_neck = 0.29
+			gene_dragon_outer_brow_height = 0.19
+			gene_dragon_snout_height = 0.52
+			gene_dragon_snout_length = 0.79
+			gene_dragon_snout_profile = 0.30
+			gene_dragon_snout_width = 0.59
+			gene_dragon_upper_jaw_width = 0.59
+			gene_dragon_center_fin_size = 0.08
+			gene_dragon_back_spike_size = 0.78
+			gene_dragon_horns_eyebrow = 0.62
+			gene_dragon_neck_spike_size = 0.21
+			gene_dragon_side_fin_size = 0.47
+			gene_dragon_snout_end_width = 0.34
+			gene_dragon_neck_length = 0.30
+			gene_dragon_tail_length = 0.16
+			gene_dragon_skin_hue = 0.53
+		}
+	}
+
+	if = { # Dragon_blackfyre
+		limit = { exists = character:dragon_blackfyre }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_blackfyre
+			dragon_age = character:dragon_blackfyre.age
+			gene_dragon_skin_value = 0.10
+			gene_dragon_highlight_hue = 0.26
+			gene_dragon_highlight_value = 0.32
+			gene_dragon_eye_hue = 0.70
+			gene_dragon_eye_value = 0.48
+			gene_dragon_horn_hue = 0.61
+			gene_dragon_horn_value = 0.99
+			gene_dragon_brow_width = 0.76
+			gene_dragon_cheek_width = 0.86
+			gene_dragon_chin_profile = 0.54
+			gene_dragon_crest_depth = 0.28
+			gene_dragon_head_roundness = 0.24
+			gene_dragon_horns_eyebrow_length = 0.55
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 5
+			gene_dragon_main_horn_shape_value = 0.84
+			gene_dragon_jaw_width = 0.05
+			gene_dragon_lower_jaw_height = 0.63
+			gene_dragon_lower_jaw_width = 0.02
+			gene_dragon_old_neck = 0.11
+			gene_dragon_outer_brow_height = 0.73
+			gene_dragon_snout_height = 0.38
+			gene_dragon_snout_length = 0.66
+			gene_dragon_snout_profile = 0.67
+			gene_dragon_snout_width = 0.95
+			gene_dragon_upper_jaw_width = 0.83
+			gene_dragon_center_fin_size = 0.41
+			gene_dragon_back_spike_size = 0.55
+			gene_dragon_horns_eyebrow = 0.93
+			gene_dragon_neck_spike_size = 0.48
+			gene_dragon_side_fin_size = 0.02
+			gene_dragon_snout_end_width = 0.25
+			gene_dragon_neck_length = 0.23
+			gene_dragon_tail_length = 0.91
+			gene_dragon_skin_hue = 0.73
+		}
+	}
+
+	if = { # Dragon_pertinax
+		limit = { exists = character:dragon_pertinax }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_pertinax
+			dragon_age = character:dragon_pertinax.age
+			gene_dragon_skin_value = 0.88
+			gene_dragon_highlight_hue = 0.77
+			gene_dragon_highlight_value = 0.34
+			gene_dragon_eye_hue = 0.99
+			gene_dragon_eye_value = 0.44
+			gene_dragon_horn_hue = 0.03
+			gene_dragon_horn_value = 0.69
+			gene_dragon_brow_width = 0.82
+			gene_dragon_cheek_width = 0.08
+			gene_dragon_chin_profile = 0.80
+			gene_dragon_crest_depth = 0.89
+			gene_dragon_head_roundness = 0.56
+			gene_dragon_horns_eyebrow_length = 0.26
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 5
+			gene_dragon_main_horn_shape_value = 0.44
+			gene_dragon_jaw_width = 0.71
+			gene_dragon_lower_jaw_height = 0.45
+			gene_dragon_lower_jaw_width = 0.90
+			gene_dragon_old_neck = 0.69
+			gene_dragon_outer_brow_height = 0.80
+			gene_dragon_snout_height = 0.91
+			gene_dragon_snout_length = 0.53
+			gene_dragon_snout_profile = 0.02
+			gene_dragon_snout_width = 0.86
+			gene_dragon_upper_jaw_width = 0.53
+			gene_dragon_center_fin_size = 0.36
+			gene_dragon_back_spike_size = 0.38
+			gene_dragon_horns_eyebrow = 0.65
+			gene_dragon_neck_spike_size = 0.37
+			gene_dragon_side_fin_size = 0.13
+			gene_dragon_snout_end_width = 0.88
+			gene_dragon_neck_length = 0.97
+			gene_dragon_tail_length = 0.37
+			gene_dragon_skin_hue = 0.93
+		}
+	}
+
+	if = { # Dragon_seti
+		limit = { exists = character:dragon_seti }
+		agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
+			DRAGON = character:dragon_seti
+			dragon_age = character:dragon_seti.age
+			gene_dragon_skin_value = 0.48
+			gene_dragon_highlight_hue = 0.38
+			gene_dragon_highlight_value = 0.52
+			gene_dragon_eye_hue = 0.24
+			gene_dragon_eye_value = 0.79
+			gene_dragon_horn_hue = 0.98
+			gene_dragon_horn_value = 0.51
+			gene_dragon_brow_width = 0.33
+			gene_dragon_cheek_width = 0.74
+			gene_dragon_chin_profile = 0.13
+			gene_dragon_crest_depth = 0.13
+			gene_dragon_head_roundness = 0.08
+			gene_dragon_horns_eyebrow_length = 0.75
+			# Horn shape Template is 1-10
+			gene_dragon_main_horn_shape_template = 1
+			gene_dragon_main_horn_shape_value = 0.36
+			gene_dragon_jaw_width = 0.03
+			gene_dragon_lower_jaw_height = 0.39
+			gene_dragon_lower_jaw_width = 0.58
+			gene_dragon_old_neck = 0.96
+			gene_dragon_outer_brow_height = 0.87
+			gene_dragon_snout_height = 0.74
+			gene_dragon_snout_length = 0.85
+			gene_dragon_snout_profile = 0.82
+			gene_dragon_snout_width = 0.94
+			gene_dragon_upper_jaw_width = 0.47
+			gene_dragon_center_fin_size = 0.89
+			gene_dragon_back_spike_size = 0.01
+			gene_dragon_horns_eyebrow = 0.67
+			gene_dragon_neck_spike_size = 0.08
+			gene_dragon_side_fin_size = 0.98
+			gene_dragon_snout_end_width = 0.79
+			gene_dragon_neck_length = 0.58
+			gene_dragon_tail_length = 0.73
+			gene_dragon_skin_hue = 0.17
+		}
+	}
+
+
 }

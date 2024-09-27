@@ -28,11 +28,11 @@ c_valthar = {
 		 holder = mrcount_6
 	}
 }
-c_oelyth = {
-	7883.9.14 = {
-		 holder = mrcount_7
-	}
-}
+#c_oelyth = {
+#	7883.9.14 = {
+#		 holder = mrcount_7
+#	}
+#}
 c_qaenor = {
 	7883.12.12 = {
 		 holder = mrcount_8
@@ -63,11 +63,11 @@ c_vaelythor = {
 		 holder = mrcount_13
 	}
 }
-c_yrnith = {
-	7883.6.10 = {
-		 holder = mrcount_14
-	}
-}
+#c_yrnith = {
+#	7883.6.10 = {
+#		 holder = mrcount_14
+#	}
+#}
 c_zhaenor = {
 	7882.3.24 = {
 		 holder = mrcount_15
@@ -168,16 +168,16 @@ c_aelion = {
 		 holder = mrcount_35
 	}
 }
-c_zaelthor = {
-	7875.9.7 = {
-		 holder = mrcount_36
-	}
-}
-c_vaenor = {
-	7874.6.15 = {
-		 holder = mrcount_37
-	}
-}
+#c_zaelthor = {
+#	7875.9.7 = {
+#		 holder = mrcount_36
+#	}
+#}
+#c_vaenor = {
+#	7874.6.15 = {
+#		 holder = mrcount_37
+#	}
+#}
 c_jaenyth = {
 	7884.4.2 = {
 		 holder = mrcount_38
@@ -188,16 +188,16 @@ c_laenith = {
 		 holder = mrcount_39
 	}
 }
-c_elythar = {
-	7886.8.20 = {
-		 holder = mrcount_40
-	}
-}
-c_naelrion = {
-	7881.6.23 = {
-		 holder = mrcount_41
-	}
-}
+#c_elythar = {
+#	7886.8.20 = {
+#		 holder = mrcount_40
+#	}
+#}
+#c_naelrion = {
+#	7881.6.23 = {
+#		 holder = mrcount_41
+#	}
+#}
 c_paenor = {
 	7878.7.15 = {
 		 holder = mrcount_42
@@ -218,16 +218,16 @@ c_xaelor = {
 		 holder = mrcount_45
 	}
 }
-c_ulenor = {
-	7877.9.3 = {
-		 holder = mrcount_46
-	}
-}
-c_saelion = {
-	7885.10.24 = {
-		 holder = mrcount_47
-	}
-}
+#c_ulenor = {
+#	7877.9.3 = {
+#		 holder = mrcount_46
+#	}
+#}
+#c_saelion = {
+#	7885.10.24 = {
+#		 holder = mrcount_47
+#	}
+#}
 c_ilyzor = {
 	7877.11.24 = {
 		 holder = mrcount_48
@@ -263,21 +263,21 @@ c_haerith = {
 		 holder = mrcount_55
 	}
 }
-c_vaeryth = {
-	7880.2.13 = {
-		 holder = mrcount_56
-	}
-}
+#c_vaeryth = {
+#	7880.2.13 = {
+#		 holder = mrcount_56
+#	}
+#}
 c_xaenor = {
 	7880.11.24 = {
 		 holder = mrcount_57
 	}
 }
-c_jaelion = {
-	7881.9.20 = {
-		 holder = mrcount_58
-	}
-}
+#c_jaelion = {
+#	7881.9.20 = {
+#		 holder = mrcount_58
+#	}
+#}
 c_naenith = {
 	7873.5.27 = {
 		 holder = mrcount_59
@@ -298,11 +298,11 @@ c_qaenith = {
 		 holder = mrcount_62
 	}
 }
-c_gaelion = {
-	7881.1.24 = {
-		 holder = mrcount_63
-	}
-}
+#c_gaelion = {
+#	7881.1.24 = {
+#		 holder = mrcount_63
+#	}
+#}
 c_saenor = {
 	7887.5.4 = {
 		 holder = mrcount_64
@@ -328,36 +328,36 @@ c_rhaelyth = {
 		 holder = mrcount_68
 	}
 }
-c_naelthor = {
-	7886.10.19 = {
-		 holder = mrcount_69
-	}
-}
+#c_naelthor = {
+#	7886.10.19 = {
+#		 holder = mrcount_69
+#	}
+#}
 c_valenor = {
 	7878.12.4 = {
 		 holder = mrcount_70
 	}
 }
-c_oelyrion = {
-	7887.7.20 = {
-		 holder = mrcount_71
-	}
-}
-c_qaelrion = {
-	7873.6.27 = {
-		 holder = mrcount_72
-	}
-}
+#c_oelyrion = {
+#	7887.7.20 = {
+#		 holder = mrcount_71
+#	}
+#}
+#c_qaelrion = {
+#	7873.6.27 = {
+#		 holder = mrcount_72
+#	}
+#}
 c_gaelyr = {
 	7878.12.21 = {
 		 holder = mrcount_73
 	}
 }
-c_haelthor = {
-	7878.5.2 = {
-		 holder = mrcount_74
-	}
-}
+#c_haelthor = {
+#	7878.5.2 = {
+#		 holder = mrcount_74
+#	}
+#}
 c_maeryn = {
 	7881.9.27 = {
 		 holder = mrcount_75
@@ -443,21 +443,21 @@ c_faelith = {
 		 holder = mrcount_92
 	}
 }
-c_oelrynor = {
-	7878.6.1 = {
-		 holder = mrcount_93
-	}
-}
+#c_oelrynor = {
+#	7878.6.1 = {
+#		 holder = mrcount_93
+#	}
+#}
 c_qaelthor = {
 	7884.3.14 = {
 		 holder = mrcount_94
 	}
 }
-c_brynysor = {
-	7881.9.8 = {
-		 holder = mrcount_95
-	}
-}
+#c_brynysor = {
+#	7881.9.8 = {
+#		 holder = mrcount_95
+#	}
+#}
 c_xaelionor = {
 	7881.1.22 = {
 		 holder = mrcount_96
@@ -543,11 +543,11 @@ c_ilyrion = {
 		 holder = mrcount_112
 	}
 }
-c_maenythor = {
-	7880.3.2 = {
-		 holder = mrcount_113
-	}
-}
+#c_maenythor = {
+#	7880.3.2 = {
+#		 holder = mrcount_113
+#	}
+#}
 c_brythorion = {
 	7886.3.29 = {
 		 holder = mrcount_114

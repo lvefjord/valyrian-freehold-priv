@@ -3,7 +3,7 @@
 # HOUSE ATREIDES (id = dynn_Atreides)
 # There is only power, and those too weak to seek it
 Atreides_1 = {
-	name = Daemon # Daemon, the Sword of the Evening
+	name = Daemon # Daemon, the Sword of the Evening | Dragonlord 1/39
 	dynasty = dynn_Atreides
 	dna = Atreides_1
 
@@ -35,7 +35,7 @@ Atreides_1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
-	7882.1.1 = { trait = dragonrider } # PH Dragon (Create)
+	7882.1.1 = { trait = dragonrider } # Duncan (Create)
 	7885.1.1 = {
 		give_nickname = nick_the_sword_of_the_evening
 		effect = { 
@@ -110,7 +110,7 @@ Qorbareon_1 = {
 	}
 }
 Qorbareon_2 = {
-	name = Rhaemon # Lord Rhaemon Qorbareon
+	name = Rhaemon # Lord Rhaemon Qorbareon | Dragonlord 2/39
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_2
 
@@ -140,6 +140,7 @@ Qorbareon_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7871.1.1 = { trait = dragonrider } # Jaeqaelix (NC)
 	7872.1.1 = { add_spouse = Qorbareon_1 } # Rhaelene Qorbareon
 	7888.1.1 = { add_spouse = Qorbareon_9 } # Aemma Qorbareon
 }
@@ -348,7 +349,7 @@ Qorbareon_9 = {
 
 # HOUSE STAVARYEN (id = dynn_Stavaryen) IN HONOR OF QAnon
 Stavaryen_1 = {
-	name = Vargo # Lord Vargo Stavaryen
+	name = Vargo # Lord Vargo Stavaryen | Dragonlord 3/39
 	dynasty = dynn_Stavaryen
 	dna = Stavaryen_1
 
@@ -375,6 +376,7 @@ Stavaryen_1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7833.1.1 = { trait = dragonrider } # Shellox (NC)
 	7852.1.1 = { add_spouse = Stavaryen_2 } # Norenya Stavaryen
 }
 Stavaryen_2 = {
@@ -565,7 +567,7 @@ Stavaryen_7 = {
 }
 
 Melnibone_1 = {
-	name = Elric # The White Wolf
+	name = Elric # The White Wolf | Dragonlord 4/39
 	dynasty = dynn_Melnibone
 	dna = Targaryen_96
 
@@ -603,4 +605,204 @@ Melnibone_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+}
+
+Jentys_1 = {
+	name = Daeron # Dragonlord 5/39
+	dynasty = dynn_Jentys
+
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_3
+
+	disallow_random_traits = yes
+
+	7860.3.4 = {
+		birth = yes
+	}
+	7871.1.1 = { trait = dragonrider } # Arraks (NC(Not Created))
+}
+Azantys_1 = {
+	name = Aenys # Dragonlord 6/39
+	dynasty = dynn_Azantys
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+
+	disallow_random_traits = yes
+
+	7843.12.27 = {
+		birth = yes
+	}
+	7855.1.1 = { trait = dragonrider } # Bantāzma (NC)
+}
+
+Issaros_1 = {
+	name = Daegon # Dragonlord 7/39
+	dynasty = dynn_Issaros
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_learning_4
+
+	disallow_random_traits = yes
+
+	7861.1.1 = {
+		birth = yes
+	}
+	7875.1.1 = { trait = dragonrider } # Ezarion (NC)
+}
+Jaelarys_1 = {
+	name = Aerys # Dragonlord 8/39
+	dynasty = dynn_Jaelarys
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_4
+
+	disallow_random_traits = yes
+
+	7865.1.1 = {
+		birth = yes
+	}
+	7878.1.1 = { trait = dragonrider } # Geratrix (NC)
+}
+Zalarys_1 = {
+	name = Vaegon # Dragonlord 9/39
+	dynasty = dynn_Zalarys
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+
+	disallow_random_traits = yes
+
+	7858.1.1 = {
+		birth = yes
+	}
+	7871.1.1 = { trait = dragonrider } # Katla (NC)
+}
+Vaeritrix_1 = {
+	name = Aelyx # Dragonlord 10/39
+	dynasty = dynn_Vaeritrix
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_learning_4
+
+	disallow_random_traits = yes
+
+	7871.1.1 = {
+		birth = yes
+	}
+	7887.1.1 = { trait = dragonrider } # Gravyx (NC)
+}
+Aegustys_1 = {
+	name = Octaevien # Dragonlord 11/39
+	dynasty = dynn_Aegustys
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_5
+	trait = intellect_good_3
+	trait = shrewd
+	trait = ambitious
+	trait = diligent
+	trait = patient
+	trait = calm
+	trait = administrator
+
+	disallow_random_traits = yes
+
+	7868.1.1 = {
+		birth = yes
+	}
+	7878.1.1 = { trait = dragonrider } # Zaesar (NC)
+}
+Taenys_1 = {
+	name = Viserion # Dragonlord 12/39
+	dynasty = dynn_Taenys
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_4
+
+	disallow_random_traits = yes
+
+	7832.1.1 = {
+		birth = yes
+	}
+	7854.1.1 = { trait = dragonrider } # Arostys (NC)
+}
+Zaldrizys_1 = {
+	name = Aemon # Dragonlord 13/39
+	dynasty = dynn_Zaldrizys
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+
+	disallow_random_traits = yes
+
+	7846.1.1 = {
+		birth = yes
+	}
+	7865.1.1 = { trait = dragonrider } # Haeron (NC)
+}
+Vermaxos_1 = {
+	name = Faegon # Dragonlord 14/39
+	dynasty = dynn_Vermaxos
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_learning_4
+
+	disallow_random_traits = yes
+
+	7857.4.17 = {
+		birth = yes
+	}
+	7877.1.1 = { trait = dragonrider } # Blackfyre (NC)
+}
+Paelinox_1 = {
+	name = Aegon # Dragonlord 15/39
+	dynasty = dynn_Paelinox
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+
+	disallow_random_traits = yes
+
+	7869.10.25 = {
+		birth = yes
+	}
+	7882.1.1 = { trait = dragonrider } # Pertinax (NC)
+}
+
+Ramessid_1 = {
+	name = Ramesys # Dragonlord 16/39
+	dynasty = dynn_Ramessid
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_5
+	trait = pure_blooded
+	trait = arrogant
+	trait = ambitious
+	trait = brave
+	trait = patient
+	trait = august
+	trait = strong
+	trait = shrewd
+
+	disallow_random_traits = yes
+
+	7857.1.1 = {
+		birth = yes
+	}
+	7871.1.1 = { trait = dragonrider } # Seti (NC)
 }
