@@ -88,7 +88,7 @@ agot_create_artifact_vs_dusk_effect = {
 		agot_add_artifact_history = { # Sword of the Evening
 			ARTIFACT = this
 			TYPE = inherited
-			DATE = 7896.1.1
+			DATE = 7885.1.1
 			RECIPIENT = character:Atreides_1
 		}
 	}

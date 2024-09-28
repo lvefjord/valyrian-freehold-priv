@@ -1,0 +1,22 @@
+﻿vs_dusk_template = {
+	can_equip = {
+		custom_tooltip = {
+			text = claimed_dusk_desc
+			has_character_flag = claimed_dusk
+		}
+	}
+	can_benefit = {
+		custom_tooltip = {
+			text = sword_of_the_evening_desc
+			has_character_flag = is_sword_of_evening
+		}
+	}
+	fallback = {
+		prowess_no_portrait = 10
+		general_opinion = -15
+	}
+	unique = yes
+	ai_score = {
+		value = 100
+	}
+}
