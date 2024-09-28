@@ -1,8 +1,8 @@
-﻿doctrine_polygamy = {
+﻿doctrine_valyrian_polygamy = {
 		piety_cost = {
 			value = faith_doctrine_cost_mid
 			if = {
-				limit = { has_doctrine = doctrine_polygamy }
+				limit = { has_doctrine = doctrine_valyrian_polygamy }
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 		}
