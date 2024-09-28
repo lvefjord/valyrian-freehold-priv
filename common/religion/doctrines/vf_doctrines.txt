@@ -1,4 +1,6 @@
-﻿doctrine_valyrian_polygamy = {
+﻿doctrine_marriage_type = {
+	group = "marriage"
+	doctrine_valyrian_polygamy = {
 		piety_cost = {
 			value = faith_doctrine_cost_mid
 			if = {
@@ -11,3 +13,4 @@
 			spouse_piety_loss = no
 		}
 	}
+}
