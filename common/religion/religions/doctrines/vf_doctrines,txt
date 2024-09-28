@@ -1,0 +1,13 @@
+﻿doctrine_polygamy = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_polygamy }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			number_of_spouses = 2
+			spouse_piety_loss = yes
+		}
+	}
