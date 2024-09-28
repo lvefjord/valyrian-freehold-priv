@@ -1,0 +1,163 @@
+﻿reforge_valyrian_steel_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+
+	sort_order = 76
+
+	cost = { }
+
+	desc = reforge_valyrian_steel_decision_desc
+
+	is_shown = {
+		any_character_artifact = {
+			has_variable = valyrian_steel
+			NOT = { has_variable = dusk_artifact }
+		}
+	}
+
+	is_valid = {
+		employs_court_position = court_smith_court_position
+		custom_tooltip = {
+			text = reforge_valyrian_steel_excellent_aptitude
+			any_court_position_holder = {
+				type = court_smith_court_position
+				aptitude = {
+					court_position = court_smith_court_position
+					value >= 4
+				}
+			}
+		}
+		prestige >= massive_prestige_value
+		short_term_gold >= 1000
+	}
+
+	ai_check_interval = 0
+
+	ai_potential = { always = no }
+
+	effect = {
+		trigger_event = agot_valyrian_steel.8000
+
+		custom_tooltip = reforge_valyrian_steel_decision.tt
+	}
+}
+
+claim_dusk_worthy_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	major = yes
+
+	sort_order = 1
+
+	cost = { }
+
+	desc = claim_dusk_worthy_decision_desc
+
+	is_shown = {
+		worthy_sword_of_the_evening_trigger = yes
+		any_character_artifact = {
+			has_artifact_modifier = vs_dusk_modifier
+		}
+		NOT = { has_character_flag = claimed_dusk }
+	}
+
+	is_valid = {
+		worthy_sword_of_the_evening_trigger = yes
+	}
+
+	ai_check_interval = 60
+
+	ai_potential = { always = yes }
+
+	ai_will_do = { base = 100 }
+
+	effect = {
+		give_nickname = nick_the_sword_of_the_evening
+
+		add_character_flag = claimed_dusk
+		add_character_flag = is_sword_of_evening
+
+		random_character_artifact = {
+			limit  = { has_artifact_modifier = vs_dusk_modifier }
+			save_scope_as = dusk
+		}
+
+		add_prestige = massive_prestige_value
+		add_prestige_level = 1
+
+		hidden_effect = {
+			scope:dusk = {
+				equip_artifact_to_owner_replace = yes
+			}
+		}
+	}
+}
+
+claim_dusk_unworthy_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+
+	sort_order = 1
+
+	cost = { prestige = 1000 }
+
+	desc = claim_dusk_unworthy_decision_desc
+
+	is_shown = {
+		worthy_sword_of_the_evening_trigger = no
+		any_character_artifact = {
+			has_artifact_modifier = vs_dusk_modifier
+		}
+		NOT = { has_character_flag = claimed_dusk }
+	}
+
+	is_valid = {
+		NAND = {
+			dynasty = dynasty:dynn_Atreides
+			OR = {
+				has_trait = education_martial_prowess_4
+				has_trait = education_martial_prowess_5
+			}
+			prowess >= 20
+			OR = {
+				has_trait = just
+				has_trait = brave
+			}
+			NOR = {
+				has_trait = murderer
+				has_trait = kinslayer
+				has_trait = gluttonous
+				has_trait = greedy
+				has_trait = lazy
+				has_trait = callous
+				has_trait = sadistic
+				has_trait = deceitful
+				has_trait = drunkard
+				has_trait = craven
+				has_trait = arbitrary
+				has_trait = torturer
+				has_trait = physique_bad
+			}
+		}
+	}
+
+	ai_check_interval = 0
+
+	ai_potential = { always = no }
+
+	ai_will_do = { base = 100 }
+
+	effect = {
+		add_character_flag = claimed_dusk
+
+		random_character_artifact = {
+			limit  = { has_artifact_modifier = vs_dusk_modifier }
+			save_scope_as = dusk
+		}
+
+		add_prestige_level = -1
+
+		hidden_effect = {
+			scope:dusk = {
+				equip_artifact_to_owner_replace = yes
+			}
+		}
+	}
+}
