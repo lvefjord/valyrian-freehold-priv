@@ -161,7 +161,7 @@ valyrian_religion = {
 			doctrine = doctrine_theocracy_temporal
 			doctrine = doctrine_spiritual_head
 
-			doctrine = doctrine_polygamy
+			doctrine = doctrine_valyrian_polygamy
 			doctrine = doctrine_divorce_approval
 			doctrine = doctrine_bastardry_legitimization
 			doctrine = doctrine_consanguinity_siblings
