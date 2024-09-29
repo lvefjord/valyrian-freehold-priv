@@ -1,0 +1,7 @@
+﻿if = { # Dusk - Meteoric sword of house Atreides
+	limit = { always = yes }
+	if = {
+		limit = { game_start_date >= character:7888.1.1 }
+		character:Atreides_1 ?= { agot_create_artifact_vs_dusk_effect = { OWNER = THIS } }
+	}
+}

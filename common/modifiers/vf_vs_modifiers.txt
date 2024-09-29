@@ -5,3 +5,10 @@
 	health = 1
 	dread_baseline_add = 100
 }
+vs_dusk_modifier = {
+	prowess_no_portrait = 10
+	monthly_dynasty_prestige_mult = 0.05
+	monthly_prestige = 0.5
+	domain_tax_mult = 0.05
+	domain_limit = 1
+}
