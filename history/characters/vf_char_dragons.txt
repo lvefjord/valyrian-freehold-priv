@@ -608,3 +608,707 @@ dragon_seti = {
 		}
 	}
 }
+
+dragon_ronyx = {
+	name = Ronyx
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7665.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7822.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Roloros_1 # Maegon
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_orix = {
+	name = Orix
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7760.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7838.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Aderion_1 # Daria
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_noctus = {
+	name = Noctus
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7694.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7832.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Doros_1 # Ebiron
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_draxxis = {
+	name = Draxxis
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7712.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7864.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Danderion_1 # Alion
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_binx = {
+	name = Binx
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7799.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7869.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Vyros_1 # Jaerjaerys
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_maraxis = {
+	name = Maraxis
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7691.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7805.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Festerion_1 # Karlerys
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_seiless = {
+	name = Seiless
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7650.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7868.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Bargerion_1 # Illio
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_stix = {
+	name = Stix
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7652.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7868.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Tavaros_1 # Aemor
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_vexion = {
+	name = Vexion
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7752.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7868.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Heilor_1 # Aegar
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_nyx = {
+	name = Nyx
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7702.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7871.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Vaemerian_2 # Maron
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_wormax = {
+	name = Wormax
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7635.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7868.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Zumeryon_1 # Maegor
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_gorax = {
+	name = Gorax
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7650.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7870.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Jultarion_1 # Faedor
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_barthor = {
+	name = Barthor
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7699.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7869.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Hanserion_1 # Vargon
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_rexiax = {
+	name = Rexiax
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7719.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7860.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Ullaryon_1 # Ilythra
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_neltrix = {
+	name = Neltrix
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7834.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7880.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Penloryon_1 # Sorylla
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_vhalix = {
+	name = Vhalix
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7816.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7886.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Vuloryon_1 # Zaelor
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_rend = {
+	name = Rend
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7712.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7879.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Orarion_1 # Loryx
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_tearmax = {
+	name = Tearmax
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7750.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7869.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Musarion_1 # Vaemir
+				DRAGON = ROOT
+			}
+		}
+	}
+}
+dragon_verox = {
+	name = Verox
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_5 # Grew up in Valyria
+	trait = dragon_physique_good_2
+	trait = dragon_calculating
+	trait = dragon_restrained
+	trait = dragon_imperious
+
+	disallow_random_traits = yes
+
+	7688.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+				name = color_grading
+				value = flag:lightest
+			}
+			set_variable = {
+				name = color
+				value = flag:white
+			}
+		}
+	}
+	7869.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Nilfarion_1 # Coryella
+				DRAGON = ROOT
+			}
+		}
+	}
+}
