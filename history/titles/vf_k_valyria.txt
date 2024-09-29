@@ -75,7 +75,7 @@ c_haelthor = {
 
 d_albilemagon = {
 	7885.5.1 = {
-		holder = Jentys_1
+		holder = Festerion_1
 		liege = k_valyria
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government
@@ -83,7 +83,7 @@ d_albilemagon = {
 }
 c_vaeryth = {
 	7885.5.1 = {
-		holder = Jentys_1
+		holder = Festerion_1
 		liege = d_albilemagon
 		succession_laws = { freehold_archonate_succession_attached_titles_law }
 		government = freehold_government

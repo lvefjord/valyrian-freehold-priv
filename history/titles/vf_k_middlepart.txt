@@ -70,3 +70,131 @@ c_oelrynor = {
 		government = freehold_government
 	}
 }
+d_jelebagon = {
+	7885.5.1 = {
+		holder = Tavaros_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_ilythar = {
+	7885.5.1 = {
+		holder = Tavaros_1
+		liege = d_jelebagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_keskydoso = {
+	7885.5.1 = {
+		holder = Heilor_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_jaelys = {
+	7885.5.1 = {
+		holder = Heilor_1
+		liege = d_keskydoso
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_kisagon = {
+	7885.5.1 = {
+		holder = Vaemerian_2
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_zhaeryth = {
+	7885.5.1 = {
+		holder = Vaemerian_2
+		liege = d_kisagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_jaehenka = {
+	7885.5.1 = {
+		holder = Zumeryon_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_aerionor = {
+	7885.5.1 = {
+		holder = Zumeryon_1
+		liege = d_jaehenka
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_meri = {
+	7885.5.1 = {
+		holder = Jultarion_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_jaeryn = {
+	7885.5.1 = {
+		holder = Jultarion_1
+		liege = d_meri
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_qelilla = {
+	7885.5.1 = {
+		holder = Hanserion_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_faelith = {
+	7885.5.1 = {
+		holder = Hanserion_1
+		liege = d_qelilla
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_qanemagon = {
+	7885.5.1 = {
+		holder = Ullaryon_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_zhaelthor = {
+	7885.5.1 = {
+		holder = Ullaryon_1
+		liege = d_qanemagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_qablos = {
+	7885.5.1 = {
+		holder = Penloryon_1
+		liege = k_firekingdom
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_elythorion = {
+	7885.5.1 = {
+		holder = Penloryon_1
+		liege = d_qablos
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}

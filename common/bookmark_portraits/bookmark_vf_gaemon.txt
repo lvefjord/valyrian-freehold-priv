@@ -2,7 +2,7 @@
 # History database id:Targaryen_14
 bookmark_vf_gaemon={
 	type=male
-	id=6060
+	id=7224
 	age=0.200000
 	genes={ 		hair_color={ 10 14 10 14 }
  		skin_color={ 39 4 39 4 }
@@ -91,13 +91,13 @@ bookmark_vf_gaemon={
  		face_detail_nose_tip_def={ "nose_tip_def" 235 "nose_tip_def" 235 }
  		face_detail_temple_def={ "temple_def" 199 "temple_def" 199 }
  		expression_brow_wrinkles={ "brow_wrinkles_03" 49 "brow_wrinkles_03" 49 }
- 		expression_eye_wrinkles={ "eye_wrinkles_03" 126 "eye_wrinkles_03" 118 }
+ 		expression_eye_wrinkles={ "eye_wrinkles_03" 130 "eye_wrinkles_03" 118 }
  		expression_forehead_wrinkles={ "forehead_wrinkles_01" 53 "forehead_wrinkles_01" 53 }
  		expression_other={ "cheek_wrinkles_both_01" 43 "cheek_wrinkles_both_01" 43 }
  		complexion={ "complexion_37" 54 "complexion_37" 54 }
  		gene_height={ "normal_height" 121 "normal_height" 121 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 123 "body_fat_head_fat_full" 129 }
- 		gene_bs_body_shape={ "body_shape_hourglass_half" 121 "body_shape_pear_half" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 111 "body_fat_head_fat_full" 129 }
+ 		gene_bs_body_shape={ "body_shape_hourglass_half" 111 "body_shape_pear_half" 0 }
  		gene_bs_bust={ "bust_clothes" 69 "bust_shape_1_half" 87 }
  		gene_age={ "old_1" 239 "old_1" 239 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 132 "avg_spacing_lower_thickness" 132 }
@@ -175,9 +175,10 @@ bookmark_vf_gaemon={
  		gene_no_portrait={ "normal_portrait" 127 "normal_portrait" 127 }
  		hair_aging={ "vanilla_hair_aging" 33 "vanilla_hair_aging" 33 }
  		pose={ "" 255 "" 0 }
+ 		beards={ "no_beard" 0 "no_beard" 0 }
  		cloaks={ "no_cloak" 255 "no_cloak" 0 }
  		hairstyles={ "all_hairstyles" 236 "all_hairstyles" 0 }
- 		legwear={ "agot_boots_legwear" 173 "all_legwear" 0 }
+ 		legwear={ "western_common_legwear" 66 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_shrink_agot={ "shrink_bodice" 255 "shrink_bodice" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
@@ -188,9 +189,8 @@ bookmark_vf_gaemon={
  		cosmetics_foundation={ "foundation_none" 255 "foundation_none" 0 }
  		cosmetics_blush={ "blush_none" 255 "blush_none" 0 }
  		cosmetics_lipcolor={ "lipcolor_none" 255 "lipcolor_none" 0 }
- 		clothes={ "agot_stormlander_high_fabrics" 39 "most_clothes" 0 }
- 		headgear={ "no_headgear" 247 "no_headgear" 0 }
- 		beards={ "no_beard" 0 "no_beard" 0 }
+ 		clothes={ "ep2_western_era3_high_nobility_clothes" 241 "most_clothes" 0 }
+ 		headgear={ "no_headgear" 105 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 979141817 979141817 }
@@ -208,6 +208,10 @@ bookmark_vf_gaemon={
 		}
  {
 			hash=1563190100
+			invert=no
+		}
+ {
+			hash=1945936758
 			invert=no
 		}
  }

@@ -1,9 +1,20 @@
-﻿	#effect = { ### MAKE DRAGONS FOR THE MAIN GUYS > GIVE THEM DRAGONRIDER > PUT THIS IN THE DRAGONS HISTORY EFFECT
+﻿	#effect = { ### MAKE DRAGONS FOR THE MAIN GUYS > GIVE THEM DRAGONRIDER > AT LEAST ALL OF THESE FOR EACH DRAGON
 	#	agot_tame_dragon = {
 	#		TAMER = character:Varezys_1 # Aurion Varezys
 	#		DRAGON = ROOT
 	#	}
+	#	set_variable = {
+	#		name = color_grading
+	#		value = flag:middle
+	#	}
+	#	set_variable = {
+	#		name = color
+	#		value = flag:grey
+	#	}
 	#}
+	# color_grading flag:*options* = lightest, lighter, middle, darker, darkest
+	# color flag:*options* = white, grey, black, red, orange, yellow, green, teal, blue, purple, pink, fuschia
+
 dragon_duncan = {
 	name = Duncan
 

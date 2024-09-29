@@ -1,6 +1,6 @@
 ﻿# OLD VALYRIA
 Roloros_1 = {
-	name = Maegon # Dragonlord 17/39
+	name = Maegon # Dragonlord 17/39 # HAS LAND
 	dynasty = dynn_Roloros
 
 	religion = valyrian
@@ -56,4 +56,632 @@ Roloros_3 = {
 	7854.1.1 = {
 		birth = yes
 	}
+}
+
+Aderion_1 = {
+	name = Daria # Dragonlord 18/39 # HAS LAND
+	dynasty = dynn_Aderion
+	female = yes
+	
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_3
+	trait = calm
+	trait = lustful
+	trait = just
+	trait = zealous
+
+	disallow_random_traits = yes
+
+	7818.1.1 = {
+		birth = yes
+	}
+	7838.1.1 = { trait = dragonrider } # Orix (NC)
+}
+
+Aderion_2 = {
+	name = Dario
+	dynasty = dynn_Aderion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7840.1.1 = {
+		birth = yes
+	}
+}
+
+Doros_1 = {
+	name = Ebiron # Dragonlord 19/39 # HAS LAND
+	dynasty = dynn_Doros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_learning_2
+	trait = zealous
+	trait = content
+	trait = honest
+	trait = forgiving
+
+	disallow_random_traits = yes
+
+	7820.1.1 = {
+		birth = yes
+	}
+	7828.1.1 = { give_nickname = nick_the_exile }
+	7832.1.1 = { trait = dragonrider } # Noctus (NC)
+}
+
+Danderion_1 = {
+	name = Alion
+	dynasty = dynn_Danderion # Dragonlord 20/39 # HAS LAND
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = wrathful
+	trait = lustful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7850.1.1 = {
+		birth = yes
+	}
+	7864.1.1 = { trait = dragonrider } # Draxxis (NC)
+}
+
+Vyros_1 = {
+	name = Jaerjaerys # Dragonlord 21/39 # HAS LAND
+	dynasty = dynn_Vyros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_2
+	trait = fickle
+	trait = trusting
+	trait = shy
+	trait = compassionate
+	trait = intellect_bad_2
+	trait = physique_bad_1
+	trait = cancer
+
+	disallow_random_traits = yes
+
+	7838.1.1 = {
+		birth = yes
+	}
+	7869.1.1 = { trait = dragonrider } # Binx (NC)
+}
+
+Vyros_2 = {
+	name = Rheaheamon
+	dynasty = dynn_Vyros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = charming
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7879.1.1 = {
+		birth = yes
+	}
+}
+
+Festerion_1 = {
+	name = Karlerys # Dragonlord 22/39 # HAS LAND
+	dynasty = dynn_Festerion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_learning_5
+	trait = ambitious
+	trait = zealous
+	trait = patient
+	trait = stubborn
+
+	disallow_random_traits = yes
+
+	7788.1.1 = {
+		birth = yes
+	}
+	7805.1.1 = { trait = dragonrider } # Maraxis (NC)
+}
+
+Festerion_2 = {
+	name = Targan
+	dynasty = dynn_Festerion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_2
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7828.1.1 = {
+		birth = yes
+	}
+}
+#Konaryan_1 = {
+#	name = Maemon # Dragonlord 23/39 # FREEANDREMOVED CUZ I FORGOT TO ACCOUNT FOR 4 PREEXISTING
+#	dynasty = dynn_Konaryan
+#
+#	religion = valyrian
+#	culture = high_valyrian
+#
+#	trait = education_martial_3
+#	trait = brave
+#	trait = generous
+#	trait = just
+#	trait = content
+#	trait = intellect_bad_1
+#
+#	disallow_random_traits = yes
+#
+#	7848.1.1 = {
+#		birth = yes
+#	}
+#	7878.1.1 = { trait = dragonrider } # Verdax (NC)
+#}
+Bargerion_1 = {
+	name = Illio # Dragonlord 24/39 # FREE
+	dynasty = dynn_Bargerion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7859.1.1 = {
+		birth = yes
+	}
+	7873.1.1 = { give_nickname = nick_the_verdant }
+	7868.1.1 = { trait = dragonrider } # Seiless (NC)
+}
+#Tulgaryan_1 = {
+#	name = Lagon # Dragonlord 25/39 # FREEANDREMOVED CUZ I FORGOT TO ACCOUNT FOR 4 PREEXISTING
+#	dynasty = dynn_Tulgaryan
+#
+#	religion = valyrian
+#	culture = high_valyrian
+#
+#	trait = education_martial_3
+#	trait = brave
+#	trait = diligent
+#	trait = wrathful
+#	trait = ambitious
+#
+#	disallow_random_traits = yes
+#
+#	7858.1.1 = {
+#		birth = yes
+#	}
+#	7873.1.1 = { give_nickname = nick_the_elder }
+#	7868.1.1 = { trait = dragonrider } # Sofixia (NC)
+#}
+#Helerion_1 = {
+#	name = Maegon # Dragonlord 26/39 # FREEANDREMOVED CUZ I FORGOT TO ACCOUNT FOR 4 PREEXISTING
+#	dynasty = dynn_Helerion
+#
+#	religion = valyrian
+#	culture = high_valyrian
+#
+#	trait = education_martial_3
+#	trait = brave
+#	trait = diligent
+#	trait = wrathful
+#	trait = ambitious
+#
+#	disallow_random_traits = yes
+#
+#	7858.1.1 = {
+#		birth = yes
+#	}
+#	7868.1.1 = { trait = dragonrider } # Targon (NC)
+#}
+########## here I go blast one at a time and then go back to redo the specifics
+#Eideryon_1 = {
+#	name = Aelyra # Dragonlord 27/39 # FREEANDREMOVED CUZ I FORGOT TO ACCOUNT FOR 4 PREEXISTING
+#	dynasty = dynn_Eideryon
+#	female = yes
+#
+#	religion = valyrian
+#	culture = high_valyrian
+#
+#	trait = education_martial_3
+#	trait = brave
+#	trait = diligent
+#	trait = wrathful
+#	trait = ambitious
+#
+#	disallow_random_traits = yes
+#
+#	7858.1.1 = {
+#		birth = yes
+#	}
+#	7873.1.1 = { add_spouse = Eideryon_2 }
+#	7868.1.1 = { trait = dragonrider } # Myexna (NC)
+#}
+#Eideryon_2 = {
+#	name = Rhaella
+#	female = yes
+#	dynasty = dynn_Eideryon
+#
+#	religion = valyrian
+#	culture = high_valyrian
+#
+#
+#	7858.1.1 = {
+#		birth = yes
+#	}
+#}
+######## last done
+Tavaros_1 = {
+	name = Aemor # Dragonlord 28/39 # HAS LAND
+	dynasty = dynn_Tavaros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7858.1.1 = {
+		birth = yes
+	}
+	7868.1.1 = { trait = dragonrider } # Stix (NC)
+	7886.9.2 = { add_spouse = Tavaros_2 }
+}
+Tavaros_2 = {
+	name = Musara
+	dynasty = dynn_Tavaros
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7872.1.1 = {
+		birth = yes
+	}
+}
+######## last done
+Heilor_1 = {
+	name = Aegar # Dragonlord 29/39 # HAS LAND
+	dynasty = dynn_Heilor
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7858.1.1 = {
+		birth = yes
+	}
+	7868.1.1 = { trait = dragonrider } # Vexion (NC)
+}
+Heilor_2 = {
+	name = Sumara
+	dynasty = dynn_Heilor
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7858.1.1 = {
+		birth = yes
+	}
+}
+Vaemerian_1 = {
+	name = Alysanne
+	dynasty = dynn_Vaemerian
+	female = yes
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7858.1.1 = {
+		birth = yes
+	}
+	7874.4.5 = { add_spouse = Vaemerian_2 }
+}
+Vaemerian_2 = {
+	name = Maron # Dragonlord 30/39 # HAS LAND
+	dynasty = dynn_Vaemerian
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7867.1.1 = {
+		birth = yes
+	}
+	7868.1.1 = { trait = dragonrider } # Nyx (NC)
+	7874.4.5 = { give_nickname = nick_the_bear }
+}
+Zumeryon_1 = {
+	name = Maegor # Dragonlord 31/39 # HAS LAND
+	dynasty = dynn_Zumeryon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7844.1.1 = {
+		birth = yes
+	}
+	7868.1.1 = { trait = dragonrider } # Wormax (NC)
+}
+Jultarion_1 = {
+	name = Faedor # Dragonlord 32/39 # HAS LAND
+	dynasty = dynn_Jultarion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7848.1.1 = {
+		birth = yes
+	}
+	7868.1.1 = { trait = dragonrider } # Gorax (NC)
+}
+Jultarion_2 = {
+	name = Thaelene
+	dynasty = dynn_Jultarion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7849.1.1 = {
+		birth = yes
+	}
+}
+Hanserion_1 = {
+	name = Vargon # Dragonlord 33/39 # HAS LAND
+	dynasty = dynn_Hanserion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7855.1.1 = {
+		birth = yes
+	}
+	7868.1.1 = { give_nickname = nick_the_cat }
+	7869.1.1 = { add_spouse = Hanserion_2 }
+	7869.1.1 = { trait = dragonrider } # Barthor (NC)
+}
+Hanserion_2 = {
+	name = Sienya
+	dynasty = dynn_Hanserion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7855.1.1 = {
+		birth = yes
+	}
+}
+Ullaryon_1 = {
+	name = Ilythra # Dragonlord 34/39 # HAS LAND
+	dynasty = dynn_Ullaryon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7805.1.1 = {
+		birth = yes
+	}
+	7868.1.1 = { add_spouse = Ullaryon_2 }
+	7869.1.1 = { trait = dragonrider } # Rexiax (NC)
+}
+Ullaryon_2 = {
+	name = Lythera
+	female = yes
+	dynasty = dynn_Ullaryon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7815.1.1 = {
+		birth = yes
+	}
+}
+Penloryon_1 = {
+	name = Sorylla # Dragonlord 35/39 # HAS LAND
+	dynasty = dynn_Penloryon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7865.1.1 = {
+		birth = yes
+	}
+	7864.1.1 = { give_nickname = nick_deaf }
+	7869.1.1 = { trait = dragonrider } # Neltrix (NC)
+}
+Penloryon_2 = {
+	name = Xelys
+	dynasty = dynn_Penloryon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7866.1.1 = {
+		birth = yes
+	}
+}
+Vuloryon_1 = {
+	name = Zaelor # Dragonlord 36/39 # HAS LAND
+	dynasty = dynn_Vuloryon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7870.1.1 = {
+		birth = yes
+	}
+	7871.1.1 = { give_nickname = nick_the_blind }
+	7886.1.1 = { trait = dragonrider } # Vhalix (NC)
+}
+Orarion_1 = {
+	name = Loryx # Dragonlord 37/39 # HAS LAND
+	dynasty = dynn_Orarion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7864.1.1 = {
+		birth = yes
+	}
+	7868.1.1 = { give_nickname = nick_the_bloody }
+	7879.1.1 = { trait = dragonrider } # Rend (NC)
+}
+Orarion_2 = {
+	name = Aemma
+	dynasty = dynn_Orarion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	7867.1.1 = {
+		birth = yes
+	}
+}
+Musarion_1 = {
+	name = Vaemir # Dragonlord 38/39 # HAS LAND
+	dynasty = dynn_Musarion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7858.1.1 = {
+		birth = yes
+	}
+	7864.1.1 = { give_nickname = nick_the_poor }
+	7869.1.1 = { trait = dragonrider } # Tearmax (NC)
+}
+Nilfarion_1 = {
+	name = Coryella # Dragonlord 39/39 # HAS LAND
+	dynasty = dynn_Nilfarion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7858.1.1 = {
+		birth = yes
+	}
+	7869.1.1 = { trait = dragonrider } # Verox (NC)
 }

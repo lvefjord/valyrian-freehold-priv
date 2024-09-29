@@ -2,11 +2,11 @@
 # History database id:Targaryen_15
 bookmark_vf_daenys={
 	type=female
-	id=6229
+	id=7429
 	age=0.180000
-	genes={ 		hair_color={ 0 38 1 12 }
+	genes={ 		hair_color={ 0 76 1 12 }
  		skin_color={ 42 5 42 5 }
- 		eye_color={ 247 53 245 77 }
+ 		eye_color={ 239 63 245 77 }
  		gene_chin_forward={ "chin_forward_pos" 141 "chin_forward_pos" 141 }
  		gene_chin_height={ "chin_height_neg" 135 "chin_height_neg" 135 }
  		gene_chin_width={ "chin_width_neg" 138 "chin_width_neg" 138 }
@@ -96,8 +96,8 @@ bookmark_vf_daenys={
  		expression_other={ "cheek_wrinkles_both_01" 87 "cheek_wrinkles_both_01" 36 }
  		complexion={ "complexion_29" 54 "complexion_29" 54 }
  		gene_height={ "normal_height" 127 "normal_height" 127 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 126 "body_fat_head_fat_full" 129 }
- 		gene_bs_body_shape={ "body_shape_hourglass_half" 25 "body_shape_hourglass_half" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 118 "body_fat_head_fat_full" 129 }
+ 		gene_bs_body_shape={ "body_shape_hourglass_half" 76 "body_shape_hourglass_half" 0 }
  		gene_bs_bust={ "bust_clothes" 86 "bust_shape_1_full" 78 }
  		gene_age={ "old_beauty_1" 14 "old_beauty_1" 14 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 132 "avg_spacing_lower_thickness" 132 }
@@ -175,10 +175,10 @@ bookmark_vf_daenys={
  		gene_no_portrait={ "normal_portrait" 127 "normal_portrait" 127 }
  		hair_aging={ "late_hair_aging" 124 "late_hair_aging" 124 }
  		pose={ "" 255 "" 0 }
- 		beards={ "western_beards_curly" 240 "no_beard" 0 }
+ 		beards={ "western_beards_curly" 163 "no_beard" 0 }
  		cloaks={ "no_cloak" 255 "no_cloak" 0 }
  		hairstyles={ "all_hairstyles" 173 "all_hairstyles" 0 }
- 		legwear={ "western_common_legwear" 192 "all_legwear" 0 }
+ 		legwear={ "western_common_legwear" 241 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_shrink_agot={ "shrink_bodice" 255 "shrink_bodice" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
@@ -189,8 +189,8 @@ bookmark_vf_daenys={
  		cosmetics_foundation={ "foundation_none" 255 "foundation_none" 0 }
  		cosmetics_blush={ "blush_none" 255 "blush_none" 0 }
  		cosmetics_lipcolor={ "lipcolor_none" 255 "lipcolor_none" 0 }
- 		clothes={ "western_high_nobility_clothes" 175 "most_clothes" 0 }
- 		headgear={ "no_headgear" 192 "no_headgear" 0 }
+ 		clothes={ "ep2_western_era3_high_nobility_clothes" 160 "most_clothes" 0 }
+ 		headgear={ "no_headgear" 3 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 807438772 807438772 }
