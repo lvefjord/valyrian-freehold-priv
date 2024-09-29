@@ -2,11 +2,11 @@
 # History database id:Targaryen_13
 bookmark_vf_aenar={
 	type=male
-	id=4279
+	id=5019
 	age=0.420000
-	genes={ 		hair_color={ 0 63 1 12 }
+	genes={ 		hair_color={ 0 76 1 12 }
  		skin_color={ 22 2 22 2 }
- 		eye_color={ 242 51 245 77 }
+ 		eye_color={ 244 51 245 77 }
  		gene_chin_forward={ "chin_forward_pos" 145 "chin_forward_pos" 145 }
  		gene_chin_height={ "chin_height_neg" 142 "chin_height_neg" 142 }
  		gene_chin_width={ "chin_width_neg" 138 "chin_width_neg" 138 }
@@ -96,8 +96,8 @@ bookmark_vf_aenar={
  		expression_other={ "cheek_wrinkles_both_01" 128 "cheek_wrinkles_both_01" 128 }
  		complexion={ "complexion_29" 54 "complexion_29" 54 }
  		gene_height={ "normal_height" 131 "normal_height" 131 }
- 		gene_bs_body_type={ "body_fat_head_fat_full" 126 "body_fat_head_fat_full" 129 }
- 		gene_bs_body_shape={ "body_shape_hourglass_full" 35 "body_shape_hourglass_full" 0 }
+ 		gene_bs_body_type={ "body_fat_head_fat_full" 118 "body_fat_head_fat_full" 129 }
+ 		gene_bs_body_shape={ "body_shape_hourglass_full" 20 "body_shape_hourglass_full" 0 }
  		gene_bs_bust={ "bust_clothes" 60 "bust_shape_4_full" 76 }
  		gene_age={ "old_1" 239 "old_1" 239 }
  		gene_eyebrows_shape={ "avg_spacing_lower_thickness" 132 "avg_spacing_lower_thickness" 132 }
@@ -178,7 +178,7 @@ bookmark_vf_aenar={
  		beards={ "no_beard" 0 "no_beard" 0 }
  		cloaks={ "no_cloak" 255 "no_cloak" 0 }
  		hairstyles={ "all_hairstyles" 204 "all_hairstyles" 0 }
- 		legwear={ "agot_boots_legwear" 56 "all_legwear" 0 }
+ 		legwear={ "agot_boots_legwear" 210 "all_legwear" 0 }
  		gene_shrink_body={ "shrink_all" 255 "" 0 }
  		gene_shrink_agot={ "shrink_bodice" 255 "shrink_bodice" 0 }
  		gene_bs_additive_headgears={ "additive_headgears" 255 "" 0 }
@@ -189,8 +189,8 @@ bookmark_vf_aenar={
  		cosmetics_foundation={ "foundation_none" 255 "foundation_none" 0 }
  		cosmetics_blush={ "blush_none" 255 "blush_none" 0 }
  		cosmetics_lipcolor={ "lipcolor_none" 255 "lipcolor_none" 0 }
- 		clothes={ "agot_western_high_nobility_clothes_male_pants" 163 "most_clothes" 0 }
- 		headgear={ "agot_crowns" 246 "no_headgear" 0 }
+ 		clothes={ "agot_western_high_nobility_clothes_male_pants" 147 "most_clothes" 0 }
+ 		headgear={ "no_headgear" 225 "no_headgear" 0 }
  		gene_balding_hair_effect={ "no_baldness" 255 "no_baldness" 0 }
  }
 	entity={ 1863162561 1863162561 }
@@ -200,10 +200,6 @@ bookmark_vf_aenar={
 		}
  {
 			hash=2670398845
-			invert=no
-		}
- {
-			hash=1500963499
 			invert=no
 		}
  {

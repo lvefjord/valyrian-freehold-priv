@@ -8,27 +8,23 @@ dynn_Atreides = {
 	culture = "high_valyrian"
 	motto = dynn_Atreides_motto # There is only power, and those too weak to seek it
 }
-
 # HOUSE QORBAREON (id = dynn_Qorbareon)
 dynn_Qorbareon = {
 	name = "dynn_Qorbareon"
 	culture = "high_valyrian"
 	motto = dynn_Qorbareon_motto # ?
 }
-
 # HOUSE STAVARYEN (id = dynn_Stavaryen)
 dynn_Stavaryen = {
 	name = "dynn_Stavaryen"
 	culture = "high_valyrian"
 	motto = dynn_Stavaryen_motto # ?
 }
-
 dynn_Melnibone = {
 	name = "dynn_Melnibone"
 	culture = "high_valyrian"
 	motto = dynn_Melnibone_motto # ?
 }
-
 dynn_Jentys = {
 	name = "dynn_Jentys"
 	culture = "high_valyrian"
@@ -37,48 +33,135 @@ dynn_Azantys = {
 	name = "dynn_Azantys"
 	culture = "high_valyrian"
 }
-
 dynn_Issaros = {
 	name = "dynn_Issaros"
 	culture = "high_valyrian"
 }
-
 dynn_Jaelarys = {
 	name = "dynn_Jaelarys"
 	culture = "high_valyrian"
 }
-
 dynn_Zalarys = {
 	name = "dynn_Zalarys"
 	culture = "high_valyrian"
 }
-
 dynn_Vaeritrix = {
 	name = "dynn_Vaeritrix"
 	culture = "high_valyrian"
 }
-
 dynn_Aegustys = {
 	name = "dynn_Aegustys"
 	culture = "high_valyrian"
 }
-
 dynn_Taenys = {
 	name = "dynn_Taenys"
 	culture = "high_valyrian"
 }
-
 dynn_Zaldrizys = {
 	name = "dynn_Zaldrizys"
 	culture = "high_valyrian"
 }
-
 dynn_Vermaxos = {
 	name = "dynn_Vermaxos"
 	culture = "high_valyrian"
 }
-
 dynn_Paelinox = {
 	name = "dynn_Paelinox"
+	culture = "high_valyrian"
+}
+dynn_Tavaros = {
+	name = "dynn_Tavaros"
+	culture = "high_valyrian"
+}
+dynn_Heilor = {
+	name = "dynn_Heilor"
+	culture = "high_valyrian"
+}
+dynn_Vaemerian = {
+	name = "dynn_Vaemerian"
+	culture = "high_valyrian"
+}
+dynn_Zumeryon = {
+	name = "dynn_Zumeryon"
+	culture = "high_valyrian"
+}
+dynn_Jultarion = {
+	name = "dynn_Jultarion"
+	culture = "high_valyrian"
+}
+dynn_Hanserion = {
+	name = "dynn_Hanserion"
+	culture = "high_valyrian"
+}
+dynn_Ullaryon = {
+	name = "dynn_Ullaryon"
+	culture = "high_valyrian"
+}
+dynn_Penloryon = {
+	name = "dynn_Penloryon"
+	culture = "high_valyrian"
+}
+dynn_Vuloryon = {
+	name = "dynn_Vuloryon"
+	culture = "high_valyrian"
+}
+dynn_Orarion = {
+	name = "dynn_Orarion"
+	culture = "high_valyrian"
+}
+dynn_Musarion = {
+	name = "dynn_Musarion"
+	culture = "high_valyrian"
+}
+dynn_Nilfarion = {
+	name = "dynn_Nilfarion"
+	culture = "high_valyrian"
+}
+dynn_Ramessid = {
+	name = "dynn_Ramessid"
+	culture = "high_valyrian"
+}
+dynn_Roloros = {
+	name = "dynn_Roloros"
+	culture = "high_valyrian"
+}
+dynn_Aderion = {
+	name = "dynn_Aderion"
+	culture = "high_valyrian"
+}
+dynn_Doros = {
+	name = "dynn_Doros"
+	culture = "high_valyrian"
+}
+dynn_Danderion = {
+	name = "dynn_Danderion"
+	culture = "high_valyrian"
+}
+dynn_Vyros = {
+	name = "dynn_Vyros"
+	culture = "high_valyrian"
+}
+dynn_Festerion = {
+	name = "dynn_Festerion"
+	culture = "high_valyrian"
+}
+dynn_Konaryan = {
+	name = "dynn_Konaryan"
+	culture = "high_valyrian"
+}
+dynn_Bargerion = {
+	name = "dynn_Bargerion"
+	culture = "high_valyrian"
+}
+dynn_Tulgaryan = {
+	name = "dynn_Tulgaryan"
+	culture = "high_valyrian"
+}
+dynn_Helerion = {
+	name = "dynn_Helerion"
+	culture = "high_valyrian"
+}
+dynn_Eideryon = {
+	name = "dynn_Eideryon"
 	culture = "high_valyrian"
 }

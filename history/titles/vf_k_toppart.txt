@@ -72,3 +72,163 @@ c_maenythor = {
 		government = freehold_government
 	}
 }
+d_parkliapos = {
+	7885.5.1 = {
+		holder = Vuloryon_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_ilyrion = {
+	7885.5.1 = {
+		holder = Vuloryon_1
+		liege = d_parkliapos
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_kyvanon = {
+	7885.5.1 = {
+		holder = Orarion_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_saelrion = {
+	7885.5.1 = {
+		holder = Orarion_1
+		liege = d_kyvanon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_midemagon = {
+	7885.5.1 = {
+		holder = Musarion_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_gaelzor = {
+	7885.5.1 = {
+		holder = Musarion_1
+		liege = d_midemagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_mivojughagon = {
+	7885.5.1 = {
+		holder = Nilfarion_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_xaelrynor = {
+	7885.5.1 = {
+		holder = Nilfarion_1
+		liege = d_mivojughagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_levitsos = {
+	7885.5.1 = {
+		holder = Orarion_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_daenyth = {
+	7885.5.1 = {
+		holder = Orarion_1
+		liege = d_levitsos
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_loragon = {
+	7885.5.1 = {
+		holder = Roloros_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_qaelyx = {
+	7885.5.1 = {
+		holder = Roloros_1
+		liege = d_loragon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_ozletagon = {
+	7885.5.1 = {
+		holder = Aderion_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_haelyx = {
+	7885.5.1 = {
+		holder = Aderion_1
+		liege = d_ozletagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_muñazma = {
+	7885.5.1 = {
+		holder = Doros_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_raelythor = {
+	7885.5.1 = {
+		holder = Doros_1
+		liege = d_muñazma
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_obagon = {
+	7885.5.1 = {
+		holder = Danderion_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_daelthor = {
+	7885.5.1 = {
+		holder = Danderion_1
+		liege = d_obagon
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+d_ñoghoqitta = {
+	7885.5.1 = {
+		holder = Vyros_1
+		liege = k_landsoflongsummer
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}
+c_aelzor = {
+	7885.5.1 = {
+		holder = Vyros_1
+		liege = d_ñoghoqitta
+		succession_laws = { freehold_archonate_succession_attached_titles_law }
+		government = freehold_government
+	}
+}

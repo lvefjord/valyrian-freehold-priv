@@ -3,7 +3,7 @@
 # HOUSE ATREIDES (id = dynn_Atreides)
 # There is only power, and those too weak to seek it
 Atreides_1 = {
-	name = Daemon # Daemon, the Sword of the Evening | Dragonlord 1/39
+	name = Daemon # Daemon, the Sword of the Evening | Dragonlord 1/39 # HAS LAND
 	dynasty = dynn_Atreides
 	dna = Atreides_1
 
@@ -35,7 +35,7 @@ Atreides_1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
-	7882.1.1 = { trait = dragonrider } # Duncan (Create)
+	7882.1.1 = { trait = dragonrider } # Duncan (Done)
 	7885.1.1 = {
 		give_nickname = nick_the_sword_of_the_evening
 		effect = { 
@@ -110,7 +110,7 @@ Qorbareon_1 = {
 	}
 }
 Qorbareon_2 = {
-	name = Rhaemon # Lord Rhaemon Qorbareon | Dragonlord 2/39
+	name = Rhaemon # Lord Rhaemon Qorbareon | Dragonlord 2/39 # HAS LAND
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_2
 
@@ -140,7 +140,7 @@ Qorbareon_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
-	7871.1.1 = { trait = dragonrider } # Jaeqaelix (NC)
+	7871.1.1 = { trait = dragonrider } # Jaeqaelix (Done)
 	7872.1.1 = { add_spouse = Qorbareon_1 } # Rhaelene Qorbareon
 	7888.1.1 = { add_spouse = Qorbareon_9 } # Aemma Qorbareon
 }
@@ -349,7 +349,7 @@ Qorbareon_9 = {
 
 # HOUSE STAVARYEN (id = dynn_Stavaryen) IN HONOR OF QAnon
 Stavaryen_1 = {
-	name = Vargo # Lord Vargo Stavaryen | Dragonlord 3/39
+	name = Vargo # Lord Vargo Stavaryen | Dragonlord 3/39 # HAS LAND
 	dynasty = dynn_Stavaryen
 	dna = Stavaryen_1
 
@@ -376,7 +376,7 @@ Stavaryen_1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
-	7833.1.1 = { trait = dragonrider } # Shellox (NC)
+	7833.1.1 = { trait = dragonrider } # Shellox (Done)
 	7852.1.1 = { add_spouse = Stavaryen_2 } # Norenya Stavaryen
 }
 Stavaryen_2 = {
@@ -567,7 +567,7 @@ Stavaryen_7 = {
 }
 
 Melnibone_1 = {
-	name = Elric # The White Wolf | Dragonlord 4/39
+	name = Elric # The White Wolf | Dragonlord 4/39 # HAS LAND
 	dynasty = dynn_Melnibone
 	dna = Targaryen_96
 
@@ -608,7 +608,7 @@ Melnibone_2 = {
 }
 
 Jentys_1 = {
-	name = Daeron # Dragonlord 5/39
+	name = Daeron # Dragonlord 5/39 # HAS LAND
 	dynasty = dynn_Jentys
 
 
@@ -622,10 +622,10 @@ Jentys_1 = {
 	7860.3.4 = {
 		birth = yes
 	}
-	7871.1.1 = { trait = dragonrider } # Arraks (NC(Not Created))
+	7871.1.1 = { trait = dragonrider } # Arraks (Done)
 }
 Azantys_1 = {
-	name = Aenys # Dragonlord 6/39
+	name = Aenys # Dragonlord 6/39 # HAS LAND
 	dynasty = dynn_Azantys
 	religion = valyrian
 	culture = high_valyrian
@@ -637,11 +637,11 @@ Azantys_1 = {
 	7843.12.27 = {
 		birth = yes
 	}
-	7855.1.1 = { trait = dragonrider } # Bantāzma (NC)
+	7855.1.1 = { trait = dragonrider } # Bantāzma (Done)
 }
 
 Issaros_1 = {
-	name = Daegon # Dragonlord 7/39
+	name = Daegon # Dragonlord 7/39 # HAS LAND
 	dynasty = dynn_Issaros
 	religion = valyrian
 	culture = high_valyrian
@@ -653,10 +653,10 @@ Issaros_1 = {
 	7861.1.1 = {
 		birth = yes
 	}
-	7875.1.1 = { trait = dragonrider } # Ezarion (NC)
+	7875.1.1 = { trait = dragonrider } # Ezarion (Done)
 }
 Jaelarys_1 = {
-	name = Aerys # Dragonlord 8/39
+	name = Aerys # Dragonlord 8/39 # HAS LAND
 	dynasty = dynn_Jaelarys
 	religion = valyrian
 	culture = high_valyrian
@@ -668,10 +668,10 @@ Jaelarys_1 = {
 	7865.1.1 = {
 		birth = yes
 	}
-	7878.1.1 = { trait = dragonrider } # Geratrix (NC)
+	7878.1.1 = { trait = dragonrider } # Geratrix (Done)
 }
 Zalarys_1 = {
-	name = Vaegon # Dragonlord 9/39
+	name = Vaegon # Dragonlord 9/39 # HAS LAND
 	dynasty = dynn_Zalarys
 	religion = valyrian
 	culture = high_valyrian
@@ -683,10 +683,10 @@ Zalarys_1 = {
 	7858.1.1 = {
 		birth = yes
 	}
-	7871.1.1 = { trait = dragonrider } # Katla (NC)
+	7871.1.1 = { trait = dragonrider } # Katla (Done)
 }
 Vaeritrix_1 = {
-	name = Aelyx # Dragonlord 10/39
+	name = Aelyx # Dragonlord 10/39 # HAS LAND
 	dynasty = dynn_Vaeritrix
 	religion = valyrian
 	culture = high_valyrian
@@ -698,10 +698,10 @@ Vaeritrix_1 = {
 	7871.1.1 = {
 		birth = yes
 	}
-	7887.1.1 = { trait = dragonrider } # Gravyx (NC)
+	7887.1.1 = { trait = dragonrider } # Gravyx (Done)
 }
 Aegustys_1 = {
-	name = Octaevien # Dragonlord 11/39
+	name = Octaevien # Dragonlord 11/39 # HAS LAND
 	dynasty = dynn_Aegustys
 	religion = valyrian
 	culture = high_valyrian
@@ -720,10 +720,10 @@ Aegustys_1 = {
 	7868.1.1 = {
 		birth = yes
 	}
-	7878.1.1 = { trait = dragonrider } # Zaesar (NC)
+	7878.1.1 = { trait = dragonrider } # Zaesar (Done)
 }
 Taenys_1 = {
-	name = Viserion # Dragonlord 12/39
+	name = Viserion # Dragonlord 12/39 # HAS LAND
 	dynasty = dynn_Taenys
 	religion = valyrian
 	culture = high_valyrian
@@ -735,10 +735,10 @@ Taenys_1 = {
 	7832.1.1 = {
 		birth = yes
 	}
-	7854.1.1 = { trait = dragonrider } # Arostys (NC)
+	7854.1.1 = { trait = dragonrider } # Arostys (Done)
 }
 Zaldrizys_1 = {
-	name = Aemon # Dragonlord 13/39
+	name = Aemon # Dragonlord 13/39 # HAS LAND
 	dynasty = dynn_Zaldrizys
 	religion = valyrian
 	culture = high_valyrian
@@ -750,10 +750,10 @@ Zaldrizys_1 = {
 	7846.1.1 = {
 		birth = yes
 	}
-	7865.1.1 = { trait = dragonrider } # Haeron (NC)
+	7865.1.1 = { trait = dragonrider } # Haeron (Done)
 }
 Vermaxos_1 = {
-	name = Faegon # Dragonlord 14/39
+	name = Faegon # Dragonlord 14/39 # HAS LAND
 	dynasty = dynn_Vermaxos
 	religion = valyrian
 	culture = high_valyrian
@@ -765,10 +765,10 @@ Vermaxos_1 = {
 	7857.4.17 = {
 		birth = yes
 	}
-	7877.1.1 = { trait = dragonrider } # Blackfyre (NC)
+	7877.1.1 = { trait = dragonrider } # Blackfyre (Done)
 }
 Paelinox_1 = {
-	name = Aegon # Dragonlord 15/39
+	name = Aegon # Dragonlord 15/39 # HAS LAND
 	dynasty = dynn_Paelinox
 	religion = valyrian
 	culture = high_valyrian
@@ -780,11 +780,11 @@ Paelinox_1 = {
 	7869.10.25 = {
 		birth = yes
 	}
-	7882.1.1 = { trait = dragonrider } # Pertinax (NC)
+	7882.1.1 = { trait = dragonrider } # Pertinax (Done)
 }
 
 Ramessid_1 = {
-	name = Ramesys # Dragonlord 16/39
+	name = Ramesys # Dragonlord 16/39 # HAS LAND
 	dynasty = dynn_Ramessid
 	religion = valyrian
 	culture = high_valyrian
@@ -803,5 +803,5 @@ Ramessid_1 = {
 	7857.1.1 = {
 		birth = yes
 	}
-	7871.1.1 = { trait = dragonrider } # Seti (NC)
+	7871.1.1 = { trait = dragonrider } # Seti (Done)
 }
