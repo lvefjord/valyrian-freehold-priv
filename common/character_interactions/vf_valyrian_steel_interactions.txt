@@ -1,0 +1,135 @@
+﻿offer_dusk_interaction = {
+	category = interaction_category_friendly
+	common_interaction = yes
+	icon = artisan_inspiration
+	desc = offer_dusk_interaction_desc
+
+	ai_frequency = 0
+
+	cooldown = { years = 1 }
+
+	is_shown = {
+		NOT = { scope:actor = scope:recipient }
+		scope:actor = {
+			is_adult = yes
+			is_ai = no
+			this = dynasty:dynn_Atreides.dynast
+			any_character_artifact = {
+				has_artifact_modifier = vs_dusk_modifier
+			}
+		}
+		scope:recipient = {
+			dynasty = dynasty:dynn_Atreides
+			age > 11
+		}
+	}
+
+	auto_accept = no
+
+	ai_accept = {
+		base = 0 # Try to make it 0 for most interactions
+
+		modifier = {
+			add = 500
+			worthy_sword_of_the_evening_trigger = yes
+			desc = worthy_of_dusk
+		}
+		modifier = {
+			add = 50
+			has_trait = arrogant
+		}
+		modifier = {
+			add = 25
+			has_trait = ambitious
+		}
+		modifier = {
+			add = {
+				value = ai_greed
+			}
+			ai_greed > 0
+			desc = dusk_greedy
+		}
+		modifier = {
+			add = -50
+			has_trait = craven
+		}
+		modifier = {
+			add = -100
+			worthy_sword_of_the_evening_trigger = no
+			desc = unworthy_of_dusk
+		}
+		modifier = {
+			add = -50
+			worthy_sword_of_the_evening_trigger = no
+			has_trait = humble
+		}
+		modifier = {
+			add = -50
+			worthy_sword_of_the_evening_trigger = no
+			has_trait = craven
+		}
+		modifier = {
+			add = -50
+			worthy_sword_of_the_evening_trigger = no
+			has_trait = content
+		}
+		modifier = {
+			add = -50
+			worthy_sword_of_the_evening_trigger = no
+			has_trait = honest
+		}
+		modifier = {
+			add = -50
+			worthy_sword_of_the_evening_trigger = no
+			has_trait = just
+		}
+	}
+
+	on_accept = {
+		scope:recipient = {
+			if = {
+				limit = { worthy_sword_of_the_evening_trigger = yes }
+
+				give_nickname = nick_the_sword_of_the_evening
+
+				add_character_flag = is_sword_of_evening
+
+				add_prestige = massive_prestige_value
+				add_prestige_level = 1
+			}
+
+			scope:actor = {
+				save_scope_as = my_relation
+				random_character_artifact = {
+					limit  = { has_artifact_modifier = vs_dusk_modifier }
+					save_scope_as = dusk
+				}
+			}
+
+			scope:dusk = {
+				set_owner = scope:recipient
+			}
+
+			hidden_effect = {
+				add_character_flag = claimed_dusk
+				scope:dusk = {
+					equip_artifact_to_owner_replace = yes
+				}
+			}
+		}
+	}
+
+	on_decline = {
+		hidden_effect = {
+			scope:recipient = { save_scope_as = refused_sword }
+			dynasty:dynn_Atreides.dynast = {
+				send_interface_toast = {
+					title = dusk_refused_title
+					custom_tooltip = dusk_refused_desc
+					left_icon = scope:recipient
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+﻿doctrine_marriage_type = {
+	group = "marriage"
+	doctrine_valyrian_polygamy = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_valyrian_polygamy }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			number_of_spouses = 2
+			spouse_piety_loss = no
+		}
+	}
+}
