@@ -53,7 +53,7 @@ agot_create_artifact_vs_dusk_effect = {
 	create_artifact = {
 		name = vs_dusk_name
 		visuals = vs_dawn_visuals
-		description = "Meteoric sword of House Atreides."
+		description = vs_dusk_description
 		type = sword
 		wealth = scope:wealth
 		quality = scope:quality
@@ -83,7 +83,7 @@ agot_create_artifact_vs_dusk_effect = {
 		}
 		set_variable = {
 			name = traditional_house_owner
-			value = dynasty:dynn_Dayne.dynasty_founder.house
+			value = dynasty:dynn_Atreides.dynasty_founder.house
 		}
 		agot_add_artifact_history = { # Sword of the Evening
 			ARTIFACT = this

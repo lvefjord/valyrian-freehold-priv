@@ -49,6 +49,30 @@ vf_game_start = {
 		dynasty:dynn_Vermaxos = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
 		dynasty:dynn_Paelinox = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
 		dynasty:dynn_Ramessid = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		#### 2nd batch
+		dynasty:dynn_Tavaros = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Heilor = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Vaemerian = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Zumeryon = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Jultarion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Hanserion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Ullaryon = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Penloryon = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Vuloryon = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Orarion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Musarion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Nilfarion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Roloros = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Aderion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Doros = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Danderion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Vyros = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Festerion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Konaryan = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Bargerion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Tulgaryan = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Helerion = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
+		dynasty:dynn_Eideryon = { add_dynasty_modifier = valyrian_heritage_dynasty_modifier }
 
 
 		dynasty:dynn_Atreides.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
@@ -67,22 +91,46 @@ vf_game_start = {
 		dynasty:dynn_Vermaxos.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 		dynasty:dynn_Paelinox.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 		dynasty:dynn_Ramessid.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		#### 2nd batch
+		dynasty:dynn_Tavaros.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Heilor.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Vaemerian.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Zumeryon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Jultarion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Hanserion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Ullaryon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Penloryon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Vuloryon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Orarion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Musarion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Nilfarion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Roloros.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Aderion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Doros.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Danderion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Vyros.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Festerion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Konaryan.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Bargerion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Tulgaryan.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Helerion.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+		dynasty:dynn_Eideryon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 	}
 }
 
-# Dusk Artifact creation game start
-on_game_start = {
-    on_actions = {
-        ac_game_start
-    }
-}
-
-ac_game_start = {
-    effect = {
-        if = {
-            limit = { game_start_date = 7888.1.1 }
-character:Atreides_1 = { agot_create_artifact_vs_dusk_effect = { OWNER = THIS }
-}
-}
-}
-}
+## Dusk Artifact creation game start
+#on_game_start = {
+#    on_actions = {
+#        ac_game_start
+#    }
+#}
+#
+#ac_game_start = {
+#    effect = {
+#        if = {
+#            limit = { game_start_date = 7888.1.1 }
+#			character:Atreides_1 = { agot_create_artifact_vs_dusk_effect = { OWNER = THIS }
+#			}
+#		}
+#	}
+#}
