@@ -23,6 +23,7 @@ Roloros_2 = {
 	name = Alyssa
 	dynasty = dynn_Roloros
 	female = yes
+	father = Roloros_1
 
 	religion = valyrian
 	culture = high_valyrian
@@ -41,6 +42,7 @@ Roloros_2 = {
 Roloros_3 = {
 	name = Maegon
 	dynasty = dynn_Roloros
+	father = Roloros_1
 
 	religion = valyrian
 	culture = high_valyrian
@@ -56,6 +58,7 @@ Roloros_3 = {
 	7854.1.1 = {
 		birth = yes
 	}
+	7887 = { add_spouse = Roloros_2 }
 }
 
 Aderion_1 = {
@@ -83,6 +86,7 @@ Aderion_1 = {
 Aderion_2 = {
 	name = Dario
 	dynasty = dynn_Aderion
+	mother = Aderion_1
 
 	religion = valyrian
 	culture = high_valyrian
@@ -170,6 +174,7 @@ Vyros_1 = {
 Vyros_2 = {
 	name = Rheaheamon
 	dynasty = dynn_Vyros
+	father = Vyros_1
 
 	religion = valyrian
 	culture = high_valyrian
@@ -208,6 +213,7 @@ Festerion_1 = {
 Festerion_2 = {
 	name = Targan
 	dynasty = dynn_Festerion
+	father = Festerion_1
 
 	religion = valyrian
 	culture = high_valyrian
@@ -368,18 +374,48 @@ Tavaros_1 = {
 Tavaros_2 = {
 	name = Musara
 	dynasty = dynn_Tavaros
+	father = Tavaros_1
 
 	religion = valyrian
 	culture = high_valyrian
+
+	trait = education_diplomacy_3
+	trait = fickle
+	trait = trusting
+	trait = shy
+	trait = compassionate
 
 	7872.1.1 = {
 		birth = yes
 	}
 }
 ######## last done
+Heilor_1n2_dad = {
+	name = Aegar 
+	dynasty = dynn_Heilor
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_5
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7832.1.1 = {
+		birth = yes
+	}
+	7871.12.30 = {
+		death = yes
+	}
+}
 Heilor_1 = {
 	name = Aegar # Dragonlord 29/39 # HAS LAND
 	dynasty = dynn_Heilor
+	father = Heilor_1n2_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -389,20 +425,31 @@ Heilor_1 = {
 	trait = diligent
 	trait = wrathful
 	trait = ambitious
+	trait = twin
 
 	disallow_random_traits = yes
 
 	7858.1.1 = {
 		birth = yes
 	}
+	7874.10.25 = { add_spouse = Heilor_2 }
 	7868.1.1 = { trait = dragonrider } # Vexion (C)
 }
 Heilor_2 = {
 	name = Sumara
 	dynasty = dynn_Heilor
+	female = yes
+	father = Heilor_1n2_dad
 
 	religion = valyrian
 	culture = high_valyrian
+
+	trait = education_intrigue_3
+	trait = greedy
+	trait = arrogant
+	trait = deceitful
+	trait = callous
+	trait = twin
 
 	7858.1.1 = {
 		birth = yes
@@ -432,6 +479,7 @@ Vaemerian_1 = {
 Vaemerian_2 = {
 	name = Maron # Dragonlord 30/39 # HAS LAND
 	dynasty = dynn_Vaemerian
+	mother = Vaemerian_1
 
 	religion = valyrian
 	culture = high_valyrian
@@ -462,14 +510,37 @@ Zumeryon_1 = {
 	}
 	7868.1.1 = { trait = dragonrider } # Wormax (C)
 }
-Jultarion_1 = {
-	name = Faedor # Dragonlord 32/39 # HAS LAND
+Jultarion_1n2_dad = {
+	name = Gaerys
 	dynasty = dynn_Jultarion
 
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_3
+	trait = education_learning_3
+	trait = zealous
+	trait = content
+	trait = honest
+	trait = forgiving
+
+	disallow_random_traits = yes
+
+	7788.5.13 = {
+		birth = yes
+	}
+	7871.5.13 = {
+		death = yes
+	}
+}
+Jultarion_1 = {
+	name = Faedor # Dragonlord 32/39 # HAS LAND
+	dynasty = dynn_Jultarion
+	father = Jultarion_1n2_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
 	trait = brave
 	trait = diligent
 	trait = wrathful
@@ -480,22 +551,59 @@ Jultarion_1 = {
 	7848.1.1 = {
 		birth = yes
 	}
+	7865.4.11 = { add_spouse = Jultarion_2 }
 	7870.1.1 = { trait = dragonrider } # Gorax (C)
 }
 Jultarion_2 = {
 	name = Thaelene
+	female = yes
 	dynasty = dynn_Jultarion
+	father = Jultarion_1n2_dad
 
 	religion = valyrian
 	culture = high_valyrian
+
+	trait = education_intrigue_4
+	trait = sadistic
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+
+	disallow_random_traits = yes
 
 	7849.1.1 = {
 		birth = yes
 	}
 }
+Hanserion_1n2_dad = {
+	name = Faerys
+	dynasty = dynn_Hanserion
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_1
+	trait = gregarious
+	trait = trusting
+	trait = shy
+	trait = compassionate
+
+	disallow_random_traits = yes
+
+	7838.1.12 = {
+		birth = yes
+	}
+	7869.1.11 = {
+		death = {
+			death_reason = death_poison
+			killer = Hanserion_2 
+		}
+	}
+}
 Hanserion_1 = {
 	name = Vargon # Dragonlord 33/39 # HAS LAND
 	dynasty = dynn_Hanserion
+	father = Hanserion_1n2_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -508,36 +616,66 @@ Hanserion_1 = {
 
 	disallow_random_traits = yes
 
-	7855.1.1 = {
+	7853.1.1 = {
 		birth = yes
 	}
 	7868.1.1 = { give_nickname = nick_the_cat }
-	7869.1.1 = { add_spouse = Hanserion_2 }
+	7869.1.12 = { add_spouse = Hanserion_2 }
 	7869.1.1 = { trait = dragonrider } # Barthor (C)
 }
 Hanserion_2 = {
 	name = Sienya
 	dynasty = dynn_Hanserion
+	female = yes
+	father = Hanserion_1n2_dad
 
 	religion = valyrian
 	culture = high_valyrian
 
-	7855.1.1 = {
+	trait = education_intrigue_2
+	trait = deceitful
+	trait = ambitious
+	trait = paranoid
+	trait = lustful
+	trait = murderer
+	trait = kinslayer
+
+	disallow_random_traits = yes
+
+	7854.1.1 = {
 		birth = yes
 	}
+}
+Ullaryon_1n2_dad = {
+	name = Ilytherion
+	dynasty = dynn_Ullaryon
+
+	religion = valyrian
+	culture =  high_valyrian
+
+	trait = education_learning_2
+	trait = zealous
+	trait = content
+	trait = honest
+	trait = forgiving
+
+	disallow_random_traits = yes
+	
+	7786.11.5 = { birth = yes }
 }
 Ullaryon_1 = {
 	name = Ilythra # Dragonlord 34/39 # HAS LAND
 	dynasty = dynn_Ullaryon
+	father = Ullaryon_1n2_dad
 
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_3
-	trait = brave
-	trait = diligent
-	trait = wrathful
-	trait = ambitious
+	trait = education_martial_4
+	trait = lustful
+	trait = temperate
+	trait = cynical
+	trait = authorative
 
 	disallow_random_traits = yes
 
@@ -551,6 +689,15 @@ Ullaryon_2 = {
 	name = Lythera
 	female = yes
 	dynasty = dynn_Ullaryon
+	father = Ullaryon_1n2_dad
+
+	trait = education_intrigue_2
+	trait = gluttonous
+	trait = patient
+	trait = deceitful
+	trait = stubborn
+
+	disallow_random_traits = yes
 
 	religion = valyrian
 	culture = high_valyrian
@@ -559,18 +706,63 @@ Ullaryon_2 = {
 		birth = yes
 	}
 }
-Penloryon_1 = {
-	name = Sorylla # Dragonlord 35/39 # HAS LAND
+Ullaryon_3 = {
+	name = Ilytherion
+	dynasty = dynn_Ullaryon
+	father = Ullaryon_1
+	mother = Ullaryon_2
+	
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_5
+	trait = calm
+	trait = patient
+	trait = deceitful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7863.5.1 = {
+		birth = yes
+	}
+}
+Penloryon_1n2_dad = {
+	name = Soryllarion
 	dynasty = dynn_Penloryon
 
 	religion = valyrian
 	culture = high_valyrian
 
+	trait = education_learning_2
+	trait = zealous
+	trait = content
+	trait = honest
+	trait = forgiving
+
+	disallow_random_traits = yes
+
+	7821.4.12 = {
+		birth = yes
+	}
+	7871.1.1 = {
+		death = yes
+	}
+}
+Penloryon_1 = {
+	name = Sorylla # Dragonlord 35/39 # HAS LAND
+	dynasty = dynn_Penloryon
+	female = yes
+	father = Penloryon_1n2_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
 	trait = education_martial_3
-	trait = brave
-	trait = diligent
+	trait = vengeful
+	trait = greedy
 	trait = wrathful
-	trait = ambitious
+	trait = honest
 
 	disallow_random_traits = yes
 
@@ -579,13 +771,23 @@ Penloryon_1 = {
 	}
 	7864.1.1 = { give_nickname = nick_deaf }
 	7880.1.1 = { trait = dragonrider } # Neltrix (C)
+	7882.3.6 = { add_spouse = Penloryon_2 }
 }
 Penloryon_2 = {
 	name = Xelys
 	dynasty = dynn_Penloryon
+	father = Penloryon_1n2_dad
 
 	religion = valyrian
 	culture = high_valyrian
+
+	trait = education_diplomacy_3
+	trait = content
+	trait = lustful
+	trait = lazy
+	trait = forgiving
+
+	disallow_random_traits = yes
 
 	7866.1.1 = {
 		birth = yes
@@ -598,11 +800,12 @@ Vuloryon_1 = {
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_3
-	trait = brave
-	trait = diligent
+	trait = education_stewardship_4
+	trait = calm
+	trait = temperate
 	trait = wrathful
-	trait = ambitious
+	trait = patient
+	trait = blind
 
 	disallow_random_traits = yes
 
@@ -612,33 +815,67 @@ Vuloryon_1 = {
 	7871.1.1 = { give_nickname = nick_the_blind }
 	7886.1.1 = { trait = dragonrider } # Vhalix (C)
 }
-Orarion_1 = {
-	name = Loryx # Dragonlord 37/39 # HAS LAND
+Orarion_1n2_dad = {
+	name = Loryx
 	dynasty = dynn_Orarion
 
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_3
-	trait = brave
-	trait = diligent
-	trait = wrathful
-	trait = ambitious
+	trait = education_learning_2
+	trait = zealous
+	trait = content
+	trait = honest
+	trait = forgiving
+
+	disallow_random_traits = yes
+
+	7836.1.1 = {
+		birth = yes
+	}
+	7881.1.1 = {
+		death = yes
+	}
+}
+Orarion_1 = {
+	name = Loryx # Dragonlord 37/39 # HAS LAND
+	dynasty = dynn_Orarion
+	father = Orarion_1n2_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_2
+	trait = just
+	trait = impatient
+	trait = cynical
+	trait = stubborn
 
 	disallow_random_traits = yes
 
 	7864.1.1 = {
 		birth = yes
 	}
-	7868.1.1 = { give_nickname = nick_the_bloody }
+	7868.1.1 = {
+		give_nickname = nick_the_bloody
+		add_spouse = Orarion_2
+	}
 	7879.1.1 = { trait = dragonrider } # Rend (C)
 }
 Orarion_2 = {
 	name = Aemma
+	female = yes
+	father = Orarion_1n2_dad
 	dynasty = dynn_Orarion
 
 	religion = valyrian
 	culture = high_valyrian
+
+	trait = education_stewardship_2
+	trait = lustful
+	trait = temperate
+	trait = cynical
+	trait = authorative
 
 	7867.1.1 = {
 		birth = yes
@@ -651,11 +888,11 @@ Musarion_1 = {
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_3
-	trait = brave
-	trait = diligent
-	trait = wrathful
-	trait = ambitious
+	trait = education_martial_5
+	trait = sadistic
+	trait = callous
+	trait = authorative
+	trait = rude
 
 	disallow_random_traits = yes
 
@@ -672,15 +909,15 @@ Nilfarion_1 = {
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_3
-	trait = brave
+	trait = education_learning_5
+	trait = patient
 	trait = diligent
-	trait = wrathful
-	trait = ambitious
+	trait = calm
+	trait = just
 
 	disallow_random_traits = yes
 
-	7858.1.1 = {
+	7848.1.1 = {
 		birth = yes
 	}
 	7869.1.1 = { trait = dragonrider } # Verox (C)
