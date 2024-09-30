@@ -25,6 +25,9 @@ vf_game_start = {
 				change_government = freehold_government
 			}
 			resolve_title_and_vassal_change = scope:title_change
+			title:k_dragonstone = {
+				set_de_jure_liege_title = title:e_valyria
+			}
 		}
 		# Dynasty setup
 		

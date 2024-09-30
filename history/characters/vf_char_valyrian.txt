@@ -577,6 +577,7 @@ Melnibone_1 = {
 	give_nickname = nick_the_white_wolf
 
 	trait = education_learning_5
+	trait = education_martial_prowess_3
 	trait = albino
 	trait = physique_bad_2
 	trait = depressed_1

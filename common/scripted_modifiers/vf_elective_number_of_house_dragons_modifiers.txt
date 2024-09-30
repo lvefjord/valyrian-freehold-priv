@@ -1,0 +1,15 @@
+﻿freehold_voting_pattern_dragons_elective_modifier = {
+	modifier = {
+		desc = tooltip_freehold_number_of_house_dragons
+		NOT = { this = scope:candidate } #Do not judge yourself.
+		scope:candidate.house = { any_house_member = { has_trait = dragonrider } }
+		add = {
+			scope:candidate.house = {
+				every_house_member = {
+					limit = { has_trait = dragonrider }
+					add = 50
+				}
+			}
+		}
+	}
+}
