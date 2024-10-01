@@ -1,3 +1,5 @@
 ﻿nick_the_verdant = {}
 nick_the_cat = {}
 nick_the_poor = {}
+nick_ozymandias = {}
+nick_caesar = {}

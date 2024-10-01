@@ -80,11 +80,60 @@ Atreides_2 = {
 }
 
 # HOUSE QORBAREON (id = dynn_Qorbareon) IN HONOR OF QAnon
+Qorbareon_ancestor_1 = {
+	name = Qaenys
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_ancestor
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_2
+	trait = authorative
+	trait = patient
+	trait = rude
+	trait = arrogant
+	trait = education_martial_prowess_3
+
+	disallow_random_traits = yes
+
+	7756.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7859.12.13 = {
+		death = yes
+	}
+}
+Qorbareon_ancestor_2 = {
+	name = Qaenor
+	dynasty = dynn_Qorbareon
+	dna = Qorbareon_ancestor
+	father = Qorbareon_ancestor_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_2
+	trait = paranoid
+	trait = wrathful
+	trait = greedy
+	trait = arrogant
+	trait = education_martial_prowess_3
+
+	disallow_random_traits = yes
+
+	7825.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
 Qorbareon_1 = {
 	name = Rhaelene # Aunt and wife of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_1
 	female = yes
+	father = Qorbareon_ancestor_1
 
 	martial = 0
 	diplomacy = 7
@@ -113,6 +162,7 @@ Qorbareon_2 = {
 	name = Rhaemon # Lord Rhaemon Qorbareon | Dragonlord 2/39 # HAS LAND
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_2
+	father = Qorbareon_ancestor_2
 
 	martial = 4
 	diplomacy = 6
@@ -148,6 +198,7 @@ Qorbareon_3 = {
 	name = Arano # Brother of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_3
+	father = Qorbareon_ancestor_2
 
 	#martial = 
 	#diplomacy = 
@@ -172,6 +223,7 @@ Qorbareon_4 = {
 	name = Rogo # Brother of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_4
+	father = Qorbareon_ancestor_2
 
 	#martial = 
 	#diplomacy = 
@@ -196,6 +248,7 @@ Qorbareon_5 = {
 	name = Ellara # Sister of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_5
+	father = Qorbareon_ancestor_2
 	female = yes
 
 	#martial = 
@@ -221,6 +274,8 @@ Qorbareon_6 = {
 	name = Laerion # Son of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_6
+	father = Qorbareon_2
+	mother = Qorbareon_9
 
 	martial = 3
 	diplomacy = 6
@@ -257,6 +312,8 @@ Qorbareon_7 = {
 	name = Daerion # Son of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_7
+	father = Qorbareon_2
+	mother = Qorbareon_9
 
 	martial = 5
 	diplomacy = 4
@@ -292,6 +349,8 @@ Qorbareon_8 = {
 	name = Dyaerys # Son of Lord Rhaemon
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_8
+	father = Qorbareon_2
+	mother = Qorbareon_9
 
 	martial = 4
 	diplomacy = 9
@@ -328,6 +387,7 @@ Qorbareon_9 = {
 	dynasty = dynn_Qorbareon
 	dna = Qorbareon_9
 	female = yes
+	father = Qorbareon_ancestor_2
 
 	#martial = 
 	#diplomacy = 
@@ -701,9 +761,35 @@ Vaeritrix_1 = {
 	}
 	7887.1.1 = { trait = dragonrider } # Gravyx (Done)
 }
+Aegustys_1_dad = {
+	name = Aeulius
+	dynasty = dynn_Aegustys
+	dna = Aegustys_1_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = brave
+	trait = ambitious
+	trait = diligent
+	trait = arrogant
+
+	disallow_random_traits = yes
+
+	7810.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7834.12.5 = { give_nickname = nick_caesar }
+	7872.3.7 = {
+		death = yes
+	}
+}
 Aegustys_1 = {
 	name = Octaevien # Dragonlord 11/39 # HAS LAND
 	dynasty = dynn_Aegustys
+	father = Aegustys_1_dad
 	religion = valyrian
 	culture = high_valyrian
 
@@ -721,7 +807,28 @@ Aegustys_1 = {
 	7868.1.1 = {
 		birth = yes
 	}
+	7872.3.7 = { give_nickname = nick_caesar }
+	7876.2.5 = { add_spouse = Aegustys_1_wife }
 	7878.1.1 = { trait = dragonrider } # Zaesar (Done)
+}
+Aegustys_1_wife = {
+	name = Liviae # Wife of Lord Octaevien
+	dynasty = dynn_Aegustys
+	father = Aegustys_1_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_3
+	trait = compassionate
+	trait = patient
+	trait = just
+	trait = calm
+
+	7871.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
 }
 Taenys_1 = {
 	name = Viserion # Dragonlord 12/39 # HAS LAND
@@ -730,6 +837,10 @@ Taenys_1 = {
 	culture = high_valyrian
 
 	trait = education_intrigue_4
+	trait = deceitful
+	trait = sadistic
+	trait = paranoid
+	trait = vengeful
 
 	disallow_random_traits = yes
 
@@ -738,9 +849,80 @@ Taenys_1 = {
 	}
 	7854.1.1 = { trait = dragonrider } # Arostys (Done)
 }
+Taenys_2 = {
+	name = Aenar 
+	dynasty = dynn_Taenys
+	father = Taenys_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = intellect_good_2
+	trait = ambitious
+	trait = diligent
+	trait = arrogant
+	trait = vengeful
+	trait = twin
+
+	disallow_random_traits = yes
+
+	7854.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Taenys_3 = {
+	name = Aenys 
+	dynasty = dynn_Taenys
+	father = Taenys_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = intellect_good_2
+	trait = ambitious
+	trait = diligent
+	trait = arrogant
+	trait = vengeful
+	trait = twin
+
+	disallow_random_traits = yes
+
+	7854.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Zaldrizyz_1_dad = {
+	name = Aemon
+	dynasty = dynn_Zaldrizys
+	dna = Zaldrizys_1_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = brave
+	trait = ambitious
+	trait = diligent
+	trait = arrogant
+
+	disallow_random_traits = yes
+
+	7769.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7854.3.7 = {
+		death = yes
+	}
+}
 Zaldrizys_1 = {
 	name = Aemon # Dragonlord 13/39 # HAS LAND
 	dynasty = dynn_Zaldrizys
+	father = Zaldrizys_1_dad
 	religion = valyrian
 	culture = high_valyrian
 
@@ -751,42 +933,230 @@ Zaldrizys_1 = {
 	7846.1.1 = {
 		birth = yes
 	}
+	7864.3.5 = { add_spouse = Zaldrizyz_1_wife } # Alysanne Zaldrizys
 	7865.1.1 = { trait = dragonrider } # Haeron (Done)
+}
+Zaldrizyz_1_wife = {
+	name = Alysanne # Wife of Lord Aemon
+	dynasty = dynn_Zaldrizys
+	father = Zaldrizys_1_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_3
+	trait = compassionate
+	trait = patient
+	trait = just
+	trait = calm
+
+	7849.7.20 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Zaldrizyz_2 = {
+	name = Aerys # Son of Lord Aemon
+	dynasty = dynn_Zaldrizys
+	father = Zaldrizys_1
+	mother = Zaldrizyz_1_wife
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_5
+	trait = intellect_good_2
+	trait = ambitious
+	trait = authorative
+	trait = diligent
+	trait = vengeful
+
+	disallow_random_traits = yes
+	7871.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Vermaxos_1_dad = {
+	name = Rhaegar 
+	dynasty = dynn_Vermaxos
+	dna = Vermaxos_1_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = calm
+	trait = callous
+	trait = temperate
+	trait = arrogant
+
+	disallow_random_traits = yes
+
+	7789.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7874.3.7 = {
+		death = yes
+	}
 }
 Vermaxos_1 = {
 	name = Faegon # Dragonlord 14/39 # HAS LAND
 	dynasty = dynn_Vermaxos
+	father = Vermaxos_1_dad
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_learning_4
+	trait = education_learning_5
+	trait = zealous
+	trait = stubborn
+	trait = calm
+	trait = diligent
 
 	disallow_random_traits = yes
 
 	7857.4.17 = {
 		birth = yes
 	}
+	7873.4.17 = { add_spouse = Vermaxos_1_wife } # 
 	7877.1.1 = { trait = dragonrider } # Blackfyre (Done)
 }
-Paelinox_1 = {
-	name = Aegon # Dragonlord 15/39 # HAS LAND
+Vermaxos_1_wife = {
+	name = Aelyssa # Wife of Lord Faegon
+	dynasty = dynn_Vermaxos
+	father = Vermaxos_1_dad
+	
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_3
+	trait = beauty_good_2
+	trait = compassionate
+	trait = patient
+	trait = just
+	trait = calm
+
+	7852.7.20 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Paelinox_1_dad = {
+	name = Aenyx # Father of Lord Aegon
 	dynasty = dynn_Paelinox
+	dna = Paelinox_1_dad
+
 	religion = valyrian
 	culture = high_valyrian
 
 	trait = education_martial_4
+	trait = authorative
+	trait = patient	
+	trait = diligent
+	trait = calm
+
+	disallow_random_traits = yes
+
+	7789.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7874.3.7 = {
+		death = yes
+	}
+}
+Paelinox_1 = {
+	name = Aegon # Dragonlord 15/39 # HAS LAND
+	dynasty = dynn_Paelinox
+	father = Paelinox_1_dad
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = vengeful
+	trait = ambitious
+	trait = callous
+	trait = temperate
 
 	disallow_random_traits = yes
 
 	7869.10.25 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7882.1.1 = { trait = dragonrider } # Pertinax (Done)
+	7885.1.1 = { add_spouse = Paelinox_1_wife } 
 }
+Paelinox_1_wife = {
+	name = Aenys # Wife of Lord Aegon
+	dynasty = dynn_Paelinox
+	father = Paelinox_1_dad
+	female = yes
+	dna = Paelinox_1_wife
 
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = compassionate
+	trait = patient
+	trait = just
+
+	disallow_random_traits = yes
+
+	7870.12.25 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Paelinox_2 = {
+	name = Aenys # Son of Lord Aegon
+	dynasty = dynn_Paelinox
+	father = Paelinox_1
+	mother = Paelinox_1_wife
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = rowdy
+	trait = intellect_good_2
+	trait = strong
+
+	disallow_random_traits = yes
+
+	7887.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Ramessid_1_dad = {
+	name = Ramesys # Father of Lord Ramesys
+	dynasty = dynn_Ramessid
+	dna = Ramessid_1_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = brave
+	trait = ambitious
+	trait = diligent
+	trait = arrogant
+	trait = strong
+
+	disallow_random_traits = yes
+
+	7789.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
 Ramessid_1 = {
 	name = Ramesys # Dragonlord 16/39 # HAS LAND
 	dynasty = dynn_Ramessid
+	father = Ramessid_1_dad
 	religion = valyrian
 	culture = high_valyrian
 
@@ -805,4 +1175,55 @@ Ramessid_1 = {
 		birth = yes
 	}
 	7871.1.1 = { trait = dragonrider } # Seti (Done)
+	78885.10.3 = { give_nickname = nick_ozymandias }
+}
+Ramessid_1_wife = {
+	name = Nefertaery # Wife of Lord Ramesys
+	dynasty = dynn_Ramessid
+	father = Ramessid_1_dad
+	dna = Ramessid_1_wife
+	female = yes
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_diplomacy_3
+	trait = beauty_good_2
+	trait = charming
+	trait = compassionate
+	trait = patient
+	trait = just
+	trait = calm
+
+	disallow_random_traits = yes
+
+	7859.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7875.1.1 = { add_spouse = Ramessid_1 } # Ramesys
+}
+Ramessid_2 = {
+	name = Ay # Son of Lord Ramesys
+	dynasty = dynn_Ramessid
+	father = Ramessid_1
+	mother = Ramessid_1_wife
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_stewardship_4
+	trait = beauty_good_2
+	trait = brave
+	trait = diligent
+	trait = vengeful
+	trait = arrogant
+	trait = education_martial_prowess_3
+
+	disallow_random_traits = yes
+
+	7879.4.7 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
 }

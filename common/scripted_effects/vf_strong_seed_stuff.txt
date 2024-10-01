@@ -1,0 +1,268 @@
+﻿vf_dynasty_strong_seeds = {
+	dynasty:dynn_Atreides = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Qorbareon = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Stavaryen = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Melnibone = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Jentys = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Azantys = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Issaros = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Jaelarys = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Zalarys = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Vaeritrix = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Aegustys = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Taenys = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Zaldrizys = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Vermaxos = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Paelinox = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Ramessid = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Tavaros = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Heilor = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Vaemerian = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Zumeryon = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Jultarion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Hanserion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Ullaryon = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Penloryon = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Vuloryon = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Orarion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Musarion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Nilfarion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Roloros = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Aderion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Doros = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Danderion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Vyros = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Festerion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Konaryan = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Bargerion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Tulgaryan = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Helerion = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+	dynasty:dynn_Eideryon = {
+		every_dynasty_member = {
+			vf_apply_strong_seed = yes
+		}
+	}
+}
+
+vf_apply_strong_seed = {
+	if  = {
+		limit = {
+			OR = {
+				dynasty ?= dynasty:dynn_Atreides
+				dynasty ?= dynasty:dynn_Qorbareon
+				dynasty ?= dynasty:dynn_Stavaryen
+				dynasty ?= dynasty:dynn_Melnibone
+				dynasty ?= dynasty:dynn_Jentys
+				dynasty ?= dynasty:dynn_Azantys
+				dynasty ?= dynasty:dynn_Issaros
+				dynasty ?= dynasty:dynn_Jaelarys
+				dynasty ?= dynasty:dynn_Zalarys
+				dynasty ?= dynasty:dynn_Vaeritrix
+				dynasty ?= dynasty:dynn_Aegustys
+				dynasty ?= dynasty:dynn_Taenys
+				dynasty ?= dynasty:dynn_Zaldrizys
+				dynasty ?= dynasty:dynn_Vermaxos
+				dynasty ?= dynasty:dynn_Paelinox
+				dynasty ?= dynasty:dynn_Ramessid
+				dynasty ?= dynasty:dynn_Tavaros
+				dynasty ?= dynasty:dynn_Heilor
+				dynasty ?= dynasty:dynn_Vaemerian
+				dynasty ?= dynasty:dynn_Zumeryon
+				dynasty ?= dynasty:dynn_Jultarion
+				dynasty ?= dynasty:dynn_Hanserion
+				dynasty ?= dynasty:dynn_Ullaryon
+				dynasty ?= dynasty:dynn_Penloryon
+				dynasty ?= dynasty:dynn_Vuloryon
+				dynasty ?= dynasty:dynn_Orarion
+				dynasty ?= dynasty:dynn_Musarion
+				dynasty ?= dynasty:dynn_Nilfarion
+				dynasty ?= dynasty:dynn_Roloros
+				dynasty ?= dynasty:dynn_Aderion
+				dynasty ?= dynasty:dynn_Doros
+				dynasty ?= dynasty:dynn_Danderion
+				dynasty ?= dynasty:dynn_Vyros
+				dynasty ?= dynasty:dynn_Festerion
+				dynasty ?= dynasty:dynn_Konaryan
+				dynasty ?= dynasty:dynn_Bargerion
+				dynasty ?= dynasty:dynn_Tulgaryan
+				dynasty ?= dynasty:dynn_Helerion
+				dynasty ?= dynasty:dynn_Eideryon
+			}
+		}
+		random_list = {
+			1 = { make_trait_inactive = cool_silver_hair }
+			1 = { make_trait_inactive = cool_neutral_silver_hair }
+			1 = { make_trait_inactive = neutral_silver_hair }
+		}
+		random_list = {
+			1 = { make_trait_inactive = purple_eyes_1 }
+			1 = { make_trait_inactive = purple_eyes_2 }
+			1 = { make_trait_inactive = purple_eyes_3 }
+			1 = { make_trait_inactive = purple_eyes_4 }
+			1 = { make_trait_inactive = purple_eyes_5 }
+			1 = { make_trait_inactive = purple_eyes_6 }
+			1 = { make_trait_inactive = purple_eyes_7 }
+			1 = { make_trait_inactive = purple_eyes_8 }
+			1 = { make_trait_inactive = purple_eyes_9 }
+			1 = { make_trait_inactive = purple_eyes_10 }
+			1 = { make_trait_inactive = purple_eyes_11 }
+			1 = { make_trait_inactive = purple_eyes_12 }
+			1 = { make_trait_inactive = purple_eyes_13 }
+			1 = { make_trait_inactive = purple_eyes_14 }
+			1 = { make_trait_inactive = purple_eyes_15 }
+			1 = { make_trait_inactive = purple_eyes_16 }
+		}
+	}
+}

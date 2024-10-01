@@ -12,8 +12,8 @@
 	#		value = flag:grey
 	#	}
 	#}
-	# color_grading flag:*options* = lightest, lighter, middle, darker, darkest
-	# color flag:*options* = white, grey, black, red, orange, yellow, green, teal, blue, purple, pink, fuschia
+	# color_grading flag:options = lightest, lighter, middle, darker, darkest
+	# color flag:options = white, grey, black, red, orange, yellow, green, teal, blue, purple, pink, fuschia
 
 dragon_duncan = {
 	name = Duncan
@@ -1129,6 +1129,7 @@ dragon_rexiax = {
 }
 dragon_neltrix = {
 	name = Neltrix
+	female = yes
 
 	religion = valyrian
 	culture = dragon
@@ -1161,6 +1162,14 @@ dragon_neltrix = {
 				TAMER = character:Penloryon_1 # Sorylla
 				DRAGON = ROOT
 			}
+		}
+	}
+	7886.1.1 = {
+		effect = {
+			set_variable = { name = clutches value = 1 }
+		}
+		create_character_memory = {
+			type = agot_dragon_laid_clutch_2
 		}
 	}
 }
