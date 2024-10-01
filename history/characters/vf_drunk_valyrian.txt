@@ -15,9 +15,9 @@ Roloros_1 = {
 
 	7808.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7822.1.1 = { trait = dragonrider } # Ronyx (C)
-	7868.1.1 = { add_spouse = Roloros_2 }
 }
 Roloros_2 = {
 	name = Alyssa
@@ -37,6 +37,7 @@ Roloros_2 = {
 
 	7864.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 Roloros_3 = {
@@ -57,8 +58,9 @@ Roloros_3 = {
 
 	7854.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
-	7887 = { add_spouse = Roloros_2 }
+	7887.12.12 = { add_spouse = Roloros_2 }
 }
 
 Aderion_1 = {
@@ -79,6 +81,7 @@ Aderion_1 = {
 
 	7818.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7838.1.1 = { trait = dragonrider } # Orix (C)
 }
@@ -101,6 +104,7 @@ Aderion_2 = {
 
 	7840.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 
@@ -121,6 +125,7 @@ Doros_1 = {
 
 	7820.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7828.1.1 = { give_nickname = nick_the_exile }
 	7832.1.1 = { trait = dragonrider } # Noctus (C)
@@ -143,6 +148,7 @@ Danderion_1 = {
 
 	7850.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7864.1.1 = { trait = dragonrider } # Draxxis (C)
 }
@@ -167,6 +173,7 @@ Vyros_1 = {
 
 	7838.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7869.1.1 = { trait = dragonrider } # Binx (C)
 }
@@ -186,6 +193,29 @@ Vyros_2 = {
 
 	7879.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+
+Vyros_3 = {
+	name = Aemon
+	dynasty = dynn_Vyros
+	father = Vyros_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_4
+	trait = brave
+	trait = calm
+	trait = stubborn
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7874.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 
@@ -206,6 +236,7 @@ Festerion_1 = {
 
 	7788.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7805.1.1 = { trait = dragonrider } # Maraxis (C)
 }
@@ -218,16 +249,17 @@ Festerion_2 = {
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_2
+	trait = education_martial_5
 	trait = brave
-	trait = diligent
-	trait = wrathful
+	trait = calm
+	trait = zealous
 	trait = ambitious
 
 	disallow_random_traits = yes
 
 	7828.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 #Konaryan_1 = {
@@ -248,6 +280,7 @@ Festerion_2 = {
 #
 #	7848.1.1 = {
 #		birth = yes
+add_character_flag = has_scripted_appearance
 #	}
 #	7878.1.1 = { trait = dragonrider } # Verdax (NC)
 #}
@@ -268,6 +301,7 @@ Bargerion_1 = {
 
 	7859.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7873.1.1 = { give_nickname = nick_the_verdant }
 	7868.1.1 = { trait = dragonrider } # Seiless (C)
@@ -289,6 +323,7 @@ Bargerion_1 = {
 #
 #	7858.1.1 = {
 #		birth = yes
+#		add_character_flag = has_scripted_appearance
 #	}
 #	7873.1.1 = { give_nickname = nick_the_elder }
 #	7868.1.1 = { trait = dragonrider } # Sofixia (NC)
@@ -310,6 +345,7 @@ Bargerion_1 = {
 #
 #	7858.1.1 = {
 #		birth = yes
+#		add_character_flag = has_scripted_appearance
 #	}
 #	7868.1.1 = { trait = dragonrider } # Targon (NC)
 #}
@@ -332,6 +368,7 @@ Bargerion_1 = {
 #
 #	7858.1.1 = {
 #		birth = yes
+#		add_character_flag = has_scripted_appearance
 #	}
 #	7873.1.1 = { add_spouse = Eideryon_2 }
 #	7868.1.1 = { trait = dragonrider } # Myexna (NC)
@@ -347,6 +384,7 @@ Bargerion_1 = {
 #
 #	7858.1.1 = {
 #		birth = yes
+#		add_character_flag = has_scripted_appearance
 #	}
 #}
 ######## last done
@@ -367,6 +405,7 @@ Tavaros_1 = {
 
 	7858.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7868.1.1 = { trait = dragonrider } # Stix (C)
 	7886.9.2 = { add_spouse = Tavaros_2 }
@@ -387,6 +426,7 @@ Tavaros_2 = {
 
 	7872.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 ######## last done
@@ -397,7 +437,7 @@ Heilor_1n2_dad = {
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_5
+	trait = education_martial_4
 	trait = brave
 	trait = diligent
 	trait = wrathful
@@ -407,6 +447,7 @@ Heilor_1n2_dad = {
 
 	7832.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7871.12.30 = {
 		death = yes
@@ -420,10 +461,10 @@ Heilor_1 = {
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_3
+	trait = education_martial_5
 	trait = brave
 	trait = diligent
-	trait = wrathful
+	trait = calm
 	trait = ambitious
 	trait = twin
 
@@ -431,6 +472,7 @@ Heilor_1 = {
 
 	7858.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7874.10.25 = { add_spouse = Heilor_2 }
 	7868.1.1 = { trait = dragonrider } # Vexion (C)
@@ -453,6 +495,7 @@ Heilor_2 = {
 
 	7858.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 Vaemerian_1 = {
@@ -463,16 +506,17 @@ Vaemerian_1 = {
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_3
-	trait = brave
+	trait = education_diplomacy_4
+	trait = gregarious
 	trait = diligent
-	trait = wrathful
-	trait = ambitious
+	trait = generous
+	trait = compassionate
 
 	disallow_random_traits = yes
 
 	7818.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7874.4.5 = { add_spouse = Vaemerian_2 }
 }
@@ -484,11 +528,42 @@ Vaemerian_2 = {
 	religion = valyrian
 	culture = high_valyrian
 
+	trait = education_intrigue_4
+	trait = brave
+	trait = temperate
+	trait = deceitful
+	trait = authorative
+
+	disallow_random_traits = yes
+
 	7857.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7871.1.1 = { trait = dragonrider } # Nyx (C)
 	7874.4.5 = { give_nickname = nick_the_bear }
+}
+Vaemerian_3 = {
+	name = Vaegon
+	dynasty = dynn_Vaemerian
+	father = Vaemerian_2
+	mother = Vaemerian_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_stewardship_3
+	trait = calm
+	trait = authorative
+	trait = patient
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7874.12.5 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
 }
 Zumeryon_1 = {
 	name = Maegor # Dragonlord 31/39 # HAS LAND
@@ -497,9 +572,9 @@ Zumeryon_1 = {
 	religion = valyrian
 	culture = high_valyrian
 
-	trait = education_martial_3
+	trait = education_martial_5
 	trait = brave
-	trait = diligent
+	trait = authorative
 	trait = wrathful
 	trait = ambitious
 
@@ -507,8 +582,28 @@ Zumeryon_1 = {
 
 	7844.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7868.1.1 = { trait = dragonrider } # Wormax (C)
+}
+Zumeryon_2 = {
+	name = Aerion
+	dynasty = dynn_Zumeryon
+	father = Zumeryon_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = rowdy
+
+	trait = brave
+
+	disallow_random_traits = yes
+
+	7880.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
 }
 Jultarion_1n2_dad = {
 	name = Gaerys
@@ -527,6 +622,7 @@ Jultarion_1n2_dad = {
 
 	7788.5.13 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7871.5.13 = {
 		death = yes
@@ -550,6 +646,7 @@ Jultarion_1 = {
 
 	7848.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7865.4.11 = { add_spouse = Jultarion_2 }
 	7870.1.1 = { trait = dragonrider } # Gorax (C)
@@ -573,6 +670,7 @@ Jultarion_2 = {
 
 	7849.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 Hanserion_1n2_dad = {
@@ -592,6 +690,7 @@ Hanserion_1n2_dad = {
 
 	7838.1.12 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7869.1.11 = {
 		death = {
@@ -618,6 +717,7 @@ Hanserion_1 = {
 
 	7853.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7868.1.1 = { give_nickname = nick_the_cat }
 	7869.1.12 = { add_spouse = Hanserion_2 }
@@ -644,6 +744,7 @@ Hanserion_2 = {
 
 	7854.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 Ullaryon_1n2_dad = {
@@ -662,6 +763,7 @@ Ullaryon_1n2_dad = {
 	disallow_random_traits = yes
 	
 	7786.11.5 = { birth = yes }
+	add_character_flag = has_scripted_appearance
 }
 Ullaryon_1 = {
 	name = Ilythra # Dragonlord 34/39 # HAS LAND
@@ -681,6 +783,7 @@ Ullaryon_1 = {
 
 	7805.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7833.1.1 = { add_spouse = Ullaryon_2 }
 	7860.1.1 = { trait = dragonrider } # Rexiax (C)
@@ -704,6 +807,7 @@ Ullaryon_2 = {
 
 	7815.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 Ullaryon_3 = {
@@ -725,6 +829,7 @@ Ullaryon_3 = {
 
 	7863.5.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 Penloryon_1n2_dad = {
@@ -744,6 +849,7 @@ Penloryon_1n2_dad = {
 
 	7821.4.12 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7871.1.1 = {
 		death = yes
@@ -768,6 +874,7 @@ Penloryon_1 = {
 
 	7865.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7864.1.1 = { give_nickname = nick_deaf }
 	7880.1.1 = { trait = dragonrider } # Neltrix (C)
@@ -791,6 +898,7 @@ Penloryon_2 = {
 
 	7866.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 Vuloryon_1 = {
@@ -811,6 +919,7 @@ Vuloryon_1 = {
 
 	7870.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7871.1.1 = { give_nickname = nick_the_blind }
 	7886.1.1 = { trait = dragonrider } # Vhalix (C)
@@ -832,6 +941,7 @@ Orarion_1n2_dad = {
 
 	7836.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7881.1.1 = {
 		death = yes
@@ -855,6 +965,7 @@ Orarion_1 = {
 
 	7864.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7868.1.1 = {
 		give_nickname = nick_the_bloody
@@ -879,6 +990,7 @@ Orarion_2 = {
 
 	7867.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 }
 Musarion_1 = {
@@ -898,6 +1010,7 @@ Musarion_1 = {
 
 	7851.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7864.1.1 = { give_nickname = nick_the_poor }
 	7869.1.1 = { trait = dragonrider } # Tearmax (C)
@@ -919,6 +1032,7 @@ Nilfarion_1 = {
 
 	7848.1.1 = {
 		birth = yes
+		add_character_flag = has_scripted_appearance
 	}
 	7869.1.1 = { trait = dragonrider } # Verox (C)
 }

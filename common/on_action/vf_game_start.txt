@@ -9,6 +9,7 @@ vf_game_start = {
 		vf_artifact_setup = yes
 		vf_dragon_setup = yes
 		too_lazy_to_change_the_generated_counties_liege_in_the_files_effect = yes
+		vf_dynasty_strong_seeds = yes
 
 		if = {
 			limit = { character:Targaryen_13 = { is_alive = yes } }

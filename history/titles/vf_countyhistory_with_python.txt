@@ -1,615 +1,738 @@
 c_aelzor = {
 	7884.7.17 = {
 		 holder = mrcount_1
+		 government = freehold_government
 	}
 }
 c_velys = {
 	7880.2.28 = {
 		 holder = mrcount_2
+		 government = freehold_government
 	}
 }
 c_daelthor = {
 	7884.9.28 = {
 		 holder = mrcount_3
+		 government = freehold_government
 	}
 }
 c_rhaenor = {
 	7877.2.13 = {
 		 holder = mrcount_4
+		 government = freehold_government
 	}
 }
 c_naeryth = {
 	7873.1.11 = {
 		 holder = mrcount_5
+		 government = freehold_government
 	}
 }
 c_valthar = {
 	7883.9.22 = {
 		 holder = mrcount_6
+		 government = freehold_government
 	}
 }
 #c_oelyth = {
 #	7883.9.14 = {
 #		 holder = mrcount_7
+#		 government = freehold_government
 #	}
 #}
 c_qaenor = {
 	7883.12.12 = {
 		 holder = mrcount_8
+		 government = freehold_government
 	}
 }
 c_gaelthor = {
 	7884.7.8 = {
 		 holder = mrcount_9
+		 government = freehold_government
 	}
 }
 c_haelyx = {
 	7880.7.18 = {
 		 holder = mrcount_10
+		 government = freehold_government
 	}
 }
 c_maenor = {
 	7885.4.25 = {
 		 holder = mrcount_11
+		 government = freehold_government
 	}
 }
 c_xaeryth = {
 	7873.4.26 = {
 		 holder = mrcount_12
+		 government = freehold_government
 	}
 }
 c_vaelythor = {
 	7877.2.23 = {
 		 holder = mrcount_13
+		 government = freehold_government
 	}
 }
 #c_yrnith = {
 #	7883.6.10 = {
 #		 holder = mrcount_14
+#		 government = freehold_government
 #	}
 #}
 c_zhaenor = {
 	7882.3.24 = {
 		 holder = mrcount_15
+		 government = freehold_government
 	}
 }
 c_laerion = {
 	7886.7.16 = {
 		 holder = mrcount_16
+		 government = freehold_government
 	}
 }
 c_saelzor = {
 	7880.8.1 = {
 		 holder = mrcount_17
+		 government = freehold_government
 	}
 }
 c_erythor = {
 	7881.9.21 = {
 		 holder = mrcount_19
+		 government = freehold_government
 	}
 }
 c_qaelyx = {
 	7876.11.17 = {
 		 holder = mrcount_20
+		 government = freehold_government
 	}
 }
 c_aerith = {
 	7876.5.8 = {
 		 holder = mrcount_21
+		 government = freehold_government
 	}
 }
 c_raelyx = {
 	7881.10.15 = {
 		 holder = mrcount_22
+		 government = freehold_government
 	}
 }
 c_daenyth = {
 	7874.10.14 = {
 		 holder = mrcount_23
+		 government = freehold_government
 	}
 }
 c_vaelor = {
 	7875.4.7 = {
 		 holder = mrcount_24
+		 government = freehold_government
 	}
 }
 c_maelrion = {
 	7880.8.13 = {
 		 holder = mrcount_25
+		 government = freehold_government
 	}
 }
 #c_jaelys = {
 #	7883.2.11 = {
 #		 holder = mrcount_26
+#		 government = freehold_government
 #	}
 #}
 #c_zhaeryth = {
 #	7882.2.23 = {
 #		 holder = mrcount_27
+#		 government = freehold_government
 #	}
 #}
 c_faenys = {
 	7887.4.14 = {
 		 holder = mrcount_28
+		 government = freehold_government
 	}
 }
 c_oelryth = {
 	7885.4.11 = {
 		 holder = mrcount_29
+		 government = freehold_government
 	}
 }
 c_qaelyth = {
 	7886.1.22 = {
 		 holder = mrcount_30
+		 government = freehold_government
 	}
 }
 c_brythor = {
 	7881.1.22 = {
 		 holder = mrcount_31
+		 government = freehold_government
 	}
 }
 c_xaelyth = {
 	7873.1.7 = {
 		 holder = mrcount_32
+		 government = freehold_government
 	}
 }
 #c_ilythar = {
 #	7882.9.8 = {
 #		 holder = mrcount_33
+#		 government = freehold_government
 #	}
 #}
 c_haenith = {
 	7883.7.6 = {
 		 holder = mrcount_34
+		 government = freehold_government
 	}
 }
 c_aelion = {
 	7881.1.11 = {
 		 holder = mrcount_35
+		 government = freehold_government
 	}
 }
 #c_zaelthor = {
 #	7875.9.7 = {
 #		 holder = mrcount_36
+#		 government = freehold_government
 #	}
 #}
 #c_vaenor = {
 #	7874.6.15 = {
 #		 holder = mrcount_37
+#		 government = freehold_government
 #	}
 #}
 c_jaenyth = {
 	7884.4.2 = {
 		 holder = mrcount_38
+		 government = freehold_government
 	}
 }
 c_laenith = {
 	7874.6.26 = {
 		 holder = mrcount_39
+		 government = freehold_government
 	}
 }
 #c_elythar = {
 #	7886.8.20 = {
 #		 holder = mrcount_40
+#		 government = freehold_government
 #	}
 #}
 #c_naelrion = {
 #	7881.6.23 = {
 #		 holder = mrcount_41
+#		 government = freehold_government
 #	}
 #}
 c_paenor = {
 	7878.7.15 = {
 		 holder = mrcount_42
+		 government = freehold_government
 	}
 }
 c_vaelion = {
 	7874.6.13 = {
 		 holder = mrcount_43
+		 government = freehold_government
 	}
 }
 c_zhaelyth = {
 	7885.6.16 = {
 		 holder = mrcount_44
+		 government = freehold_government
 	}
 }
 c_xaelor = {
 	7887.5.24 = {
 		 holder = mrcount_45
+		 government = freehold_government
 	}
 }
 #c_ulenor = {
 #	7877.9.3 = {
 #		 holder = mrcount_46
+#		 government = freehold_government
 #	}
 #}
 #c_saelion = {
 #	7885.10.24 = {
 #		 holder = mrcount_47
+#		 government = freehold_government
 #	}
 #}
 c_ilyzor = {
 	7877.11.24 = {
 		 holder = mrcount_48
+		 government = freehold_government
 	}
 }
 c_maelyth = {
 	7883.4.12 = {
 		 holder = mrcount_49
+		 government = freehold_government
 	}
 }
 c_brynith = {
 	7881.4.29 = {
 		 holder = mrcount_50
+		 government = freehold_government
 	}
 }
 c_taelion = {
 	7880.4.22 = {
 		 holder = mrcount_52
+		 government = freehold_government
 	}
 }
 c_gaenor = {
 	7874.4.16 = {
 		 holder = mrcount_53
+		 government = freehold_government
 	}
 }
 c_faelrion = {
 	7879.5.29 = {
 		 holder = mrcount_54
+		 government = freehold_government
 	}
 }
 c_haerith = {
 	7874.5.13 = {
 		 holder = mrcount_55
+		 government = freehold_government
 	}
 }
 #c_vaeryth = {
 #	7880.2.13 = {
 #		 holder = mrcount_56
+#		 government = freehold_government
 #	}
 #}
 c_xaenor = {
 	7880.11.24 = {
 		 holder = mrcount_57
+		 government = freehold_government
 	}
 }
 #c_jaelion = {
 #	7881.9.20 = {
 #		 holder = mrcount_58
+#		 government = freehold_government
 #	}
 #}
 c_naenith = {
 	7873.5.27 = {
 		 holder = mrcount_59
+		 government = freehold_government
 	}
 }
 c_raelion = {
 	7882.5.25 = {
 		 holder = mrcount_60
+		 government = freehold_government
 	}
 }
 c_aelrion = {
 	7880.8.15 = {
 		 holder = mrcount_61
+		 government = freehold_government
 	}
 }
 c_qaenith = {
 	7886.10.20 = {
 		 holder = mrcount_62
+		 government = freehold_government
 	}
 }
 #c_gaelion = {
 #	7881.1.24 = {
 #		 holder = mrcount_63
+#		 government = freehold_government
 #	}
 #}
 c_saenor = {
 	7887.5.4 = {
 		 holder = mrcount_64
+		 government = freehold_government
 	}
 }
 c_aenythor = {
 	7879.8.5 = {
 		 holder = mrcount_65
+		 government = freehold_government
 	}
 }
 c_velrion = {
 	7876.3.16 = {
 		 holder = mrcount_66
+		 government = freehold_government
 	}
 }
 c_daelryn = {
 	7881.7.25 = {
 		 holder = mrcount_67
+		 government = freehold_government
 	}
 }
 c_rhaelyth = {
 	7873.5.22 = {
 		 holder = mrcount_68
+		 government = freehold_government
 	}
 }
 #c_naelthor = {
 #	7886.10.19 = {
 #		 holder = mrcount_69
+#		 government = freehold_government
 #	}
 #}
 c_valenor = {
 	7878.12.4 = {
 		 holder = mrcount_70
+		 government = freehold_government
 	}
 }
 #c_oelyrion = {
 #	7887.7.20 = {
 #		 holder = mrcount_71
+#		 government = freehold_government
 #	}
 #}
 #c_qaelrion = {
 #	7873.6.27 = {
 #		 holder = mrcount_72
+#		 government = freehold_government
 #	}
 #}
 c_gaelyr = {
 	7878.12.21 = {
 		 holder = mrcount_73
+		 government = freehold_government
 	}
 }
 #c_haelthor = {
 #	7878.5.2 = {
 #		 holder = mrcount_74
+#		 government = freehold_government
 #	}
 #}
 c_maeryn = {
 	7881.9.27 = {
 		 holder = mrcount_75
+		 government = freehold_government
 	}
 }
 c_xaelynor = {
 	7877.7.14 = {
 		 holder = mrcount_76
+		 government = freehold_government
 	}
 }
 c_vaenyth = {
 	7877.11.10 = {
 		 holder = mrcount_77
+		 government = freehold_government
 	}
 }
 c_yrithor = {
 	7878.10.11 = {
 		 holder = mrcount_78
+		 government = freehold_government
 	}
 }
 c_zhaenyth = {
 	7886.2.24 = {
 		 holder = mrcount_79
+		 government = freehold_government
 	}
 }
 c_laelthor = {
 	7881.8.5 = {
 		 holder = mrcount_80
+		 government = freehold_government
 	}
 }
 #c_saelrion = {
 #	7883.5.7 = {
 #		 holder = mrcount_81
+#		 government = freehold_government
 #	}
 #}
 c_paelys = {
 	7886.5.10 = {
 		 holder = mrcount_82
+		 government = freehold_government
 	}
 }
 c_elynor = {
 	7876.7.22 = {
 		 holder = mrcount_83
+		 government = freehold_government
 	}
 }
 c_qaenithor = {
 	7873.1.17 = {
 		 holder = mrcount_84
+		 government = freehold_government
 	}
 }
 #c_aerionor = {
 #	7877.7.9 = {
 #		 holder = mrcount_85
+#		 government = freehold_government
 #	}
 #}
 c_raelthorion = {
 	7884.2.24 = {
 		 holder = mrcount_86
+		 government = freehold_government
 	}
 }
 c_vaelrion = {
 	7879.10.11 = {
 		 holder = mrcount_88
+		 government = freehold_government
 	}
 }
 c_maelryth = {
 	7881.9.11 = {
 		 holder = mrcount_89
+		 government = freehold_government
 	}
 }
 #c_jaeryn = {
 #	7887.3.29 = {
 #		 holder = mrcount_90
+#		 government = freehold_government
 #	}
 #}
 c_zhaelor = {
 	7884.9.17 = {
 		 holder = mrcount_91
+		 government = freehold_government
 	}
 }
 #c_faelith = {
 #	7874.2.19 = {
 #		 holder = mrcount_92
+#		 government = freehold_government
 #	}
 #}
 #c_oelrynor = {
 #	7878.6.1 = {
 #		 holder = mrcount_93
+#		 government = freehold_government
 #	}
 #}
 c_qaelthor = {
 	7884.3.14 = {
 		 holder = mrcount_94
+		 government = freehold_government
 	}
 }
 #c_brynysor = {
 #	7881.9.8 = {
 #		 holder = mrcount_95
+#		 government = freehold_government
 #	}
 #}
 c_xaelionor = {
 	7881.1.22 = {
 		 holder = mrcount_96
+		 government = freehold_government
 	}
 }
 c_ilynor = {
 	7876.8.3 = {
 		 holder = mrcount_97
+		 government = freehold_government
 	}
 }
 c_haelryth = {
 	7877.12.29 = {
 		 holder = mrcount_98
+		 government = freehold_government
 	}
 }
 c_aelrith = {
 	7877.6.12 = {
 		 holder = mrcount_99
+		 government = freehold_government
 	}
 }
 c_zaelryth = {
 	7874.6.1 = {
 		 holder = mrcount_100
+		 government = freehold_government
 	}
 }
 c_vaelorion = {
 	7877.4.6 = {
 		 holder = mrcount_101
+		 government = freehold_government
 	}
 }
 c_jaenorion = {
 	7881.9.9 = {
 		 holder = mrcount_102
+		 government = freehold_government
 	}
 }
 c_laelythor = {
 	7883.9.4 = {
 		 holder = mrcount_103
+		 government = freehold_government
 	}
 }
 #c_elythorion = {
 #	7873.4.9 = {
 #		 holder = mrcount_104
+#		 government = freehold_government
 #	}
 #}
 c_naelythar = {
 	7878.1.6 = {
 		 holder = mrcount_105
+		 government = freehold_government
 	}
 }
 c_paelzor = {
 	7873.3.14 = {
 		 holder = mrcount_106
+		 government = freehold_government
 	}
 }
 c_vaelysor = {
 	7873.7.24 = {
 		 holder = mrcount_107
+		 government = freehold_government
 	}
 }
 #c_zhaelthor = {
 #	7881.8.18 = {
 #		 holder = mrcount_108
+#		 government = freehold_government
 #	}
 #}
 c_xaelythion = {
 	7873.4.19 = {
 		 holder = mrcount_109
+		 government = freehold_government
 	}
 }
 c_ulythar = {
 	7881.12.21 = {
 		 holder = mrcount_110
+		 government = freehold_government
 	}
 }
 c_saelynor = {
 	7879.9.11 = {
 		 holder = mrcount_111
+		 government = freehold_government
 	}
 }
 #c_ilyrion = {
 #	7881.5.12 = {
 #		 holder = mrcount_112
+#		 government = freehold_government
 #	}
 #}
 #c_maenythor = {
 #	7880.3.2 = {
 #		 holder = mrcount_113
+#		 government = freehold_government
 #	}
 #}
 c_brythorion = {
 	7886.3.29 = {
 		 holder = mrcount_114
+		 government = freehold_government
 	}
 }
 c_qaenorion = {
 	7884.4.4 = {
 		 holder = mrcount_115
+		 government = freehold_government
 	}
 }
 c_taelythar = {
 	7886.7.11 = {
 		 holder = mrcount_116
+		 government = freehold_government
 	}
 }
 #c_gaelzor = {
 #	7885.4.23 = {
 #		 holder = mrcount_117
+#		 government = freehold_government
 #	}
 #}
 c_faelynor = {
 	7882.6.9 = {
 		 holder = mrcount_118
+		 government = freehold_government
 	}
 }
 c_haenorion = {
 	7887.10.21 = {
 		 holder = mrcount_119
+		 government = freehold_government
 	}
 }
 c_vaelzorion = {
 	7874.1.21 = {
 		 holder = mrcount_120
+		 government = freehold_government
 	}
 }
 #c_xaelrynor = {
 #	7879.7.9 = {
 #		 holder = mrcount_121
+#		 government = freehold_government
 #	}
 #}
 c_jaelrithor = {
 	7884.4.28 = {
 		 holder = mrcount_122
+		 government = freehold_government
 	}
 }
 c_naerythion = {
 	7885.9.11 = {
 		 holder = mrcount_123
+		 government = freehold_government
 	}
 }
 c_raelythor = {
 	7878.12.5 = {
 		 holder = mrcount_124
+		 government = freehold_government
 	}
 }
 c_aelyrion = {
 	7875.10.15 = {
 		 holder = mrcount_125
+		 government = freehold_government
 	}
 }
 c_qaelythorion = {
 	7887.9.9 = {
 		 holder = mrcount_126
+		 government = freehold_government
 	}
 }

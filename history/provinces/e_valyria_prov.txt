@@ -1209,29 +1209,54 @@
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
-    7824.1.1 = {
-        buildings = { castle_02 }
+    7888.1.1 = {
+        buildings = { 
+            castle_02 
+            generic_dragon_pit_01
+        }
     }
 }
 #################### b_raelysar = ###################
 ############# c_valyria = - d_valyria = #############
 8252 = {
+    culture = high_valyrian
+    religion = valyrian
     holding = none
+    7121.1.1 = {
+        holding = castle_holding
+        buildings = { castle_02 }
+    }
 }
 #################### b_saelythion = ###################
 ############# c_valyria = - d_valyria = #############
 8253 = {
+    culture = high_valyrian
+    religion = valyrian
     holding = none
+    7121.1.1 = {
+        holding = castle_holding
+        buildings = { castle_02 }
+    }
 }
 #################### b_taerthosar = ###################
 ############# c_valyria = - d_valyria = #############
 8254 = {
-    holding = none
+    culture = high_valyrian
+    religion = valyrian
+    holding = church_holding
+	6824.1.1 = {
+		buildings = { temple_02 }
+	}
 }
 #################### b_ulenor = ###################
 ############# c_valyria = - d_valyria = #############
 8255 = {
-    holding = none
+    culture = high_valyrian
+    religion = valyrian
+    holding = city_holding
+	7824.1.1 = {
+		buildings = { city_02 }
+	}
 }
 #################### b_vaelythor = ###################
 ############# c_taelion = - d_valyria = #############
@@ -1359,6 +1384,9 @@
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
+    7510.1.1 = {
+        buildings = { generic_dragon_pit_01 }
+    }
     7824.1.1 = {
         buildings = { castle_02 }
     }
