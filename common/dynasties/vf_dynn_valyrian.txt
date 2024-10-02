@@ -145,23 +145,23 @@ dynn_Festerion = {
 	name = "dynn_Festerion"
 	culture = "high_valyrian"
 }
-dynn_Konaryan = {
-	name = "dynn_Konaryan"
-	culture = "high_valyrian"
-}
+#dynn_Konaryan = {
+#	name = "dynn_Konaryan"
+#	culture = "high_valyrian"
+#}
 dynn_Bargerion = {
 	name = "dynn_Bargerion"
 	culture = "high_valyrian"
 }
-dynn_Tulgaryan = {
-	name = "dynn_Tulgaryan"
-	culture = "high_valyrian"
-}
-dynn_Helerion = {
-	name = "dynn_Helerion"
-	culture = "high_valyrian"
-}
-dynn_Eideryon = {
-	name = "dynn_Eideryon"
-	culture = "high_valyrian"
-}
+#dynn_Tulgaryan = {
+#	name = "dynn_Tulgaryan"
+#	culture = "high_valyrian"
+#}
+#dynn_Helerion = {
+#	name = "dynn_Helerion"
+#	culture = "high_valyrian"
+#}
+#dynn_Eideryon = {
+#	name = "dynn_Eideryon"
+#	culture = "high_valyrian"
+#}

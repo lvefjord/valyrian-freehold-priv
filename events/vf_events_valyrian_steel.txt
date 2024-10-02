@@ -1,7 +1,7 @@
-﻿namespace = agot_valyrian_steel
+﻿namespace = vf_valyrian_steel
 
 # Head of Atreides dynasty bestows dusk on someone
-agot_valyrian_steel.0001 = {
+vf_valyrian_steel.0001 = {
 	type = character_event
 	title = agot_valyrian_steel.0001.t
 	desc = agot_valyrian_steel.0001.desc
@@ -56,7 +56,7 @@ agot_valyrian_steel.0001 = {
 }
 
 #Knight recieves dusk
-agot_valyrian_steel.0002 = {
+vf_valyrian_steel.0002 = {
 	type = character_event
 	title = agot_valyrian_steel.0002.t
 	desc = agot_valyrian_steel.0002.desc
