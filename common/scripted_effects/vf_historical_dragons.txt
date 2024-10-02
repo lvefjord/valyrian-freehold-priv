@@ -46,7 +46,7 @@
 	agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
 		DRAGON = character:dragon_duncan
 		dragon_age = character:dragon_duncan.age
-		gene_dragon_skin_value = 0.16
+		gene_dragon_skin_value = 0.06
 		gene_dragon_highlight_hue = 0.58
 		gene_dragon_highlight_value = 0.15
 		gene_dragon_eye_hue = 0.15
@@ -68,7 +68,7 @@
 		gene_dragon_old_neck = 0.61
 		gene_dragon_outer_brow_height = 0.61
 		gene_dragon_snout_height = 0.39
-		gene_dragon_snout_length = 0.11
+		gene_dragon_snout_length = 0.03
 		gene_dragon_snout_profile = 0.18
 		gene_dragon_snout_width = 0.89
 		gene_dragon_upper_jaw_width = 0.95
@@ -78,7 +78,7 @@
 		gene_dragon_neck_spike_size = 0.30
 		gene_dragon_side_fin_size = 0.86
 		gene_dragon_snout_end_width = 0.32
-		gene_dragon_neck_length = 0.17
+		gene_dragon_neck_length = 0.88
 		gene_dragon_tail_length = 0.75
 		gene_dragon_skin_hue = 0.29
 		}
@@ -436,7 +436,7 @@
 			gene_dragon_skin_value = 0.08
 			gene_dragon_highlight_hue = 0.88
 			gene_dragon_highlight_value = 0.43
-			gene_dragon_eye_hue = 0.90
+			gene_dragon_eye_hue = 0.99
 			gene_dragon_eye_value = 0.18
 			gene_dragon_horn_hue = 0.76
 			gene_dragon_horn_value = 0.38
@@ -981,7 +981,7 @@
 			gene_dragon_neck_spike_size = 0.69
 			gene_dragon_side_fin_size = 0.66
 			gene_dragon_snout_end_width = 0.94
-			gene_dragon_neck_length = 0.42
+			gene_dragon_neck_length = 0.73
 			gene_dragon_tail_length = 0.12
 			gene_dragon_skin_hue = 0.38
 		}
@@ -1024,7 +1024,7 @@
 			gene_dragon_neck_spike_size = 0.56
 			gene_dragon_side_fin_size = 0.26
 			gene_dragon_snout_end_width = 0.03
-			gene_dragon_neck_length = 0.20
+			gene_dragon_neck_length = 0.70
 			gene_dragon_tail_length = 0.64
 			gene_dragon_skin_hue = 0.57
 		}
@@ -1411,7 +1411,7 @@
 			gene_dragon_neck_spike_size = 0.30
 			gene_dragon_side_fin_size = 0.33
 			gene_dragon_snout_end_width = 0.95
-			gene_dragon_neck_length = 0.40
+			gene_dragon_neck_length = 0.94
 			gene_dragon_tail_length = 0.84
 			gene_dragon_skin_hue = 0.61
 		}

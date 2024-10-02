@@ -1,4 +1,4 @@
-﻿namespace = vf_valyrian_steel
+namespace = vf_valyrian_steel
 
 # Head of Atreides dynasty bestows dusk on someone
 vf_valyrian_steel.0001 = {
