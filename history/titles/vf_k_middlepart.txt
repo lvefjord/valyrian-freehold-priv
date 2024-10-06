@@ -20,7 +20,7 @@ c_daelynor = {
 		government = freehold_government
 	}
 }
-d_irūdir = {
+d_irudir = {
 	7885.5.1 = {
 		holder = Vermaxos_1
 		liege = k_firekingdom
@@ -30,7 +30,7 @@ d_irūdir = {
 c_brynysor = {
 	7885.5.1 = {
 		holder = Vermaxos_1
-		liege = d_irūdir
+		liege = d_irudir
 		government = freehold_government
 	}
 }
@@ -54,7 +54,7 @@ d_pikibagon = {
 		liege = k_firekingdom
 		government = freehold_government
 	}
-	7885.5.1 = {
+	7886.5.1 = {
 		holder = Ramessid_1
 	}
 }

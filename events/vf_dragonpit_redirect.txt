@@ -1,0 +1,32 @@
+﻿namespace = vf_dragonpit_redirect
+
+# Dragon tower is built
+vf_dragonpit_redirect.0001 = {
+	type = character_event
+	title = agot_dragon_pits.0005.t
+	desc = vf_dragonpit.0001.desc
+
+	theme = stewardship_domain_focus
+	override_background = { reference = agot_dragonpit }
+
+	left_portrait = {
+		character = root
+		animation = chancellor
+	}
+
+	immediate = {
+		every_realm_province = {
+			limit = {
+				has_building = vf_dragon_tower_01
+			}
+			save_scope_as = generic_dragonpit
+		}
+	}
+
+	option = {
+		name = agot_dragon_pits.0005.a
+
+		add_prestige = 500
+		vf_create_generic_dragonpit_scripted_effect = { DRAGON_PIT_OWNER = root }
+	}
+}

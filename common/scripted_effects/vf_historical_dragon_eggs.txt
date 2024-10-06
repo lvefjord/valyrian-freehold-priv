@@ -1,0 +1,133 @@
+﻿vf_assign_starting_dragon_eggs_effect = {
+	if = { # GIVE OUT SOME RANDO EGGS FOR CHILDREN AND SEE WHAT HAPPENS (TYPE SHI)
+		limit = { game_start_date = 7888.1.1 }
+		character:Paelinox_2 = {
+			add_to_list = egg_getters
+		}
+		character:Aegustys_2 = {
+			add_to_list = egg_getters
+		}
+		character:Vaeritrix_2 = {
+			add_to_list = egg_getters
+		}
+		character:Jaelarys_2 = {
+			add_to_list = egg_getters
+		}
+		character:Issaros_2 = {
+			add_to_list = egg_getters
+		}
+		character:Jentys_2 = {
+			add_to_list = egg_getters
+		}
+		character:Vuloryon_2 = {
+			add_to_list = egg_getters
+		}
+		character:Zumeryon_2 = {
+			add_to_list = egg_getters
+		}
+		character:Vaemerian_3 = {
+			add_to_list = egg_getters
+		}
+		character:Bargerion_2 = {
+			add_to_list = egg_getters
+		}
+		character:Vyros_2 = {
+			add_to_list = egg_getters
+		}
+		character:Vyros_3 = {
+			add_to_list = egg_getters
+		}
+		character:Doros_2 = {
+			add_to_list = egg_getters
+		}
+		character:Doros_3 = {
+			add_to_list = egg_getters
+		}
+		character:Doros_4 = {
+			add_to_list = egg_getters
+		}
+		every_in_list = {
+			list = egg_getters
+			save_scope_as = egg_getter
+			agot_create_random_dragon_egg_artifact = { OWNER = scope:egg_getter }
+			scope:egg_getter = {
+				every_character_artifact = {
+					limit = { has_variable = dragon_egg }
+					remove_variable = dud_egg
+					set_variable = cradled_egg
+					set_variable = {
+						name = cradled_egg_year
+						value = current_year
+					}
+				}
+			}
+		}
+	}
+	##### try give out random dragons as well cuz I'm over the history ones
+	if = {
+		limit = { game_start_date = 7888.1.1 }
+		character:Ramessid_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Zaldrizys_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Taenys_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Taenys_3 = {
+			add_to_list = dragon_getters
+		}
+		character:Zalarys_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Azantys_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Stavaryen_4 = {
+			add_to_list = dragon_getters
+		}
+		character:Qorbareon_6 = {
+			add_to_list = dragon_getters
+		}
+		character:Nilfarion_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Musarion_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Penloryon_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Ullaryon_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Tavaros_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Festerion_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Danderion_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Aderion_2 = {
+			add_to_list = dragon_getters
+		}
+		character:Roloros_3 = {
+			add_to_list = dragon_getters
+		}
+		every_in_list = {
+			list = dragon_getters
+			save_scope_as = dragon_getter
+			agot_spawn_owned_adult_dragon_effect = yes
+			if = {
+				limit = { exists = scope:dragon }
+				agot_tame_dragon = {
+					TAMER = scope:dragon_getter
+					DRAGON = scope:dragon
+				}
+			}
+		}
+	}
+}

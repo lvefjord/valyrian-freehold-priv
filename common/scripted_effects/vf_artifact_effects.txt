@@ -66,7 +66,7 @@ agot_create_artifact_vs_dusk_effect = {
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
-	scope:newly_created-artifact ?= {
+	scope:newly_created_artifact ?= {
 		if = {
 			limit = {
 				scope:owner = { has_character_flag = is_sword_of_morning }

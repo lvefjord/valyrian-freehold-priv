@@ -1,0 +1,44 @@
+﻿agot_dragonpit_amenities_gui = {
+	scope = character
+
+	is_shown = {
+		any_held_title = {
+			tier = tier_county
+			OR = {
+				any_county_province = {
+					has_holding_type = castle_holding
+					has_building_or_higher = generic_dragon_pit_01
+				}
+				any_county_province = {
+					OR = {
+						has_building_or_higher = dragonpit_01 # Historical Version
+						has_building = dragonpit_ruins_03 # Fully Restored Ruin Version
+						has_building = agot_dragonmont_01 # Dragonmont
+						####
+						has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+					}
+				}
+			}
+			has_variable = has_dragonkeeper_order
+		}
+	}
+}
+
+agot_view_dragons_in_dragonpit = {
+	scope = title
+
+	is_shown = {
+		OR = {
+			has_building_or_higher = generic_dragon_pit_01
+			has_building_or_higher = dragonpit_01 # Historical Version
+			has_building = dragonpit_ruins_03 # Fully Restored Ruin Version
+			has_building = agot_dragonmont_01 # Dragonmont
+			####
+			has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+		}
+	}
+
+	effect = {
+		trigger_event = agot_dragon_pits.0999
+	}
+}

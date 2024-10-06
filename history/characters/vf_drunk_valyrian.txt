@@ -107,10 +107,33 @@ Aderion_2 = {
 		add_character_flag = has_scripted_appearance
 	}
 }
+Doros_1_dad = {
+	name = Aemon
+	dynasty = dynn_Doros
 
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_2
+	trait = fickle
+	trait = paranoid
+	trait = wrathful
+	trait = cynical
+
+	disallow_random_traits = yes
+
+	7753.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7832.1.1 = {
+		death = yes
+	}
+}
 Doros_1 = {
 	name = Ebiron # Dragonlord 19/39 # HAS LAND
 	dynasty = dynn_Doros
+	father = Doros_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -129,8 +152,96 @@ Doros_1 = {
 	}
 	7828.1.1 = { give_nickname = nick_the_exile }
 	7832.1.1 = { trait = dragonrider } # Noctus (C)
+	7834.2.6 = { add_spouse = Doros_1_wife }
 }
+Doros_1_wife = {
+	name = Alyssa
+	dynasty = dynn_Doros
+	father = Doros_1_dad
+	female = yes
 
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_3
+	trait = greedy
+	trait = paranoid
+	trait = deceitful
+	trait = callous
+
+	disallow_random_traits = yes
+
+	7822.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Doros_2 = {
+	name = Aemon
+	dynasty = dynn_Doros
+	father = Doros_1
+	mother = Doros_1_wife
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_3
+	trait = brave
+	trait = gregarious
+	trait = zealous
+	trait = temperate
+
+	disallow_random_traits = yes
+
+	7840.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Doros_3 = {
+	name = Aemond
+	dynasty = dynn_Doros
+	father = Doros_1
+	mother = Doros_1_wife
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_stewardship_3
+	trait = diligent
+	trait = patient
+	trait = ambitious
+	trait = greedy
+
+	disallow_random_traits = yes
+
+	7845.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Doros_4 = {
+	name = Daemon
+	dynasty = dynn_Doros
+	father = Doros_1
+	mother = Doros_1_wife
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_3
+	trait = deceitful
+	trait = paranoid
+	trait = arbitrary
+	trait = sadistic
+
+	disallow_random_traits = yes
+
+	7848.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
 Danderion_1 = {
 	name = Alion
 	dynasty = dynn_Danderion # Dragonlord 20/39 # HAS LAND
@@ -151,6 +262,27 @@ Danderion_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7864.1.1 = { trait = dragonrider } # Draxxis (C)
+}
+Danderion_2 = {
+	name = Aelys
+	dynasty = dynn_Danderion
+	father = Danderion_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_5
+	trait = honest
+	trait = calm
+	trait = callous
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7870.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
 }
 
 Vyros_1 = {
@@ -206,9 +338,9 @@ Vyros_3 = {
 	culture = high_valyrian
 
 	trait = education_martial_4
+	trait = rowdy
 	trait = brave
 	trait = calm
-	trait = stubborn
 	trait = ambitious
 
 	disallow_random_traits = yes
@@ -257,7 +389,7 @@ Festerion_2 = {
 
 	disallow_random_traits = yes
 
-	7828.1.1 = {
+	7858.1.1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
@@ -305,6 +437,27 @@ Bargerion_1 = {
 	}
 	7873.1.1 = { give_nickname = nick_the_verdant }
 	7868.1.1 = { trait = dragonrider } # Seiless (C)
+}
+Bargerion_2 = {
+	name = Illaerys
+	dynasty = dynn_Bargerion
+	father = Bargerion_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_stewardship_4
+	trait = greedy
+	trait = paranoid
+	trait = ambitious
+	trait = arbitrary
+
+	disallow_random_traits = yes
+
+	7874.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
 }
 #Tulgaryan_1 = {
 #	name = Lagon # Dragonlord 25/39 # FREEANDREMOVED CUZ I FORGOT TO ACCOUNT FOR 4 PREEXISTING
@@ -532,7 +685,7 @@ Vaemerian_2 = {
 	trait = brave
 	trait = temperate
 	trait = deceitful
-	trait = authorative
+	trait = authoritative
 
 	disallow_random_traits = yes
 
@@ -554,7 +707,7 @@ Vaemerian_3 = {
 
 	trait = education_stewardship_3
 	trait = calm
-	trait = authorative
+	trait = authoritative
 	trait = patient
 	trait = ambitious
 
@@ -574,7 +727,7 @@ Zumeryon_1 = {
 
 	trait = education_martial_5
 	trait = brave
-	trait = authorative
+	trait = authoritative
 	trait = wrathful
 	trait = ambitious
 
@@ -779,7 +932,7 @@ Ullaryon_1 = {
 	trait = lustful
 	trait = temperate
 	trait = cynical
-	trait = authorative
+	trait = authoritative
 
 	disallow_random_traits = yes
 
@@ -787,10 +940,10 @@ Ullaryon_1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
-	7833.1.1 = { add_spouse = Ullaryon_2 }
+	7833.1.1 = { add_spouse = Ullaryon_1_wife }
 	7860.1.1 = { trait = dragonrider } # Rexiax (C)
 }
-Ullaryon_2 = {
+Ullaryon_1_wife = {
 	name = Lythera
 	female = yes
 	dynasty = dynn_Ullaryon
@@ -812,11 +965,11 @@ Ullaryon_2 = {
 		add_character_flag = has_scripted_appearance
 	}
 }
-Ullaryon_3 = {
+Ullaryon_2 = {
 	name = Ilytherion
 	dynasty = dynn_Ullaryon
 	father = Ullaryon_1
-	mother = Ullaryon_2
+	mother = Ullaryon_1_wife
 	
 	religion = valyrian
 	culture = high_valyrian
@@ -903,9 +1056,33 @@ Penloryon_2 = {
 		add_character_flag = has_scripted_appearance
 	}
 }
+Vuloryon_1_dad = {
+	name = Zaelys
+	dynasty = dynn_Vuloryon
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_2
+	trait = fickle
+	trait = paranoid
+	trait = wrathful
+	trait = cynical
+
+	disallow_random_traits = yes
+
+	7796.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+	7877.1.1 = {
+		death = yes
+	}
+}
 Vuloryon_1 = {
 	name = Zaelor # Dragonlord 36/39 # HAS LAND
 	dynasty = dynn_Vuloryon
+	father = Vuloryon_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -919,12 +1096,53 @@ Vuloryon_1 = {
 
 	disallow_random_traits = yes
 
-	7870.1.1 = {
+	7863.1.1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
 	7871.1.1 = { give_nickname = nick_the_blind }
 	7886.1.1 = { trait = dragonrider } # Vhalix (C)
+}
+Vuloryon_1_wife = {
+	name = Aemma
+	dynasty = dynn_Vuloryon
+	female = yes
+	father = Vuloryon_1_dad
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_3
+	trait = greedy
+	trait = paranoid
+	trait = deceitful
+	trait = callous
+
+	disallow_random_traits = yes
+
+	7866.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
+Vuloryon_2 = {
+	name = Aemon
+	dynasty = dynn_Vuloryon
+	father = Vuloryon_1
+	mother = Vuloryon_1_wife
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = rowdy
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7880.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
 }
 Orarion_1n2_dad = {
 	name = Loryx
@@ -988,7 +1206,7 @@ Orarion_2 = {
 	trait = lustful
 	trait = temperate
 	trait = cynical
-	trait = authorative
+	trait = authoritative
 
 	7867.1.1 = {
 		birth = yes
@@ -1005,7 +1223,7 @@ Musarion_1 = {
 	trait = education_martial_5
 	trait = sadistic
 	trait = callous
-	trait = authorative
+	trait = authoritative
 	trait = rude
 
 	disallow_random_traits = yes
@@ -1017,9 +1235,31 @@ Musarion_1 = {
 	7864.1.1 = { give_nickname = nick_the_poor }
 	7869.1.1 = { trait = dragonrider } # Tearmax (C)
 }
+Musarion_2 = {
+	name = Geraldos
+	dynasty = dynn_Musarion
+	father = Musarion_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_intrigue_4
+	trait = deceitful
+	trait = paranoid
+	trait = ambitious
+	trait = sadistic
+
+	disallow_random_traits = yes
+
+	7867.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
+}
 Nilfarion_1 = {
 	name = Coryella # Dragonlord 39/39 # HAS LAND
 	dynasty = dynn_Nilfarion
+	female = yes
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1037,4 +1277,25 @@ Nilfarion_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7869.1.1 = { trait = dragonrider } # Verox (C)
+}
+Nilfarion_2 = {
+	name = Coaerys
+	dynasty = dynn_Nilfarion
+	mother = Nilfarion_1
+
+	religion = valyrian
+	culture = high_valyrian
+
+	trait = education_martial_5
+	trait = brave
+	trait = diligent
+	trait = wrathful
+	trait = ambitious
+
+	disallow_random_traits = yes
+
+	7868.1.1 = {
+		birth = yes
+		add_character_flag = has_scripted_appearance
+	}
 }

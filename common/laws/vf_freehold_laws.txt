@@ -61,40 +61,40 @@
 			}
 		}
 	}
-	freehold_archonate_succession_attached_titles_law = {
-		can_have = {
-			OR = {
-				primary_title = { has_title_law = freehold_archonate_succession_law }
-				has_character_flag = transferring_title
-			}
-		}
-		can_keep = {
-			OR = {
-				primary_title = { has_title_law = freehold_archonate_succession_law }
-				has_character_flag = transferring_title
-			}
-		}
-		can_pass = {
-			always = no
-		}
-		can_title_have = {
-			always = yes
-		}
-		should_show_for_title = { always = no }
-		succession = {
-			order_of_succession = player_heir
-		}
-		flag = elective_succession_law
-		revoke_cost = {
-			prestige = 150000
-		}
-		pass_cost = {
-			prestige = change_title_succession_law_prestige_cost
-		}
-		ai_will_do = {
-			value = 0
-		}
-	}
+	#freehold_archonate_succession_attached_titles_law = {
+	#	can_have = {
+	#		OR = {
+	#			primary_title = { has_title_law = freehold_archonate_succession_law }
+	#			has_character_flag = transferring_title
+	#		}
+	#	}
+	#	can_keep = {
+	#		OR = {
+	#			primary_title = { has_title_law = freehold_archonate_succession_law }
+	#			has_character_flag = transferring_title
+	#		}
+	#	}
+	#	can_pass = {
+	#		always = no
+	#	}
+	#	can_title_have = {
+	#		always = yes
+	#	}
+	#	should_show_for_title = { always = no }
+	#	succession = {
+	#		order_of_succession = player_heir
+	#	}
+	#	flag = elective_succession_law
+	#	revoke_cost = {
+	#		prestige = 150000
+	#	}
+	#	pass_cost = {
+	#		prestige = change_title_succession_law_prestige_cost
+	#	}
+	#	ai_will_do = {
+	#		value = 0
+	#	}
+	#}
 	freehold_primarch_succession_law = {
 		can_have = {
 			government_has_flag = government_is_freehold
@@ -126,40 +126,40 @@
 			value = 0
 		}
 	}
-	freehold_primarch_succession_attached_titles_law = {
-		can_have = {
-			OR = {
-				primary_title = { has_title_law = freehold_primarch_succession_law }
-				has_character_flag = transferring_title
-			}
-		}
-		can_keep = {
-			OR = {
-				primary_title = { has_title_law = freehold_primarch_succession_law }
-				has_character_flag = transferring_title
-			}
-		}
-		can_pass = {
-			always = no
-		}
-		can_title_have = {
-			always = yes
-		}
-		should_show_for_title = { always = no }
-		succession = {
-			order_of_succession = player_heir
-		}
-		flag = elective_succession_law
-		revoke_cost = {
-			prestige = 150000
-		}
-		pass_cost = {
-			prestige = change_title_succession_law_prestige_cost
-		}
-		ai_will_do = {
-			value = 0
-		}
-	}
+	#freehold_primarch_succession_attached_titles_law = {
+	#	can_have = {
+	#		OR = {
+	#			primary_title = { has_title_law = freehold_primarch_succession_law }
+	#			has_character_flag = transferring_title
+	#		}
+	#	}
+	#	can_keep = {
+	#		OR = {
+	#			primary_title = { has_title_law = freehold_primarch_succession_law }
+	#			has_character_flag = transferring_title
+	#		}
+	#	}
+	#	can_pass = {
+	#		always = no
+	#	}
+	#	can_title_have = {
+	#		always = yes
+	#	}
+	#	should_show_for_title = { always = no }
+	#	succession = {
+	#		order_of_succession = player_heir
+	#	}
+	#	flag = elective_succession_law
+	#	revoke_cost = {
+	#		prestige = 150000
+	#	}
+	#	pass_cost = {
+	#		prestige = change_title_succession_law_prestige_cost
+	#	}
+	#	ai_will_do = {
+	#		value = 0
+	#	}
+	#}
 	freehold_dictatorship_succession_law = {
 		can_have = {
 			government_has_flag = government_is_freehold

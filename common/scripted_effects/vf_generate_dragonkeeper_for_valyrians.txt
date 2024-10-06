@@ -1,0 +1,15 @@
+﻿vf_generate_dragonstone_head_dragonkeeper = {
+	$HOLDER$ = { save_scope_as = holder }
+	if = {
+		limit = {
+			highest_held_HOLDER_tier >= tier_duchy
+		}
+		create_character = { # Create Head Dragonkeeper
+			template = agot_head_dragonkeeper_grand_funding_template
+			employer = $HOLDER$
+			culture = $HOLDER$.location.culture
+			faith = $HOLDER$.location.faith
+			save_scope_as = head_dragonkeeper
+		}
+	}
+}

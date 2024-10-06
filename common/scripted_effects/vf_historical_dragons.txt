@@ -78,7 +78,7 @@
 		gene_dragon_neck_spike_size = 0.30
 		gene_dragon_side_fin_size = 0.86
 		gene_dragon_snout_end_width = 0.32
-		gene_dragon_neck_length = 0.88
+		gene_dragon_neck_length = 0.48
 		gene_dragon_tail_length = 0.75
 		gene_dragon_skin_hue = 0.29
 		}
@@ -981,7 +981,7 @@
 			gene_dragon_neck_spike_size = 0.69
 			gene_dragon_side_fin_size = 0.66
 			gene_dragon_snout_end_width = 0.94
-			gene_dragon_neck_length = 0.73
+			gene_dragon_neck_length = 0.43
 			gene_dragon_tail_length = 0.12
 			gene_dragon_skin_hue = 0.38
 		}
@@ -1024,7 +1024,7 @@
 			gene_dragon_neck_spike_size = 0.56
 			gene_dragon_side_fin_size = 0.26
 			gene_dragon_snout_end_width = 0.03
-			gene_dragon_neck_length = 0.70
+			gene_dragon_neck_length = 0.40
 			gene_dragon_tail_length = 0.64
 			gene_dragon_skin_hue = 0.57
 		}
@@ -1403,7 +1403,7 @@
 			gene_dragon_snout_height = 0.18
 			gene_dragon_snout_length = 0.11
 			gene_dragon_snout_profile = 0.07
-			gene_dragon_snout_width = 0.80
+			gene_dragon_snout_width = 0.50
 			gene_dragon_upper_jaw_width = 0.05
 			gene_dragon_center_fin_size = 0.64
 			gene_dragon_back_spike_size = 0.60
@@ -1411,7 +1411,7 @@
 			gene_dragon_neck_spike_size = 0.30
 			gene_dragon_side_fin_size = 0.33
 			gene_dragon_snout_end_width = 0.95
-			gene_dragon_neck_length = 0.94
+			gene_dragon_neck_length = 0.54
 			gene_dragon_tail_length = 0.84
 			gene_dragon_skin_hue = 0.61
 		}
