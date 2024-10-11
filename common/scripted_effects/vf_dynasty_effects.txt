@@ -1,0 +1,11 @@
+﻿vf_valyrian_dynasty_setup = {
+	this = {
+		add_dynasty_modifier = valyrian_heritage_dynasty_modifier
+		agot_safe_add_dynasty_perk_history_effect = { PERK = dragonrider_dynasty_legacy_1 }
+		agot_safe_add_dynasty_perk_history_effect = { PERK = dragonrider_dynasty_legacy_2 }
+		agot_safe_add_dynasty_perk_history_effect = { PERK = dragonrider_dynasty_legacy_3 }
+		agot_safe_add_dynasty_perk_history_effect = { PERK = dragonrider_dynasty_legacy_4 }
+		agot_safe_add_dynasty_perk_history_effect = { PERK = dragonrider_dynasty_legacy_5 }
+		this.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
+	}
+}

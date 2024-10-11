@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "building_special_dragon_tower_mesh"
+	file = "building_special_dragon_tower.mesh"
+
+	meshsettings = {
+		name = "dragon_towerShape"
+		index = 0
+		texture_diffuse = "casterlyrock_castle_diffuse.dds"
+		texture_normal = "casterlyrock_castle_normal.dds"
+		texture_specular = "casterlyrock_castle_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "building_special_dragon_tower_entity"
+	pdxmesh = "building_special_dragon_tower_mesh"
+}

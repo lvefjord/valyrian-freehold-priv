@@ -2,7 +2,7 @@
 	7885.5.1 = {
 		holder = Atreides_1
 		liege = e_valyria
-		succession_laws = { freehold_appointment_kingdom_succession_law }
+		#succession_laws = { freehold_appointment_kingdom_succession_law }
 		government = freehold_government
 		effect = {
 			if = {
