@@ -22,10 +22,10 @@ vf_on_death = {
 		}
 	}
 }
-vf_on_title_gain = {
+#vf_on_title_gain = {
 	effect = {
 		root = {
-			
+
 		}
 	}
-}
+#}
