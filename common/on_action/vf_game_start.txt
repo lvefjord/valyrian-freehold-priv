@@ -37,6 +37,7 @@ vf_game_start = {
 				set_de_jure_liege_title = title:e_valyria
 			}
 		}
+		vf_eat_mybung_hole = yes
 		# Dynasty setup
 		
 		### Dynasty related setup

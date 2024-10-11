@@ -155,3 +155,123 @@ vf_game_start_dragonpit_effect = {
 		}
 	}
 }
+
+vf_eat_mybung_hole = {
+	province:8060 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8068 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8083 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8096 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8110 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8125 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8132 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8144 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8156 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8160 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8184 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8195 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8198 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8209 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8214 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8233 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8237 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8251 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8266 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8274 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8294 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8317 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8325 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8329 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8336 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8358 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8373 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8381 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8394 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8403 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8407 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8416 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8454 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8470 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8486 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8491 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8508 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8522 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+	province:8534 = {
+		add_special_building = vf_dragon_tower_01 
+	}
+}
