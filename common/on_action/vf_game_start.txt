@@ -4,12 +4,19 @@
 	}
 }
 
+on_game_start_after_lobby = {
+	on_actions = {
+		vf_on_game_start_after_lobby
+	}
+}
+
 vf_game_start = {
 	effect = {
 		vf_artifact_setup = yes
 		vf_dragon_setup = yes
 		too_lazy_to_change_the_generated_counties_liege_in_the_files_effect = yes
 		vf_dynasty_strong_seeds = yes
+		vf_assign_starting_dragon_eggs_effect = yes
 
 		if = {
 			limit = { character:Targaryen_13 = { is_alive = yes } }
@@ -122,19 +129,25 @@ vf_game_start = {
 	}
 }
 
-## Dusk Artifact creation game start
-#on_game_start = {
-#    on_actions = {
-#        ac_game_start
-#    }
-#}
-#
-#ac_game_start = {
-#    effect = {
-#        if = {
-#            limit = { game_start_date = 7888.1.1 }
-#			character:Atreides_1 = { agot_create_artifact_vs_dusk_effect = { OWNER = THIS }
-#			}
-#		}
-#	}
-#}
+vf_on_game_start_after_lobby = {
+	effect = {
+		## We need one of these for each dragonmont county ig
+		# Maybe add all the titles to a list and then iterate over them instead of making one each
+		if = {
+			limit = {
+				game_start_date = 7888.1.1
+			}
+			vf_game_start_dragonpit_effect = yes
+			#title:c_valyria = { # Adding dragonkeeper variable to dragonstone
+			#	agot_dragonpit_gamestart_init_pit_effect = yes
+			#}
+			#title:c_valyria.holder ?= {
+			#	vf_generate_dragonstone_head_dragonkeeper = { TITLE = c_valyria }
+			#	appoint_court_position = {
+			#		recipient = scope:head_dragonkeeper
+			#		court_position = head_dragonkeeper_court_position
+			#	}
+			#}
+		}
+	}
+}

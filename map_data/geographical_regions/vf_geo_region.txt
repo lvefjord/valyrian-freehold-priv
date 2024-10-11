@@ -27,7 +27,7 @@ world_valyrian_peninsula = {
 		d_geliotikun
 		d_govilirion
 		d_idinnon
-		d_irūdir
+		d_irudir
 		d_jaehenka
 		d_jelebagon
 		d_keskydoso
@@ -46,8 +46,8 @@ world_valyrian_peninsula = {
 		d_ozletagon
 		d_oregon
 		d_obagon
-		d_ñoghoqitta
-		d_muñazma
+		d_noghoqitta
+		d_munazma
 		d_mivojughagon
 		d_midemagon
 		d_lentazma

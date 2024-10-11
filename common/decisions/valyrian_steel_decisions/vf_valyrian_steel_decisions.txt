@@ -1,45 +1,45 @@
-﻿reforge_valyrian_steel_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
-
-	sort_order = 76
-
-	cost = { }
-
-	desc = reforge_valyrian_steel_decision_desc
-
-	is_shown = {
-		any_character_artifact = {
-			has_variable = valyrian_steel
-			NOT = { has_variable = dusk_artifact }
-		}
-	}
-
-	is_valid = {
-		employs_court_position = court_smith_court_position
-		custom_tooltip = {
-			text = reforge_valyrian_steel_excellent_aptitude
-			any_court_position_holder = {
-				type = court_smith_court_position
-				aptitude = {
-					court_position = court_smith_court_position
-					value >= 4
-				}
-			}
-		}
-		prestige >= massive_prestige_value
-		short_term_gold >= 1000
-	}
-
-	ai_check_interval = 0
-
-	ai_potential = { always = no }
-
-	effect = {
-		trigger_event = agot_valyrian_steel.8000
-
-		custom_tooltip = reforge_valyrian_steel_decision.tt
-	}
-}
+﻿#reforge_valyrian_steel_decision = {
+#	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+#
+#	sort_order = 76
+#
+#	cost = { }
+#
+#	desc = reforge_valyrian_steel_decision_desc
+#
+#	is_shown = {
+#		any_character_artifact = {
+#			has_variable = valyrian_steel
+#			NOT = { has_variable = dusk_artifact }
+#		}
+#	}
+#
+#	is_valid = {
+#		employs_court_position = court_smith_court_position
+#		custom_tooltip = {
+#			text = reforge_valyrian_steel_excellent_aptitude
+#			any_court_position_holder = {
+#				type = court_smith_court_position
+#				aptitude = {
+#					court_position = court_smith_court_position
+#					value >= 4
+#				}
+#			}
+#		}
+#		prestige >= massive_prestige_value
+#		short_term_gold >= 1000
+#	}
+#
+#	ai_check_interval = 0
+#
+#	ai_potential = { always = no }
+#
+#	effect = {
+#		trigger_event = agot_valyrian_steel.8000
+#
+#		custom_tooltip = reforge_valyrian_steel_decision.tt
+#	}
+#}
 
 claim_dusk_worthy_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"

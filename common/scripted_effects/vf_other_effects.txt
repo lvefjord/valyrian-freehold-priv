@@ -24,3 +24,134 @@ too_lazy_to_change_the_generated_counties_liege_in_the_files_effect = {
 	}
 	resolve_title_and_vassal_change = scope:change
 }
+
+vf_game_start_dragonpit_effect = {
+	title:c_daelynor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_zhaeryth = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_faelith = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_zhaelthor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_ilythar = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_jaeryn = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_aerionor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_elythorion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_brynysor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_vaenor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_oelrynor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_jaelys = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_paelion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_haelyx = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_daenyth = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_daelthor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_qaelyx = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_aelzor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_maenythor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_saelrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_raelythor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_xaelrynor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_gaelzor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_ilyrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_oelyth = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_yrnith = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_valyria = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_haelthor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_jaelion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_vaeryth = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_naelrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_ulenor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_gaelion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_naelthor = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_oelyrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_qaelrion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_saelion = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_elythar = {
+		add_to_list = dragonpit_titles
+	}
+	title:c_zaelthor = {
+		add_to_list = dragonpit_titles
+	}
+	every_in_list = {
+		list = dragonpit_titles
+		agot_dragonpit_gamestart_init_pit_effect = yes
+		this.holder ?= {
+			vf_generate_dragonstone_head_dragonkeeper = { HOLDER = this }
+			appoint_court_position = {
+				recipient = scope:head_dragonkeeper
+				court_position = head_dragonkeeper_court_position
+			}
+		}
+	}
+}

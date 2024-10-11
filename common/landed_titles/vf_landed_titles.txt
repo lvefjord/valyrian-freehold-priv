@@ -1,35 +1,15 @@
 ﻿e_valyria = {
-					color = { 162 20 20 }
+	color = { 162 20 20 }
 	capital = c_valyria
 	k_firekingdom = {
-					color = { 96 73 26 }
+		color = { 96 73 26 }
 		capital = c_daelynor
 		d_memebagon = {
-					color = { 55 32 15 }
+			color = { 55 32 15 }
 			capital = c_daelynor
-			c_raelthorion = {
-					color = { 0 0 0 }
-				
-				b_raelithion = {
-					province = 8377 #c_86_1 
-					color = { 0 0 0 }
-				}
-				b_saelithar = {
-					province = 8378 #c_86_2 
-					color = { 0 0 0 }
-				}
-				b_taenorion = {
-					province = 8379 #c_86_3 
-					color = { 0 0 0 }
-				}
-				b_ulerythos = {
-					province = 8380 #c_86_4 
-					color = { 0 0 0 }
-				}
-			}
 			c_daelynor = {
-					color = { 22 10 6 }
-				
+				color = { 22 10 6 }
+			
 				b_vaelrythor = {
 					province = 8381 #c_87_1 
 					color = { 22 10 6 }
@@ -48,6 +28,26 @@
 				}
 				b_aelrythosar = {
 					province = 8385 #c_87_5 
+					color = { 22 10 6 }
+				}
+			}
+			c_raelthorion = {
+					color = { 22 10 6 }
+				
+				b_raelithion = {
+					province = 8377 #c_86_1 
+					color = { 22 10 6 }
+				}
+				b_saelithar = {
+					province = 8378 #c_86_2 
+					color = { 22 10 6 }
+				}
+				b_taenorion = {
+					province = 8379 #c_86_3 
+					color = { 22 10 6 }
+				}
+				b_ulerythos = {
+					province = 8380 #c_86_4 
 					color = { 22 10 6 }
 				}
 			}
@@ -97,7 +97,7 @@
 			}
 		}
 		d_kisagon = {
-					color = { 75 51 20 }
+			color = { 75 51 20 }
 			capital = c_zhaeryth
 			c_zhaeryth = {
 					color = { 10 4 2 }
@@ -161,7 +161,7 @@
 			}
 		}
 		d_qelilla = {
-					color = { 95 73 26 }
+			color = { 95 73 26 }
 			capital = c_faelith
 			c_faelith = {
 					color = { 30 15 8 }
@@ -241,24 +241,8 @@
 			}
 		}
 		d_qanemagon = {
-					color = { 116 98 31 }
+			color = { 116 98 31 }
 			capital = c_zhaelthor
-			c_paelzor = {
-					color = { 51 29 13 }
-				
-				b_ezima = {
-					province = 8463 #c_106_1 
-					color = { 51 29 13 }
-				}
-				b_henka = {
-					province = 8464 #c_106_2 
-					color = { 51 29 13 }
-				}
-				b_faelzor = {
-					province = 8465 #c_106_3 
-					color = { 51 29 13 }
-				}
-			}
 			c_zhaelthor = {
 					color = { 83 59 22 }
 				
@@ -283,6 +267,22 @@
 					color = { 83 59 22 }
 				}
 			}
+			c_paelzor = {
+					color = { 51 29 13 }
+				
+				b_ezima = {
+					province = 8463 #c_106_1 
+					color = { 51 29 13 }
+				}
+				b_henka = {
+					province = 8464 #c_106_2 
+					color = { 51 29 13 }
+				}
+				b_faelzor = {
+					province = 8465 #c_106_3 
+					color = { 51 29 13 }
+				}
+			}
 			c_xaelythion = {
 					color = { 115 97 31 }
 				
@@ -301,8 +301,28 @@
 			}
 		}
 		d_jelebagon = {
-					color = { 136 127 36 }
+			color = { 136 127 36 }
 			capital = c_ilythar
+			c_ilythar = {
+				color = { 103 83 27 }
+			
+				b_zaelynor = {
+					province = 8184 #c_33_1 
+					color = { 103 83 27 }
+				}
+				b_aerythos = {
+					province = 8185 #c_33_2 
+					color = { 103 83 27 }
+				}
+				b_bryxar = {
+					province = 8186 #c_33_3 
+					color = { 103 83 27 }
+				}
+				b_caelythos = {
+					province = 8187 #c_33_4 
+					color = { 103 83 27 }
+				}
+			}
 			c_xaelyth = {
 					color = { 71 47 18 }
 				
@@ -323,26 +343,6 @@
 					color = { 71 47 18 }
 				}
 			}
-			c_ilythar = {
-					color = { 103 83 27 }
-				
-				b_zaelynor = {
-					province = 8184 #c_33_1 
-					color = { 103 83 27 }
-				}
-				b_aerythos = {
-					province = 8185 #c_33_2 
-					color = { 103 83 27 }
-				}
-				b_bryxar = {
-					province = 8186 #c_33_3 
-					color = { 103 83 27 }
-				}
-				b_caelythos = {
-					province = 8187 #c_33_4 
-					color = { 103 83 27 }
-				}
-			}
 			c_haenith = {
 					color = { 136 127 36 }
 				
@@ -361,10 +361,10 @@
 			}
 		}
 		d_meri = {
-					color = { 35 17 9 }
+			color = { 35 17 9 }
 			capital = c_jaeryn
 			c_jaeryn = {
-					color = { 0 0 0 }
+					color = { 35 17 9 }
 				
 				b_jaelythorion = {
 					province = 8394 #c_90_1 
@@ -437,7 +437,7 @@
 			}
 		}
 		d_jaehenka = {
-					color = { 55 32 15 }
+			color = { 55 32 15 }
 			capital = c_aerionor
 			c_aerionor = {
 					color = { 0 0 0 }
@@ -501,28 +501,8 @@
 			}
 		}
 		d_qablos = {
-					color = { 75 51 20 }
+			color = { 75 51 20 }
 			capital = c_elythorion
-			c_vaelysor = {
-					color = { 10 4 2 }
-				
-				b_gaelryx = {
-					province = 8466 #c_107_1 
-					color = { 10 4 2 }
-				}
-				b_haelyth = {
-					province = 8467 #c_107_2 
-					color = { 10 4 2 }
-				}
-				b_ilynar = {
-					province = 8468 #c_107_3 
-					color = { 10 4 2 }
-				}
-				b_engos = {
-					province = 8469 #c_107_4 
-					color = { 10 4 2 }
-				}
-			}
 			c_elythorion = {
 					color = { 42 23 11 }
 				
@@ -547,6 +527,26 @@
 					color = { 42 23 11 }
 				}
 			}
+			c_vaelysor = {
+					color = { 10 4 2 }
+				
+				b_gaelryx = {
+					province = 8466 #c_107_1 
+					color = { 10 4 2 }
+				}
+				b_haelyth = {
+					province = 8467 #c_107_2 
+					color = { 10 4 2 }
+				}
+				b_ilynar = {
+					province = 8468 #c_107_3 
+					color = { 10 4 2 }
+				}
+				b_engos = {
+					province = 8469 #c_107_4 
+					color = { 10 4 2 }
+				}
+			}
 			c_naelythar = {
 					color = { 75 51 20 }
 				
@@ -568,9 +568,33 @@
 				}
 			}
 		}
-		d_irūdir = {
-					color = { 95 73 26 }
+		d_irudir = {
+			color = { 95 73 26 }
 			capital = c_brynysor
+			c_brynysor = {
+					color = { 95 73 25 }
+				
+				b_gaenytar = {
+					province = 8416 #c_95_1 
+					color = { 95 73 25 }
+				}
+				b_haelryzor = {
+					province = 8417 #c_95_2 
+					color = { 95 73 25 }
+				}
+				b_ilythoxar = {
+					province = 8418 #c_95_3 
+					color = { 95 73 25 }
+				}
+				b_jaelrythos = {
+					province = 8419 #c_95_4 
+					color = { 95 73 25 }
+				}
+				b_kaenyxion = {
+					province = 8420 #c_95_5 
+					color = { 95 73 25 }
+				}
+			}
 			c_paelys = {
 					color = { 30 15 8 }
 				
@@ -607,34 +631,30 @@
 					color = { 62 40 17 }
 				}
 			}
-			c_brynysor = {
-					color = { 95 73 25 }
-				
-				b_gaenytar = {
-					province = 8416 #c_95_1 
-					color = { 95 73 25 }
-				}
-				b_haelryzor = {
-					province = 8417 #c_95_2 
-					color = { 95 73 25 }
-				}
-				b_ilythoxar = {
-					province = 8418 #c_95_3 
-					color = { 95 73 25 }
-				}
-				b_jaelrythos = {
-					province = 8419 #c_95_4 
-					color = { 95 73 25 }
-				}
-				b_kaenyxion = {
-					province = 8420 #c_95_5 
-					color = { 95 73 25 }
-				}
-			}
 		}
 		d_idinnon = {
-					color = { 116 98 31 }
+			color = { 116 98 31 }
 			capital = c_vaenor
+			c_vaenor = {
+				color = { 83 59 22 }
+				
+				b_naelthos = {
+					province = 8198 #c_37_1 
+					color = { 83 59 22 }
+				}
+				b_oelthor = {
+					province = 8199 #c_37_2 
+					color = { 83 59 22 }
+				}
+				b_paelrys = {
+					province = 8200 #c_37_3 
+					color = { 83 59 22 }
+				}
+				b_qaelyxar = {
+					province = 8201 #c_37_4 
+					color = { 83 59 22 }
+				}
+			}
 			c_aelion = {
 					color = { 51 29 13 }
 				
@@ -653,26 +673,6 @@
 				b_jaelythor = {
 					province = 8194 #c_35_4 
 					color = { 51 29 13 }
-				}
-			}
-			c_vaenor = {
-					color = { 83 59 22 }
-				
-				b_naelthos = {
-					province = 8198 #c_37_1 
-					color = { 83 59 22 }
-				}
-				b_oelthor = {
-					province = 8199 #c_37_2 
-					color = { 83 59 22 }
-				}
-				b_paelrys = {
-					province = 8200 #c_37_3 
-					color = { 83 59 22 }
-				}
-				b_qaelyxar = {
-					province = 8201 #c_37_4 
-					color = { 83 59 22 }
 				}
 			}
 			c_elynor = {
@@ -713,28 +713,8 @@
 			}
 		}
 		d_pikibagon = {
-					color = { 136 127 36 }
+			color = { 136 127 36 }
 			capital = c_oelrynor
-			c_jaenorion = {
-					color = { 71 47 18 }
-				
-				b_jeson = {
-					province = 8447 #c_102_1 
-					color = { 71 47 18 }
-				}
-				b_naelthorion = {
-					province = 8448 #c_102_2 
-					color = { 71 47 18 }
-				}
-				b_oelythar = {
-					province = 8449 #c_102_3 
-					color = { 71 47 18 }
-				}
-				b_paelzorax = {
-					province = 8450 #c_102_4 
-					color = { 71 47 18 }
-				}
-			}
 			c_oelrynor = {
 					color = { 103 83 27 }
 				
@@ -759,6 +739,26 @@
 					color = { 103 83 27 }
 				}
 			}
+			c_jaenorion = {
+					color = { 71 47 18 }
+				
+				b_jeson = {
+					province = 8447 #c_102_1 
+					color = { 71 47 18 }
+				}
+				b_naelthorion = {
+					province = 8448 #c_102_2 
+					color = { 71 47 18 }
+				}
+				b_oelythar = {
+					province = 8449 #c_102_3 
+					color = { 71 47 18 }
+				}
+				b_paelzorax = {
+					province = 8450 #c_102_4 
+					color = { 71 47 18 }
+				}
+			}
 			c_laelythor = {
 					color = { 136 127 36 }
 				
@@ -777,7 +777,7 @@
 			}
 		}
 		d_keskydoso = {
-					color = { 35 17 9 }
+			color = { 35 17 9 }
 			capital = c_jaelys
 			c_jaelys = {
 					color = { 0 0 0 }
@@ -842,11 +842,31 @@
 		}
 	}
 	k_landsoflongsummer = {
-					color = { 94 84 187 }
+		color = { 94 84 187 }
 		capital = c_paelion
 		d_mazioragon = {
-					color = { 62 76 157 }
+			color = { 62 76 157 }
 			capital = c_paelion
+			c_paelion = {
+				color = { 62 75 157 }
+				
+				b_paelthar = {
+					province = 8125 #c_18_1 
+					color = { 62 75 157 }
+				}
+				b_qaerynor = {
+					province = 8126 #c_18_2 
+					color = { 62 75 157 }
+				}
+				b_raenysar = {
+					province = 8127 #c_18_3 
+					color = { 62 75 157 }
+				}
+				b_saelythor = {
+					province = 8128 #c_18_4 
+					color = { 62 75 157 }
+				}
+			}
 			c_laerion = {
 					color = { 38 69 98 }
 				
@@ -883,26 +903,6 @@
 					color = { 50 75 127 }
 				}
 			}
-			c_paelion = {
-					color = { 62 75 157 }
-				
-				b_paelthar = {
-					province = 8125 #c_18_1 
-					color = { 62 75 157 }
-				}
-				b_qaerynor = {
-					province = 8126 #c_18_2 
-					color = { 62 75 157 }
-				}
-				b_raenysar = {
-					province = 8127 #c_18_3 
-					color = { 62 75 157 }
-				}
-				b_saelythor = {
-					province = 8128 #c_18_4 
-					color = { 62 75 157 }
-				}
-			}
 			c_erythor = {
 					color = { 79 75 184 }
 				
@@ -921,24 +921,8 @@
 			}
 		}
 		d_ozletagon = {
-					color = { 69 72 175 }
+			color = { 69 72 175 }
 			capital = c_haelyx
-			c_gaelthor = {
-					color = { 45 73 116 }
-				
-				b_laerithos = {
-					province = 8093 #c_9_1 
-					color = { 45 73 116 }
-				}
-				b_maelyxor = {
-					province = 8094 #c_9_2 
-					color = { 45 73 116 }
-				}
-				b_naerysor = {
-					province = 8095 #c_9_3 
-					color = { 45 73 116 }
-				}
-			}
 			c_haelyx = {
 					color = { 57 75 145 }
 				
@@ -959,6 +943,22 @@
 					color = { 57 75 145 }
 				}
 			}
+			c_gaelthor = {
+					color = { 45 73 116 }
+				
+				b_laerithos = {
+					province = 8093 #c_9_1 
+					color = { 45 73 116 }
+				}
+				b_maelyxor = {
+					province = 8094 #c_9_2 
+					color = { 45 73 116 }
+				}
+				b_naerysor = {
+					province = 8095 #c_9_3 
+					color = { 45 73 116 }
+				}
+			}
 			c_maenor = {
 					color = { 69 71 174 }
 				
@@ -977,10 +977,10 @@
 			}
 		}
 		d_levitsos = {
-					color = { 93 84 187 }
+			color = { 93 84 187 }
 			capital = c_daenyth
 			c_daenyth = {
-					color = { 53 76 135 }
+				color = { 53 76 135 }
 				
 				b_jaenoxor = {
 					province = 8144 #c_23_1 
@@ -1041,10 +1041,10 @@
 			}
 		}
 		d_obagon = {
-					color = { 122 102 194 }
+			color = { 122 102 194 }
 			capital = c_daelthor
 			c_daelthor = {
-					color = { 61 74 153 }
+				color = { 61 74 153 }
 				
 				b_haves = {
 					province = 8068 #c_3_1 
@@ -1121,10 +1121,10 @@
 			}
 		}
 		d_loragon = {
-					color = { 147 120 201 }
+			color = { 147 120 201 }
 			capital = c_qaelyx
 			c_qaelyx = {
-					color = { 68 71 171 }
+				color = { 68 71 171 }
 				
 				b_xaelthor = {
 					province = 8132 #c_20_1 
@@ -1184,11 +1184,11 @@
 				}
 			}
 		}
-		d_ñoghoqitta = {
-					color = { 55 77 139 }
+		d_noghoqitta = {
+			color = { 55 77 139 }
 			capital = c_aelzor
 			c_aelzor = {
-					color = { 31 62 80 }
+				color = { 31 62 80 }
 				
 				b_aeryxor = {
 					province = 8060 #c_1_1 
@@ -1229,28 +1229,8 @@
 			}
 		}
 		d_lentazma = {
-					color = { 62 76 157 }
+			color = { 62 76 157 }
 			capital = c_maenythor
-			c_vaelzorion = {
-					color = { 38 69 98 }
-				
-				b_ilynzor = {
-					province = 8518 #c_120_1 
-					color = { 38 69 98 }
-				}
-				b_jaelros = {
-					province = 8519 #c_120_2 
-					color = { 38 69 98 }
-				}
-				b_kaelythor = {
-					province = 8520 #c_120_3 
-					color = { 38 69 98 }
-				}
-				b_iqrinumbagon = {
-					province = 8521 #c_120_4 
-					color = { 38 69 98 }
-				}
-			}
 			c_maenythor = {
 					color = { 50 75 127 }
 				
@@ -1273,6 +1253,26 @@
 				b_kaelys = {
 					province = 8495 #c_113_5 
 					color = { 50 75 127 }
+				}
+			}
+			c_vaelzorion = {
+					color = { 38 69 98 }
+				
+				b_ilynzor = {
+					province = 8518 #c_120_1 
+					color = { 38 69 98 }
+				}
+				b_jaelros = {
+					province = 8519 #c_120_2 
+					color = { 38 69 98 }
+				}
+				b_kaelythor = {
+					province = 8520 #c_120_3 
+					color = { 38 69 98 }
+				}
+				b_iqrinumbagon = {
+					province = 8521 #c_120_4 
+					color = { 38 69 98 }
 				}
 			}
 			c_brythorion = {
@@ -1317,8 +1317,32 @@
 			}
 		} 
 		d_kyvanon = {
-					color = { 69 72 175 }
+			color = { 69 72 175 }
 			capital = c_saelrion
+			c_saelrion = {
+				color = { 69 71 174 }
+				
+				b_yaelrythos = {
+					province = 8358 #c_81_1 
+					color = { 69 71 174 }
+				}
+				b_zaelythionor = {
+					province = 8359 #c_81_2 
+					color = { 69 71 174 }
+				}
+				b_jaelagon = {
+					province = 8360 #c_81_3 
+					color = { 69 71 174 }
+				}
+				b_hivagon = {
+					province = 8361 #c_81_4 
+					color = { 69 71 174 }
+				}
+				b_caelythionor = {
+					province = 8362 #c_81_5 
+					color = { 69 71 174 }
+				}
+			}
 			c_taelythar = {
 					color = { 45 73 116 }
 				
@@ -1351,36 +1375,12 @@
 					color = { 57 75 145 }
 				}
 			}
-			c_saelrion = {
-					color = { 69 71 174 }
-				
-				b_yaelrythos = {
-					province = 8358 #c_81_1 
-					color = { 69 71 174 }
-				}
-				b_zaelythionor = {
-					province = 8359 #c_81_2 
-					color = { 69 71 174 }
-				}
-				b_jaelagon = {
-					province = 8360 #c_81_3 
-					color = { 69 71 174 }
-				}
-				b_hivagon = {
-					province = 8361 #c_81_4 
-					color = { 69 71 174 }
-				}
-				b_caelythionor = {
-					province = 8362 #c_81_5 
-					color = { 69 71 174 }
-				}
-			}
 		}
-		d_muñazma = {
-					color = { 93 84 187 }
+		d_munazma = {
+			color = { 93 84 187 }
 			capital = c_raelythor
 			c_raelythor = {
-					color = { 53 76 135 }
+				color = { 53 76 135 }
 				
 				b_zaelithor = {
 					province = 8534 #c_124_1 
@@ -1441,10 +1441,10 @@
 			}
 		}
 		d_mivojughagon = {
-					color = { 122 102 194 }
+			color = { 122 102 194 }
 			capital = c_xaelrynor
 			c_xaelrynor = {
-					color = { 61 74 153 }
+				color = { 61 74 153 }
 				
 				b_maelzor = {
 					province = 8522 #c_121_1 
@@ -1505,10 +1505,10 @@
 			}
 		}
 		d_midemagon = {
-					color = { 147 120 201 }
+			color = { 147 120 201 }
 			capital = c_gaelzor
 			c_gaelzor = {
-					color = { 68 71 171 }
+				color = { 68 71 171 }
 				
 				b_gevurlion = {
 					province = 8508 #c_117_1 
@@ -1561,8 +1561,32 @@
 			}
 		}
 		d_parkliapos = {
-					color = { 55 77 139 }
+			color = { 55 77 139 }
 			capital = c_ilyrion
+			c_ilyrion = {
+				color = { 55 76 139 }
+				
+				b_brythos = {
+					province = 8486 #c_112_1 
+					color = { 55 76 139 }
+				}
+				b_caenith = {
+					province = 8487 #c_112_2 
+					color = { 55 76 139 }
+				}
+				b_daelthos = {
+					province = 8488 #c_112_3 
+					color = { 55 76 139 }
+				}
+				b_jozigon = {
+					province = 8489 #c_112_4 
+					color = { 55 76 139 }
+				}
+				b_faelion = {
+					province = 8490 #c_112_5 
+					color = { 55 76 139 }
+				}
+			}
 			c_ulythar = {
 					color = { 31 62 80 }
 				
@@ -1603,56 +1627,12 @@
 					color = { 43 72 109 }
 				}
 			}
-			c_ilyrion = {
-					color = { 55 76 139 }
-				
-				b_brythos = {
-					province = 8486 #c_112_1 
-					color = { 55 76 139 }
-				}
-				b_caenith = {
-					province = 8487 #c_112_2 
-					color = { 55 76 139 }
-				}
-				b_daelthos = {
-					province = 8488 #c_112_3 
-					color = { 55 76 139 }
-				}
-				b_jozigon = {
-					province = 8489 #c_112_4 
-					color = { 55 76 139 }
-				}
-				b_faelion = {
-					province = 8490 #c_112_5 
-					color = { 55 76 139 }
-				}
-			}
 		}
 		d_oregon = {
-					color = { 62 76 157 }
+			color = { 62 76 157 }
 			capital = c_oelyth
-			c_vaelythor = {
-					color = { 38 69 98 }
-				
-				b_zaelthar = {
-					province = 8106 #c_13_1 
-					color = { 38 69 98 }
-				}
-				b_aerionor = {
-					province = 8107 #c_13_2 
-					color = { 38 69 98 }
-				}
-				b_daelith = {
-					province = 8108 #c_13_3 
-					color = { 38 69 98 }
-				}
-				b_faelynor = {
-					province = 8109 #c_13_4 
-					color = { 38 69 98 }
-				}
-			}
 			c_oelyth = {
-					color = { 50 75 127 }
+				color = { 50 75 127 }
 				
 				b_yaerithos = {
 					province = 8083 #c_7_1 
@@ -1673,6 +1653,26 @@
 				b_faelthys = {
 					province = 8087 #c_7_5 
 					color = { 50 75 127 }
+				}
+			}
+			c_vaelythor = {
+					color = { 38 69 98 }
+				
+				b_zaelthar = {
+					province = 8106 #c_13_1 
+					color = { 38 69 98 }
+				}
+				b_aerionor = {
+					province = 8107 #c_13_2 
+					color = { 38 69 98 }
+				}
+				b_daelith = {
+					province = 8108 #c_13_3 
+					color = { 38 69 98 }
+				}
+				b_faelynor = {
+					province = 8109 #c_13_4 
+					color = { 38 69 98 }
 				}
 			}
 			c_qaenor = {
@@ -1701,26 +1701,10 @@
 			}
 		}
 		d_paletilla = {
-					color = { 69 72 175 }
+			color = { 69 72 175 }
 			capital = c_yrnith
-			c_xaeryth = {
-					color = { 45 73 116 }
-				
-				b_vaeryx = {
-					province = 8103 #c_12_1 
-					color = { 45 73 116 }
-				}
-				b_xaelythos = {
-					province = 8104 #c_12_2 
-					color = { 45 73 116 }
-				}
-				b_yaenyth = {
-					province = 8105 #c_12_3 
-					color = { 45 73 116 }
-				}
-			}
 			c_yrnith = {
-					color = { 57 75 145 }
+				color = { 57 75 145 }
 				
 				b_aelthar = {
 					province = 8110 #c_14_1 
@@ -1737,6 +1721,22 @@
 				b_daerithon = {
 					province = 8113 #c_14_4 
 					color = { 57 75 145 }
+				}
+			}
+			c_xaeryth = {
+					color = { 45 73 116 }
+				
+				b_vaeryx = {
+					province = 8103 #c_12_1 
+					color = { 45 73 116 }
+				}
+				b_xaelythos = {
+					province = 8104 #c_12_2 
+					color = { 45 73 116 }
+				}
+				b_yaenyth = {
+					province = 8105 #c_12_3 
+					color = { 45 73 116 }
 				}
 			}
 			c_zhaenor = {
@@ -1762,11 +1762,35 @@
 		}
 	}
 	k_valyria = {
-					color = { 129 235 180 }
+		color = { 129 235 180 }
 		capital = c_valyria
 		d_valyria = {
-					color = { 84 228 119 }
+			color = { 84 228 119 }
 			capital = c_valyria
+			c_valyria = {
+				color = { 83 228 118 }
+				
+				b_valyria = {
+					province = 8251 #c_51_1 
+					color = { 83 228 118 }
+				}
+				b_raelysar = {
+					province = 8252 #c_51_2 
+					color = { 83 228 118 }
+				}
+				b_saelythion = {
+					province = 8253 #c_51_3 
+					color = { 83 228 118 }
+				}
+				b_taerthosar = {
+					province = 8254 #c_51_4 
+					color = { 83 228 118 }
+				}
+				b_ulenor = {
+					province = 8255 #c_51_5 
+					color = { 83 228 118 }
+				}
+			}
 			c_brynith = {
 					color = { 51 198 31 }
 				
@@ -1797,30 +1821,6 @@
 				b_aelthysor = {
 					province = 8285 #c_60_3 
 					color = { 48 222 59 }
-				}
-			}
-			c_valyria = {
-					color = { 83 228 118 }
-				
-				b_valyria = {
-					province = 8251 #c_51_1 
-					color = { 83 228 118 }
-				}
-				b_raelysar = {
-					province = 8252 #c_51_2 
-					color = { 83 228 118 }
-				}
-				b_saelythion = {
-					province = 8253 #c_51_3 
-					color = { 83 228 118 }
-				}
-				b_taerthosar = {
-					province = 8254 #c_51_4 
-					color = { 83 228 118 }
-				}
-				b_ulenor = {
-					province = 8255 #c_51_5 
-					color = { 83 228 118 }
 				}
 			}
 			c_naenith = {
@@ -1861,7 +1861,7 @@
 			}
 		}
 		d_aeksakogon = {
-					color = { 106 231 151 }
+			color = { 106 231 151 }
 			capital = c_haelthor
 			c_haelthor = {
 					color = { 35 219 35 }
@@ -1941,7 +1941,7 @@
 			}
 		}
 		d_aerebagon = {
-					color = { 129 234 179 }
+			color = { 129 234 179 }
 			capital = c_jaelion
 			c_jaelion = {
 					color = { 59 222 78 }
@@ -2005,22 +2005,10 @@
 			}
 		}
 		d_albilemagon = {
-					color = { 151 238 203 }
+			color = { 151 238 203 }
 			capital = c_vaeryth
-			c_gaenor = {
-					color = { 80 226 115 }
-				
-				b_zaenor = {
-					province = 8259 #c_53_1 
-					color = { 80 226 115 }
-				}
-				b_aelrynor = {
-					province = 8260 #c_53_2 
-					color = { 80 226 115 }
-				}
-			}
 			c_vaeryth = {
-					color = { 115 232 164 }
+				color = { 115 232 164 }
 				
 				b_gaerythion = {
 					province = 8266 #c_56_1 
@@ -2039,6 +2027,18 @@
 					color = { 115 232 164 }
 				}
 			}
+			c_gaenor = {
+					color = { 80 226 115 }
+				
+				b_zaenor = {
+					province = 8259 #c_53_1 
+					color = { 80 226 115 }
+				}
+				b_aelrynor = {
+					province = 8260 #c_53_2 
+					color = { 80 226 115 }
+				}
+			}
 			c_haerith = {
 					color = { 150 238 202 }
 				
@@ -2053,10 +2053,10 @@
 			}
 		}
 		d_amazverdagon = {
-					color = { 173 241 222 }
+			color = { 173 241 222 }
 			capital = c_naelrion
 			c_naelrion = {
-					color = { 103 229 148 }
+				color = { 103 229 148 }
 				
 				b_elyxar = {
 					province = 8214 #c_41_1 
@@ -2113,26 +2113,10 @@
 			}
 		}
 		d_baririon = {
-					color = { 62 224 82 }
+			color = { 62 224 82 }
 			capital = c_ulenor
-			c_maelyth = {
-					color = { 63 176 28 }
-				
-				b_kaenor = {
-					province = 8245 #c_49_1 
-					color = { 63 176 28 }
-				}
-				b_laerythos = {
-					province = 8246 #c_49_2 
-					color = { 63 176 28 }
-				}
-				b_maelrythos = {
-					province = 8247 #c_49_3 
-					color = { 63 176 28 }
-				}
-			}
 			c_ulenor = {
-					color = { 43 211 33 }
+				color = { 43 211 33 }
 				
 				b_yaerthosar = {
 					province = 8233 #c_46_1 
@@ -2149,6 +2133,22 @@
 				b_brynionor = {
 					province = 8236 #c_46_4 
 					color = { 43 211 33 }
+				}
+			}
+			c_maelyth = {
+					color = { 63 176 28 }
+				
+				b_kaenor = {
+					province = 8245 #c_49_1 
+					color = { 63 176 28 }
+				}
+				b_laerythos = {
+					province = 8246 #c_49_2 
+					color = { 63 176 28 }
+				}
+				b_maelrythos = {
+					province = 8247 #c_49_3 
+					color = { 63 176 28 }
 				}
 			}
 			c_zhaelyth = {
@@ -2173,10 +2173,10 @@
 			}
 		}
 		d_bevumbagon = {
-					color = { 84 228 119 }
+			color = { 84 228 119 }
 			capital = c_gaelion
 			c_gaelion = {
-					color = { 51 198 31 }
+				color = { 51 198 31 }
 				
 				b_jaelthosar = {
 					province = 8294 #c_63_1 
@@ -2237,10 +2237,10 @@
 			}
 		}
 		d_daeremagon = {
-					color = { 106 231 151 }
+			color = { 106 231 151 }
 			capital = c_naelthor
 			c_naelthor = {
-					color = { 35 219 35 }
+				color = { 35 219 35 }
 				
 				b_haelrynor = {
 					province = 8317 #c_69_1 
@@ -2301,10 +2301,10 @@
 			}
 		}
 		d_dobotedaves = {
-					color = { 129 234 179 }
+			color = { 129 234 179 }
 			capital = c_oelyrion
 			c_oelyrion = {
-					color = { 59 222 78 }
+				color = { 59 222 78 }
 				
 				b_paenor = {
 					province = 8325 #c_71_1 
@@ -2357,10 +2357,10 @@
 			}
 		}
 		d_eledris = {
-					color = { 151 238 203 }
+			color = { 151 238 203 }
 			capital = c_qaelrion
 			c_qaelrion = {
-					color = { 80 226 115 }
+				color = { 80 226 115 }
 				
 				b_taelionor = {
 					province = 8329 #c_72_1 
@@ -2437,10 +2437,10 @@
 			}
 		}
 		d_engitsos = {
-					color = { 173 241 222 }
+			color = { 173 241 222 }
 			capital = c_saelion
 			c_saelion = {
-					color = { 103 229 148 }
+				color = { 103 229 148 }
 				
 				b_caelthar = {
 					province = 8237 #c_47_1 
@@ -2501,8 +2501,32 @@
 			}
 		}
 		d_geliotikun = {
-					color = { 62 224 82 }
+			color = { 62 224 82 }
 			capital = c_elythar
+			c_elythar = {
+				color = { 61 224 81 }
+				
+				b_zaelthor = {
+					province = 8209 #c_40_1 
+					color = { 61 224 81 }
+				}
+				b_aelthionor = {
+					province = 8210 #c_40_2 
+					color = { 61 224 81 }
+				}
+				b_brythosar = {
+					province = 8211 #c_40_3 
+					color = { 61 224 81 }
+				}
+				b_caelysar = {
+					province = 8212 #c_40_4 
+					color = { 61 224 81 }
+				}
+				b_daenthor = {
+					province = 8213 #c_40_5 
+					color = { 61 224 81 }
+				}
+			}
 			c_jaenyth = {
 					color = { 63 176 28 }
 				
@@ -2539,36 +2563,12 @@
 					color = { 43 211 33 }
 				}
 			}
-			c_elythar = {
-					color = { 61 224 81 }
-				
-				b_zaelthor = {
-					province = 8209 #c_40_1 
-					color = { 61 224 81 }
-				}
-				b_aelthionor = {
-					province = 8210 #c_40_2 
-					color = { 61 224 81 }
-				}
-				b_brythosar = {
-					province = 8211 #c_40_3 
-					color = { 61 224 81 }
-				}
-				b_caelysar = {
-					province = 8212 #c_40_4 
-					color = { 61 224 81 }
-				}
-				b_daenthor = {
-					province = 8213 #c_40_5 
-					color = { 61 224 81 }
-				}
-			}
 		}
 		d_govilirion = {
-					color = { 84 228 119 }
+			color = { 84 228 119 }
 			capital = c_zaelthor
 			c_zaelthor = {
-					color = { 51 198 31 }
+				color = { 51 198 31 }
 				
 				b_kaelryn = {
 					province = 8195 #c_36_1 

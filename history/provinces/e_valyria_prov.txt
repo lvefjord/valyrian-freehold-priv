@@ -1,82 +1,114 @@
 ﻿#################### b_aeryxor = ###################
-############# c_aelzor = - d_valyria = #############
+############# c_aelzor = - d_noghoqitta = #############
 8060 = {
     culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
-    7824.1.1 = {
-        buildings = { castle_02 }
-    }
+	7824.1.1 = {
+		buildings = { castle_05 hill_forts_06 barracks_03 }
+	}
 }
 #################### b_baelior = ###################
-############# c_aelzor = - d_valyria = #############
+############# c_aelzor = - d_noghoqitta = #############
 8061 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_caerynar = ###################
-############# c_aelzor = - d_valyria = #############
+############# c_aelzor = - d_noghoqitta = #############
 8062 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daelys = ###################
-############# c_aelzor = - d_valyria = #############
+############# c_aelzor = - d_noghoqitta = #############
 8063 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_erythor = ###################
-############# c_aelzor = - d_valyria = #############
+############# c_aelzor = - d_noghoqitta = #############
 8064 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_faelion = ###################
-############# c_velys = - d_valyria = #############
+############# c_velys = - d_noghoqitta = #############
 8065 = {
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_gaenor = ###################
-############# c_velys = - d_valyria = #############
+############# c_velys = - d_noghoqitta = #############
 8066 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_haeroxis = ###################
-############# c_velys = - d_valyria = #############
+############# c_velys = - d_noghoqitta = #############
 8067 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ilythar = ###################
 ############# c_daelthor = - d_valyria = #############
 8068 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_jaelonys = ###################
 ############# c_daelthor = - d_valyria = #############
 8069 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_kaerthos = ###################
 ############# c_daelthor = - d_valyria = #############
 8070 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_laenysor = ###################
 ############# c_daelthor = - d_valyria = #############
 8071 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maerion = ###################
 ############# c_daelthor = - d_valyria = #############
 8072 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_naelion = ###################
 ############# c_rhaenor = - d_valyria = #############
@@ -85,18 +117,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_oeryxos = ###################
 ############# c_rhaenor = - d_valyria = #############
 8074 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_paerysor = ###################
 ############# c_rhaenor = - d_valyria = #############
 8075 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_qaenyth = ###################
 ############# c_naeryth = - d_valyria = #############
@@ -105,28 +143,40 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_raelion = ###################
 ############# c_naeryth = - d_valyria = #############
 8077 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_saelthos = ###################
 ############# c_naeryth = - d_valyria = #############
 8078 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_taerynox = ###################
 ############# c_naeryth = - d_valyria = #############
 8079 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ulethor = ###################
 ############# c_naeryth = - d_valyria = #############
 8080 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_vaerynar = ###################
 ############# c_valthar = - d_valyria = #############
@@ -135,43 +185,59 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_xaelys = ###################
 ############# c_valthar = - d_valyria = #############
 8082 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaerithos = ###################
 ############# c_oelyth = - d_valyria = #############
 8083 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_zaenor = ###################
 ############# c_oelyth = - d_valyria = #############
 8084 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_baeloris = ###################
 ############# c_oelyth = - d_valyria = #############
 8085 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daeryx = ###################
 ############# c_oelyth = - d_valyria = #############
 8086 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faelthys = ###################
 ############# c_oelyth = - d_valyria = #############
 8087 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_gaelthar = ###################
 ############# c_qaenor = - d_valyria = #############
@@ -180,28 +246,40 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_haerynor = ###################
 ############# c_qaenor = - d_valyria = #############
 8089 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_ilythion = ###################
 ############# c_qaenor = - d_valyria = #############
 8090 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_jaelarys = ###################
 ############# c_qaenor = - d_valyria = #############
 8091 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_kaerysor = ###################
 ############# c_qaenor = - d_valyria = #############
 8092 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_laerithos = ###################
 ############# c_gaelthor = - d_valyria = #############
@@ -210,43 +288,59 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_maelyxor = ###################
 ############# c_gaelthor = - d_valyria = #############
 8094 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_naerysor = ###################
 ############# c_gaelthor = - d_valyria = #############
 8095 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_oerysor = ###################
 ############# c_haelyx = - d_valyria = #############
 8096 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_paenor = ###################
 ############# c_haelyx = - d_valyria = #############
 8097 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_qaelion = ###################
 ############# c_haelyx = - d_valyria = #############
 8098 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_raethor = ###################
 ############# c_haelyx = - d_valyria = #############
 8099 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_saelion = ###################
 ############# c_maenor = - d_valyria = #############
@@ -255,18 +349,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_taeryx = ###################
 ############# c_maenor = - d_valyria = #############
 8101 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ulyxor = ###################
 ############# c_maenor = - d_valyria = #############
 8102 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_vaeryx = ###################
 ############# c_xaeryth = - d_valyria = #############
@@ -275,68 +375,93 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_xaelythos = ###################
 ############# c_xaeryth = - d_valyria = #############
 8104 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaenyth = ###################
 ############# c_xaeryth = - d_valyria = #############
 8105 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_zaelthar = ###################
-############# c_vaelythor = - d_valyria = #############
+############# c_vaelythor = - d_oregon = #############
 8106 = {
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_aerionor = ###################
-############# c_vaelythor = - d_valyria = #############
+############# c_vaelythor = - d_oregon = #############
 8107 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_daelith = ###################
-############# c_vaelythor = - d_valyria = #############
+############# c_vaelythor = - d_oregon = #############
 8108 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faelynor = ###################
-############# c_vaelythor = - d_valyria = #############
+############# c_vaelythor = - d_oregon = #############
 8109 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_aelthar = ###################
-############# c_yrnith = - d_valyria = #############
+############# c_yrnith = - d_paletilla = #############
 8110 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_brynox = ###################
 ############# c_yrnith = - d_valyria = #############
 8111 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_caelynor = ###################
 ############# c_yrnith = - d_valyria = #############
 8112 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daerithon = ###################
 ############# c_yrnith = - d_valyria = #############
 8113 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_erylxar = ###################
 ############# c_zhaenor = - d_valyria = #############
@@ -345,213 +470,291 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_faelyth = ###################
 ############# c_zhaenor = - d_valyria = #############
 8115 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_gaerynox = ###################
 ############# c_zhaenor = - d_valyria = #############
 8116 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_haelynor = ###################
 ############# c_zhaenor = - d_valyria = #############
 8117 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ilyxor = ###################
-############# c_laerion = - d_valyria = #############
+############# c_laerion = - d_mazioragon = #############
 8118 = {
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_jaelrys = ###################
-############# c_laerion = - d_valyria = #############
+############# c_laerion = - d_mazioragon = #############
 8119 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_kaerion = ###################
-############# c_laerion = - d_valyria = #############
+############# c_laerion = - d_mazioragon = #############
 8120 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_laenothor = ###################
-############# c_laerion = - d_valyria = #############
+############# c_laerion = - d_mazioragon = #############
 8121 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_maenoxar = ###################
-############# c_saelzor = - d_valyria = #############
+############# c_saelzor = - d_mazioragon = #############
 8122 = {
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_naelythor = ###################
-############# c_saelzor = - d_valyria = #############
+############# c_saelzor = - d_mazioragon = #############
 8123 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_oelyxar = ###################
-############# c_saelzor = - d_valyria = #############
+############# c_saelzor = - d_mazioragon = #############
 8124 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_paelthar = ###################
-############# c_paelion = - d_valyria = #############
+############# c_paelion = - d_mazioragon = #############
 8125 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_qaerynor = ###################
-############# c_paelion = - d_valyria = #############
+############# c_paelion = - d_mazioragon = #############
 8126 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_raenysar = ###################
-############# c_paelion = - d_valyria = #############
+############# c_paelion = - d_mazioragon = #############
 8127 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_saelythor = ###################
-############# c_paelion = - d_valyria = #############
+############# c_paelion = - d_mazioragon = #############
 8128 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_taelthor = ###################
-############# c_erythor = - d_valyria = #############
+############# c_erythor = - d_mazioragon = #############
 8129 = {
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_ulythion = ###################
-############# c_erythor = - d_valyria = #############
+############# c_erythor = - d_mazioragon = #############
 8130 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_vaenithos = ###################
-############# c_erythor = - d_valyria = #############
+############# c_erythor = - d_mazioragon = #############
 8131 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_xaelthor = ###################
-############# c_qaelyx = - d_valyria = #############
+############# c_qaelyx = - d_loragon = #############
 8132 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_yaelryn = ###################
-############# c_qaelyx = - d_valyria = #############
+############# c_qaelyx = - d_loragon = #############
 8133 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_zaelion = ###################
-############# c_qaelyx = - d_valyria = #############
+############# c_qaelyx = - d_loragon = #############
 8134 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_aelthion = ###################
-############# c_qaelyx = - d_valyria = #############
+############# c_qaelyx = - d_loragon = #############
 8135 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_brynor = ###################
-############# c_aerith = - d_valyria = #############
+############# c_aerith = - d_loragon = #############
 8136 = {
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_caenythar = ###################
-############# c_aerith = - d_valyria = #############
+############# c_aerith = - d_loragon = #############
 8137 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_daenyr = ###################
-############# c_aerith = - d_valyria = #############
+############# c_aerith = - d_loragon = #############
 8138 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_erynor = ###################
-############# c_aerith = - d_valyria = #############
+############# c_aerith = - d_loragon = #############
 8139 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_faelionor = ###################
-############# c_raelyx = - d_valyria = #############
+############# c_raelyx = - d_loragon = #############
 8140 = {
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_gaelthor = ###################
-############# c_raelyx = - d_valyria = #############
+############# c_raelyx = - d_loragon = #############
 8141 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_haelysar = ###################
-############# c_raelyx = - d_valyria = #############
+############# c_raelyx = - d_loragon = #############
 8142 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ilythor = ###################
-############# c_raelyx = - d_valyria = #############
+############# c_raelyx = - d_loragon = #############
 8143 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_jaenoxor = ###################
 ############# c_daenyth = - d_valyria = #############
 8144 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_kaeryth = ###################
 ############# c_daenyth = - d_valyria = #############
 8145 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_laethosar = ###################
 ############# c_daenyth = - d_valyria = #############
 8146 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maelynar = ###################
 ############# c_daenyth = - d_valyria = #############
 8147 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_naelyx = ###################
 ############# c_vaelor = - d_valyria = #############
@@ -560,23 +763,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_oelythor = ###################
 ############# c_vaelor = - d_valyria = #############
 8149 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_paerythos = ###################
 ############# c_vaelor = - d_valyria = #############
 8150 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_qaelynor = ###################
 ############# c_vaelor = - d_valyria = #############
 8151 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_raelthys = ###################
 ############# c_maelrion = - d_valyria = #############
@@ -585,78 +797,113 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_saelthor = ###################
 ############# c_maelrion = - d_valyria = #############
 8153 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_taenor = ###################
 ############# c_maelrion = - d_valyria = #############
 8154 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ulenor = ###################
 ############# c_maelrion = - d_valyria = #############
 8155 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
+
+############# GOING INTO K_MIDDLE HERE
+
 #################### b_vaelthor = ###################
 ############# c_jaelys = - d_valyria = #############
 8156 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_xaerynor = ###################
 ############# c_jaelys = - d_valyria = #############
 8157 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_yaelyx = ###################
 ############# c_jaelys = - d_valyria = #############
 8158 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_zaeryth = ###################
 ############# c_jaelys = - d_valyria = #############
 8159 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_aelthor = ###################
 ############# c_zhaeryth = - d_valyria = #############
 8160 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_brynaris = ###################
 ############# c_zhaeryth = - d_valyria = #############
 8161 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_caenithar = ###################
 ############# c_zhaeryth = - d_valyria = #############
 8162 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daelyxar = ###################
 ############# c_zhaeryth = - d_valyria = #############
 8163 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_erythion = ###################
 ############# c_zhaeryth = - d_valyria = #############
 8164 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_faelthar = ###################
 ############# c_faenys = - d_valyria = #############
@@ -665,18 +912,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_gaeryxar = ###################
 ############# c_faenys = - d_valyria = #############
 8166 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_haelionor = ###################
 ############# c_faenys = - d_valyria = #############
 8167 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ilythosar = ###################
 ############# c_oelryth = - d_valyria = #############
@@ -685,23 +938,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_jaelthor = ###################
 ############# c_oelryth = - d_valyria = #############
 8169 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_kaelthar = ###################
 ############# c_oelryth = - d_valyria = #############
 8170 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_laerynor = ###################
 ############# c_oelryth = - d_valyria = #############
 8171 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maelryx = ###################
 ############# c_qaelyth = - d_valyria = #############
@@ -710,23 +972,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_naelythos = ###################
 ############# c_qaelyth = - d_valyria = #############
 8173 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_oerynor = ###################
 ############# c_qaelyth = - d_valyria = #############
 8174 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_paelyxar = ###################
 ############# c_qaelyth = - d_valyria = #############
 8175 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_qaelthor = ###################
 ############# c_brythor = - d_valyria = #############
@@ -735,23 +1006,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_raelionor = ###################
 ############# c_brythor = - d_valyria = #############
 8177 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_saelysor = ###################
 ############# c_brythor = - d_valyria = #############
 8178 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_taerynor = ###################
 ############# c_brythor = - d_valyria = #############
 8179 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ulythar = ###################
 ############# c_xaelyth = - d_valyria = #############
@@ -760,48 +1040,67 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_vaelyxar = ###################
 ############# c_xaelyth = - d_valyria = #############
 8181 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_xaelion = ###################
 ############# c_xaelyth = - d_valyria = #############
 8182 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelthar = ###################
 ############# c_xaelyth = - d_valyria = #############
 8183 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_zaelynor = ###################
 ############# c_ilythar = - d_valyria = #############
 8184 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_aerythos = ###################
 ############# c_ilythar = - d_valyria = #############
 8185 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_bryxar = ###################
 ############# c_ilythar = - d_valyria = #############
 8186 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_caelythos = ###################
 ############# c_ilythar = - d_valyria = #############
 8187 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daelionor = ###################
 ############# c_haenith = - d_valyria = #############
@@ -810,18 +1109,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_elynthar = ###################
 ############# c_haenith = - d_valyria = #############
 8189 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faeryn = ###################
 ############# c_haenith = - d_valyria = #############
 8190 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_gaerynor = ###################
 ############# c_aelion = - d_valyria = #############
@@ -830,69 +1135,104 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_haelthys = ###################
 ############# c_aelion = - d_valyria = #############
 8192 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_ilynthos = ###################
 ############# c_aelion = - d_valyria = #############
 8193 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_jaelythor = ###################
 ############# c_aelion = - d_valyria = #############
 8194 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
+
+### GOING INTO BOTTOM HERE
+
 #################### b_kaelryn = ###################
 ############# c_zaelthor = - d_valyria = #############
 8195 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_laeryth = ###################
 ############# c_zaelthor = - d_valyria = #############
 8196 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_maerythar = ###################
 ############# c_zaelthor = - d_valyria = #############
 8197 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
+
+#### BACK INTO MIDDLE
+
 #################### b_naelthos = ###################
 ############# c_vaenor = - d_valyria = #############
 8198 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_oelthor = ###################
 ############# c_vaenor = - d_valyria = #############
 8199 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_paelrys = ###################
 ############# c_vaenor = - d_valyria = #############
 8200 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_qaelyxar = ###################
 ############# c_vaenor = - d_valyria = #############
 8201 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
+
+#### BACK INTO BOTTOM
+
 #################### b_raelthor = ###################
 ############# c_jaenyth = - d_valyria = #############
 8202 = {
@@ -900,18 +1240,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_saelthion = ###################
 ############# c_jaenyth = - d_valyria = #############
 8203 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_taenythar = ###################
 ############# c_jaenyth = - d_valyria = #############
 8204 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ulaeryn = ###################
 ############# c_laenith = - d_valyria = #############
@@ -920,78 +1266,110 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_vaerthar = ###################
 ############# c_laenith = - d_valyria = #############
 8206 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_xaelith = ###################
 ############# c_laenith = - d_valyria = #############
 8207 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelysor = ###################
 ############# c_laenith = - d_valyria = #############
 8208 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_zaelthor = ###################
 ############# c_elythar = - d_valyria = #############
 8209 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_aelthionor = ###################
 ############# c_elythar = - d_valyria = #############
 8210 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_brythosar = ###################
 ############# c_elythar = - d_valyria = #############
 8211 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_caelysar = ###################
 ############# c_elythar = - d_valyria = #############
 8212 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daenthor = ###################
 ############# c_elythar = - d_valyria = #############
 8213 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_elyxar = ###################
 ############# c_naelrion = - d_valyria = #############
 8214 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_faelthysor = ###################
 ############# c_naelrion = - d_valyria = #############
 8215 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_gaelynor = ###################
 ############# c_naelrion = - d_valyria = #############
 8216 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_haerthar = ###################
 ############# c_naelrion = - d_valyria = #############
 8217 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ilyxion = ###################
 ############# c_paenor = - d_valyria = #############
@@ -1000,23 +1378,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_jaelthionor = ###################
 ############# c_paenor = - d_valyria = #############
 8219 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_kaeryxar = ###################
 ############# c_paenor = - d_valyria = #############
 8220 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_laelythor = ###################
 ############# c_paenor = - d_valyria = #############
 8221 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maelryn = ###################
 ############# c_vaelion = - d_valyria = #############
@@ -1025,18 +1412,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_naelionor = ###################
 ############# c_vaelion = - d_valyria = #############
 8223 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_oelthar = ###################
 ############# c_vaelion = - d_valyria = #############
 8224 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_paelithor = ###################
 ############# c_zhaelyth = - d_valyria = #############
@@ -1045,23 +1438,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_qaerionor = ###################
 ############# c_zhaelyth = - d_valyria = #############
 8226 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_raelthion = ###################
 ############# c_zhaelyth = - d_valyria = #############
 8227 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_saelryn = ###################
 ############# c_zhaelyth = - d_valyria = #############
 8228 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_taerythar = ###################
 ############# c_xaelor = - d_valyria = #############
@@ -1070,73 +1472,102 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_ulythor = ###################
 ############# c_xaelor = - d_valyria = #############
 8230 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_vaelionor = ###################
 ############# c_xaelor = - d_valyria = #############
 8231 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_xaenor = ###################
 ############# c_xaelor = - d_valyria = #############
 8232 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaerthosar = ###################
 ############# c_ulenor = - d_valyria = #############
 8233 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_zaelryn = ###################
 ############# c_ulenor = - d_valyria = #############
 8234 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_aerythion = ###################
 ############# c_ulenor = - d_valyria = #############
 8235 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_brynionor = ###################
 ############# c_ulenor = - d_valyria = #############
 8236 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_caelthar = ###################
 ############# c_saelion = - d_valyria = #############
 8237 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_daelysar = ###################
 ############# c_saelion = - d_valyria = #############
 8238 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_erynthos = ###################
 ############# c_saelion = - d_valyria = #############
 8239 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faerithor = ###################
 ############# c_saelion = - d_valyria = #############
 8240 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_gaerythar = ###################
 ############# c_ilyzor = - d_valyria = #############
@@ -1145,23 +1576,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_haelryx = ###################
 ############# c_ilyzor = - d_valyria = #############
 8242 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_ilynor = ###################
 ############# c_ilyzor = - d_valyria = #############
 8243 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_jaelithosar = ###################
 ############# c_ilyzor = - d_valyria = #############
 8244 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_kaenor = ###################
 ############# c_maelyth = - d_valyria = #############
@@ -1170,18 +1610,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_laerythos = ###################
 ############# c_maelyth = - d_valyria = #############
 8246 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maelrythos = ###################
 ############# c_maelyth = - d_valyria = #############
 8247 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_naelthar = ###################
 ############# c_brynith = - d_valyria = #############
@@ -1190,73 +1636,67 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_oelysor = ###################
 ############# c_brynith = - d_valyria = #############
 8249 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_paelion = ###################
 ############# c_brynith = - d_valyria = #############
 8250 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_valyria = ###################
 ############# c_valyria = - d_valyria = #############
 8251 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
-    7888.1.1 = {
-        buildings = { 
-            castle_02 
-            generic_dragon_pit_01
-        }
+    7824.1.1 = {
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_raelysar = ###################
 ############# c_valyria = - d_valyria = #############
 8252 = {
-    culture = high_valyrian
-    religion = valyrian
-    holding = none
-    7121.1.1 = {
-        holding = castle_holding
-        buildings = { castle_02 }
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
     }
 }
 #################### b_saelythion = ###################
 ############# c_valyria = - d_valyria = #############
 8253 = {
-    culture = high_valyrian
-    religion = valyrian
-    holding = none
-    7121.1.1 = {
-        holding = castle_holding
-        buildings = { castle_02 }
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
     }
 }
 #################### b_taerthosar = ###################
 ############# c_valyria = - d_valyria = #############
 8254 = {
-    culture = high_valyrian
-    religion = valyrian
-    holding = church_holding
-	6824.1.1 = {
-		buildings = { temple_02 }
-	}
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_ulenor = ###################
 ############# c_valyria = - d_valyria = #############
 8255 = {
-    culture = high_valyrian
-    religion = valyrian
-    holding = city_holding
-	7824.1.1 = {
-		buildings = { city_02 }
-	}
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_vaelythor = ###################
 ############# c_taelion = - d_valyria = #############
@@ -1265,18 +1705,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_xaelthar = ###################
 ############# c_taelion = - d_valyria = #############
 8257 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelthos = ###################
 ############# c_taelion = - d_valyria = #############
 8258 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_zaenor = ###################
 ############# c_gaenor = - d_valyria = #############
@@ -1285,13 +1731,16 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_aelrynor = ###################
 ############# c_gaenor = - d_valyria = #############
 8260 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_brythion = ###################
 ############# c_faelrion = - d_valyria = #############
@@ -1300,18 +1749,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_caelythor = ###################
 ############# c_faelrion = - d_valyria = #############
 8262 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daelythor = ###################
 ############# c_faelrion = - d_valyria = #############
 8263 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_erythos = ###################
 ############# c_haerith = - d_valyria = #############
@@ -1320,38 +1775,51 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_faenor = ###################
 ############# c_haerith = - d_valyria = #############
 8265 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_gaerythion = ###################
 ############# c_vaeryth = - d_valyria = #############
 8266 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_haelyxar = ###################
 ############# c_vaeryth = - d_valyria = #############
 8267 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_ilyrion = ###################
 ############# c_vaeryth = - d_valyria = #############
 8268 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_jaenor = ###################
 ############# c_vaeryth = - d_valyria = #############
 8269 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_kaelthion = ###################
 ############# c_xaenor = - d_valyria = #############
@@ -1360,56 +1828,75 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_laenythar = ###################
 ############# c_xaenor = - d_valyria = #############
 8271 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_maerythion = ###################
 ############# c_xaenor = - d_valyria = #############
 8272 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_naelrysor = ###################
 ############# c_xaenor = - d_valyria = #############
 8273 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_oelthion = ###################
 ############# c_jaelion = - d_valyria = #############
 8274 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
-    7510.1.1 = {
-        buildings = { generic_dragon_pit_01 }
-    }
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_paenyth = ###################
 ############# c_jaelion = - d_valyria = #############
 8275 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_qaelythos = ###################
 ############# c_jaelion = - d_valyria = #############
 8276 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_raelythor = ###################
 ############# c_jaelion = - d_valyria = #############
 8277 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_saeryth = ###################
 ############# c_jaelion = - d_valyria = #############
 8278 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_taelysar = ###################
 ############# c_naenith = - d_valyria = #############
@@ -1418,23 +1905,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_ulythosar = ###################
 ############# c_naenith = - d_valyria = #############
 8280 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_vaelrythar = ###################
 ############# c_naenith = - d_valyria = #############
 8281 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_xaelrynor = ###################
 ############# c_naenith = - d_valyria = #############
 8282 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelrys = ###################
 ############# c_raelion = - d_valyria = #############
@@ -1443,18 +1939,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_zaelionor = ###################
 ############# c_raelion = - d_valyria = #############
 8284 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_aelthysor = ###################
 ############# c_raelion = - d_valyria = #############
 8285 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_brynoris = ###################
 ############# c_aelrion = - d_valyria = #############
@@ -1463,23 +1965,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_caelrythar = ###################
 ############# c_aelrion = - d_valyria = #############
 8287 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_daelthor = ###################
 ############# c_aelrion = - d_valyria = #############
 8288 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_elythor = ###################
 ############# c_aelrion = - d_valyria = #############
 8289 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_faelryn = ###################
 ############# c_qaenith = - d_valyria = #############
@@ -1488,53 +1999,75 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_gaenithos = ###################
 ############# c_qaenith = - d_valyria = #############
 8291 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_haelrynor = ###################
 ############# c_qaenith = - d_valyria = #############
 8292 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ilythar = ###################
 ############# c_qaenith = - d_valyria = #############
 8293 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_jaelthosar = ###################
 ############# c_gaelion = - d_valyria = #############
 8294 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_kaerthar = ###################
 ############# c_gaelion = - d_valyria = #############
 8295 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_laenor = ###################
 ############# c_gaelion = - d_valyria = #############
 8296 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maelryxar = ###################
 ############# c_gaelion = - d_valyria = #############
 8297 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_naelythor = ###################
 ############# c_gaelion = - d_valyria = #############
 8298 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_oelionor = ###################
 ############# c_saenor = - d_valyria = #############
@@ -1543,23 +2076,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_paelythor = ###################
 ############# c_saenor = - d_valyria = #############
 8300 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_qaelthionor = ###################
 ############# c_saenor = - d_valyria = #############
 8301 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_raelithor = ###################
 ############# c_saenor = - d_valyria = #############
 8302 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_saelthos = ###################
 ############# c_aenythor = - d_valyria = #############
@@ -1568,23 +2110,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_taenor = ###################
 ############# c_aenythor = - d_valyria = #############
 8304 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_ulaeryth = ###################
 ############# c_aenythor = - d_valyria = #############
 8305 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_vaelythar = ###################
 ############# c_aenythor = - d_valyria = #############
 8306 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_xaelithos = ###################
 ############# c_velrion = - d_valyria = #############
@@ -1593,18 +2144,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_yaelrythar = ###################
 ############# c_velrion = - d_valyria = #############
 8308 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_zaelthion = ###################
 ############# c_velrion = - d_valyria = #############
 8309 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_aerynoth = ###################
 ############# c_daelryn = - d_valyria = #############
@@ -1613,23 +2170,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_bryxionor = ###################
 ############# c_daelryn = - d_valyria = #############
 8311 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_caelryxar = ###################
 ############# c_daelryn = - d_valyria = #############
 8312 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daelrythor = ###################
 ############# c_daelryn = - d_valyria = #############
 8313 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_elynor = ###################
 ############# c_rhaelyth = - d_valyria = #############
@@ -1638,48 +2204,67 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_faelthionor = ###################
 ############# c_rhaelyth = - d_valyria = #############
 8315 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_gaelrythos = ###################
 ############# c_rhaelyth = - d_valyria = #############
 8316 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_haelrynor = ###################
 ############# c_naelthor = - d_valyria = #############
 8317 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_ilythionor = ###################
 ############# c_naelthor = - d_valyria = #############
 8318 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_jaeryn = ###################
 ############# c_naelthor = - d_valyria = #############
 8319 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_kaenythar = ###################
 ############# c_naelthor = - d_valyria = #############
 8320 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_laelythar = ###################
 ############# c_naelthor = - d_valyria = #############
 8321 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_maelion = ###################
 ############# c_valenor = - d_valyria = #############
@@ -1688,68 +2273,94 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_naerythor = ###################
 ############# c_valenor = - d_valyria = #############
 8323 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_oelthysor = ###################
 ############# c_valenor = - d_valyria = #############
 8324 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_paenor = ###################
 ############# c_oelyrion = - d_valyria = #############
 8325 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_qaelrythor = ###################
 ############# c_oelyrion = - d_valyria = #############
 8326 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_raelthosar = ###################
 ############# c_oelyrion = - d_valyria = #############
 8327 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_saenythor = ###################
 ############# c_oelyrion = - d_valyria = #############
 8328 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_taelionor = ###################
 ############# c_qaelrion = - d_valyria = #############
 8329 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_ulenithos = ###################
 ############# c_qaelrion = - d_valyria = #############
 8330 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_vaelryn = ###################
 ############# c_qaelrion = - d_valyria = #############
 8331 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_xaelythion = ###################
 ############# c_qaelrion = - d_valyria = #############
 8332 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelthor = ###################
 ############# c_gaelyr = - d_valyria = #############
@@ -1758,43 +2369,59 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_zaelithar = ###################
 ############# c_gaelyr = - d_valyria = #############
 8334 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_aelryn = ###################
 ############# c_gaelyr = - d_valyria = #############
 8335 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_brynithos = ###################
 ############# c_haelthor = - d_valyria = #############
 8336 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_caelionor = ###################
 ############# c_haelthor = - d_valyria = #############
 8337 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_daelthionor = ###################
 ############# c_haelthor = - d_valyria = #############
 8338 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_erythar = ###################
 ############# c_haelthor = - d_valyria = #############
 8339 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faelrynor = ###################
 ############# c_maeryn = - d_valyria = #############
@@ -1803,23 +2430,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_gaelthionor = ###################
 ############# c_maeryn = - d_valyria = #############
 8341 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_haenor = ###################
 ############# c_maeryn = - d_valyria = #############
 8342 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ilyrithos = ###################
 ############# c_maeryn = - d_valyria = #############
 8343 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_jaelythos = ###################
 ############# c_xaelynor = - d_valyria = #############
@@ -1828,18 +2464,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_kaelythion = ###################
 ############# c_xaelynor = - d_valyria = #############
 8345 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_laelionor = ###################
 ############# c_xaelynor = - d_valyria = #############
 8346 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maelthysor = ###################
 ############# c_vaenyth = - d_valyria = #############
@@ -1848,19 +2490,28 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_naenor = ###################
 ############# c_vaenyth = - d_valyria = #############
 8348 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_oelryn = ###################
 ############# c_vaenyth = - d_valyria = #############
 8349 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
+
+#### INTO THE MIDDLE AGAIN (ISLANDS TO THE RIGHT)
+
 #################### b_paelthosar = ###################
 ############# c_yrithor = - d_valyria = #############
 8350 = {
@@ -1868,18 +2519,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_qaenithar = ###################
 ############# c_yrithor = - d_valyria = #############
 8351 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_raenor = ###################
 ############# c_yrithor = - d_valyria = #############
 8352 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_saelryn = ###################
 ############# c_zhaenyth = - d_valyria = #############
@@ -1888,19 +2545,28 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_taelrythos = ###################
 ############# c_zhaenyth = - d_valyria = #############
 8354 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ulenthor = ###################
 ############# c_zhaenyth = - d_valyria = #############
 8355 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
+
+### INTO THE TOP (ISLANDS TO THE LEFT)
+
 #################### b_vaelthysor = ###################
 ############# c_laelthor = - d_valyria = #############
 8356 = {
@@ -1908,44 +2574,63 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_xaelthorion = ###################
 ############# c_laelthor = - d_valyria = #############
 8357 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelrythos = ###################
 ############# c_saelrion = - d_valyria = #############
 8358 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_zaelythionor = ###################
 ############# c_saelrion = - d_valyria = #############
 8359 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_aelthysor = ###################
 ############# c_saelrion = - d_valyria = #############
 8360 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_brynoris = ###################
 ############# c_saelrion = - d_valyria = #############
 8361 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_caelythionor = ###################
 ############# c_saelrion = - d_valyria = #############
 8362 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
+
+####### INTO THE MIDDLE 
+
 #################### b_daenithar = ###################
 ############# c_paelys = - d_valyria = #############
 8363 = {
@@ -1953,18 +2638,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_elynthosar = ###################
 ############# c_paelys = - d_valyria = #############
 8364 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faelthor = ###################
 ############# c_paelys = - d_valyria = #############
 8365 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_gaelithor = ###################
 ############# c_elynor = - d_valyria = #############
@@ -1973,23 +2664,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_haelrythos = ###################
 ############# c_elynor = - d_valyria = #############
 8367 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_ilyxarion = ###################
 ############# c_elynor = - d_valyria = #############
 8368 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_jaenythos = ###################
 ############# c_elynor = - d_valyria = #############
 8369 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_kaenor = ###################
 ############# c_qaenithor = - d_valyria = #############
@@ -1998,43 +2698,59 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_laelthor = ###################
 ############# c_qaenithor = - d_valyria = #############
 8371 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maelythos = ###################
 ############# c_qaenithor = - d_valyria = #############
 8372 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_naelyxion = ###################
 ############# c_aerionor = - d_valyria = #############
 8373 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_oelithar = ###################
 ############# c_aerionor = - d_valyria = #############
 8374 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_paeltharion = ###################
 ############# c_aerionor = - d_valyria = #############
 8375 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_qaelrynor = ###################
 ############# c_aerionor = - d_valyria = #############
 8376 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_raelithion = ###################
 ############# c_raelthorion = - d_valyria = #############
@@ -2043,53 +2759,75 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_saelithar = ###################
 ############# c_raelthorion = - d_valyria = #############
 8378 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_taenorion = ###################
 ############# c_raelthorion = - d_valyria = #############
 8379 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ulerythos = ###################
 ############# c_raelthorion = - d_valyria = #############
 8380 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_vaelrythor = ###################
 ############# c_daelynor = - d_valyria = #############
 8381 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_xaelrythar = ###################
 ############# c_daelynor = - d_valyria = #############
 8382 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_yaenithar = ###################
 ############# c_daelynor = - d_valyria = #############
 8383 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_zaelrythor = ###################
 ############# c_daelynor = - d_valyria = #############
 8384 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_aelrythosar = ###################
 ############# c_daelynor = - d_valyria = #############
 8385 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_bryntor = ###################
 ############# c_vaelrion = - d_valyria = #############
@@ -2098,23 +2836,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_caerynor = ###################
 ############# c_vaelrion = - d_valyria = #############
 8387 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_daelthys = ###################
 ############# c_vaelrion = - d_valyria = #############
 8388 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_elythorion = ###################
 ############# c_vaelrion = - d_valyria = #############
 8389 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faelrynion = ###################
 ############# c_maelryth = - d_valyria = #############
@@ -2123,53 +2870,75 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_gaelryn = ###################
 ############# c_maelryth = - d_valyria = #############
 8391 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_haenythor = ###################
 ############# c_maelryth = - d_valyria = #############
 8392 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ilynthion = ###################
 ############# c_maelryth = - d_valyria = #############
 8393 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_jaelythorion = ###################
 ############# c_jaeryn = - d_valyria = #############
 8394 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_kaeltharion = ###################
 ############# c_jaeryn = - d_valyria = #############
 8395 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_laelithar = ###################
 ############# c_jaeryn = - d_valyria = #############
 8396 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maelrynor = ###################
 ############# c_jaeryn = - d_valyria = #############
 8397 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_naelrythos = ###################
 ############# c_jaeryn = - d_valyria = #############
 8398 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_oelrythar = ###################
 ############# c_zhaelor = - d_valyria = #############
@@ -2178,78 +2947,110 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_paelthorion = ###################
 ############# c_zhaelor = - d_valyria = #############
 8400 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_qaerythos = ###################
 ############# c_zhaelor = - d_valyria = #############
 8401 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_raelthionor = ###################
 ############# c_zhaelor = - d_valyria = #############
 8402 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_saenithor = ###################
 ############# c_faelith = - d_valyria = #############
 8403 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_taelrynor = ###################
 ############# c_faelith = - d_valyria = #############
 8404 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_ulytharion = ###################
 ############# c_faelith = - d_valyria = #############
 8405 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_vaenythor = ###################
 ############# c_faelith = - d_valyria = #############
 8406 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_xaerynoris = ###################
 ############# c_oelrynor = - d_valyria = #############
 8407 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_yaelionor = ###################
 ############# c_oelrynor = - d_valyria = #############
 8408 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_zaeltharion = ###################
 ############# c_oelrynor = - d_valyria = #############
 8409 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_aelyzonor = ###################
 ############# c_oelrynor = - d_valyria = #############
 8410 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_brynziros = ###################
 ############# c_oelrynor = - d_valyria = #############
 8411 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_caenorax = ###################
 ############# c_qaelthor = - d_valyria = #############
@@ -2258,53 +3059,75 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_daelyssar = ###################
 ############# c_qaelthor = - d_valyria = #############
 8413 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_erylxoth = ###################
 ############# c_qaelthor = - d_valyria = #############
 8414 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faelyzir = ###################
 ############# c_qaelthor = - d_valyria = #############
 8415 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_gaenytar = ###################
 ############# c_brynysor = - d_valyria = #############
 8416 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_haelryzor = ###################
 ############# c_brynysor = - d_valyria = #############
 8417 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_ilythoxar = ###################
 ############# c_brynysor = - d_valyria = #############
 8418 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_jaelrythos = ###################
 ############# c_brynysor = - d_valyria = #############
 8419 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_kaenyxion = ###################
 ############# c_brynysor = - d_valyria = #############
 8420 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_laelyrthar = ###################
 ############# c_xaelionor = - d_valyria = #############
@@ -2313,28 +3136,40 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_maelyssor = ###################
 ############# c_xaelionor = - d_valyria = #############
 8422 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_naelyxor = ###################
 ############# c_xaelionor = - d_valyria = #############
 8423 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_oelrynos = ###################
 ############# c_xaelionor = - d_valyria = #############
 8424 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_paelrythor = ###################
 ############# c_xaelionor = - d_valyria = #############
 8425 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_qaelythax = ###################
 ############# c_ilynor = - d_valyria = #############
@@ -2343,28 +3178,40 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_raelyssion = ###################
 ############# c_ilynor = - d_valyria = #############
 8427 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_saenyzor = ###################
 ############# c_ilynor = - d_valyria = #############
 8428 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_taelrythar = ###################
 ############# c_ilynor = - d_valyria = #############
 8429 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ulenyxor = ###################
 ############# c_ilynor = - d_valyria = #############
 8430 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_vaelyxion = ###################
 ############# c_haelryth = - d_valyria = #############
@@ -2373,18 +3220,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_xaelyzor = ###################
 ############# c_haelryth = - d_valyria = #############
 8432 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelrythor = ###################
 ############# c_haelryth = - d_valyria = #############
 8433 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_zaelythar = ###################
 ############# c_aelrith = - d_valyria = #############
@@ -2393,23 +3246,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_aenyssar = ###################
 ############# c_aelrith = - d_valyria = #############
 8435 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_brythosior = ###################
 ############# c_aelrith = - d_valyria = #############
 8436 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_caelyxoth = ###################
 ############# c_aelrith = - d_valyria = #############
 8437 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daelythorax = ###################
 ############# c_zaelryth = - d_valyria = #############
@@ -2418,23 +3280,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_elyzonor = ###################
 ############# c_zaelryth = - d_valyria = #############
 8439 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_faenyxion = ###################
 ############# c_zaelryth = - d_valyria = #############
 8440 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_gaelrythax = ###################
 ############# c_zaelryth = - d_valyria = #############
 8441 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_haelyrthos = ###################
 ############# c_vaelorion = - d_valyria = #############
@@ -2443,28 +3314,40 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_ilynzorion = ###################
 ############# c_vaelorion = - d_valyria = #############
 8443 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_jaelthorax = ###################
 ############# c_vaelorion = - d_valyria = #############
 8444 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_kaelothor = ###################
 ############# c_vaelorion = - d_valyria = #############
 8445 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_laelyxion = ###################
 ############# c_vaelorion = - d_valyria = #############
 8446 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_maelrythos = ###################
 ############# c_jaenorion = - d_valyria = #############
@@ -2473,23 +3356,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_naelthorion = ###################
 ############# c_jaenorion = - d_valyria = #############
 8448 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_oelythar = ###################
 ############# c_jaenorion = - d_valyria = #############
 8449 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_paelzorax = ###################
 ############# c_jaenorion = - d_valyria = #############
 8450 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_qaeltharion = ###################
 ############# c_laelythor = - d_valyria = #############
@@ -2498,48 +3390,67 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_raelithos = ###################
 ############# c_laelythor = - d_valyria = #############
 8452 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_saelynorax = ###################
 ############# c_laelythor = - d_valyria = #############
 8453 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_taelrynos = ###################
 ############# c_elythorion = - d_valyria = #############
 8454 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_ulaeryxar = ###################
 ############# c_elythorion = - d_valyria = #############
 8455 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_vaelrythos = ###################
 ############# c_elythorion = - d_valyria = #############
 8456 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_xaelytharion = ###################
 ############# c_elythorion = - d_valyria = #############
 8457 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelrynor = ###################
 ############# c_elythorion = - d_valyria = #############
 8458 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_zaelthorion = ###################
 ############# c_naelythar = - d_valyria = #############
@@ -2548,23 +3459,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_aelyzor = ###################
 ############# c_naelythar = - d_valyria = #############
 8460 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_bryxion = ###################
 ############# c_naelythar = - d_valyria = #############
 8461 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_caenor = ###################
 ############# c_naelythar = - d_valyria = #############
 8462 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daelyxar = ###################
 ############# c_paelzor = - d_valyria = #############
@@ -2573,18 +3493,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_elythor = ###################
 ############# c_paelzor = - d_valyria = #############
 8464 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faelzor = ###################
 ############# c_paelzor = - d_valyria = #############
 8465 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_gaelryx = ###################
 ############# c_vaelysor = - d_valyria = #############
@@ -2593,53 +3519,75 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_haelyth = ###################
 ############# c_vaelysor = - d_valyria = #############
 8467 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_ilynar = ###################
 ############# c_vaelysor = - d_valyria = #############
 8468 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_jaelthor = ###################
 ############# c_vaelysor = - d_valyria = #############
 8469 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_kaelyx = ###################
 ############# c_zhaelthor = - d_valyria = #############
 8470 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_laelyth = ###################
 ############# c_zhaelthor = - d_valyria = #############
 8471 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_maelrys = ###################
 ############# c_zhaelthor = - d_valyria = #############
 8472 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_naelzor = ###################
 ############# c_zhaelthor = - d_valyria = #############
 8473 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_oelryn = ###################
 ############# c_zhaelthor = - d_valyria = #############
 8474 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_paelthor = ###################
 ############# c_xaelythion = - d_valyria = #############
@@ -2648,19 +3596,28 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_qaelion = ###################
 ############# c_xaelythion = - d_valyria = #############
 8476 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_raelthos = ###################
 ############# c_xaelythion = - d_valyria = #############
 8477 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
+
+###### GOING INTO TOP
+
 #################### b_saelthor = ###################
 ############# c_ulythar = - d_valyria = #############
 8478 = {
@@ -2668,23 +3625,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_taelryn = ###################
 ############# c_ulythar = - d_valyria = #############
 8479 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_ulythar = ###################
 ############# c_ulythar = - d_valyria = #############
 8480 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_vaelyx = ###################
 ############# c_ulythar = - d_valyria = #############
 8481 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_xaelys = ###################
 ############# c_saelynor = - d_valyria = #############
@@ -2693,83 +3659,118 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_yaelion = ###################
 ############# c_saelynor = - d_valyria = #############
 8483 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_zaelyx = ###################
 ############# c_saelynor = - d_valyria = #############
 8484 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_aelionor = ###################
 ############# c_saelynor = - d_valyria = #############
 8485 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_brythos = ###################
 ############# c_ilyrion = - d_valyria = #############
 8486 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_caenith = ###################
 ############# c_ilyrion = - d_valyria = #############
 8487 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_daelthos = ###################
 ############# c_ilyrion = - d_valyria = #############
 8488 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_elyxar = ###################
 ############# c_ilyrion = - d_valyria = #############
 8489 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faelion = ###################
 ############# c_ilyrion = - d_valyria = #############
 8490 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_gaenys = ###################
 ############# c_maenythor = - d_valyria = #############
 8491 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_haelthar = ###################
 ############# c_maenythor = - d_valyria = #############
 8492 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_ilythor = ###################
 ############# c_maenythor = - d_valyria = #############
 8493 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_jaelion = ###################
 ############# c_maenythor = - d_valyria = #############
 8494 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_kaelys = ###################
 ############# c_maenythor = - d_valyria = #############
 8495 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_laenor = ###################
 ############# c_brythorion = - d_valyria = #############
@@ -2778,23 +3779,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_maelyxar = ###################
 ############# c_brythorion = - d_valyria = #############
 8497 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_naelthar = ###################
 ############# c_brythorion = - d_valyria = #############
 8498 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_oelion = ###################
 ############# c_brythorion = - d_valyria = #############
 8499 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_paelith = ###################
 ############# c_qaenorion = - d_valyria = #############
@@ -2803,23 +3813,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_qaenys = ###################
 ############# c_qaenorion = - d_valyria = #############
 8501 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_raenor = ###################
 ############# c_qaenorion = - d_valyria = #############
 8502 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_saelthos = ###################
 ############# c_qaenorion = - d_valyria = #############
 8503 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_taelion = ###################
 ############# c_taelythar = - d_valyria = #############
@@ -2828,48 +3847,67 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_ulionor = ###################
 ############# c_taelythar = - d_valyria = #############
 8505 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_vaelthar = ###################
 ############# c_taelythar = - d_valyria = #############
 8506 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_xaenor = ###################
 ############# c_taelythar = - d_valyria = #############
 8507 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelthar = ###################
 ############# c_gaelzor = - d_valyria = #############
 8508 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_zaenys = ###################
 ############# c_gaelzor = - d_valyria = #############
 8509 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_aelyzor = ###################
 ############# c_gaelzor = - d_valyria = #############
 8510 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_brynos = ###################
 ############# c_gaelzor = - d_valyria = #############
 8511 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_caenor = ###################
 ############# c_faelynor = - d_valyria = #############
@@ -2878,18 +3916,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_daelyxos = ###################
 ############# c_faelynor = - d_valyria = #############
 8513 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_erylthos = ###################
 ############# c_faelynor = - d_valyria = #############
 8514 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_faelzor = ###################
 ############# c_haenorion = - d_valyria = #############
@@ -2898,18 +3942,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_gaenythos = ###################
 ############# c_haenorion = - d_valyria = #############
 8516 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_haelor = ###################
 ############# c_haenorion = - d_valyria = #############
 8517 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ilynzor = ###################
 ############# c_vaelzorion = - d_valyria = #############
@@ -2918,53 +3968,75 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_jaelros = ###################
 ############# c_vaelzorion = - d_valyria = #############
 8519 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_kaelythor = ###################
 ############# c_vaelzorion = - d_valyria = #############
 8520 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_laenor = ###################
 ############# c_vaelzorion = - d_valyria = #############
 8521 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_maelzor = ###################
 ############# c_xaelrynor = - d_valyria = #############
 8522 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_naelysor = ###################
 ############# c_xaelrynor = - d_valyria = #############
 8523 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_oelthos = ###################
 ############# c_xaelrynor = - d_valyria = #############
 8524 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_paelrynos = ###################
 ############# c_xaelrynor = - d_valyria = #############
 8525 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_qaelzor = ###################
 ############# c_xaelrynor = - d_valyria = #############
 8526 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }
 #################### b_raelithos = ###################
 ############# c_jaelrithor = - d_valyria = #############
@@ -2973,18 +4045,24 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_saelyros = ###################
 ############# c_jaelrithor = - d_valyria = #############
 8528 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_taelythor = ###################
 ############# c_jaelrithor = - d_valyria = #############
 8529 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_ulyros = ###################
 ############# c_naerythion = - d_valyria = #############
@@ -2993,48 +4071,67 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_vaenos = ###################
 ############# c_naerythion = - d_valyria = #############
 8531 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_xaelyzos = ###################
 ############# c_naerythion = - d_valyria = #############
 8532 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_yaelros = ###################
 ############# c_naerythion = - d_valyria = #############
 8533 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_zaelithor = ###################
 ############# c_raelythor = - d_valyria = #############
 8534 = {
-    culture = high_valyrian
+	culture = high_valyrian
     religion = valyrian
+    duchy_capital_building = vf_dragon_tower_01
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+    buildings = { castle_05 hill_forts_06 barracks_03 }
     }
 }
 #################### b_aenor = ###################
 ############# c_raelythor = - d_valyria = #############
 8535 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_03 }
+    }
 }
 #################### b_bryzor = ###################
 ############# c_raelythor = - d_valyria = #############
 8536 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_caelithos = ###################
 ############# c_raelythor = - d_valyria = #############
 8537 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_daenos = ###################
 ############# c_aelyrion = - d_valyria = #############
@@ -3043,23 +4140,32 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_elythor = ###################
 ############# c_aelyrion = - d_valyria = #############
 8539 = {
-    holding = none
+	holding = castle_holding
+    7824.1.1 = {
+    buildings = { castle_02 }
+    }
 }
 #################### b_faelysor = ###################
 ############# c_aelyrion = - d_valyria = #############
 8540 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_gaelzor = ###################
 ############# c_aelyrion = - d_valyria = #############
 8541 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_haelthos = ###################
 ############# c_qaelythorion = - d_valyria = #############
@@ -3068,21 +4174,30 @@
     religion = valyrian
     holding = castle_holding
     7824.1.1 = {
-        buildings = { castle_02 }
+        buildings = { castle_03 }
     }
 }
 #################### b_ilynor = ###################
 ############# c_qaelythorion = - d_valyria = #############
 8543 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_jaelithos = ###################
 ############# c_qaelythorion = - d_valyria = #############
 8544 = {
-    holding = none
+	holding = city_holding
+    7824.1.1 = {
+    buildings = { city_02 }
+    }
 }
 #################### b_kaenos = ###################
 ############# c_qaelythorion = - d_valyria = #############
 8545 = {
-    holding = none
+	holding = church_holding
+    7824.1.1 = {
+    buildings = { temple_02 }
+    }
 }

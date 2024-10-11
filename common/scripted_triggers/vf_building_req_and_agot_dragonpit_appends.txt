@@ -1,0 +1,105 @@
+﻿vf_can_build_dragontower = {
+	scope:holder = {
+		highest_held_title_tier >= tier_duchy # dukes n above
+		agot_has_dragonpit_requirements_trigger = yes
+	}
+	NOR = {
+		scope:holder = { # Cannot have any dragonpits already built in your held titles
+			any_held_title = {
+				tier = tier_county
+				any_county_province = {
+					has_building_or_higher = vf_dragon_tower_01
+				}
+			}
+		}
+		has_building = vf_dragon_tower_01
+		county = {
+			any_county_province = {
+				has_building = vf_dragon_tower_01
+			}
+		}
+	}
+}
+
+# Modified VF from AGOT
+
+agot_has_an_active_dragonpit = {
+	any_held_county = {
+		OR = {
+			any_county_province = {
+				has_holding_type = castle_holding
+				has_building_or_higher = generic_dragon_pit_01
+			}
+			any_county_province = {
+				OR = {
+					has_building_or_higher = dragonpit_01 # Historical Version
+					has_building = dragonpit_ruins_03 # Fully Restored Ruin Version
+					has_building = agot_dragonmont_01 # Dragonmont Version
+					has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+				}
+			}
+		}
+		has_variable = has_dragonkeeper_order
+	}
+}
+
+agot_title_is_an_active_dragonpit = {
+	tier = tier_county
+	OR = {
+		any_county_province = {
+			has_holding_type = castle_holding
+			has_building_or_higher = generic_dragon_pit_01
+		}
+		any_county_province = {
+			OR = {
+				has_building_or_higher = dragonpit_01 # Historical Version
+				has_building = dragonpit_ruins_03 # Fully Restored Ruin Version
+				has_building = agot_dragonmont_01 # Dragonmont Version
+				has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+			}
+		}
+	}
+	has_variable = has_dragonkeeper_order
+}
+
+has_any_dragonpits = {
+	OR = {
+		has_building = generic_dragon_pit_01
+		has_building_or_higher = dragonpit_01
+		has_building = dragonpit_ruins_03 # Fully Restored Ruin Version
+		has_building = agot_dragonmont_01
+		has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+	}
+}
+
+# Use to check for dragonmont
+has_dragonmont_dragonpit = {
+	any_held_county = {
+		any_county_province = {
+			OR = {
+				has_building = agot_dragonmont_01 # Dragonmont costs nothing / less
+				has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+			}
+		}
+	}
+}
+
+agot_can_use_dragonpit_amenities = {
+	any_held_county = {
+		OR = {
+			any_county_province = {
+				has_holding_type = castle_holding
+				has_building_or_higher = generic_dragon_pit_01
+			}
+			any_county_province = {
+				OR = {
+					has_building_or_higher = dragonpit_01 # Historical Version
+					has_building = dragonpit_ruins_03 # Fully Restored Ruin Version
+					has_building = agot_dragonmont_01 # Dragonmont Version
+					has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+				}
+			}
+		}
+		has_variable = has_dragonkeeper_order
+	}
+}

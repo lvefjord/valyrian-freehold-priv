@@ -162,7 +162,7 @@ c_haelyx = {
 		government = freehold_government
 	}
 }
-d_muñazma = {
+d_munazma = {
 	7885.5.1 = {
 		holder = Doros_1
 		liege = k_landsoflongsummer
@@ -172,7 +172,7 @@ d_muñazma = {
 c_raelythor = {
 	7885.5.1 = {
 		holder = Doros_1
-		liege = d_muñazma
+		liege = d_munazma
 		government = freehold_government
 	}
 }
@@ -190,7 +190,7 @@ c_daelthor = {
 		government = freehold_government
 	}
 }
-d_ñoghoqitta = {
+d_noghoqitta = {
 	7885.5.1 = {
 		holder = Vyros_1
 		liege = k_landsoflongsummer
@@ -200,7 +200,7 @@ d_ñoghoqitta = {
 c_aelzor = {
 	7885.5.1 = {
 		holder = Vyros_1
-		liege = d_ñoghoqitta
+		liege = d_noghoqitta
 		government = freehold_government
 	}
 }

@@ -1,32 +1,17 @@
-﻿	#effect = { ### MAKE DRAGONS FOR THE MAIN GUYS > GIVE THEM DRAGONRIDER > AT LEAST ALL OF THESE FOR EACH DRAGON
-	#	agot_tame_dragon = {
-	#		TAMER = character:Varezys_1 # Aurion Varezys
-	#		DRAGON = ROOT
-	#	}
-	#	set_variable = {
-	#		name = color_grading
-	#		value = flag:middle
-	#	}
-	#	set_variable = {
-	#		name = color
-	#		value = flag:grey
-	#	}
-	#}
-	# color_grading flag:options = lightest, lighter, middle, darker, darkest
-	# color flag:options = white, grey, black, red, orange, yellow, green, teal, blue, purple, pink, fuschia
-
-dragon_duncan = {
+﻿dragon_duncan = {
 	name = Duncan
 
 	religion = valyrian
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_4
+	trait = dragon_physique_good_3
+	trait = dragon_majestic
+	trait = dragon_solitary
+	trait = dragon_defiant
+	trait = dragon_skittish
+
 
 	disallow_random_traits = yes
 
@@ -34,12 +19,10 @@ dragon_duncan = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lightest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:green
 			}
 		}
 	}
@@ -59,11 +42,12 @@ dragon_jaeqaelix = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_5
+	trait = dragon_physique_good_1
+	trait = dragon_friendly
+	trait = dragon_cooperative
+	trait = dragon_supporting
+
 
 	disallow_random_traits = yes
 
@@ -71,12 +55,10 @@ dragon_jaeqaelix = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lightest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:red
 			}
 		}
 	}
@@ -96,11 +78,12 @@ dragon_flamefang= {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_2
 	trait = dragon_physique_good_2
+	trait = dragon_friendly
 	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_accepting
+
 
 	disallow_random_traits = yes
 
@@ -108,12 +91,10 @@ dragon_flamefang= {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lightest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:fuschia
 			}
 		}
 	}
@@ -134,11 +115,12 @@ dragon_shellox= {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_5
 	trait = dragon_physique_good_2
+	trait = dragon_defiant
 	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_bloodthirsty
+
 
 	disallow_random_traits = yes
 
@@ -146,12 +128,10 @@ dragon_shellox= {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darkest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:red
 			}
 		}
 	}
@@ -171,11 +151,12 @@ dragon_arraks = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
+	trait = education_dragon_4
+	trait = dragon_physique_good_1
 	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_bloodthirsty
+	trait = dragon_supporting
+
 
 	disallow_random_traits = yes
 
@@ -183,12 +164,10 @@ dragon_arraks = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lightest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:green
 			}
 		}
 	}
@@ -208,11 +187,12 @@ dragon_bantāzma = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_5
+	trait = dragon_physique_good_1
+	trait = dragon_friendly
+	trait = dragon_skittish
+	trait = dragon_cooperative
+
 
 	disallow_random_traits = yes
 
@@ -220,12 +200,10 @@ dragon_bantāzma = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lightest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:white
 			}
 		}
 	}
@@ -245,11 +223,12 @@ dragon_ezarion = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_2
 	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
+	trait = dragon_defiant
 	trait = dragon_imperious
+	trait = dragon_accepting
+
 
 	disallow_random_traits = yes
 
@@ -257,12 +236,10 @@ dragon_ezarion = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:middle
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:teal
 			}
 		}
 	}
@@ -282,11 +259,12 @@ dragon_geratrix = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_2
+	trait = dragon_physique_good_1
+	trait = dragon_bloodthirsty
+	trait = dragon_solitary
+	trait = dragon_aggressive
+
 
 	disallow_random_traits = yes
 
@@ -294,12 +272,10 @@ dragon_geratrix = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darkest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:blue
 			}
 		}
 	}
@@ -319,11 +295,12 @@ dragon_katla = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
+	trait = education_dragon_4
+	trait = dragon_physique_good_1
+	trait = dragon_bloodthirsty
 	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_accepting
+
 
 	disallow_random_traits = yes
 
@@ -331,12 +308,10 @@ dragon_katla = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darker
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:black
 			}
 		}
 	}
@@ -356,11 +331,12 @@ dragon_gravyx = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_5
+	trait = dragon_physique_good_3
+	trait = dragon_supporting
+	trait = dragon_skittish
+	trait = dragon_impulsive
+
 
 	disallow_random_traits = yes
 
@@ -368,12 +344,10 @@ dragon_gravyx = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darkest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:blue
 			}
 		}
 	}
@@ -393,11 +367,13 @@ dragon_zaesar = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
+	trait = education_dragon_2
+	trait = dragon_physique_good_3
+	trait = dragon_spindly
+	trait = dragon_supporting
 	trait = dragon_imperious
+	trait = dragon_defiant
+
 
 	disallow_random_traits = yes
 
@@ -405,12 +381,10 @@ dragon_zaesar = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:black
 			}
 		}
 	}
@@ -430,11 +404,12 @@ dragon_arostys = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
+	trait = education_dragon_5
+	trait = dragon_physique_good_3
+	trait = dragon_cooperative
 	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_solitary
+
 
 	disallow_random_traits = yes
 
@@ -442,12 +417,10 @@ dragon_arostys = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:pink
 			}
 		}
 	}
@@ -467,11 +440,12 @@ dragon_haeron = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
+	trait = education_dragon_2
+	trait = dragon_physique_good_1
+	trait = dragon_impulsive
+	trait = dragon_aggressive
 	trait = dragon_imperious
+
 
 	disallow_random_traits = yes
 
@@ -479,12 +453,10 @@ dragon_haeron = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darkest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:fuschia
 			}
 		}
 	}
@@ -504,11 +476,12 @@ dragon_blackfyre = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_3
+	trait = dragon_physique_good_1
+	trait = dragon_defiant
+	trait = dragon_solitary
+	trait = dragon_cooperative
+
 
 	disallow_random_traits = yes
 
@@ -516,12 +489,10 @@ dragon_blackfyre = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:fuschia
 			}
 		}
 	}
@@ -541,11 +512,13 @@ dragon_pertinax = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_2
 	trait = dragon_physique_good_2
+	trait = dragon_fertile
 	trait = dragon_calculating
+	trait = dragon_friendly
 	trait = dragon_restrained
-	trait = dragon_imperious
+
 
 	disallow_random_traits = yes
 
@@ -553,12 +526,10 @@ dragon_pertinax = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:red
 			}
 		}
 	}
@@ -578,11 +549,12 @@ dragon_seti = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_4
+	trait = dragon_physique_good_1
+	trait = dragon_cooperative
+	trait = dragon_impulsive
+	trait = dragon_skittish
+
 
 	disallow_random_traits = yes
 
@@ -590,12 +562,10 @@ dragon_seti = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:middle
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:blue
 			}
 		}
 	}
@@ -616,11 +586,12 @@ dragon_ronyx = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
+	trait = education_dragon_5
+	trait = dragon_physique_good_3
 	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_impulsive
+	trait = dragon_defiant
+
 
 	disallow_random_traits = yes
 
@@ -628,12 +599,10 @@ dragon_ronyx = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:teal
 			}
 		}
 	}
@@ -653,11 +622,12 @@ dragon_orix = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
+	trait = education_dragon_2
+	trait = dragon_physique_good_3
 	trait = dragon_imperious
+	trait = dragon_supporting
+	trait = dragon_calculating
+
 
 	disallow_random_traits = yes
 
@@ -665,12 +635,10 @@ dragon_orix = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darker
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:orange
 			}
 		}
 	}
@@ -690,11 +658,12 @@ dragon_noctus = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
+	trait = education_dragon_4
+	trait = dragon_physique_good_1
 	trait = dragon_imperious
+	trait = dragon_accepting
+	trait = dragon_skittish
+
 
 	disallow_random_traits = yes
 
@@ -702,12 +671,10 @@ dragon_noctus = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:green
 			}
 		}
 	}
@@ -727,11 +694,12 @@ dragon_draxxis = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_2
+	trait = dragon_physique_good_1
+	trait = dragon_impulsive
+	trait = dragon_solitary
+	trait = dragon_defiant
+
 
 	disallow_random_traits = yes
 
@@ -739,12 +707,10 @@ dragon_draxxis = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:middle
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:black
 			}
 		}
 	}
@@ -764,11 +730,13 @@ dragon_binx = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_2
 	trait = dragon_physique_good_2
+	trait = dragon_spindly
+	trait = dragon_defiant
 	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_cooperative
+
 
 	disallow_random_traits = yes
 
@@ -776,12 +744,10 @@ dragon_binx = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lightest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:blue
 			}
 		}
 	}
@@ -801,11 +767,12 @@ dragon_maraxis = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_2
 	trait = dragon_physique_good_2
-	trait = dragon_calculating
 	trait = dragon_restrained
 	trait = dragon_imperious
+	trait = dragon_calculating
+
 
 	disallow_random_traits = yes
 
@@ -813,12 +780,10 @@ dragon_maraxis = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:middle
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:purple
 			}
 		}
 	}
@@ -838,11 +803,12 @@ dragon_seiless = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_4
 	trait = dragon_physique_good_2
-	trait = dragon_calculating
+	trait = dragon_solitary
 	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_supporting
+
 
 	disallow_random_traits = yes
 
@@ -850,12 +816,10 @@ dragon_seiless = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darkest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:white
 			}
 		}
 	}
@@ -875,11 +839,12 @@ dragon_stix = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_3
 	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_impulsive
+	trait = dragon_solitary
+	trait = dragon_friendly
+
 
 	disallow_random_traits = yes
 
@@ -887,12 +852,10 @@ dragon_stix = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lightest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:yellow
 			}
 		}
 	}
@@ -912,11 +875,12 @@ dragon_vexion = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_4
 	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
+	trait = dragon_accepting
+	trait = dragon_supporting
 	trait = dragon_imperious
+
 
 	disallow_random_traits = yes
 
@@ -924,12 +888,10 @@ dragon_vexion = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:middle
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:white
 			}
 		}
 	}
@@ -949,11 +911,12 @@ dragon_nyx = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_3
 	trait = dragon_physique_good_2
-	trait = dragon_calculating
+	trait = dragon_impulsive
 	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_voracious
+
 
 	disallow_random_traits = yes
 
@@ -961,12 +924,10 @@ dragon_nyx = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:teal
 			}
 		}
 	}
@@ -986,11 +947,12 @@ dragon_wormax = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
+	trait = education_dragon_3
+	trait = dragon_physique_good_3
+	trait = dragon_skittish
 	trait = dragon_calculating
 	trait = dragon_restrained
-	trait = dragon_imperious
+
 
 	disallow_random_traits = yes
 
@@ -998,12 +960,10 @@ dragon_wormax = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:teal
 			}
 		}
 	}
@@ -1023,11 +983,12 @@ dragon_gorax = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_3
+	trait = dragon_physique_good_3
+	trait = dragon_friendly
+	trait = dragon_impulsive
+	trait = dragon_supporting
+
 
 	disallow_random_traits = yes
 
@@ -1035,12 +996,10 @@ dragon_gorax = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lightest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:black
 			}
 		}
 	}
@@ -1060,11 +1019,13 @@ dragon_barthor = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_5
 	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_spindly
+	trait = dragon_cooperative
+	trait = dragon_supporting
+	trait = dragon_skittish
+
 
 	disallow_random_traits = yes
 
@@ -1072,12 +1033,10 @@ dragon_barthor = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:middle
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:purple
 			}
 		}
 	}
@@ -1097,11 +1056,13 @@ dragon_rexiax = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_3
+	trait = dragon_physique_good_1
+	trait = dragon_ugly
+	trait = dragon_cooperative
+	trait = dragon_accepting
+	trait = dragon_aggressive
+
 
 	disallow_random_traits = yes
 
@@ -1109,12 +1070,10 @@ dragon_rexiax = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lightest
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:green
 			}
 		}
 	}
@@ -1135,11 +1094,13 @@ dragon_neltrix = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
+	trait = education_dragon_3
+	trait = dragon_physique_good_1
+	trait = dragon_spindly
+	trait = dragon_voracious
+	trait = dragon_skittish
 	trait = dragon_imperious
+
 
 	disallow_random_traits = yes
 
@@ -1147,12 +1108,10 @@ dragon_neltrix = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darker
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:pink
 			}
 		}
 	}
@@ -1180,11 +1139,12 @@ dragon_vhalix = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
+	trait = education_dragon_4
 	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
+	trait = dragon_aggressive
+	trait = dragon_impulsive
 	trait = dragon_imperious
+
 
 	disallow_random_traits = yes
 
@@ -1192,12 +1152,10 @@ dragon_vhalix = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:white
 			}
 		}
 	}
@@ -1217,11 +1175,12 @@ dragon_rend = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
-	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = education_dragon_5
+	trait = dragon_physique_good_3
+	trait = dragon_impulsive
+	trait = dragon_skittish
+	trait = dragon_aggressive
+
 
 	disallow_random_traits = yes
 
@@ -1229,12 +1188,10 @@ dragon_rend = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:lighter
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:blue
 			}
 		}
 	}
@@ -1254,11 +1211,12 @@ dragon_tearmax = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
+	trait = education_dragon_5
+	trait = dragon_physique_good_1
 	trait = dragon_calculating
-	trait = dragon_restrained
-	trait = dragon_imperious
+	trait = dragon_supporting
+	trait = dragon_friendly
+
 
 	disallow_random_traits = yes
 
@@ -1266,12 +1224,10 @@ dragon_tearmax = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darker
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:orange
 			}
 		}
 	}
@@ -1291,11 +1247,12 @@ dragon_verox = {
 	culture = dragon
 
 	trait = dragon
-	trait = education_dragon_5 # Grew up in Valyria
-	trait = dragon_physique_good_2
+	trait = education_dragon_3
+	trait = dragon_physique_good_1
+	trait = dragon_friendly
 	trait = dragon_calculating
 	trait = dragon_restrained
-	trait = dragon_imperious
+
 
 	disallow_random_traits = yes
 
@@ -1303,12 +1260,10 @@ dragon_verox = {
 		birth = yes
 		effect = {
 			set_variable = {
-				name = color_grading
-				value = flag:lightest
+			value = flag:darker
 			}
 			set_variable = {
-				name = color
-				value = flag:white
+			value = flag:grey
 			}
 		}
 	}
