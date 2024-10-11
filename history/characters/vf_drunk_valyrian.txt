@@ -417,7 +417,7 @@ Festerion_2 = {
 #	7878.1.1 = { trait = dragonrider } # Verdax (NC)
 #}
 Bargerion_1 = {
-	name = Illio # Dragonlord 24/39 # FREE
+	name = Illio # Dragonlord 24/39 # HAS LAND
 	dynasty = dynn_Bargerion
 
 	religion = valyrian

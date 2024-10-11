@@ -1,0 +1,662 @@
+﻿d_nf_mataeryon = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Mataeryon_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_vaemerian = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Vaemerian_2
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_hanserion = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Hanserion_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_ullaryon = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Ullaryon_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_tavaros = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Tavaros_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_jultarion = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Jultarion_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_zumeryon = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Zumeryon_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_penloryon = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Penloryon_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_vermaxos = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Vermaxos_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_paelinox = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Paelinox_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_ramessid = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Ramessid_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_heilor = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Heilor_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_varezys = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Varezys_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_aderion = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Aderion_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_orarion = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Orarion_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_danderion = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Danderion_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_roloros = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Roloros_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_vyros = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Vyros_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_sonaryen = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Sonaryen_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_bargerion = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Bargerion_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_doros = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Doros_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_nilfarion = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Nilfarion_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_musarion = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Musarion_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_vuloryon = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Vuloryon_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_stavaryen = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Stavaryen_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_urnebar = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Urnebar_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_atreides = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Atreides_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_jentys = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Jentys_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_melnibone = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Melnibone_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_festerion = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Festerion_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_qorbareon = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Qorbareon_2
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_azantys = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Azantys_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_zalarys = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Zalarys_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_vaeritrix = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Vaeritrix_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_aegustys = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Aegustys_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_taenys = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Taenys_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_zaldrizys = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Zaldrizys_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_issaros = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Issaros_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}
+
+d_nf_jaelarys = {
+    7887.1.1 = {
+        liege = e_valyria
+        holder = Jaelarys_1
+        government = freehold_government
+        succession_laws = { freehold_noble_family_succession_law }
+    }
+    7888.1.1 = {
+        effect = {
+            destroy_landless_title_no_dlc_effect = { DATE = 7888.1.1 }
+        }
+    }
+	7889.1.1 = {
+		holder = 0
+	}
+}

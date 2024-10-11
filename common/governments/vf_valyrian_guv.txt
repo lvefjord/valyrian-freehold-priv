@@ -1,25 +1,46 @@
 ﻿freehold_government = {
-	create_cadet_branches = yes
-	rulers_should_have_dynasty = yes
-	dynasty_named_realms = yes
-	royal_court = yes
+	government_rules = {
+		create_cadet_branches = yes
+		rulers_should_have_dynasty = yes
+		dynasty_named_realms = no
+		royal_court = yes
+		administrative = yes
+		landless_playable = yes
+		legitimacy = yes
+		state_faith = yes
+		use_as_base_on_landed = yes
+		use_as_base_on_rank_up = yes
+		inherit_from_dynastic_government = no
+	}
+
+	domicile_type = estate
+
+	fallback = 3
 
 	primary_holding = castle_holding
 	valid_holdings = { city_holding }
 	required_county_holdings = { castle_holding city_holding church_holding }
 
 	vassal_contract = {
-		feudal_government_taxes
-		feudal_government_levies
-		special_contract
-		religious_rights
-		fortification_rights
-		coinage_rights
-		succession_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights
+		administrative_obligations
+		administrative_themes
 	}
+
+	character_modifier = {
+		levy_size = -0.5
+		feudal_government_tax_contribution_mult = -0.5
+		feudal_government_levy_contribution_mult = -0.5
+		clan_government_tax_contribution_mult = -0.5
+		clan_government_levy_contribution_mult = -0.5
+		men_at_arms_cap = -2
+		men_at_arms_limit = -2
+		knight_limit = -5
+		vassal_limit = 100
+	}
+
+	flag = government_has_influence
+	flag = government_has_title_men_at_arms
+	flag = government_has_powerful_families
 	
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
 	flag = government_is_freehold

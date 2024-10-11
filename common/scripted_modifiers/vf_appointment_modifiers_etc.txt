@@ -1,0 +1,69 @@
+﻿freehold_voting_pattern_dragons_elective_modifier = {
+	modifier = {
+		desc = tooltip_freehold_number_of_house_dragons
+		NOT = { this = scope:candidate } #Do not judge yourself.
+		scope:candidate.house = { any_house_member = { has_trait = dragonrider } }
+		add = {
+			scope:candidate.house = {
+				every_house_member = {
+					limit = { has_trait = dragonrider }
+					add = 50
+				}
+			}
+		}
+	}
+}
+
+
+#num_of_house_dragoons = {
+#	modifier = {
+#		desc = tooltip_freehold_number_of_house_dragons
+#		add = {
+#			root.house = {
+#				every_house_member = {
+#					limit = { has_trait = dragonrider }
+#					add = 50
+#				}
+#			}
+#		}
+#	}
+#}
+
+#size_of_dragon = {
+#	modifier = {
+#		add = {
+#			if = {
+#				limit = {
+#					OR = {
+#						root.var:current_dragon = { level_zero_dragon_size_trigger = yes }
+#						root.var:current_dragon = { level_one_dragon_size_trigger = yes }
+#						root.var:current_dragon = { level_two_dragon_size_trigger = yes }
+#					}
+#				}
+#				add = 10
+#			}
+#			else_if = {
+#				limit = {
+#					OR = {
+#						root.var:current_dragon = { level_three_dragon_size_trigger = yes }
+#						root.var:current_dragon = { level_four_dragon_size_trigger = yes }
+#						root.var:current_dragon = { level_five_dragon_size_trigger = yes }
+#						root.var:current_dragon = { level_six_dragon_size_trigger = yes }
+#					}
+#				}
+#				add = 20
+#			}
+#			else_if = {
+#				limit = {
+#					OR = {
+#						root.var:current_dragon = { level_seven_dragon_size_trigger = yes }
+#						root.var:current_dragon = { level_eight_dragon_size_trigger = yes }
+#						root.var:current_dragon = { level_nine_dragon_size_trigger = yes }
+#						root.var:current_dragon = { level_ten_dragon_size_trigger = yes }
+#					}
+#				}
+#				add = 30
+#			}
+#		}
+#	}
+#}

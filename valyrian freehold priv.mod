@@ -4,4 +4,4 @@ tags={
 	"Historical"
 }
 name="Valyrian Freehold priv"
-supported_version="1.12.5"
+supported_version="1.13.*"

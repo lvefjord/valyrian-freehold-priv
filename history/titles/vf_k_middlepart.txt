@@ -2,8 +2,19 @@
 	7885.5.1 = {
 		holder = Mataeryon_1
 		liege = e_valyria
-		succession_laws = { freehold_archonate_succession_law }
+		succession_laws = { freehold_appointment_kingdom_succession_law }
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 d_memebagon = {
@@ -11,13 +22,23 @@ d_memebagon = {
 		holder = Mataeryon_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_daelynor = {
 	7885.5.1 = {
 		holder = Mataeryon_1
 		liege = d_memebagon
-		government = freehold_government
 	}
 }
 d_irudir = {
@@ -25,13 +46,23 @@ d_irudir = {
 		holder = Vermaxos_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_brynysor = {
 	7885.5.1 = {
 		holder = Vermaxos_1
 		liege = d_irudir
-		government = freehold_government
 	}
 }
 d_idinnon = {
@@ -39,13 +70,23 @@ d_idinnon = {
 		holder = Paelinox_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_vaenor = {
 	7885.5.1 = {
 		holder = Paelinox_1
 		liege = d_idinnon
-		government = freehold_government
 	}
 }
 d_pikibagon = {
@@ -53,6 +94,17 @@ d_pikibagon = {
 		holder = Ramessid_1_dad
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 	7886.5.1 = {
 		holder = Ramessid_1
@@ -62,7 +114,6 @@ c_oelrynor = {
 	7885.5.1 = {
 		holder = Ramessid_1
 		liege = d_pikibagon
-		government = freehold_government
 	}
 }
 d_jelebagon = {
@@ -70,13 +121,23 @@ d_jelebagon = {
 		holder = Tavaros_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_ilythar = {
 	7885.5.1 = {
 		holder = Tavaros_1
 		liege = d_jelebagon
-		government = freehold_government
 	}
 }
 d_keskydoso = {
@@ -84,13 +145,23 @@ d_keskydoso = {
 		holder = Heilor_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_jaelys = {
 	7885.5.1 = {
 		holder = Heilor_1
 		liege = d_keskydoso
-		government = freehold_government
 	}
 }
 d_kisagon = {
@@ -98,13 +169,23 @@ d_kisagon = {
 		holder = Vaemerian_2
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_zhaeryth = {
 	7885.5.1 = {
 		holder = Vaemerian_2
 		liege = d_kisagon
-		government = freehold_government
 	}
 }
 d_jaehenka = {
@@ -112,13 +193,23 @@ d_jaehenka = {
 		holder = Zumeryon_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_aerionor = {
 	7885.5.1 = {
 		holder = Zumeryon_1
 		liege = d_jaehenka
-		government = freehold_government
 	}
 }
 d_meri = {
@@ -126,13 +217,23 @@ d_meri = {
 		holder = Jultarion_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_jaeryn = {
 	7885.5.1 = {
 		holder = Jultarion_1
 		liege = d_meri
-		government = freehold_government
 	}
 }
 d_qelilla = {
@@ -140,13 +241,23 @@ d_qelilla = {
 		holder = Hanserion_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_faelith = {
 	7885.5.1 = {
 		holder = Hanserion_1
 		liege = d_qelilla
-		government = freehold_government
 	}
 }
 d_qanemagon = {
@@ -154,13 +265,23 @@ d_qanemagon = {
 		holder = Ullaryon_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_zhaelthor = {
 	7885.5.1 = {
 		holder = Ullaryon_1
 		liege = d_qanemagon
-		government = freehold_government
 	}
 }
 d_qablos = {
@@ -168,12 +289,22 @@ d_qablos = {
 		holder = Penloryon_1
 		liege = k_firekingdom
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_elythorion = {
 	7885.5.1 = {
 		holder = Penloryon_1
 		liege = d_qablos
-		government = freehold_government
 	}
 }

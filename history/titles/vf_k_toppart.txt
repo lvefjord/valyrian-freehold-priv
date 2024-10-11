@@ -2,8 +2,19 @@
 	7885.5.1 = {
 		holder = Varezys_1
 		liege = e_valyria
-		succession_laws = { freehold_archonate_succession_law }
+		succession_laws = { freehold_appointment_kingdom_succession_law }
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 d_mazioragon = {
@@ -11,13 +22,23 @@ d_mazioragon = {
 		holder = Varezys_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_paelion = {
 	7885.5.1 = {
 		holder = Varezys_1
 		liege = d_mazioragon
-		government = freehold_government
 	}
 }
 
@@ -26,13 +47,23 @@ d_oregon = {
 		holder = Stavaryen_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_oelyth = {
 	7885.5.1 = {
 		holder = Stavaryen_1
 		liege = d_oregon
-		government = freehold_government
 	}
 }
 
@@ -41,13 +72,23 @@ d_paletilla = {
 		holder = Urnebar_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_yrnith = {
 	7885.5.1 = {
 		holder = Urnebar_1
 		liege = d_paletilla
-		government = freehold_government
 	}
 }
 d_lentazma = {
@@ -55,13 +96,23 @@ d_lentazma = {
 		holder = Sonaryen_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_maenythor = {
 	7885.5.1 = {
 		holder = Sonaryen_1
 		liege = d_lentazma
-		government = freehold_government
 	}
 }
 d_parkliapos = {
@@ -69,27 +120,47 @@ d_parkliapos = {
 		holder = Vuloryon_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_ilyrion = {
 	7885.5.1 = {
 		holder = Vuloryon_1
 		liege = d_parkliapos
-		government = freehold_government
 	}
 }
 d_kyvanon = {
 	7885.5.1 = {
-		holder = Orarion_1
+		holder = Bargerion_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_saelrion = {
 	7885.5.1 = {
-		holder = Orarion_1
+		holder = Bargerion_1
 		liege = d_kyvanon
-		government = freehold_government
 	}
 }
 d_midemagon = {
@@ -97,13 +168,23 @@ d_midemagon = {
 		holder = Musarion_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_gaelzor = {
 	7885.5.1 = {
 		holder = Musarion_1
 		liege = d_midemagon
-		government = freehold_government
 	}
 }
 d_mivojughagon = {
@@ -111,13 +192,23 @@ d_mivojughagon = {
 		holder = Nilfarion_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_xaelrynor = {
 	7885.5.1 = {
 		holder = Nilfarion_1
 		liege = d_mivojughagon
-		government = freehold_government
 	}
 }
 d_levitsos = {
@@ -125,13 +216,23 @@ d_levitsos = {
 		holder = Orarion_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_daenyth = {
 	7885.5.1 = {
 		holder = Orarion_1
 		liege = d_levitsos
-		government = freehold_government
 	}
 }
 d_loragon = {
@@ -139,13 +240,23 @@ d_loragon = {
 		holder = Roloros_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_qaelyx = {
 	7885.5.1 = {
 		holder = Roloros_1
 		liege = d_loragon
-		government = freehold_government
 	}
 }
 d_ozletagon = {
@@ -153,13 +264,23 @@ d_ozletagon = {
 		holder = Aderion_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_haelyx = {
 	7885.5.1 = {
 		holder = Aderion_1
 		liege = d_ozletagon
-		government = freehold_government
 	}
 }
 d_munazma = {
@@ -167,13 +288,23 @@ d_munazma = {
 		holder = Doros_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_raelythor = {
 	7885.5.1 = {
 		holder = Doros_1
 		liege = d_munazma
-		government = freehold_government
 	}
 }
 d_obagon = {
@@ -181,13 +312,23 @@ d_obagon = {
 		holder = Danderion_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_daelthor = {
 	7885.5.1 = {
 		holder = Danderion_1
 		liege = d_obagon
-		government = freehold_government
 	}
 }
 d_noghoqitta = {
@@ -195,12 +336,22 @@ d_noghoqitta = {
 		holder = Vyros_1
 		liege = k_landsoflongsummer
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
 	}
 }
 c_aelzor = {
 	7885.5.1 = {
 		holder = Vyros_1
 		liege = d_noghoqitta
-		government = freehold_government
 	}
 }

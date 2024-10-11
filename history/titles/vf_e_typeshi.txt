@@ -1,7 +1,35 @@
 ﻿e_valyria = {
 	1065.2.1 = {
-		succession_laws = { freehold_primarch_succession_law }
+		succession_laws = { freehold_acclamation_succession_law }
 		government = freehold_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					holder = { has_government = freehold_government }
+				}
+				set_state_faith = faith:valyrian
+			}
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_intrigue
+				}
+			}
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+					add_realm_law_skip_effects = single_heir_succession_law
+				}
+			}
+		}
 	}
 	2640.6.9 = {
 		effect = {
@@ -45,196 +73,196 @@
 		}
 	}
 }
-k_valyria = {
-	7885.5.1 = {
-		holder = Atreides_1
-		liege = e_valyria
-		succession_laws = { freehold_archonate_succession_law }
-		government = freehold_government
-	}
-}
-d_valyria = {
-	7885.5.1 = {
-		holder = Atreides_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_valyria = {
-	7885.5.1 = {
-		holder = Atreides_1
-		liege = d_valyria
-		government = freehold_government
-	}
-}
-
-d_aerebagon = {
-	7885.5.1 = {
-		holder = Melnibone_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_jaelion = {
-	7885.5.1 = {
-		holder = Melnibone_1
-		liege = d_aerebagon
-		government = freehold_government
-	}
-}
-
-d_amazverdagon = {
-	7885.5.1 = {
-		holder = Qorbareon_2
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_naelrion = {
-	7885.5.1 = {
-		holder = Qorbareon_2
-		liege = d_amazverdagon
-		government = freehold_government
-	}
-}
-d_aeksakogon = {
-	7885.5.1 = {
-		holder = Jentys_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_haelthor = {
-	7885.5.1 = {
-		holder = Jentys_1
-		liege = d_aeksakogon
-		government = freehold_government
-	}
-}
-
-d_albilemagon = {
-	7885.5.1 = {
-		holder = Festerion_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_vaeryth = {
-	7885.5.1 = {
-		holder = Festerion_1
-		liege = d_albilemagon
-		government = freehold_government
-	}
-}
-d_baririon = {
-	7885.5.1 = {
-		holder = Azantys_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_ulenor = {
-	7885.5.1 = {
-		holder = Azantys_1
-		liege = d_baririon
-		government = freehold_government
-	}
-}
-d_geliotikun = {
-	7885.5.1 = {
-		holder = Issaros_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_elythar = {
-	7885.5.1 = {
-		holder = Issaros_1
-		liege = d_geliotikun
-		government = freehold_government
-	}
-}
-d_govilirion = {
-	7885.5.1 = {
-		holder = Jaelarys_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_zaelthor = {
-	7885.5.1 = {
-		holder = Jaelarys_1
-		liege = d_govilirion
-		government = freehold_government
-	}
-}
-d_bevumbagon = {
-	7885.5.1 = {
-		holder = Zalarys_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_gaelion = {
-	7885.5.1 = {
-		holder = Zalarys_1
-		liege = d_bevumbagon
-		government = freehold_government
-	}
-}
-d_daeremagon = {
-	7885.5.1 = {
-		holder = Vaeritrix_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_naelthor = {
-	7885.5.1 = {
-		holder = Vaeritrix_1
-		liege = d_daeremagon
-		government = freehold_government
-	}
-}
-d_dobotedaves = {
-	7885.5.1 = {
-		holder = Aegustys_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_oelyrion = {
-	7885.5.1 = {
-		holder = Aegustys_1
-		liege = d_dobotedaves
-		government = freehold_government
-	}
-}
-d_eledris = {
-	7885.5.1 = {
-		holder = Taenys_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_qaelrion = {
-	7885.5.1 = {
-		holder = Taenys_1
-		liege = d_eledris
-		government = freehold_government
-	}
-}
-d_engitsos = {
-	7885.5.1 = {
-		holder = Zaldrizys_1
-		liege = k_valyria
-		government = freehold_government
-	}
-}
-c_saelion = {
-	7885.5.1 = {
-		holder = Zaldrizys_1
-		liege = d_engitsos
-		government = freehold_government
-	}
-}
+#k_valyria = {
+#	7885.5.1 = {
+#		holder = Atreides_1
+#		liege = e_valyria
+#		succession_laws = { freehold_appointment_kingdom_succession_law }
+#		government = freehold_government
+#	}
+#}
+#d_valyria = {
+#	7885.5.1 = {
+#		holder = Atreides_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_valyria = {
+#	7885.5.1 = {
+#		holder = Atreides_1
+#		liege = d_valyria
+#		government = freehold_government
+#	}
+#}
+#
+#d_aerebagon = {
+#	7885.5.1 = {
+#		holder = Melnibone_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_jaelion = {
+#	7885.5.1 = {
+#		holder = Melnibone_1
+#		liege = d_aerebagon
+#		government = freehold_government
+#	}
+#}
+#
+#d_amazverdagon = {
+#	7885.5.1 = {
+#		holder = Qorbareon_2
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_naelrion = {
+#	7885.5.1 = {
+#		holder = Qorbareon_2
+#		liege = d_amazverdagon
+#		government = freehold_government
+#	}
+#}
+#d_aeksakogon = {
+#	7885.5.1 = {
+#		holder = Jentys_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_haelthor = {
+#	7885.5.1 = {
+#		holder = Jentys_1
+#		liege = d_aeksakogon
+#		government = freehold_government
+#	}
+#}
+#
+#d_albilemagon = {
+#	7885.5.1 = {
+#		holder = Festerion_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_vaeryth = {
+#	7885.5.1 = {
+#		holder = Festerion_1
+#		liege = d_albilemagon
+#		government = freehold_government
+#	}
+#}
+#d_baririon = {
+#	7885.5.1 = {
+#		holder = Azantys_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_ulenor = {
+#	7885.5.1 = {
+#		holder = Azantys_1
+#		liege = d_baririon
+#		government = freehold_government
+#	}
+#}
+#d_geliotikun = {
+#	7885.5.1 = {
+#		holder = Issaros_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_elythar = {
+#	7885.5.1 = {
+#		holder = Issaros_1
+#		liege = d_geliotikun
+#		government = freehold_government
+#	}
+#}
+#d_govilirion = {
+#	7885.5.1 = {
+#		holder = Jaelarys_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_zaelthor = {
+#	7885.5.1 = {
+#		holder = Jaelarys_1
+#		liege = d_govilirion
+#		government = freehold_government
+#	}
+#}
+#d_bevumbagon = {
+#	7885.5.1 = {
+#		holder = Zalarys_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_gaelion = {
+#	7885.5.1 = {
+#		holder = Zalarys_1
+#		liege = d_bevumbagon
+#		government = freehold_government
+#	}
+#}
+#d_daeremagon = {
+#	7885.5.1 = {
+#		holder = Vaeritrix_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_naelthor = {
+#	7885.5.1 = {
+#		holder = Vaeritrix_1
+#		liege = d_daeremagon
+#		government = freehold_government
+#	}
+#}
+#d_dobotedaves = {
+#	7885.5.1 = {
+#		holder = Aegustys_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_oelyrion = {
+#	7885.5.1 = {
+#		holder = Aegustys_1
+#		liege = d_dobotedaves
+#		government = freehold_government
+#	}
+#}
+#d_eledris = {
+#	7885.5.1 = {
+#		holder = Taenys_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_qaelrion = {
+#	7885.5.1 = {
+#		holder = Taenys_1
+#		liege = d_eledris
+#		government = freehold_government
+#	}
+#}
+#d_engitsos = {
+#	7885.5.1 = {
+#		holder = Zaldrizys_1
+#		liege = k_valyria
+#		government = freehold_government
+#	}
+#}
+#c_saelion = {
+#	7885.5.1 = {
+#		holder = Zaldrizys_1
+#		liege = d_engitsos
+#		government = freehold_government
+#	}
+#}
