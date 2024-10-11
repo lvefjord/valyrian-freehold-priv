@@ -26,6 +26,20 @@ king_archonate_male = {
 	only_holder = yes
 	governments = { freehold_government }
 }
+#king_archonate_male_FUCKOFF_VICEROY = {
+#	type = character
+#	gender = male
+#	special = holder
+#	tier = kingdom
+#	priority = 75
+#	governments = { administrative_government }
+#
+#	flavourization_rules = {
+#		top_liege = no
+#		spouse_takes_title = no
+#		only_vassals = yes
+#	}
+#}
 king_archonate_female = {
 	type = character
 	gender = female

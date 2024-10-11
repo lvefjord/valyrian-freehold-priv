@@ -57,7 +57,7 @@ vf_dragon_tower_01 = {
 
 	asset = {
 		type = pdxmesh
-		name = "building_special_valyria_walls_mesh"
+		name = "building_special_dragon_tower_mesh"
 	}
 
 	effect_desc = building_dragonpit_effect

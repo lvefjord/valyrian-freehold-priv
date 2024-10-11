@@ -1,7 +1,9 @@
 ﻿vf_restore_freehold_dragonkeepers = {
 	title = agot_restore_dragonstone_dragonkeepers
-	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
-	major = yes
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
+	decision_group_type = major
 	ai_goal = yes
 
 	selection_tooltip = agot_appoint_dragonkeeper_head_tooltip
