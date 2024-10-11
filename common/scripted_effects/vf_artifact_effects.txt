@@ -66,10 +66,10 @@ agot_create_artifact_vs_dusk_effect = {
 		save_scope_as = newly_created_artifact
 		decaying = no
 	}
-	scope:newly_created_artifact ?= {
+	scope:newly_created_artifact = {
 		if = {
 			limit = {
-				scope:owner = { has_character_flag = is_sword_of_morning }
+				scope:owner = { has_character_flag = is_sword_of_evening }
 			}
 			equip_artifact_to_owner_replace = yes
 		}
@@ -85,6 +85,7 @@ agot_create_artifact_vs_dusk_effect = {
 			name = traditional_house_owner
 			value = dynasty:dynn_Atreides.dynasty_founder.house
 		}
+		set_variable = is_dusk
 		agot_add_artifact_history = { # Sword of the Evening
 			ARTIFACT = this
 			TYPE = inherited
