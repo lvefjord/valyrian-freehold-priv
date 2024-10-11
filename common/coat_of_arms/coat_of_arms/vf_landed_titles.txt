@@ -1,8 +1,12 @@
 ﻿e_valyria = {
-	pattern="val_pattern_12.dds"
+	pattern="pattern__solid_designer.dds"
 	color1=agot_black
-	color2=rgb { 191 14 14 }
-	color3=rgb { 100 5 70 }
+	color2=black
+	color3=red
+	colored_emblem={
+		color1=agot_silver
+		texture="do_toland.dds"
+	}
 }
 k_landsoflongsummer = {
 	pattern = "pattern_solid.dds"
@@ -16,12 +20,13 @@ k_landsoflongsummer = {
 	}
 }
 k_firekingdom = {
-	pattern="pattern__solid_designer.dds"
-	color1=agot_bone
-	color2=white
-	color3=red
-	colored_emblem={
-		color1=agot_green
-		texture="do_toland.dds"
+	pattern = "pattern_solid.dds"
+	color1 = "agot_white"
+	color2 = "agot_white"
+	colored_emblem = {
+		texture = "cl_white.dds"
+		color1 = "agot_green"
+		color2 = "agot_green"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
 	}
 }
