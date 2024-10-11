@@ -121,3 +121,29 @@ vf_create_artifact_valyrian_steel_armor_effect = {
 		equip_artifact_to_owner_replace = yes
 	}
 }
+vf_create_artifact_valyrian_crown_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = valyrian_crown_name
+		description = "The crown of the Primarch"
+		type = helmet
+		visuals = westerosi_valyrian_crown2_visuals
+		wealth = scope:wealth
+		quality = scope:quality
+		template = westerosi_valyrian_crown2_template
+		modifier = westerosi_valyrian_crown2_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = { name = westerosi_valyrian_crown2_artifact value = yes }
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = { name = vf_crown value = yes }
+	}
+}

@@ -8,8 +8,8 @@
 			accessory = {
 				mode = add
 				gene = hairstyles
-				template = all_hairstyles
-				accessory = male_hair_fp1_01
+				template = agot_all_hairstyles
+				accessory = male_hair_custom_07
 			}
 			accessory = {
 				mode = add
@@ -19,9 +19,9 @@
 			}
 			accessory = {
 				mode = add
-				gene = clothes
-				template = agot_western_high_nobility_clothes_male_pants
-				accessory = male_clothes_westerland_doublet_02
+				gene = headgear
+				template = agot_crowns
+				accessory = valyriancrown1
 			}
 		}
 		weight = {
