@@ -1,0 +1,59 @@
+pdxmesh = {
+	name = "building_special_valyria_defenses_mesh"
+	file = "building_special_valyria_defenses.mesh"
+
+	meshsettings = {
+		name = "building_special_valyria_citadelShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_citadel_diffuse.dds"
+		texture_normal = "building_special_valyria_citadel_normal.dds"
+		texture_specular = "building_special_valyria_citadel_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_entranceShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_entrance_diffuse.dds"
+		texture_normal = "building_special_valyria_entrance_normal.dds"
+		texture_specular = "building_special_valyria_entrance_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_spikesShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_spikes_diffuse.dds"
+		texture_normal = "building_special_valyria_spikes_normal.dds"
+		texture_specular = "building_special_valyria_spikes_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_turretsShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_turrets_diffuse.dds"
+		texture_normal = "building_special_valyria_turrets_normal.dds"
+		texture_specular = "building_special_valyria_turrets_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_wallsShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_walls_diffuse.dds"
+		texture_normal = "building_special_valyria_walls_normal.dds"
+		texture_specular = "building_special_valyria_walls_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "building_special_valyria_defenses_entity"
+	pdxmesh = "building_special_valyria_defenses_mesh"
+}

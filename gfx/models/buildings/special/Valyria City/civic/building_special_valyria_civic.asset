@@ -1,0 +1,59 @@
+pdxmesh = {
+	name = "building_special_valyria_civic_mesh"
+	file = "building_special_valyria_civic.mesh"
+
+	meshsettings = {
+		name = "building_special_valyria_anogrionShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_anogrion_diffuse.dds"
+		texture_normal = "building_special_valyria_anogrion_normal.dds"
+		texture_specular = "building_special_valyria_anogrion_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_anogrion_stairsShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_anogrion_stairs_diffuse.dds"
+		texture_normal = "building_special_valyria_anogrion_stairs_normal.dds"
+		texture_specular = "building_special_valyria_anogrion_stairs_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_archesShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_arches_diffuse.dds"
+		texture_normal = "building_special_valyria_arches_normal.dds"
+		texture_specular = "building_special_valyria_arches_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_aux_buildingsShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_aux_buildings_diffuse.dds"
+		texture_normal = "building_special_valyria_aux_buildings_normal.dds"
+		texture_specular = "building_special_valyria_aux_buildings_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_side_buildingsShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_side_buildings_diffuse.dds"
+		texture_normal = "building_special_valyria_side_buildings_normal.dds"
+		texture_specular = "building_special_valyria_side_buildings_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "building_special_valyria_civic_entity"
+	pdxmesh = "building_special_valyria_civic_mesh"
+}

@@ -1,0 +1,39 @@
+pdxmesh = {
+	name = "building_special_valyria_entertainment_mesh"
+	file = "building_special_valyria_entertainment.mesh"
+
+	meshsettings = {
+		name = "building_special_valyria_amphitheaterShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_amphitheater_diffuse.dds"
+		texture_normal = "building_special_valyria_amphitheater_normal.dds"
+		texture_specular = "building_special_valyria_amphitheater_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_southShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_south_diffuse.dds"
+		texture_normal = "building_special_valyria_south_normal.dds"
+		texture_specular = "building_special_valyria_south_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_valyria_south_buildingsShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_south_buildings_diffuse.dds"
+		texture_normal = "building_special_valyria_south_buildings_normal.dds"
+		texture_specular = "building_special_valyria_south_buildings_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "building_special_valyria_entertainment_entity"
+	pdxmesh = "building_special_valyria_entertainment_mesh"
+}

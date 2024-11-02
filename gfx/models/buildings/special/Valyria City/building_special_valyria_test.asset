@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "building_special_valyria_test_mesh"
+	file = "building_special_valyria_test.mesh"
+
+	meshsettings = {
+		name = "building_special_valyria_testShape"
+		index = 0
+		texture_diffuse = "Dragonstone_diffuse.dds"
+		texture_normal = "Dragonstone_normal.dds"
+		texture_specular = "Dragonstone_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "building_special_valyria_test_entity"
+	pdxmesh = "building_special_valyria_test_mesh"
+}

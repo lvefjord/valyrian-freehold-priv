@@ -1660,7 +1660,7 @@
 8251 = {
 	culture = high_valyrian
     religion = valyrian
-    special_building_slot = vf_dragon_tower_01
+    special_building_slot = vf_valyria_city_civic
     holding = castle_holding
     7824.1.1 = {
     buildings = { castle_05 hill_forts_06 barracks_03 }
@@ -1669,33 +1669,37 @@
 #################### b_raelysar = ###################
 ############# c_valyria = - d_valyria = #############
 8252 = {
-	holding = castle_holding
+	holding = city_holding
+    special_building_slot = vf_valyria_city_industrial
     7824.1.1 = {
-    buildings = { castle_03 }
+    buildings = { city_03 }
     }
 }
 #################### b_saelythion = ###################
 ############# c_valyria = - d_valyria = #############
 8253 = {
-	holding = castle_holding
+	holding = church_holding
+    special_building_slot = vf_valyria_city_sept
     7824.1.1 = {
-    buildings = { castle_03 }
+    buildings = { temple_03 }
     }
 }
 #################### b_taerthosar = ###################
 ############# c_valyria = - d_valyria = #############
 8254 = {
-	holding = church_holding
+	holding = city_holding
+    special_building_slot = vf_valyria_city_entertainment
     7824.1.1 = {
-    buildings = { temple_02 }
+    buildings = { city_03 }
     }
 }
 #################### b_ulenor = ###################
 ############# c_valyria = - d_valyria = #############
 8255 = {
-	holding = city_holding
+	holding = castle_holding
+    special_building_slot = vf_valyria_city_defenses
     7824.1.1 = {
-    buildings = { city_02 }
+    buildings = { castle_03 }
     }
 }
 #################### b_vaelythor = ###################
