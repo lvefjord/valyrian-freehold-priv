@@ -9019,6 +9019,8 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -38533,6 +38535,34 @@
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -70128,9 +70158,11 @@
 				}, {
 					"locked":	false
 				}, {
-					"locked":	true
+					"locked":	false
 				}, {
 					"locked":	true
+				}, {
+					"locked":	false
 				}, {
 					"locked":	false
 				}, {
@@ -101408,7 +101440,7 @@
 				"key":	"special_building"
 			},
 			"entry_state":	{
-				"locked":	false,
+				"locked":	true,
 				"base_type":	{
 					"type":	"locator",
 					"key":	"Highgarden Trees"

@@ -94,7 +94,9 @@ claim_dusk_worthy_decision = {
 }
 
 claim_dusk_unworthy_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_misc.dds"
+	}
 
 	sort_order = 1
 

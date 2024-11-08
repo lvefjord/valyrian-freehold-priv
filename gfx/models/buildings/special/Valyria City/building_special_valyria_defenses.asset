@@ -13,6 +13,16 @@ pdxmesh = {
 	}
 
 	meshsettings = {
+		name = "building_special_valyria_city_floorShape"
+		index = 0
+		texture_diffuse = "building_special_valyria_city_floor_diffuse.dds"
+		texture_normal = "building_special_valyria_city_floor_normal.dds"
+		texture_specular = "building_special_valyria_city_floor_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
 		name = "building_special_valyria_entranceShape"
 		index = 0
 		texture_diffuse = "building_special_valyria_entrance_diffuse.dds"
