@@ -10,10 +10,10 @@
 		building_requirement_tribal = no
 	}
 
-	asset = {
-		type = pdxmesh
-		name = "building_special_dragon_tower_mesh"
-	}
+	#asset = {
+	#	type = pdxmesh
+	#	name = "building_special_dragon_tower_mesh"
+	#}
 
 	effect_desc = building_dragonpit_effect
 

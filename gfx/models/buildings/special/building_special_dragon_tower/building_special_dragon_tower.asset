@@ -5,9 +5,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "dragon_towerShape"
 		index = 0
-		texture_diffuse = "casterlyrock_castle_diffuse.dds"
-		texture_normal = "casterlyrock_castle_normal.dds"
-		texture_specular = "casterlyrock_castle_properties.dds"
+		texture_diffuse = "PDXmat_dragon_towerShape_diffuse.dds"
+		texture_normal = "PDXmat_dragon_towerShape_normal.dds"
+		texture_specular = "PDXmat_dragon_towerShape_properties.dds"
 		shader = "standard_winter"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}

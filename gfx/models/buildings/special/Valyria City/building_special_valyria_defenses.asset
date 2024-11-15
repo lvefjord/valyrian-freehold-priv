@@ -5,19 +5,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "building_special_valyria_citadelShape"
 		index = 0
-		texture_diffuse = "building_special_valyria_citadel_diffuse.dds"
-		texture_normal = "building_special_valyria_citadel_normal.dds"
-		texture_specular = "building_special_valyria_citadel_properties.dds"
-		shader = "standard_winter"
-		shader_file = "gfx/FX/pdxmesh.shader"
-	}
-
-	meshsettings = {
-		name = "building_special_valyria_city_floorShape"
-		index = 0
-		texture_diffuse = "building_special_valyria_city_floor_diffuse.dds"
-		texture_normal = "building_special_valyria_city_floor_normal.dds"
-		texture_specular = "building_special_valyria_city_floor_properties.dds"
+		texture_diffuse = "PDXmat_building_special_valyria_citadelShape_diffuse.dds"
+		texture_normal = "PDXmat_building_special_valyria_citadelShape_normal.dds"
+		texture_specular = "PDXmat_building_special_valyria_citadelShape_properties.dds"
 		shader = "standard_winter"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
@@ -25,9 +15,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "building_special_valyria_entranceShape"
 		index = 0
-		texture_diffuse = "building_special_valyria_entrance_diffuse.dds"
-		texture_normal = "building_special_valyria_entrance_normal.dds"
-		texture_specular = "building_special_valyria_entrance_properties.dds"
+		texture_diffuse = "PDXmat_building_special_valyria_entranceShape_diffuse.dds"
+		texture_normal = "PDXmat_building_special_valyria_entranceShape_normal.dds"
+		texture_specular = "PDXmat_building_special_valyria_entranceShape_properties.dds"
 		shader = "standard_winter"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
@@ -35,9 +25,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "building_special_valyria_spikesShape"
 		index = 0
-		texture_diffuse = "building_special_valyria_spikes_diffuse.dds"
-		texture_normal = "building_special_valyria_spikes_normal.dds"
-		texture_specular = "building_special_valyria_spikes_properties.dds"
+		texture_diffuse = "PDXmat_building_special_valyria_spikesShape_diffuse.dds"
+		texture_normal = "PDXmat_building_special_valyria_spikesShape_normal.dds"
+		texture_specular = "PDXmat_building_special_valyria_spikesShape_properties.dds"
 		shader = "standard_winter"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
@@ -45,9 +35,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "building_special_valyria_turretsShape"
 		index = 0
-		texture_diffuse = "building_special_valyria_turrets_diffuse.dds"
-		texture_normal = "building_special_valyria_turrets_normal.dds"
-		texture_specular = "building_special_valyria_turrets_properties.dds"
+		texture_diffuse = "PDXmat_building_special_valyria_turretsShape_diffuse.dds"
+		texture_normal = "PDXmat_building_special_valyria_turretsShape_normal.dds"
+		texture_specular = "PDXmat_building_special_valyria_turretsShape_properties.dds"
 		shader = "standard_winter"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
@@ -55,9 +45,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "building_special_valyria_wallsShape"
 		index = 0
-		texture_diffuse = "building_special_valyria_walls_diffuse.dds"
-		texture_normal = "building_special_valyria_walls_normal.dds"
-		texture_specular = "building_special_valyria_walls_properties.dds"
+		texture_diffuse = "PDXmat_building_special_valyria_wallsShape_diffuse.dds"
+		texture_normal = "PDXmat_building_special_valyria_wallsShape_normal.dds"
+		texture_specular = "PDXmat_building_special_valyria_wallsShape_properties.dds"
 		shader = "standard_winter"
 		shader_file = "gfx/FX/pdxmesh.shader"
 	}
