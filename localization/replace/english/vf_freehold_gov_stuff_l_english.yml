@@ -39,6 +39,7 @@
 
  does_not_ride_a_dragon:0 "Does not ride a [dragon|E]"
  rides_a_dragon:0 "Rides a [dragon|E]"
+ doesnt_rides_a_dragon:0 "Doesn't ride a [dragon|E]"
  is_an_archon:0 "Is an Archon of the Freehold"
 
  size_of_dragon:0 "Size of [dragon|E]"

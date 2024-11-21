@@ -24,6 +24,13 @@
 					desc = num_of_house_dragoons
 				}
 			}
+			if = {
+				limit = { NOT = { has_trait = dragonrider } }
+				subtract = {
+					value = 1000
+					desc = doesnt_rides_a_dragon
+				}
+			}
 
 			if = {
 				limit = { highest_held_title_tier = tier_kingdom }
