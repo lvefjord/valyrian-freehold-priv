@@ -2,3 +2,36 @@
 	exists = character:Atreides_1
 	this = character:Atreides_1
 }
+
+worthy_sword_of_the_evening_trigger = {
+	dynasty = dynasty:dynn_Atreides
+	OR = {
+		has_trait = education_martial_prowess_4
+		has_trait = education_martial_prowess_5
+		AND = {
+			is_agot_knight_trigger = yes
+			has_trait = lifestyle_blademaster
+			age < 16
+		}
+	}
+	prowess >= 20
+	OR = {
+		has_trait = just
+		has_trait = brave
+	}
+	NOR = {
+		has_trait = murderer
+		has_trait = kinslayer
+		has_trait = gluttonous
+		has_trait = greedy
+		has_trait = lazy
+		has_trait = callous
+		has_trait = sadistic
+		has_trait = deceitful
+		has_trait = drunkard
+		has_trait = craven
+		has_trait = arbitrary
+		has_trait = torturer
+		has_trait = physique_bad
+	}
+}
