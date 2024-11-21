@@ -16,25 +16,6 @@ vf_game_start = {
 		vf_dynasty_strong_seeds = yes
 		vf_assign_starting_dragon_eggs_effect = yes
 
-		if = {
-			limit = { character:Targaryen_13 = { is_alive = yes } }
-			create_title_and_vassal_change = {
-				type = swear_fealty
-				save_scope_as = title_change
-				add_claim_on_loss = no
-			}
-			character:Targaryen_13 = {
-				change_liege = {
-					liege = title:e_valyria.holder
-					change = scope:title_change
-				}
-				change_government = freehold_government
-			}
-			resolve_title_and_vassal_change = scope:title_change
-			title:k_dragonstone = {
-				set_de_jure_liege_title = title:e_valyria
-			}
-		}
 		vf_eat_mybung_hole = yes
 		# Dynasty setup
 		
