@@ -1,4 +1,59 @@
-﻿agot_change_dragonpit_status = {
+﻿### VF base changes ###
+
+change_to_administrative_effect = {
+	save_scope_as = governor
+	if = {
+		limit = {
+			NOT = { government_has_flag = government_is_freehold }
+			me_or_liege_is_freehold = yes
+		}
+		change_government = freehold_government
+		save_scope_as = new_admin
+	}
+	else_if = {
+		limit = {
+			NOT = { government_has_flag = government_is_administrative }
+			me_or_liege_is_freehold = no
+		}
+		change_government = administrative_government
+		save_scope_as = new_admin
+	}
+	if = {
+		limit = {
+			primary_title.tier >= tier_duchy
+			liege = {
+				is_independent_ruler = yes
+				government_allows = administrative
+			}
+			house.house_head = {
+				NOT = {
+					any_held_title = { is_noble_family_title = yes }
+				}
+			}
+		}
+		create_noble_family_effect = yes
+	}
+
+	hidden_effect = {
+		if = {
+			limit = {
+				is_governor = yes
+				NOT = { has_trait = governor }
+			}
+			add_trait = governor
+		}
+	}
+	if = {
+		limit = { exists = scope:new_admin }
+		domicile ?= {
+			set_up_domicile_estate_effect = yes
+		}
+	}
+}
+
+### VF AGOT changes ###
+
+agot_change_dragonpit_status = {
 	scope:owner = {
 		random_held_county = {
 			limit = {

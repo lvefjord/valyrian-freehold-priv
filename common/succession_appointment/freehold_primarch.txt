@@ -16,6 +16,9 @@
 					value = size_of_dragon
 					desc = size_of_dragon
 				}
+			}
+			if = {
+				limit = { root.house = { has_house_modifier = dragonrider_house_modifier } }
 				add = {
 					value = num_of_house_dragoons
 					desc = num_of_house_dragoons
@@ -73,15 +76,6 @@
 			}
 
 			# TRAITS
-			if = {
-				limit = {
-					has_trait = born_in_the_purple
-				}
-				add = {
-					value = 50
-					desc = trait_born_in_the_purple
-				}
-			}
 			if = {
 				limit = {
 					has_trait = disfigured
