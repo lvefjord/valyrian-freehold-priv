@@ -8,6 +8,7 @@ mrcount_1 = {
 	7862.11.17 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_2 = {
 	name = Bearlerion
@@ -19,6 +20,7 @@ mrcount_2 = {
 	7868.12.20 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_3 = {
 	name = Bearlerion
@@ -30,6 +32,7 @@ mrcount_3 = {
 	7840.10.17 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_4 = {
 	name = Daemion
@@ -41,6 +44,7 @@ mrcount_4 = {
 	7859.9.19 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_5 = {
 	name = Aegor
@@ -52,6 +56,7 @@ mrcount_5 = {
 	7846.7.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_6 = {
 	name = Aelor
@@ -63,6 +68,7 @@ mrcount_6 = {
 	7847.9.22 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_7 = {
 	name = Valarr
@@ -74,6 +80,7 @@ mrcount_7 = {
 	7847.8.10 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_8 = {
 	name = Aeryn
@@ -85,6 +92,7 @@ mrcount_8 = {
 	7850.9.15 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_9 = {
 	name = Maekar
@@ -96,6 +104,7 @@ mrcount_9 = {
 	7840.8.8 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_10 = {
 	name = Bearlerion
@@ -107,6 +116,7 @@ mrcount_10 = {
 	7843.6.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_11 = {
 	name = Aethan
@@ -118,6 +128,7 @@ mrcount_11 = {
 	7842.10.28 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_12 = {
 	name = Vaegon
@@ -129,6 +140,7 @@ mrcount_12 = {
 	7842.1.5 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_13 = {
 	name = Valarr
@@ -140,6 +152,7 @@ mrcount_13 = {
 	7852.12.16 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_14 = {
 	name = Aelyx
@@ -151,6 +164,7 @@ mrcount_14 = {
 	7848.7.4 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_15 = {
 	name = Gaemon
@@ -162,6 +176,7 @@ mrcount_15 = {
 	7859.11.4 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_16 = {
 	name = Rhaegar
@@ -173,6 +188,7 @@ mrcount_16 = {
 	7857.12.21 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_17 = {
 	name = Jaehaerys
@@ -184,6 +200,7 @@ mrcount_17 = {
 	7848.12.21 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_18 = {
 	name = Matarys
@@ -195,6 +212,7 @@ mrcount_18 = {
 	7844.2.15 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_19 = {
 	name = Valarr
@@ -206,6 +224,7 @@ mrcount_19 = {
 	7869.1.13 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_20 = {
 	name = Maegor
@@ -217,6 +236,7 @@ mrcount_20 = {
 	7868.9.2 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_21 = {
 	name = Aethan
@@ -228,6 +248,7 @@ mrcount_21 = {
 	7861.7.5 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_22 = {
 	name = Aelor
@@ -239,6 +260,7 @@ mrcount_22 = {
 	7858.11.7 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_23 = {
 	name = Aerion
@@ -250,6 +272,7 @@ mrcount_23 = {
 	7839.1.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_24 = {
 	name = Daemon
@@ -261,6 +284,7 @@ mrcount_24 = {
 	7852.9.4 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_25 = {
 	name = Maelor
@@ -272,6 +296,7 @@ mrcount_25 = {
 	7854.6.18 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_26 = {
 	name = Jaehaerys
@@ -283,6 +308,7 @@ mrcount_26 = {
 	7842.4.15 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_27 = {
 	name = Rhaegar
@@ -294,6 +320,7 @@ mrcount_27 = {
 	7871.10.7 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_28 = {
 	name = Daemon
@@ -305,6 +332,7 @@ mrcount_28 = {
 	7862.12.20 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_29 = {
 	name = Maenar
@@ -316,6 +344,7 @@ mrcount_29 = {
 	7871.3.22 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_30 = {
 	name = Daemion
@@ -327,6 +356,7 @@ mrcount_30 = {
 	7865.12.26 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_31 = {
 	name = Gaemon
@@ -338,6 +368,7 @@ mrcount_31 = {
 	7841.6.1 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_32 = {
 	name = Aelor
@@ -349,6 +380,7 @@ mrcount_32 = {
 	7870.5.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_33 = {
 	name = Rhaegar
@@ -360,6 +392,7 @@ mrcount_33 = {
 	7845.4.11 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_34 = {
 	name = Aemond
@@ -371,6 +404,7 @@ mrcount_34 = {
 	7850.5.8 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_35 = {
 	name = Maegor
@@ -382,6 +416,7 @@ mrcount_35 = {
 	7853.1.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_36 = {
 	name = Aeryn
@@ -393,6 +428,7 @@ mrcount_36 = {
 	7846.12.12 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_37 = {
 	name = Maegon
@@ -404,6 +440,7 @@ mrcount_37 = {
 	7868.7.14 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_38 = {
 	name = Maelor
@@ -415,6 +452,7 @@ mrcount_38 = {
 	7845.5.16 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_39 = {
 	name = Maekar
@@ -426,6 +464,7 @@ mrcount_39 = {
 	7866.2.14 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_40 = {
 	name = Valerion
@@ -437,6 +476,7 @@ mrcount_40 = {
 	7846.10.6 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_41 = {
 	name = Valerion
@@ -448,6 +488,7 @@ mrcount_41 = {
 	7847.6.6 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_42 = {
 	name = Daeron
@@ -459,6 +500,7 @@ mrcount_42 = {
 	7864.5.12 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_43 = {
 	name = Aerys
@@ -470,6 +512,7 @@ mrcount_43 = {
 	7863.4.27 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_44 = {
 	name = Aenar
@@ -481,6 +524,7 @@ mrcount_44 = {
 	7839.1.11 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_45 = {
 	name = Aemond
@@ -492,6 +536,7 @@ mrcount_45 = {
 	7841.9.23 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_46 = {
 	name = Aerion
@@ -503,6 +548,7 @@ mrcount_46 = {
 	7857.5.18 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_47 = {
 	name = Aegor
@@ -514,6 +560,7 @@ mrcount_47 = {
 	7870.1.18 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_48 = {
 	name = Bearaxes
@@ -525,6 +572,7 @@ mrcount_48 = {
 	7869.6.22 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_49 = {
 	name = Bearlerion
@@ -536,6 +584,7 @@ mrcount_49 = {
 	7858.10.27 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_50 = {
 	name = Aeryn
@@ -547,6 +596,7 @@ mrcount_50 = {
 	7859.2.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_51 = {
 	name = Aemond
@@ -558,6 +608,7 @@ mrcount_51 = {
 	7852.5.2 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_52 = {
 	name = Baelor
@@ -569,6 +620,7 @@ mrcount_52 = {
 	7864.10.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_53 = {
 	name = Haegon
@@ -580,6 +632,7 @@ mrcount_53 = {
 	7839.6.5 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_54 = {
 	name = Rhaegel
@@ -591,6 +644,7 @@ mrcount_54 = {
 	7850.7.4 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_55 = {
 	name = Aethan
@@ -602,6 +656,7 @@ mrcount_55 = {
 	7842.7.14 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_56 = {
 	name = Aelyx
@@ -613,6 +668,7 @@ mrcount_56 = {
 	7849.9.24 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_57 = {
 	name = Aelor
@@ -624,6 +680,7 @@ mrcount_57 = {
 	7865.7.5 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_58 = {
 	name = Aegor
@@ -635,6 +692,7 @@ mrcount_58 = {
 	7866.3.16 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_59 = {
 	name = Aemond
@@ -646,6 +704,7 @@ mrcount_59 = {
 	7863.9.21 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_60 = {
 	name = Maelys
@@ -657,6 +716,7 @@ mrcount_60 = {
 	7845.2.14 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_61 = {
 	name = Valerion
@@ -668,6 +728,7 @@ mrcount_61 = {
 	7869.6.7 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_62 = {
 	name = Matarys
@@ -679,6 +740,7 @@ mrcount_62 = {
 	7844.8.5 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_63 = {
 	name = Maenar
@@ -690,6 +752,7 @@ mrcount_63 = {
 	7847.6.27 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_64 = {
 	name = Jaehaerys
@@ -701,6 +764,7 @@ mrcount_64 = {
 	7871.12.16 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_65 = {
 	name = Jaehaerys
@@ -712,6 +776,7 @@ mrcount_65 = {
 	7841.7.6 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_66 = {
 	name = Valerion
@@ -723,6 +788,7 @@ mrcount_66 = {
 	7859.2.10 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_67 = {
 	name = Aenys
@@ -734,6 +800,7 @@ mrcount_67 = {
 	7846.5.26 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_68 = {
 	name = Daeron
@@ -745,6 +812,7 @@ mrcount_68 = {
 	7845.2.23 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_69 = {
 	name = Maegon
@@ -756,6 +824,7 @@ mrcount_69 = {
 	7863.4.18 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_70 = {
 	name = Bearaxes
@@ -767,6 +836,7 @@ mrcount_70 = {
 	7855.1.27 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_71 = {
 	name = Aenar
@@ -778,6 +848,7 @@ mrcount_71 = {
 	7856.10.10 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_72 = {
 	name = Aegor
@@ -789,6 +860,7 @@ mrcount_72 = {
 	7850.6.23 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_73 = {
 	name = Maelor
@@ -800,6 +872,7 @@ mrcount_73 = {
 	7848.2.24 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_74 = {
 	name = Maenar
@@ -811,6 +884,7 @@ mrcount_74 = {
 	7849.7.22 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_75 = {
 	name = Beargar
@@ -822,6 +896,7 @@ mrcount_75 = {
 	7862.1.12 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_76 = {
 	name = Rhaegel
@@ -833,6 +908,7 @@ mrcount_76 = {
 	7852.5.11 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_77 = {
 	name = Aelyx
@@ -844,6 +920,7 @@ mrcount_77 = {
 	7857.10.5 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_78 = {
 	name = Bearlerion
@@ -855,6 +932,7 @@ mrcount_78 = {
 	7849.1.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_79 = {
 	name = Viserys
@@ -866,6 +944,7 @@ mrcount_79 = {
 	7868.7.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_80 = {
 	name = Daemion
@@ -877,6 +956,7 @@ mrcount_80 = {
 	7839.8.13 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_81 = {
 	name = Maekar
@@ -888,6 +968,7 @@ mrcount_81 = {
 	7864.1.10 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_82 = {
 	name = Maegor
@@ -899,6 +980,7 @@ mrcount_82 = {
 	7857.2.29 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_83 = {
 	name = Maenar
@@ -910,6 +992,7 @@ mrcount_83 = {
 	7846.9.15 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_84 = {
 	name = Daemon
@@ -921,6 +1004,7 @@ mrcount_84 = {
 	7841.7.2 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_85 = {
 	name = Aenys
@@ -932,6 +1016,7 @@ mrcount_85 = {
 	7855.10.6 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_86 = {
 	name = Rhaegar
@@ -943,6 +1028,7 @@ mrcount_86 = {
 	7856.6.13 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_87 = {
 	name = Aerion
@@ -954,6 +1040,7 @@ mrcount_87 = {
 	7865.10.15 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_88 = {
 	name = Aegor
@@ -965,6 +1052,7 @@ mrcount_88 = {
 	7846.9.12 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_89 = {
 	name = Aelyx
@@ -976,6 +1064,7 @@ mrcount_89 = {
 	7855.1.14 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_90 = {
 	name = Maenar
@@ -987,6 +1076,7 @@ mrcount_90 = {
 	7858.3.25 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_91 = {
 	name = Gaemon
@@ -998,6 +1088,7 @@ mrcount_91 = {
 	7841.10.27 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_92 = {
 	name = Rhaegel
@@ -1009,6 +1100,7 @@ mrcount_92 = {
 	7846.1.17 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_93 = {
 	name = Baelon
@@ -1020,6 +1112,7 @@ mrcount_93 = {
 	7845.4.26 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_94 = {
 	name = Aelyx
@@ -1031,6 +1124,7 @@ mrcount_94 = {
 	7871.7.1 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_95 = {
 	name = Vaegon
@@ -1042,6 +1136,7 @@ mrcount_95 = {
 	7856.3.18 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_96 = {
 	name = Bearlerion
@@ -1053,6 +1148,7 @@ mrcount_96 = {
 	7868.4.7 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_97 = {
 	name = Haegon
@@ -1064,6 +1160,7 @@ mrcount_97 = {
 	7856.9.17 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_98 = {
 	name = Haegon
@@ -1075,6 +1172,7 @@ mrcount_98 = {
 	7842.3.5 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_99 = {
 	name = Vaegon
@@ -1086,6 +1184,7 @@ mrcount_99 = {
 	7851.4.24 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_100 = {
 	name = Daemion
@@ -1097,6 +1196,7 @@ mrcount_100 = {
 	7838.11.13 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_101 = {
 	name = Aenar
@@ -1108,6 +1208,7 @@ mrcount_101 = {
 	7855.1.23 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_102 = {
 	name = Vaegon
@@ -1119,6 +1220,7 @@ mrcount_102 = {
 	7864.6.19 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_103 = {
 	name = Aenar
@@ -1130,6 +1232,7 @@ mrcount_103 = {
 	7863.10.14 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_104 = {
 	name = Aethan
@@ -1141,6 +1244,7 @@ mrcount_104 = {
 	7867.1.26 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_105 = {
 	name = Aenys
@@ -1152,6 +1256,7 @@ mrcount_105 = {
 	7851.5.26 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_106 = {
 	name = Beargar
@@ -1163,6 +1268,7 @@ mrcount_106 = {
 	7859.8.9 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_107 = {
 	name = Aeryn
@@ -1174,6 +1280,7 @@ mrcount_107 = {
 	7840.7.11 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_108 = {
 	name = Maenar
@@ -1185,6 +1292,7 @@ mrcount_108 = {
 	7840.6.6 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_109 = {
 	name = Aelor
@@ -1196,6 +1304,7 @@ mrcount_109 = {
 	7864.6.9 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_110 = {
 	name = Daemion
@@ -1207,6 +1316,7 @@ mrcount_110 = {
 	7848.8.22 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_111 = {
 	name = Matarys
@@ -1218,6 +1328,7 @@ mrcount_111 = {
 	7840.2.14 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_112 = {
 	name = Aethan
@@ -1229,6 +1340,7 @@ mrcount_112 = {
 	7871.7.24 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_113 = {
 	name = Daemon
@@ -1240,6 +1352,7 @@ mrcount_113 = {
 	7860.9.25 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_114 = {
 	name = Haegon
@@ -1251,6 +1364,7 @@ mrcount_114 = {
 	7857.10.26 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_115 = {
 	name = Aeryn
@@ -1262,6 +1376,7 @@ mrcount_115 = {
 	7856.12.22 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_116 = {
 	name = Valerion
@@ -1273,6 +1388,7 @@ mrcount_116 = {
 	7868.8.19 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_117 = {
 	name = Aegor
@@ -1284,6 +1400,7 @@ mrcount_117 = {
 	7862.6.13 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_118 = {
 	name = Rhaegar
@@ -1295,6 +1412,7 @@ mrcount_118 = {
 	7862.11.16 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_119 = {
 	name = Matarys
@@ -1306,6 +1424,7 @@ mrcount_119 = {
 	7844.1.5 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_120 = {
 	name = Aemon
@@ -1317,6 +1436,7 @@ mrcount_120 = {
 	7838.7.19 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_121 = {
 	name = Jaehaerys
@@ -1328,6 +1448,7 @@ mrcount_121 = {
 	7855.10.26 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_122 = {
 	name = Maelys
@@ -1339,6 +1460,7 @@ mrcount_122 = {
 	7861.4.9 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_123 = {
 	name = Aeryn
@@ -1350,6 +1472,7 @@ mrcount_123 = {
 	7841.1.11 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_124 = {
 	name = Daemion
@@ -1361,6 +1484,7 @@ mrcount_124 = {
 	7860.10.19 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_125 = {
 	name = Daeron
@@ -1372,6 +1496,7 @@ mrcount_125 = {
 	7866.11.14 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 mrcount_126 = {
 	name = Bearlerion
@@ -1383,4 +1508,5 @@ mrcount_126 = {
 	7859.9.22 = {
 		birth = yes
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }

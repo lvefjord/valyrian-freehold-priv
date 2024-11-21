@@ -1,5 +1,5 @@
-﻿dragon_duncan = {
-	name = Duncan
+﻿dragon_Zaldrīzes = {
+	name = Zaldrīzes
 
 	religion = valyrian
 	culture = dragon
@@ -36,6 +36,7 @@
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_jaeqaelix = {
 	name = Jaeqaelix
@@ -74,6 +75,7 @@ dragon_jaeqaelix = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_flamefang= {
 	name = Flamefang
@@ -112,6 +114,7 @@ dragon_flamefang= {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 
 dragon_shellox= {
@@ -151,6 +154,7 @@ dragon_shellox= {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_arraks = {
 	name = Arraks
@@ -189,6 +193,7 @@ dragon_arraks = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_bantāzma = {
 	name = Bantāzma
@@ -227,6 +232,7 @@ dragon_bantāzma = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_ezarion = {
 	name = Ezarion
@@ -265,6 +271,7 @@ dragon_ezarion = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_geratrix = {
 	name = Geratrix
@@ -303,6 +310,7 @@ dragon_geratrix = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_katla = {
 	name = Katla
@@ -341,6 +349,7 @@ dragon_katla = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_gravyx = {
 	name = Gravyx
@@ -379,6 +388,7 @@ dragon_gravyx = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_zaesar = {
 	name = Zaesar
@@ -418,6 +428,7 @@ dragon_zaesar = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_arostys = {
 	name = Arostys
@@ -456,6 +467,7 @@ dragon_arostys = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_haeron = {
 	name = Haeron
@@ -494,6 +506,7 @@ dragon_haeron = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_blackfyre = {
 	name = Blackfyre
@@ -532,6 +545,7 @@ dragon_blackfyre = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_pertinax = {
 	name = Pertinax
@@ -571,6 +585,7 @@ dragon_pertinax = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_seti = {
 	name = Seti
@@ -609,6 +624,7 @@ dragon_seti = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 
 dragon_ronyx = {
@@ -648,6 +664,7 @@ dragon_ronyx = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_orix = {
 	name = Orix
@@ -686,6 +703,7 @@ dragon_orix = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_noctus = {
 	name = Noctus
@@ -724,6 +742,7 @@ dragon_noctus = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_draxxis = {
 	name = Draxxis
@@ -762,6 +781,7 @@ dragon_draxxis = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_binx = {
 	name = Binx
@@ -801,6 +821,7 @@ dragon_binx = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_maraxis = {
 	name = Maraxis
@@ -839,6 +860,7 @@ dragon_maraxis = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_seiless = {
 	name = Seiless
@@ -877,6 +899,7 @@ dragon_seiless = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_stix = {
 	name = Stix
@@ -915,6 +938,7 @@ dragon_stix = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_vexion = {
 	name = Vexion
@@ -953,6 +977,7 @@ dragon_vexion = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_nyx = {
 	name = Nyx
@@ -991,6 +1016,7 @@ dragon_nyx = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_wormax = {
 	name = Wormax
@@ -1029,6 +1055,7 @@ dragon_wormax = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_gorax = {
 	name = Gorax
@@ -1067,6 +1094,7 @@ dragon_gorax = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_barthor = {
 	name = Barthor
@@ -1106,6 +1134,7 @@ dragon_barthor = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_rexiax = {
 	name = Rexiax
@@ -1145,6 +1174,7 @@ dragon_rexiax = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_neltrix = {
 	name = Neltrix
@@ -1193,6 +1223,7 @@ dragon_neltrix = {
 			type = agot_dragon_laid_clutch_2
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_vhalix = {
 	name = Vhalix
@@ -1231,6 +1262,7 @@ dragon_vhalix = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_rend = {
 	name = Rend
@@ -1269,6 +1301,7 @@ dragon_rend = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_tearmax = {
 	name = Tearmax
@@ -1307,6 +1340,7 @@ dragon_tearmax = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_verox = {
 	name = Verox
@@ -1345,4 +1379,5 @@ dragon_verox = {
 			}
 		}
 	}
+	7992.1.1 = { death = { death_reason = death_old_age } }
 }

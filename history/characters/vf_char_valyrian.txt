@@ -20,6 +20,7 @@ Mataeryon_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Varezys_2 = {
 	name = Varys
@@ -42,6 +43,7 @@ Varezys_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 # HOUSE ATREIDES (id = dynn_Atreides)
 # There is only power, and those too weak to seek it
@@ -87,6 +89,7 @@ Atreides_1 = {
 		}
 	}
 	7887.1.1 = { add_spouse = Atreides_2 } # Naerys Atreides
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Atreides_2 = {
 	name = Naerys # Wife of Lord Daemon
@@ -120,9 +123,10 @@ Atreides_2 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7885.1.1 = { trait = dragonrider } # PH Dragon (Create)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Atreides_3 = {
-	name = Leto
+	name = Aemond
 	dynasty = dynn_Atreides
 	dna = Atreides_3
 	father = Atreides_1
@@ -146,6 +150,7 @@ Atreides_3 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 # HOUSE QORBAREON (id = dynn_Qorbareon) IN HONOR OF QAnon
@@ -196,6 +201,9 @@ Qorbareon_ancestor_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7859.12.13 = {
+		death = yes
+	}
 }
 Qorbareon_1 = {
 	name = Rhaelene # Aunt and wife of Lord Rhaemon
@@ -226,6 +234,7 @@ Qorbareon_1 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Qorbareon_2 = {
 	name = Rhaemon # Lord Rhaemon Qorbareon | Dragonlord 2/39 # HAS LAND
@@ -262,6 +271,7 @@ Qorbareon_2 = {
 	7871.1.1 = { trait = dragonrider } # Jaeqaelix (Done)
 	7872.1.1 = { add_spouse = Qorbareon_1 } # Rhaelene Qorbareon
 	7888.1.1 = { add_spouse = Qorbareon_9 } # Aemma Qorbareon
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Qorbareon_3 = {
 	name = Arano # Brother of Lord Rhaemon
@@ -287,6 +297,7 @@ Qorbareon_3 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Qorbareon_4 = {
 	name = Rogo # Brother of Lord Rhaemon
@@ -312,6 +323,7 @@ Qorbareon_4 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Qorbareon_5 = {
 	name = Ellara # Sister of Lord Rhaemon
@@ -338,6 +350,7 @@ Qorbareon_5 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Qorbareon_6 = {
 	name = Laerion # Son of Lord Rhaemon
@@ -376,6 +389,7 @@ Qorbareon_6 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Qorbareon_7 = {
 	name = Daerion # Son of Lord Rhaemon
@@ -413,6 +427,7 @@ Qorbareon_7 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Qorbareon_8 = {
 	name = Dyaerys # Son of Lord Rhaemon
@@ -450,6 +465,7 @@ Qorbareon_8 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Qorbareon_9 = {
 	name = Aemma # Second wife of Lord Rhaemon
@@ -474,6 +490,7 @@ Qorbareon_9 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7888.1.1 = { add_spouse = Qorbareon_2 } # Rhaemon Qorbareon
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 # HOUSE STAVARYEN (id = dynn_Stavaryen) IN HONOR OF QAnon
 Stavaryen_1_dad = {
@@ -531,6 +548,7 @@ Stavaryen_1 = {
 	}
 	7833.1.1 = { trait = dragonrider } # Shellox (Done)
 	7852.1.1 = { add_spouse = Stavaryen_2 } # Norenya Stavaryen
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Stavaryen_2 = {
 	name = Norenya # Wife of Lord Vargo
@@ -562,6 +580,7 @@ Stavaryen_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Stavaryen_3 = {
 	name = Vaenora # Daughter of Lord Vargo
@@ -595,6 +614,7 @@ Stavaryen_3 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Stavaryen_4 = {
 	name = Vargo # Son of Lord Vargo
@@ -692,6 +712,7 @@ Stavaryen_6 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Stavaryen_7 = {
 	name = Garios # Son of Lord Vargo
@@ -722,6 +743,7 @@ Stavaryen_7 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 Melnibone_1 = {
@@ -749,6 +771,7 @@ Melnibone_1 = {
 	}
 	7875.1.1 = { trait = dragonrider } # Flamefang (Done)
 	7885.1.1 = { add_spouse = Melnibone_2 }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 Melnibone_2 = {
@@ -764,6 +787,7 @@ Melnibone_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Jentys_1_dad = {
 	name = Daemond
@@ -811,6 +835,7 @@ Jentys_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7871.1.1 = { trait = dragonrider } # Arraks (Done)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Jentys_2 = {
 	name = Daemond # Son of Lord Daeron
@@ -829,6 +854,7 @@ Jentys_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Azantys_1_dad = {
 	name = Aenys
@@ -875,6 +901,7 @@ Azantys_1 = {
 	}
 	7855.1.1 = { trait = dragonrider } # Bantāzma (Done)
 	7865.12.10 = { add_spouse = Azantys_1_wife }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Azantys_1_wife = {
 	name = Daenys
@@ -895,6 +922,7 @@ Azantys_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Azantys_2 = {
 	name = Aenorys # Son of Lord Aenys
@@ -918,6 +946,7 @@ Azantys_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Issaros_1_dad = {
 	name = Daenor
@@ -965,6 +994,7 @@ Issaros_1 = {
 	}
 	7875.1.1 = { trait = dragonrider } # Ezarion (Done)
 	7876.2.5 = { add_spouse = Issaros_1_wife }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Issaros_1_wife = {
 	name = Daenys 
@@ -985,6 +1015,7 @@ Issaros_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Issaros_2 = {
 	name = Aerion # Son of Lord Daegon
@@ -1005,6 +1036,7 @@ Issaros_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Jaelarys_1_dad = {
 	name = Aerys
@@ -1054,6 +1086,7 @@ Jaelarys_1 = {
 	}
 	7878.1.1 = { trait = dragonrider } # Geratrix (Done)
 	7886.9.13 = { add_spouse = Jaelarys_1_wife }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Jaelarys_1_wife = {
 	name = Joanna
@@ -1074,6 +1107,7 @@ Jaelarys_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Jaelarys_2 = {
 	name = Taerion
@@ -1094,6 +1128,7 @@ Jaelarys_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Zalarys_1_dad = {
 	name = Vaemys
@@ -1139,6 +1174,7 @@ Zalarys_1 = {
 	}
 	7871.1.1 = { trait = dragonrider } # Katla (Done)
 	7876.2.5 = { add_spouse = Zalarys_1_wife }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Zalarys_1_wife = {
 	name = Daenys
@@ -1159,6 +1195,7 @@ Zalarys_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Zalarys_2 = {
 	name = Vaerion
@@ -1182,6 +1219,7 @@ Zalarys_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vaeritrix_1_dad = {
 	name = Aegon
@@ -1228,6 +1266,7 @@ Vaeritrix_1 = {
 	}
 	7886.12.16 = { add_spouse = Vaeritrix_1_wife }
 	7887.1.1 = { trait = dragonrider } # Gravyx (Done)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vaeritrix_1_wife = {
 	name = Aelyssa
@@ -1251,6 +1290,7 @@ Vaeritrix_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vaeritrix_2 = {
 	name = Aegon
@@ -1270,6 +1310,7 @@ Vaeritrix_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Aegustys_1_dad = {
 	name = Aeulius
@@ -1320,6 +1361,7 @@ Aegustys_1 = {
 	7872.3.7 = { give_nickname = nick_caesar }
 	7876.2.5 = { add_spouse = Aegustys_1_wife }
 	7878.1.1 = { trait = dragonrider } # Zaesar (Done)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Aegustys_1_wife = {
 	name = Liviae # Wife of Lord Octaevien
@@ -1340,6 +1382,7 @@ Aegustys_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Aegustys_2 = {
 	name = Tiberius # Son of Lord Octaevien
@@ -1359,6 +1402,7 @@ Aegustys_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Taenys_1 = {
 	name = Viserion # Dragonlord 12/39 # HAS LAND
@@ -1378,6 +1422,7 @@ Taenys_1 = {
 		birth = yes
 	}
 	7854.1.1 = { trait = dragonrider } # Arostys (Done)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Taenys_2 = {
 	name = Aenar 
@@ -1401,6 +1446,7 @@ Taenys_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Taenys_3 = {
 	name = Aenys 
@@ -1424,6 +1470,7 @@ Taenys_3 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Zaldrizys_1_dad = {
 	name = Aemon
@@ -1469,6 +1516,7 @@ Zaldrizys_1 = {
 	}
 	7864.3.5 = { add_spouse = Zaldrizys_1_wife } # Alysanne Zaldrizys
 	7865.1.1 = { trait = dragonrider } # Haeron (Done)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Zaldrizys_1_wife = {
 	name = Alysanne # Wife of Lord Aemon
@@ -1489,6 +1537,7 @@ Zaldrizys_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Zaldrizys_2 = {
 	name = Aerys # Son of Lord Aemon
@@ -1511,6 +1560,7 @@ Zaldrizys_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vermaxos_1_dad = {
 	name = Rhaegar 
@@ -1556,6 +1606,7 @@ Vermaxos_1 = {
 	}
 	7873.4.17 = { add_spouse = Vermaxos_1_wife } # 
 	7877.1.1 = { trait = dragonrider } # Blackfyre (Done)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vermaxos_1_wife = {
 	name = Aelyssa # Wife of Lord Faegon
@@ -1577,6 +1628,7 @@ Vermaxos_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Paelinox_1_dad = {
 	name = Aenyx # Father of Lord Aegon
@@ -1623,6 +1675,7 @@ Paelinox_1 = {
 	}
 	7882.1.1 = { trait = dragonrider } # Pertinax (Done)
 	7885.1.1 = { add_spouse = Paelinox_1_wife } 
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Paelinox_1_wife = {
 	name = Aenys # Wife of Lord Aegon
@@ -1646,6 +1699,7 @@ Paelinox_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Paelinox_2 = {
 	name = Aenys # Son of Lord Aegon
@@ -1666,6 +1720,7 @@ Paelinox_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Ramessid_1_dad = {
 	name = Ramesys # Father of Lord Ramesys
@@ -1715,6 +1770,7 @@ Ramessid_1 = {
 	}
 	7871.1.1 = { trait = dragonrider } # Seti (Done)
 	7885.10.3 = { give_nickname = nick_ozymandias }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Ramessid_1_wife = {
 	name = Nefertaery # Wife of Lord Ramesys
@@ -1741,6 +1797,7 @@ Ramessid_1_wife = {
 		add_character_flag = has_scripted_appearance
 	}
 	7875.1.1 = { add_spouse = Ramessid_1 } # Ramesys
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Ramessid_2 = {
 	name = Ay # Son of Lord Ramesys
@@ -1761,6 +1818,7 @@ Ramessid_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 # OLD VALYRIA
@@ -1783,6 +1841,7 @@ Roloros_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7822.1.1 = { trait = dragonrider } # Ronyx (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Roloros_2 = {
 	name = Alyssa
@@ -1804,6 +1863,7 @@ Roloros_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Roloros_3 = {
 	name = Maegon
@@ -1826,6 +1886,7 @@ Roloros_3 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7887.12.12 = { add_spouse = Roloros_2 }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 Aderion_1 = {
@@ -1849,6 +1910,7 @@ Aderion_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7838.1.1 = { trait = dragonrider } # Orix (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 Aderion_2 = {
@@ -1871,6 +1933,7 @@ Aderion_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Doros_1_dad = {
 	name = Aemon
@@ -1918,6 +1981,7 @@ Doros_1 = {
 	7828.1.1 = { give_nickname = nick_the_exile }
 	7832.1.1 = { trait = dragonrider } # Noctus (C)
 	7834.2.6 = { add_spouse = Doros_1_wife }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Doros_1_wife = {
 	name = Alyssa
@@ -1940,6 +2004,7 @@ Doros_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Doros_2 = {
 	name = Aemon
@@ -1962,6 +2027,7 @@ Doros_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Doros_3 = {
 	name = Aemond
@@ -1984,6 +2050,7 @@ Doros_3 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Doros_4 = {
 	name = Daemon
@@ -2006,6 +2073,7 @@ Doros_4 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Danderion_1 = {
 	name = Alion
@@ -2027,6 +2095,7 @@ Danderion_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7864.1.1 = { trait = dragonrider } # Draxxis (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Danderion_2 = {
 	name = Aelys
@@ -2048,6 +2117,7 @@ Danderion_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 Vyros_1 = {
@@ -2072,6 +2142,7 @@ Vyros_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7869.1.1 = { trait = dragonrider } # Binx (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 Vyros_2 = {
@@ -2091,6 +2162,7 @@ Vyros_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 Vyros_3 = {
@@ -2113,6 +2185,7 @@ Vyros_3 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 Festerion_1 = {
@@ -2135,6 +2208,7 @@ Festerion_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7805.1.1 = { trait = dragonrider } # Maraxis (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 
 Festerion_2 = {
@@ -2157,6 +2231,7 @@ Festerion_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 #Konaryan_1 = {
 #	name = Maemon # Dragonlord 23/39 # FREEANDREMOVED CUZ I FORGOT TO ACCOUNT FOR 4 PREEXISTING
@@ -2201,6 +2276,7 @@ Bargerion_1 = {
 	}
 	7873.1.1 = { give_nickname = nick_the_verdant }
 	7868.1.1 = { trait = dragonrider } # Seiless (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Bargerion_2 = {
 	name = Illaerys
@@ -2222,6 +2298,7 @@ Bargerion_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Tavaros_1 = {
 	name = Aemor # Dragonlord 28/39 # HAS LAND
@@ -2244,6 +2321,7 @@ Tavaros_1 = {
 	}
 	7868.1.1 = { trait = dragonrider } # Stix (C)
 	7886.9.2 = { add_spouse = Tavaros_2 }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Tavaros_2 = {
 	name = Musara
@@ -2263,6 +2341,7 @@ Tavaros_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 ######## last done
 Heilor_1n2_dad = {
@@ -2311,6 +2390,7 @@ Heilor_1 = {
 	}
 	7874.10.25 = { add_spouse = Heilor_2 }
 	7868.1.1 = { trait = dragonrider } # Vexion (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Heilor_2 = {
 	name = Sumara
@@ -2332,6 +2412,7 @@ Heilor_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vaemerian_1 = {
 	name = Alysanne
@@ -2354,6 +2435,7 @@ Vaemerian_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7874.4.5 = { add_spouse = Vaemerian_2 }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vaemerian_2 = {
 	name = Maron # Dragonlord 30/39 # HAS LAND
@@ -2377,6 +2459,7 @@ Vaemerian_2 = {
 	}
 	7871.1.1 = { trait = dragonrider } # Nyx (C)
 	7874.4.5 = { give_nickname = nick_the_bear }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vaemerian_3 = {
 	name = Vaegon
@@ -2399,6 +2482,7 @@ Vaemerian_3 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Zumeryon_1 = {
 	name = Maegor # Dragonlord 31/39 # HAS LAND
@@ -2420,6 +2504,7 @@ Zumeryon_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7868.1.1 = { trait = dragonrider } # Wormax (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Zumeryon_2 = {
 	name = Aerion
@@ -2439,6 +2524,7 @@ Zumeryon_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Jultarion_1n2_dad = {
 	name = Gaerys
@@ -2485,6 +2571,7 @@ Jultarion_1 = {
 	}
 	7865.4.11 = { add_spouse = Jultarion_2 }
 	7870.1.1 = { trait = dragonrider } # Gorax (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Jultarion_2 = {
 	name = Thaelene
@@ -2507,6 +2594,7 @@ Jultarion_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Hanserion_1n2_dad = {
 	name = Faerys
@@ -2557,6 +2645,7 @@ Hanserion_1 = {
 	7868.1.1 = { give_nickname = nick_the_cat }
 	7869.1.12 = { add_spouse = Hanserion_2 }
 	7869.1.1 = { trait = dragonrider } # Barthor (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Hanserion_2 = {
 	name = Sienya
@@ -2581,6 +2670,7 @@ Hanserion_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Ullaryon_1n2_dad = {
 	name = Ilytherion
@@ -2601,6 +2691,7 @@ Ullaryon_1n2_dad = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7850.1.1 = { death = { death_reason = death_old_age } }
 }
 Ullaryon_1 = {
 	name = Ilythra # Dragonlord 34/39 # HAS LAND
@@ -2624,6 +2715,7 @@ Ullaryon_1 = {
 	}
 	7833.1.1 = { add_spouse = Ullaryon_1_wife }
 	7860.1.1 = { trait = dragonrider } # Rexiax (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Ullaryon_1_wife = {
 	name = Lythera
@@ -2646,6 +2738,7 @@ Ullaryon_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Ullaryon_2 = {
 	name = Ilytherion
@@ -2668,6 +2761,7 @@ Ullaryon_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Penloryon_1n2_dad = {
 	name = Soryllarion
@@ -2716,6 +2810,7 @@ Penloryon_1 = {
 	7864.1.1 = { give_nickname = nick_deaf }
 	7880.1.1 = { trait = dragonrider } # Neltrix (C)
 	7882.3.6 = { add_spouse = Penloryon_2 }
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Penloryon_2 = {
 	name = Xelys
@@ -2737,6 +2832,7 @@ Penloryon_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vuloryon_1_dad = {
 	name = Zaelys
@@ -2784,6 +2880,7 @@ Vuloryon_1 = {
 	}
 	7871.1.1 = { give_nickname = nick_the_blind }
 	7886.1.1 = { trait = dragonrider } # Vhalix (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vuloryon_1_wife = {
 	name = Aemma
@@ -2806,6 +2903,7 @@ Vuloryon_1_wife = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Vuloryon_2 = {
 	name = Aemon
@@ -2825,6 +2923,7 @@ Vuloryon_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Orarion_1n2_dad = {
 	name = Loryx
@@ -2874,6 +2973,7 @@ Orarion_1 = {
 		add_spouse = Orarion_2
 	}
 	7879.1.1 = { trait = dragonrider } # Rend (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Orarion_2 = {
 	name = Aemma
@@ -2894,6 +2994,7 @@ Orarion_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Musarion_1 = {
 	name = Vaemir # Dragonlord 38/39 # HAS LAND
@@ -2916,6 +3017,7 @@ Musarion_1 = {
 	}
 	7864.1.1 = { give_nickname = nick_the_poor }
 	7869.1.1 = { trait = dragonrider } # Tearmax (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Musarion_2 = {
 	name = Geraldos
@@ -2937,6 +3039,7 @@ Musarion_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Nilfarion_1 = {
 	name = Coryella # Dragonlord 39/39 # HAS LAND
@@ -2959,6 +3062,7 @@ Nilfarion_1 = {
 		add_character_flag = has_scripted_appearance
 	}
 	7869.1.1 = { trait = dragonrider } # Verox (C)
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Nilfarion_2 = {
 	name = Coaerys
@@ -2980,4 +3084,5 @@ Nilfarion_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
+	7950.1.1 = { death = { death_reason = death_old_age } }
 }
