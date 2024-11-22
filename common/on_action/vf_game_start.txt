@@ -176,7 +176,6 @@ vf_on_game_start_after_lobby = {
 			}
 			vf_artifact_setup = yes
 			vf_dragon_setup = yes
-			vf_game_start_dragonpit_effect = yes
 			#title:c_valyria = { # Adding dragonkeeper variable to dragonstone
 			#	agot_dragonpit_gamestart_init_pit_effect = yes
 			#}
@@ -188,5 +187,6 @@ vf_on_game_start_after_lobby = {
 			#	}
 			#}
 		}
+		vf_game_start_dragonpit_effect = yes
 	}
 }

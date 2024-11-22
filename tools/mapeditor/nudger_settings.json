@@ -1392,9 +1392,7 @@
 					"key":	"Bridge_Wood"
 				}
 			},
-			"instances":	[{
-					"locked":	false
-				}]
+			"instances":	[]
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
@@ -4523,22 +4521,6 @@
 					"locked":	false
 				}, {
 					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -4553,8 +4535,6 @@
 				}
 			},
 			"instances":	[{
-					"locked":	false
-				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -6473,13 +6453,7 @@
 					"key":	"special_building"
 				}
 			},
-			"instances":	[{
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}]
+			"instances":	[]
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
@@ -6493,16 +6467,6 @@
 				}
 			},
 			"instances":	[{
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -26506,7 +26470,7 @@
 				"key":	"tree_leaf_low_generator_1_0"
 			},
 			"entry_state":	{
-				"locked":	true,
+				"locked":	false,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"special_building"
@@ -26519,7 +26483,7 @@
 				"key":	"tree_leaf_low_generator_2_0"
 			},
 			"entry_state":	{
-				"locked":	true,
+				"locked":	false,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"special_building"
@@ -26532,7 +26496,7 @@
 				"key":	"tree_leaf_low_generator_3_0"
 			},
 			"entry_state":	{
-				"locked":	true,
+				"locked":	false,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"special_building"
@@ -26545,7 +26509,7 @@
 				"key":	"tree_leaf_medium_generator_1_0"
 			},
 			"entry_state":	{
-				"locked":	true,
+				"locked":	false,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"special_building"
@@ -26558,7 +26522,7 @@
 				"key":	"tree_leaf_medium_generator_2_0"
 			},
 			"entry_state":	{
-				"locked":	true,
+				"locked":	false,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"special_building"
@@ -26571,7 +26535,7 @@
 				"key":	"tree_leaf_medium_generator_3_0"
 			},
 			"entry_state":	{
-				"locked":	true,
+				"locked":	false,
 				"base_type":	{
 					"type":	"mesh",
 					"key":	"special_building"
