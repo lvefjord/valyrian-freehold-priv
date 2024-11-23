@@ -114,7 +114,7 @@ vf_valyria_city_civic = {
 
 	county_modifier = {
 		development_growth_factor = 1
-		development_growth = 0.5
+		development_growth = 0.85
 	}
 
 	province_modifier = {

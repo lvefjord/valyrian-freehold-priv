@@ -41,11 +41,11 @@ gene_dragon_neck_length = 0.65
 gene_dragon_tail_length = 0.18
 	}
 }
-if = { # Dragon_duncan
-limit = { exists = character:dragon_duncan }
+if = { # dragon_Zaldrīzes
+limit = { exists = character:dragon_Zaldrīzes }
 agot_historical_dragon_transfer_vars_to_story_cycle_effect = {
-	DRAGON = character:dragon_duncan
-	dragon_age = character:dragon_duncan.age
+	DRAGON = character:dragon_Zaldrīzes
+	dragon_age = character:dragon_Zaldrīzes.age
 gene_dragon_primary_color_hue = 0.96
 gene_dragon_primary_color_value = 0.60
 gene_dragon_secondary_hue = 0.28
