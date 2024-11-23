@@ -36,6 +36,13 @@
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_valyria
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_jaeqaelix = {
@@ -75,6 +82,13 @@ dragon_jaeqaelix = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_naelrion
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_flamefang= {
@@ -111,6 +125,13 @@ dragon_flamefang= {
 			agot_tame_dragon = {
 				TAMER = character:Melnibone_1 # Elric
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_jaelion
 			}
 		}
 	}
@@ -154,6 +175,13 @@ dragon_shellox= {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_oelyth
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_arraks = {
@@ -190,6 +218,13 @@ dragon_arraks = {
 			agot_tame_dragon = {
 				TAMER = character:Jentys_1 # Jentys
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_haelthor
 			}
 		}
 	}
@@ -232,6 +267,13 @@ dragon_bantāzma = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_ulenor
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_ezarion = {
@@ -268,6 +310,13 @@ dragon_ezarion = {
 			agot_tame_dragon = {
 				TAMER = character:Issaros_1 # Daegon
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_elythar
 			}
 		}
 	}
@@ -310,6 +359,13 @@ dragon_geratrix = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_zaelthor
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_katla = {
@@ -349,6 +405,13 @@ dragon_katla = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_gaelion
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_gravyx = {
@@ -385,6 +448,13 @@ dragon_gravyx = {
 			agot_tame_dragon = {
 				TAMER = character:Vaeritrix_1 # Aelyx
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_naelthor
 			}
 		}
 	}
@@ -428,6 +498,13 @@ dragon_zaesar = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_oelyrion
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_arostys = {
@@ -464,6 +541,13 @@ dragon_arostys = {
 			agot_tame_dragon = {
 				TAMER = character:Taenys_1 # Aenar
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_qaelrion
 			}
 		}
 	}
@@ -506,6 +590,13 @@ dragon_haeron = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_saelion
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_blackfyre = {
@@ -542,6 +633,13 @@ dragon_blackfyre = {
 			agot_tame_dragon = {
 				TAMER = character:Vermaxos_1 # Faegon
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:brynysor
 			}
 		}
 	}
@@ -585,6 +683,13 @@ dragon_pertinax = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_vaenor
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_seti = {
@@ -621,6 +726,13 @@ dragon_seti = {
 			agot_tame_dragon = {
 				TAMER = character:Ramessid_1 # Ramesys
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_oelrynor
 			}
 		}
 	}
@@ -664,6 +776,13 @@ dragon_ronyx = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_qaelyx
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_orix = {
@@ -700,6 +819,13 @@ dragon_orix = {
 			agot_tame_dragon = {
 				TAMER = character:Aderion_1 # Daria
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_haelyx
 			}
 		}
 	}
@@ -742,6 +868,13 @@ dragon_noctus = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_raelythor
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_draxxis = {
@@ -778,6 +911,13 @@ dragon_draxxis = {
 			agot_tame_dragon = {
 				TAMER = character:Danderion_1 # Alion
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_daelthor
 			}
 		}
 	}
@@ -821,6 +961,13 @@ dragon_binx = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:aelzor
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_maraxis = {
@@ -857,6 +1004,13 @@ dragon_maraxis = {
 			agot_tame_dragon = {
 				TAMER = character:Festerion_1 # Karlerys
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_vaeryth
 			}
 		}
 	}
@@ -899,6 +1053,13 @@ dragon_seiless = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_saelrion
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_stix = {
@@ -935,6 +1096,13 @@ dragon_stix = {
 			agot_tame_dragon = {
 				TAMER = character:Tavaros_1 # Aemor
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_ilythar
 			}
 		}
 	}
@@ -977,6 +1145,13 @@ dragon_vexion = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_jaelys
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_nyx = {
@@ -1013,6 +1188,13 @@ dragon_nyx = {
 			agot_tame_dragon = {
 				TAMER = character:Vaemerian_2 # Maron
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_zhaeryth
 			}
 		}
 	}
@@ -1055,6 +1237,13 @@ dragon_wormax = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_aerionor
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_gorax = {
@@ -1091,6 +1280,13 @@ dragon_gorax = {
 			agot_tame_dragon = {
 				TAMER = character:Jultarion_1 # Faedor
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_jaeryn
 			}
 		}
 	}
@@ -1134,6 +1330,13 @@ dragon_barthor = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_faelith
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_rexiax = {
@@ -1171,6 +1374,13 @@ dragon_rexiax = {
 			agot_tame_dragon = {
 				TAMER = character:Ullaryon_1 # Ilythra
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_zhaelthor
 			}
 		}
 	}
@@ -1223,6 +1433,13 @@ dragon_neltrix = {
 			type = agot_dragon_laid_clutch_2
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_elythorion
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_vhalix = {
@@ -1259,6 +1476,13 @@ dragon_vhalix = {
 			agot_tame_dragon = {
 				TAMER = character:Vuloryon_1 # Zaelor
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_ilyrion
 			}
 		}
 	}
@@ -1301,6 +1525,13 @@ dragon_rend = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_daenyth
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_tearmax = {
@@ -1340,6 +1571,13 @@ dragon_tearmax = {
 			}
 		}
 	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_gaelzor
+			}
+		}
+	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
 dragon_verox = {
@@ -1376,6 +1614,13 @@ dragon_verox = {
 			agot_tame_dragon = {
 				TAMER = character:Nilfarion_1 # Coryella
 				DRAGON = ROOT
+			}
+		}
+	}
+	7886.7.1 = {
+		effect = {
+			agot_assign_dragon_to_pit_history_effect = {
+				DRAGONPIT_COUNTY = title:c_xaelrynor
 			}
 		}
 	}

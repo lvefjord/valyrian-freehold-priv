@@ -224,7 +224,7 @@ vf_eat_mybung_hole = {
 	province:8255 = {
 		add_special_building = vf_valyria_city_defenses 
 	}
-	##### VALYRIA CITY #####
+	##### 
 	province:8266 = {
 		add_special_building = vf_dragon_tower_01 
 	}

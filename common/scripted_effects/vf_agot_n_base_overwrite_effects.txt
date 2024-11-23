@@ -69,6 +69,7 @@ agot_change_dragonpit_status = {
 							has_building = agot_dragonmont_01 # Dragonmont Version
 							###
 							has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+							has_building = vf_valyria_city_civic # for valyria holder
 						}
 					}
 				}
@@ -115,6 +116,7 @@ agot_change_dragonpit_status_ai = {
 							has_building = agot_dragonmont_01 # Dragonmont Version
 							###
 							has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+							has_building = vf_valyria_city_civic # for valyria holder
 						}
 					}
 				}
@@ -170,6 +172,7 @@ vf_create_generic_dragonpit_scripted_effect = {
 							has_building = agot_dragonmont_01 # Dragonmont Version
 							#####
 							has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+							has_building = vf_valyria_city_civic # for valyria holder
 						}
 					}
 					NOT = { has_variable = has_dragonkeeper_order }

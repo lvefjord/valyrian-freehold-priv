@@ -109,7 +109,7 @@
 }
 
 vf_bm_7885 = { # 1120 B.C.
-	start_date = 6888.1.1
+	start_date = 888.1.1
 	is_playable = yes
 	group = vf_bm_group_7888
 
