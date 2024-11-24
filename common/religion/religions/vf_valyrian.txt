@@ -143,10 +143,11 @@ valyrian_religion = {
 			color = rgb { 85 18 17 }
 			icon = valyrian
 
-			#holy_site = dragonstone
-			##holy_site = old_ghis
-			##holy_site = mantarys
-			##holy_site = old_volantis
+			holy_site = vf_valyria
+			holy_site = vf_tyria
+			holy_site = vf_oros
+			holy_site = vf_elyria
+			holy_site = vf_tolos
 
 			#Tenets
 			doctrine = tenet_knighthood #?

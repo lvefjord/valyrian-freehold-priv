@@ -1,0 +1,35 @@
+﻿vf_valyria = {
+	county = c_valyria
+	barony = b_valyria
+	character_modifier = {
+		opinion_of_different_faith = 20
+	}
+}
+vf_tyria = {
+	county = c_saelion
+	barony = b_caelthar
+	character_modifier = {
+		opinion_of_different_faith = 20
+	}
+}
+vf_oros = {
+	county = c_aerionor
+	barony = b_naelyxion
+	character_modifier = {
+		opinion_of_different_faith = 20
+	}
+}
+vf_elyria = {
+	county = c_valthar
+	barony = b_vaerynar
+	character_modifier = {
+		opinion_of_different_faith = 20
+	}
+}
+vf_tolos = {
+	county = c_aelzor
+	barony = b_aeryxor
+	character_modifier = {
+		opinion_of_different_faith = 20
+	}
+}
