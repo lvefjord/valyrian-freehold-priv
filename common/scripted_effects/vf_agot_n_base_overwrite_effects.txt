@@ -51,7 +51,8 @@ change_to_administrative_effect = {
 	}
 }
 
-### VF AGOT changes ###
+### VF AGOT changes ### 
+# if changing dragonpits remember to modify inside the triggers and sgui as well
 
 agot_change_dragonpit_status = {
 	scope:owner = {
@@ -158,7 +159,11 @@ vf_create_generic_dragonpit_scripted_effect = {
 				any_held_county = {
 					any_county_province = {
 						has_holding_type = castle_holding
-						has_building_or_higher = vf_dragon_tower_01
+						# vf
+						OR = {
+							has_building_or_higher = vf_dragon_tower_01
+							has_building_or_higher = vf_valyria_city_civic
+						}
 					}
 					NOT = { has_variable = has_dragonkeeper_order }
 				}

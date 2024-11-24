@@ -16,6 +16,7 @@
 						has_building = agot_dragonmont_01 # Dragonmont
 						####
 						has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+						has_building = vf_valyria_city_civic # for valyria holder
 					}
 				}
 			}
@@ -35,6 +36,7 @@ agot_view_dragons_in_dragonpit = {
 			has_building = agot_dragonmont_01 # Dragonmont
 			####
 			has_building = vf_dragon_tower_01 # Valyrian Freehold Version
+			has_building = vf_valyria_city_civic # for valyria holder
 		}
 	}
 
