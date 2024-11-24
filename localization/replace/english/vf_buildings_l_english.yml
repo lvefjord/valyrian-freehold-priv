@@ -20,3 +20,34 @@
  building_type_vf_valyria_city_entertainment:0 "Entertainment District"
  building_vf_valyria_city_entertainment_desc:0 "The Entertainment District is where the amphitheater is located. Here, the Freehold's citizens are entertained and amused."
  building_valyria_city_effect:0 "Part of the city of Valyria."
+
+ building_type_vf_gold_mines_01:0 "Valyrian Gold Mines"
+ building_vf_gold_mines_01:0 "Gold Mines"
+ building_vf_gold_mines_01_desc:0 "Gold Mines are where the Valyrians extract the gold that is the basis of their wealth. The mines are worked by slaves"
+ building_vf_gold_mines_02:0 "Gold Mines"
+ building_vf_gold_mines_02_desc:0 "Gold Mines are where the Valyrians extract the gold that is the basis of their wealth. The mines are worked by slaves"
+ building_vf_gold_mines_03:0 "Gold Mines"
+ building_vf_gold_mines_03_desc:0 "Gold Mines are where the Valyrians extract the gold that is the basis of their wealth. The mines are worked by slaves"
+ building_vf_gold_mines_04:0 "Gold Mines"
+ building_vf_gold_mines_04_desc:0 "Gold Mines are where the Valyrians extract the gold that is the basis of their wealth. The mines are worked by slaves"
+
+ building_type_vf_silver_mines_01:0 "Valyrian Silver Mines"
+ building_vf_silver_mines_01:0 "Silver Mines"
+ building_vf_silver_mines_01_desc:0 "Silver Mines... And they call it a mine. A mine!"
+ building_vf_silver_mines_01:0 "Silver Mines"
+ building_vf_silver_mines_02_desc:0 "Silver Mines... And they call it a mine. A mine!"
+ building_vf_silver_mines_02:0 "Silver Mines"
+ building_vf_silver_mines_03_desc:0 "Silver Mines... And they call it a mine. A mine!"
+ building_vf_silver_mines_03:0 "Silver Mines"
+ building_vf_silver_mines_04_desc:0 "Silver Mines... And they call it a mine. A mine!"
+ building_vf_silver_mines_04:0 "Silver Mines"
+
+ building_type_vf_copper_mines_01:0 "Valyrian Copper Mines"
+ building_vf_copper_mines_01:0 "Copper Mines"
+ building_vf_copper_mines_01_desc:0 "Silver Mines... And they call it a mine. A mine!
+ building_vf_copper_mines_02:0 "Copper Mines"
+ building_vf_copper_mines_02_desc:0 "Silver Mines... And they call it a mine. A mine!
+ building_vf_copper_mines_03:0 "Copper Mines"
+ building_vf_copper_mines_03_desc:0 "Silver Mines... And they call it a mine. A mine!
+ building_vf_copper_mines_04:0 "Copper Mines"
+ building_vf_copper_mines_04_desc:0 "Silver Mines... And they call it a mine. A mine!
