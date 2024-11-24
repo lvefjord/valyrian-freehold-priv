@@ -1039,6 +1039,7 @@
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
         buildings = { castle_03 }
     }
@@ -1210,6 +1211,7 @@
 ############# c_vaenor = - d_valyria = #############
 8199 = {
 	holding = castle_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { castle_03 }
     }
@@ -1218,6 +1220,7 @@
 ############# c_vaenor = - d_valyria = #############
 8200 = {
 	holding = city_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -1226,6 +1229,7 @@
 ############# c_vaenor = - d_valyria = #############
 8201 = {
 	holding = city_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -1247,6 +1251,7 @@
 ############# c_jaenyth = - d_valyria = #############
 8203 = {
 	holding = church_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { temple_02 }
     }
@@ -1265,6 +1270,7 @@
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
         buildings = { castle_03 }
     }
@@ -1281,6 +1287,7 @@
 ############# c_laenith = - d_valyria = #############
 8207 = {
 	holding = city_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -1316,6 +1323,7 @@
 ############# c_elythar = - d_valyria = #############
 8211 = {
 	holding = city_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -1324,6 +1332,7 @@
 ############# c_elythar = - d_valyria = #############
 8212 = {
 	holding = city_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -1332,6 +1341,7 @@
 ############# c_elythar = - d_valyria = #############
 8213 = {
 	holding = church_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { temple_02 }
     }
@@ -1479,6 +1489,7 @@
 ############# c_xaelor = - d_valyria = #############
 8230 = {
 	holding = castle_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
     buildings = { castle_02 }
     }
@@ -1565,6 +1576,7 @@
 ############# c_saelion = - d_valyria = #############
 8240 = {
 	holding = city_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -1574,6 +1586,7 @@
 8241 = {
     culture = high_valyrian
     religion = valyrian
+    special_building_slot = vf_silver_mines_01
     holding = castle_holding
     7824.1.1 = {
         buildings = { castle_03 }
@@ -1599,6 +1612,7 @@
 ############# c_ilyzor = - d_valyria = #############
 8244 = {
 	holding = church_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { temple_02 }
     }
@@ -1967,6 +1981,7 @@
 8286 = {
     culture = high_valyrian
     religion = valyrian
+    special_building_slot = vf_gold_mines_01
     holding = castle_holding
     7824.1.1 = {
         buildings = { castle_03 }
@@ -1976,6 +1991,7 @@
 ############# c_aelrion = - d_valyria = #############
 8287 = {
 	holding = castle_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
     buildings = { castle_02 }
     }
@@ -1992,6 +2008,7 @@
 ############# c_aelrion = - d_valyria = #############
 8289 = {
 	holding = church_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { temple_02 }
     }
@@ -2001,6 +2018,7 @@
 8290 = {
     culture = high_valyrian
     religion = valyrian
+    special_building_slot = vf_silver_mines_01
     holding = castle_holding
     7824.1.1 = {
         buildings = { castle_03 }
@@ -2010,6 +2028,7 @@
 ############# c_qaenith = - d_valyria = #############
 8291 = {
 	holding = castle_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
     buildings = { castle_02 }
     }
@@ -2045,6 +2064,7 @@
 ############# c_gaelion = - d_valyria = #############
 8295 = {
 	holding = castle_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { castle_03 }
     }
@@ -2103,6 +2123,7 @@
 ############# c_saenor = - d_valyria = #############
 8302 = {
 	holding = city_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2189,6 +2210,7 @@
 ############# c_daelryn = - d_valyria = #############
 8312 = {
 	holding = city_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2197,6 +2219,7 @@
 ############# c_daelryn = - d_valyria = #############
 8313 = {
 	holding = city_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2266,6 +2289,7 @@
 ############# c_naelthor = - d_valyria = #############
 8321 = {
 	holding = church_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { temple_02 }
     }
@@ -2284,6 +2308,7 @@
 ############# c_valenor = - d_valyria = #############
 8323 = {
 	holding = city_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2292,6 +2317,7 @@
 ############# c_valenor = - d_valyria = #############
 8324 = {
 	holding = city_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2311,6 +2337,7 @@
 ############# c_oelyrion = - d_valyria = #############
 8326 = {
 	holding = castle_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
     buildings = { castle_03 }
     }
@@ -2327,6 +2354,7 @@
 ############# c_oelyrion = - d_valyria = #############
 8328 = {
 	holding = city_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2354,6 +2382,7 @@
 ############# c_qaelrion = - d_valyria = #############
 8331 = {
 	holding = city_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2372,6 +2401,7 @@
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
         buildings = { castle_03 }
     }
@@ -2380,6 +2410,7 @@
 ############# c_gaelyr = - d_valyria = #############
 8334 = {
 	holding = city_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2388,6 +2419,7 @@
 ############# c_gaelyr = - d_valyria = #############
 8335 = {
 	holding = city_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2640,6 +2672,7 @@
 8363 = {
     culture = high_valyrian
     religion = valyrian
+    special_building_slot = vf_copper_mines_01
     holding = castle_holding
     7824.1.1 = {
         buildings = { castle_03 }
@@ -2683,6 +2716,7 @@
 ############# c_elynor = - d_valyria = #############
 8368 = {
 	holding = city_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2701,6 +2735,7 @@
     culture = high_valyrian
     religion = valyrian
     holding = castle_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
         buildings = { castle_03 }
     }
@@ -2709,6 +2744,7 @@
 ############# c_qaenithor = - d_valyria = #############
 8371 = {
 	holding = city_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -2736,6 +2772,7 @@
 ############# c_aerionor = - d_valyria = #############
 8374 = {
 	holding = castle_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { castle_03 }
     }
@@ -3028,6 +3065,7 @@
 ############# c_oelrynor = - d_valyria = #############
 8408 = {
 	holding = castle_holding
+    special_building_slot = vf_copper_mines_01
     7824.1.1 = {
     buildings = { castle_03 }
     }
@@ -3036,6 +3074,7 @@
 ############# c_oelrynor = - d_valyria = #############
 8409 = {
 	holding = city_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -3061,6 +3100,7 @@
 8412 = {
     culture = high_valyrian
     religion = valyrian
+    special_building_slot = vf_silver_mines_01
     holding = castle_holding
     7824.1.1 = {
         buildings = { castle_03 }
@@ -3086,6 +3126,7 @@
 ############# c_qaelthor = - d_valyria = #############
 8415 = {
 	holding = city_holding
+    special_building_slot = vf_gold_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
@@ -3129,6 +3170,7 @@
 ############# c_brynysor = - d_valyria = #############
 8420 = {
 	holding = city_holding
+    special_building_slot = vf_silver_mines_01
     7824.1.1 = {
     buildings = { city_02 }
     }
