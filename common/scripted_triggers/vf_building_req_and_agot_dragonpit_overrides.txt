@@ -21,6 +21,26 @@
 	}
 }
 
+# added to not make dragonpits disappear when building
+can_this_dragonpit_be_destroyed_when_dragonpit_building_is_replaced = {
+	has_variable = has_dragonkeeper_order
+	NOR = {
+		any_county_province = {
+			has_building_or_higher = generic_dragon_pit_01
+		}
+		any_county_province = {
+			OR = {
+				this = title:b_rhaenyss_hill.title_province
+				this = title:b_dragonstone.title_province
+				OR = {
+					has_building_or_higher = vf_dragon_tower_01
+					has_building_or_higher = vf_valyria_city_civic
+				}
+			}
+		}
+	}
+}
+
 # Modified VF from AGOT
 
 agot_has_an_active_dragonpit = {

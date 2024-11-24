@@ -15,7 +15,7 @@
 	#	name = "building_special_dragon_tower_mesh"
 	#}
 
-	effect_desc = building_dragonpit_effect
+	effect_desc = building_vf_dragonpit_effect
 
 	on_complete = {
 		county.holder = {
@@ -103,7 +103,7 @@ vf_valyria_city_civic = {
 		name = "building_special_valyria_civic_mesh"
 	}
 
-	effect_desc = building_dragonpit_effect
+	effect_desc = building_vf_dragonpit_effect
 
 	on_complete = {
 		county.holder = {
