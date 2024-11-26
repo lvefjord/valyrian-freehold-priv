@@ -45,9 +45,9 @@
  size_of_dragon:0 "Size of [dragon|E]"
  num_of_house_dragoons:0 "Number of [GetTrait('dragonrider').GetName( GetNullCharacter )]s in House [ROOT.Char.GetHouse.GetName]"
 
- freehold_noble_family_succession_law:0 "Dragonrider Family Succession"
+ freehold_noble_family_succession_law:0 "Freeholder Family Succession"
  freehold_noble_family_succession_law_subname:0 "[player_heir|E] inherits"
- freehold_noble_family_succession_law_effects:0 "The Dragonrider Family [title|E] will be given to the [player_heir|E]."
+ freehold_noble_family_succession_law_effects:0 "The Freeholder Family [title|E] will be given to the [player_heir|E]."
 
  freehold_acclamation_succession_law:0 "Freehold Acclamation Succession"
  freehold_acclamation_succession_law_subname:0 "The candidate with the highest score inherits"

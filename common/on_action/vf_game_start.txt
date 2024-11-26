@@ -16,7 +16,6 @@ vf_game_start = {
 		vf_dynasty_strong_seeds = yes
 		vf_assign_starting_dragon_eggs_effect = yes
 
-		vf_add_special_buildings_7888 = yes
 		# Dynasty setup
 		
 		### Dynasty related setup
@@ -165,7 +164,7 @@ vf_game_start = {
 		#dynasty:dynn_Eideryon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 	}
 }
-
+## remember to make a separate special buildings for other bookmark potentially
 vf_on_game_start_after_lobby = {
 	effect = {
 		## We need one of these for each dragonmont county ig
@@ -176,6 +175,7 @@ vf_on_game_start_after_lobby = {
 			}
 			vf_artifact_setup = yes
 			vf_dragon_setup = yes
+			vf_add_special_buildings_7888 = yes
 			#title:c_valyria = { # Adding dragonkeeper variable to dragonstone
 			#	agot_dragonpit_gamestart_init_pit_effect = yes
 			#}
