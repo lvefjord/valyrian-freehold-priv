@@ -314,7 +314,7 @@ vf_gold_mines_01 = {
 	cost_gold = expensive_building_tier_3_cost
 	
 	province_modifier = {
-		monthly_income = gold_mine_generic_building_tax_tier_1
+		monthly_income = special_mine_building_tax_tier_1
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_1
 	}
 	county_modifier = {
@@ -358,7 +358,7 @@ vf_gold_mines_02 = {
 	cost_gold = expensive_building_tier_4_cost
 	
 	province_modifier = {
-		monthly_income = gold_mine_generic_building_tax_tier_2
+		monthly_income = special_mine_building_tax_tier_2
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_2
 	}
 	county_modifier = {
@@ -403,7 +403,7 @@ vf_gold_mines_03 = {
 	cost_gold = expensive_building_tier_5_cost
 	
 	province_modifier = {
-		monthly_income = gold_mine_generic_building_tax_tier_3
+		monthly_income = special_mine_building_tax_tier_3
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_3
 	}
 	county_modifier = {
@@ -448,7 +448,7 @@ vf_gold_mines_04 = {
 	cost_gold = expensive_building_tier_6_cost
 	
 	province_modifier = {
-		monthly_income = gold_mine_generic_building_tax_tier_4
+		monthly_income = special_mine_building_tax_tier_4
 		stationed_siege_weapon_siege_value_mult = high_maa_siege_value_tier_4
 	}
 	county_modifier = {
