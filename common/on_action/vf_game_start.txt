@@ -14,7 +14,7 @@ vf_game_start = {
 	effect = {
 		if = {
 			limit = {
-				game_start_date = 7888.1.1
+				game_start_date >= 7888.1.1
 			}
 			vf_add_special_buildings_7888 = yes
 		}

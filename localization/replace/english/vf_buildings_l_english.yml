@@ -7,22 +7,27 @@
  building_vf_valyria_city_industrial:0 "Boterlion"
  building_type_vf_valyria_city_industrial:0 "Industrial District"
  building_vf_valyria_city_industrial_desc:0 "The Industrial District is where the forges and workshops of Valyria are located. Here, the finest weapons and armor in the world are made."
+ building_type_vf_valyria_city_industrial_desc:0 "$building_vf_valyria_city_industrial_desc$"
 
  building_vf_valyria_city_civic:0 "Iderennion"
  building_type_vf_valyria_city_civic:0 "Civic District"
  building_vf_valyria_city_civic_desc:0 "The Civic District is where the central government of Valyria is located. Here, the Freehold's laws are made and enforced."
+ building_type_vf_valyria_city_civic_desc:0 "$building_vf_valyria_city_civic_desc$"
 
  building_vf_valyria_city_defenses:0 "Sombāzmion"
  building_type_vf_valyria_city_defenses:0 "Defensive District"
  building_vf_valyria_city_defenses_desc:0 "The Defensive District is where the walls and fortifications of Valyria grow out from. Here, the Freehold's armies are trained and equipped."
+ building_type_vf_valyria_city_defenses_desc:0 "$building_vf_valyria_city_defenses_desc$"
 
  building_vf_valyria_city_sept:0 "Ānogrion"
  building_type_vf_valyria_city_sept:0 "Temple District"
  building_vf_valyria_city_sept_desc:0 "The Temple District is where the temples of Valyria are located. Here, the Freehold's gods are worshipped and propitiated."
+ building_type_vf_valyria_city_sept_desc:0 "$building_vf_valyria_city_sept_desc$"
 
  building_vf_valyria_city_entertainment:0 "Qīzalbar"
  building_type_vf_valyria_city_entertainment:0 "Entertainment District"
  building_vf_valyria_city_entertainment_desc:0 "The Entertainment District is where the amphitheater is located. Here, the Freehold's citizens are entertained."
+ building_type_vf_valyria_city_entertainment_desc:0 "$building_vf_valyria_city_entertainment_desc$"
 
  building_valyria_city_effect:0 "Part of the city of Valyria."
 
