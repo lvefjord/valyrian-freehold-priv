@@ -16,7 +16,7 @@ vf_game_start = {
 		vf_dynasty_strong_seeds = yes
 		vf_assign_starting_dragon_eggs_effect = yes
 
-		vf_eat_mybung_hole = yes
+		vf_add_special_buildings_7888 = yes
 		# Dynasty setup
 		
 		### Dynasty related setup
