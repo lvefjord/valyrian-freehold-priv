@@ -1,0 +1,135 @@
+﻿####################
+High prio:
+
+Add dev to provinces in valyria
+
+Modifier for dragons living in valyria (maybe 100 years life expectancy) maybe something like this:
+On action on dragons birth to add modifier
+yearly check to see if a dragon is in valyria
+if it isn't in valyria start count to 5 (1 per year) if it reaches 5 remove the modifier
+if its in valyria reset the count/add back the modifier if it was removed
+
+####################
+Lower prio:
+
+2nd bookmark: add some historical chars for westeros empires and the free cities potentially (where holes are)
+
+####################
+
+
+# traits
+authoritative
+rude
+inquisitive
+lustful
+chaste
+gluttonous
+temperate
+greedy
+generous
+lazy
+diligent
+wrathful
+calm
+patient
+impatient
+arrogant
+humble
+deceitful
+honest
+craven
+brave
+shy
+gregarious
+ambitious
+content
+arbitrary
+just
+cynical
+zealous
+paranoid
+trusting
+compassionate
+callous
+sadistic
+stubborn
+fickle
+eccentric
+vengeful
+forgiving
+
+### duchy capitals:
+c_daelynor
+c_zhaeryth
+c_faelith
+c_zhaelthor
+c_ilythar
+c_jaeryn
+c_aerionor
+c_elythorion
+c_brynysor
+c_vaenor
+c_oelrynor
+c_jaelys
+c_paelion
+c_haelyx
+c_daenyth
+c_daelthor
+c_qaelyx
+c_aelzor
+c_maenythor
+c_saelrion
+c_raelythor
+c_xaelrynor
+c_gaelzor
+c_ilyrion
+c_oelyth
+c_yrnith
+c_valyria
+c_haelthor
+c_jaelion
+c_vaeryth
+c_naelrion
+c_ulenor
+c_gaelion
+c_naelthor
+c_oelyrion
+c_qaelrion
+c_saelion
+c_elythar
+c_zaelthor
+####################
+
+# some mottos yaap talked about I think
+Stout, Strong and Steadfast 
+Control, by any means necessary
+
+#holy sites
+b_valyria
+b_tyria
+b_oros
+b_elyria
+b_tolos
+b_dragonstone
+
+# the thing 
+sea_zones = RANGE { 6167  6497 }
+sea_zones = RANGE { 6890  6895 }
+impassable_seas = RANGE { 2958  2960 }
+impassable_seas = RANGE { 6619  6889 }
+impassable_seas = RANGE { 6896  6915 }
+impassable_seas = LIST { 6917 }
+impassable_seas = RANGE { 6937  6954 }
+impassable_seas = RANGE { 6956  7246 }
+impassable_seas = RANGE { 7249  7258 }
+impassable_seas = RANGE { 7269  7273 }
+impassable_seas = RANGE { 7275  7276 }
+impassable_seas = RANGE { 7278  7279 }
+lakes = RANGE { 6599  6618 }
+lakes = LIST { 7247 }
+lakes = LIST { 7248 }
+impassable_mountains = RANGE { 2224  2250 }
+impassable_mountains = RANGE { 6100  6166 }
+impassable_mountains = RANGE { 7267  7268 }
+impassable_mountains = LIST { 8546 }
+river_provinces = RANGE { 6498  6598 }

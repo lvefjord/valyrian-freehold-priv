@@ -108,8 +108,8 @@
 	}
 }
 
-vf_bm_7885 = { # 1120 B.C.
-	start_date = 888.1.1
+vf_bm_2901 = { # Some five thousand years ago, in the early days of Valyria, 
+	start_date = 2901.1.1 # 5099 B.C. (I think)
 	is_playable = yes
 	group = vf_bm_group_7888
 
@@ -156,64 +156,5 @@ vf_bm_7885 = { # 1120 B.C.
 			history_id = Targaryen_15
 			animation = idle
 		}
-	}
-	
-	character = {
-		name = "bookmark_vf_primarch"
-		dynasty = dynn_Atreides
-		dynasty_splendor_level = 1
-		type = male
-		birth = 7869.1.1
-		title = e_valyria
-		government = freehold_government
-		culture = high_valyrian
-		religion = valyrian
-		difficulty = BOOKMARK_CHARACTER_DIFFICULTY_EASY
-		history_id = Atreides_1
-		position = { 770 750 }
-
-		animation = martial
-
-		character = {
-			name = "bookmark_vf_naerys"
-			relation = "BOOKMARK_RELATION_WIFE"
-			dynasty = dynn_Atreides
-			type = female
-			birth = 7871.1.1
-			culture = high_valyrian
-			religion = valyrian
-			history_id = Atreides_2
-			animation = idle
-		}
-	}
-
-	character = {
-		name = "bookmark_vf_toparchon"
-		dynasty = dynn_Varezys
-		dynasty_splendor_level = 4
-		type = male
-		birth = 7869.1.1
-		title = k_landsoflongsummer
-		government = freehold_government
-		culture = high_valyrian
-		religion = valyrian
-		difficulty = BOOKMARK_CHARACTER_DIFFICULTY_EASY
-		history_id = Varezys_1
-		position = { 960 160 }
-	}
-
-	character = {
-		name = "bookmark_vf_middlearchon"
-		dynasty = dynn_Mataeryon
-		dynasty_splendor_level = 4
-		type = male
-		birth = 7869.1.1
-		title = k_firekingdom
-		government = freehold_government
-		culture = high_valyrian
-		religion = valyrian
-		difficulty = BOOKMARK_CHARACTER_DIFFICULTY_EASY
-		history_id = Mataeryon_1
-		position = { 930 450 }
 	}
 }
