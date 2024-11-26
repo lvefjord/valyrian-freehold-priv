@@ -148,6 +148,7 @@ valyrian_religion = {
 			holy_site = vf_oros
 			holy_site = vf_elyria
 			holy_site = vf_tolos
+			holy_site = vf_dragonstone
 
 			#Tenets
 			doctrine = tenet_knighthood #?
