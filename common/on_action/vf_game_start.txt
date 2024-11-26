@@ -12,6 +12,13 @@ on_game_start_after_lobby = {
 
 vf_game_start = {
 	effect = {
+		if = {
+			limit = {
+				game_start_date = 7888.1.1
+			}
+			vf_add_special_buildings_7888 = yes
+		}
+
 		too_lazy_to_change_the_generated_counties_liege_in_the_files_effect = yes
 		vf_dynasty_strong_seeds = yes
 		vf_assign_starting_dragon_eggs_effect = yes
@@ -19,7 +26,7 @@ vf_game_start = {
 		# Dynasty setup
 		
 		### Dynasty related setup
-		# Manage Incest restrictions if they're not valyrian faith
+		# Manage Incest restrictions if they're not valyrian faith (i think this is what it's for)
 		# dynasty:dynn_Targaryen = { set_variable = agot_allow_adelphogamous_incest }
 
 		# Manage valyrian_heritage_dynasty_modifier and dragonrider_house_modifier
@@ -164,28 +171,15 @@ vf_game_start = {
 		#dynasty:dynn_Eideryon.dynasty_founder.house = { add_house_modifier = dragonrider_house_modifier }
 	}
 }
-## remember to make a separate special buildings for other bookmark potentially
+
 vf_on_game_start_after_lobby = {
 	effect = {
-		## We need one of these for each dragonmont county ig
-		# Maybe add all the titles to a list and then iterate over them instead of making one each
 		if = {
 			limit = {
 				game_start_date = 7888.1.1
 			}
 			vf_artifact_setup = yes
 			vf_dragon_setup = yes
-			vf_add_special_buildings_7888 = yes
-			#title:c_valyria = { # Adding dragonkeeper variable to dragonstone
-			#	agot_dragonpit_gamestart_init_pit_effect = yes
-			#}
-			#title:c_valyria.holder ?= {
-			#	vf_generate_dragonstone_head_dragonkeeper = { TITLE = c_valyria }
-			#	appoint_court_position = {
-			#		recipient = scope:head_dragonkeeper
-			#		court_position = head_dragonkeeper_court_position
-			#	}
-			#}
 		}
 		vf_game_start_dragonpit_effect = yes
 	}
