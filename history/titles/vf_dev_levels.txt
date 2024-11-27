@@ -1,0 +1,20 @@
+﻿k_landsoflongsummer = {
+	7870.1.1 = {
+		change_development_level = 14
+	}
+}
+k_firekingdom = {
+	7870.1.1 = {
+		change_development_level = 9
+	}
+}
+k_valyria = {
+	7870.1.1 = {
+		change_development_level = 10
+	}
+}
+c_valyria = {
+	7870.1.1 = {
+		change_development_level = 21
+	}
+}
