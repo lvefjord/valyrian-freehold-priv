@@ -6,8 +6,8 @@
  emperor_archonate_female:0 "[CHARACTER.Custom('EMPEROR_ARCHONATE_FEMALE')]"
  emperor_archonate_male_spouse:0 "Āeksio"
  emperor_archonate_female_spouse:0 "Ābrāzma"
- emperor_archonate_male_fallback:0 "Ēlojūdlio"
- emperor_archonate_female_fallback:0 "Ēlojūdlio"
+ emperor_archonate_male_fallback:0 "Ēlojudlio"
+ emperor_archonate_female_fallback:0 "Ēlojudlio"
  
  king_archonate_male:0 "[CHARACTER.Custom('KINGDOM_ARCHONATE_MALE')]"
  king_archonate_female:0 "[CHARACTER.Custom('KINGDOM_ARCHONATE_FEMALE')]"
@@ -19,8 +19,8 @@
  valyrian_archon_male:0 "Judlio"
  valyrian_archon_female:0 "Judlio"
 
- valyrian_primarch_male:0 "Ēlojūdlio"
- valyrian_primarch_female:0 "Ēlojūdlio"
+ valyrian_primarch_male:0 "Ēlojudlio"
+ valyrian_primarch_female:0 "Ēlojudlio"
 
  freehold_male:0 "[CHARACTER.Custom('FREEHOLD_MALE')]"
  freehold_female:0 "[CHARACTER.Custom('FREEHOLD_FEMALE')]"
