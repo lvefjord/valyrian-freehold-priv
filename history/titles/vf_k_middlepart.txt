@@ -106,7 +106,7 @@ d_pikibagon = {
 			}
 		}
 	}
-	7886.5.1 = {
+	7885.5.1 = {
 		holder = Ramessid_1
 	}
 }

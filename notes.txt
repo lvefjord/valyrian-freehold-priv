@@ -1,10 +1,14 @@
 ﻿####################
 High prio:
 
+Fix the last models that are fucked
+Try dragon tower with new texture
 
 ####################
 Lower prio:
 
+recheck land of long summer hv after some study
+rename duchies to proper hv
 2nd bookmark: add some historical chars for westeros empires and the free cities potentially (where holes are)
 
 ####################
