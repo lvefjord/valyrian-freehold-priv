@@ -1,0 +1,23 @@
+﻿vf_dragon_or_its_rider_lives_in_valyria = {
+	trigger_if = {
+        limit = { exists = var:current_rider }
+        var:current_rider.capital_county.title_province ?= {
+            geographical_region = world_valyrian_peninsula
+        }
+    }
+    trigger_else_if = {
+        limit = { exists = var:pitted_dragon_location }
+        var:pitted_dragon_location.title_province ?= {
+            geographical_region = world_valyrian_peninsula
+        }
+    }
+    trigger_else = {
+        this.location ?= {
+            geographical_region = world_valyrian_peninsula
+        }
+    }
+}
+
+vf_has_valyrian_life_span = {
+    has_character_modifier = vf_lives_in_valyria_modifier
+}

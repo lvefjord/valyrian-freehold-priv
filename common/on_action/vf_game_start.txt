@@ -180,6 +180,14 @@ vf_on_game_start_after_lobby = {
 			}
 			vf_artifact_setup = yes
 			vf_dragon_setup = yes
+			every_living_dragon = {
+				limit = {
+					vf_dragon_or_its_rider_lives_in_valyria = yes
+				}
+				add_character_modifier = {
+					modifier = vf_lives_in_valyria_modifier
+				}
+			}
 		}
 		vf_game_start_dragonpit_effect = yes
 	}

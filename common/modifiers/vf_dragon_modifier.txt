@@ -1,0 +1,4 @@
+﻿vf_lives_in_valyria_modifier = {
+	icon = health_positive
+	life_expectancy = 100
+}

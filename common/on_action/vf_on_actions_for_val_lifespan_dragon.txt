@@ -1,0 +1,58 @@
+﻿on_dragon_birthday = {
+	on_actions = {
+		vf_apply_valyrian_dragon_modifier
+	}
+}
+
+agot_yearly_dragon_pulse = {
+	on_actions = {
+		vf_valyrian_modifier_count
+	}
+}
+
+vf_valyrian_modifier_count = {
+	trigger = {
+		AND = {
+			vf_dragon_or_its_rider_lives_in_valyria = no
+			vf_has_valyrian_life_span = yes
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				NOT = { exists = var:vf_count_to_five }
+			}
+			set_variable = {
+				name = vf_count_to_five
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				exists = var:vf_count_to_five
+			}
+			change_variable = {
+				name = vf_count_to_five
+				add = 1
+			}
+		}
+		if = {
+			limit = {
+				var:vf_count_to_five ?= 6
+			}
+			remove_character_modifier = vf_lives_in_valyria_modifier
+			remove_variable = vf_count_to_five
+		}
+	}
+}
+
+vf_apply_valyrian_dragon_modifier = {
+	trigger = {
+		vf_dragon_or_its_rider_lives_in_valyria = yes
+	}
+	effect = {
+		add_character_modifier = {
+			modifier = vf_lives_in_valyria_modifier
+		}
+	}
+}
