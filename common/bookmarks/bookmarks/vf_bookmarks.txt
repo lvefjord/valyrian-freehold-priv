@@ -108,53 +108,53 @@
 	}
 }
 
-vf_bm_2901 = { # Some five thousand years ago, in the early days of Valyria, 
-	start_date = 2901.1.1 # 5099 B.C. (I think)
-	is_playable = yes
-	group = vf_bm_group_7888
-
-	weight = {
-		value = 30
-	}
-
-	character = {
-		name = "bookmark_vf_aenar"
-		dynasty = dynn_Targaryen
-		dynasty_splendor_level = 2
-		type = male
-		birth = 7846.1.1
-		title = k_dragonstone
-		government = freehold_government
-		culture = high_valyrian
-		religion = valyrian
-		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
-		history_id = Targaryen_13
-		position = { 90 300 }
-
-		animation = personality_bold
-
-		character = {
-			name = "bookmark_vf_gaemon"
-			relation = "BOOKMARK_RELATION_SON"
-			dynasty = dynn_Targaryen
-			type = female
-			birth = 7868.1.1
-			culture = high_valyrian
-			religion = valyrian
-			history_id = Targaryen_14
-			animation = personality_bold
-		}
-
-		character = {
-			name = "bookmark_vf_daenys"
-			relation = "BOOKMARK_RELATION_DAUGHTER"
-			dynasty = dynn_Targaryen
-			type = female
-			birth = 7870.1.1
-			culture = high_valyrian
-			religion = valyrian
-			history_id = Targaryen_15
-			animation = idle
-		}
-	}
-}
+#vf_bm_2901 = { # Some five thousand years ago, in the early days of Valyria (from the wiki)
+#	start_date = 2901.1.1 # 5099 B.C. (I think)
+#	is_playable = yes
+#	group = vf_bm_group_7888
+#
+#	weight = {
+#		value = 30
+#	}
+#
+#	character = {
+#		name = "bookmark_vf_aenar"
+#		dynasty = dynn_Targaryen
+#		dynasty_splendor_level = 2
+#		type = male
+#		birth = 7846.1.1
+#		title = k_dragonstone
+#		government = freehold_government
+#		culture = high_valyrian
+#		religion = valyrian
+#		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+#		history_id = Targaryen_13
+#		position = { 90 300 }
+#
+#		animation = personality_bold
+#
+#		character = {
+#			name = "bookmark_vf_gaemon"
+#			relation = "BOOKMARK_RELATION_SON"
+#			dynasty = dynn_Targaryen
+#			type = female
+#			birth = 7868.1.1
+#			culture = high_valyrian
+#			religion = valyrian
+#			history_id = Targaryen_14
+#			animation = personality_bold
+#		}
+#
+#		character = {
+#			name = "bookmark_vf_daenys"
+#			relation = "BOOKMARK_RELATION_DAUGHTER"
+#			dynasty = dynn_Targaryen
+#			type = female
+#			birth = 7870.1.1
+#			culture = high_valyrian
+#			religion = valyrian
+#			history_id = Targaryen_15
+#			animation = idle
+#		}
+#	}
+#}
