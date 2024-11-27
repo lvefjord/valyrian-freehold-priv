@@ -26,20 +26,6 @@ king_archonate_male = {
 	only_holder = yes
 	governments = { freehold_government }
 }
-#king_archonate_male_FUCKOFF_VICEROY = {
-#	type = character
-#	gender = male
-#	special = holder
-#	tier = kingdom
-#	priority = 75
-#	governments = { administrative_government }
-#
-#	flavourization_rules = {
-#		top_liege = no
-#		spouse_takes_title = no
-#		only_vassals = yes
-#	}
-#}
 king_archonate_female = {
 	type = character
 	gender = female
@@ -50,6 +36,31 @@ king_archonate_female = {
 	only_holder = yes
 	governments = { freehold_government }
 }
+prince_archonate_male = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	governments = { freehold_government }
+	priority = 245
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+prince_archonate_female = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	governments = { lp_feudal_government }
+	priority = 245
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+# big dog
 emperor_archonate_male_spouse = {
 	type = character
 	gender = male
@@ -84,6 +95,31 @@ emperor_archonate_female = {
 	only_holder = yes
 	governments = { freehold_government }
 }
+prince_emperor_archonate_male = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	governments = { freehold_government }
+	priority = 245
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+prince_emperor_archonate_female = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	governments = { freehold_government }
+	priority = 245
+	flavourization_rules = {
+		top_liege = no
+		spouse_takes_title = no
+	}
+}
+# plebeians
 freehold_male = {
 	type = character
 	gender = male

@@ -26,6 +26,40 @@ EMPEROR_ARCHONATE_FEMALE = {
 		localization_key = emperor_archonate_female_fallback
 	}
 }
+PRINCE_EMPEROR_ARCHONATE_MALE = {
+	type = character 
+
+	text = {
+		trigger = {
+			OR = {
+				mother ?= { primary_title = title:e_valyria }
+				father ?= { primary_title = title:e_valyria }
+			}
+		}
+		localization_key = valyrian_primarch_prince
+	}
+	text = {
+		fallback = yes
+		localization_key = valyrian_primarch_prince
+	}
+}
+PRINCE_EMPEROR_ARCHONATE_FEMALE = {
+	type = character 
+
+	text = {
+		trigger = {
+			OR = {
+				mother ?= { primary_title = title:e_valyria }
+				father ?= { primary_title = title:e_valyria }
+			}
+		}
+		localization_key = valyrian_primarch_princess
+	}
+	text = {
+		fallback = yes
+		localization_key = valyrian_primarch_princess
+	}
+}
 
 KINGDOM_ARCHONATE_MALE = {
 	type = character
@@ -81,6 +115,48 @@ KINGDOM_ARCHONATE_FEMALE = {
 	text = {
 		fallback = yes
 		localization_key = king_archonate_female_fallback
+	}
+}
+PRINCE_ARCHONATE_MALE = {
+	type = character 
+
+	text = {
+		trigger = {
+			OR = {
+				mother ?= { primary_title = title:k_valyria }
+				mother ?= { primary_title = title:k_landsoflongsummer }
+				mother ?= { primary_title = title:k_firekingdom }
+				father ?= { primary_title = title:k_valyria }
+				father ?= { primary_title = title:k_landsoflongsummer }
+				father ?= { primary_title = title:k_firekingdom }
+			}
+		}
+		localization_key = valyrian_archon_prince
+	}
+	text = {
+		fallback = yes
+		localization_key = valyrian_archon_prince
+	}
+}
+PRINCE_ARCHONATE_FEMALE = {
+	type = character 
+
+	text = {
+		trigger = {
+			OR = {
+				mother ?= { primary_title = title:k_valyria }
+				mother ?= { primary_title = title:k_landsoflongsummer }
+				mother ?= { primary_title = title:k_firekingdom }
+				father ?= { primary_title = title:k_valyria }
+				father ?= { primary_title = title:k_landsoflongsummer }
+				father ?= { primary_title = title:k_firekingdom }
+			}
+		}
+		localization_key = valyrian_archon_princess
+	}
+	text = {
+		fallback = yes
+		localization_key = valyrian_archon_princess
 	}
 }
 

@@ -1,13 +1,6 @@
 ﻿####################
 High prio:
 
-Add dev to provinces in valyria
-
-Modifier for dragons living in valyria (maybe 100 years life expectancy) maybe something like this:
-On action on dragons birth to add modifier
-yearly check to see if a dragon is in valyria
-if it isn't in valyria start count to 5 (1 per year) if it reaches 5 remove the modifier
-if its in valyria reset the count/add back the modifier if it was removed
 
 ####################
 Lower prio:
