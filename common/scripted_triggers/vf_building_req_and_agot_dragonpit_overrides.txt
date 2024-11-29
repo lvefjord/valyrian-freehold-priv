@@ -21,6 +21,8 @@
 	}
 }
 
+# Modified VF from AGOT
+
 # added to not make dragonpits disappear when building
 can_this_dragonpit_be_destroyed_when_dragonpit_building_is_replaced = {
 	has_variable = has_dragonkeeper_order
@@ -40,8 +42,6 @@ can_this_dragonpit_be_destroyed_when_dragonpit_building_is_replaced = {
 		}
 	}
 }
-
-# Modified VF from AGOT
 
 agot_has_an_active_dragonpit = {
 	any_held_county = {

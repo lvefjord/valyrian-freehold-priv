@@ -1,18 +1,40 @@
 ﻿####################
 High prio:
 
-Fix the last models that are fucked
-Try dragon tower with new texture
 
 ####################
 Lower prio:
 
-recheck land of long summer hv after some study
+remove the less lore friendly stuff from religion/culture
 rename duchies to proper hv
 2nd bookmark: add some historical chars for westeros empires and the free cities potentially (where holes are)
 
 ####################
+#these are files with overrides that need to be checked when agot/ck3 updates and issues arise
+C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2962333032\common\on_action\agot_on_actions\agot_yearly_on_actions.txt
+agot_yearly_dragon_pulse
 
+C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2962333032\common\on_action\birthday.txt
+on_dragon_birthday
+
+C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2962333032\common\scripted_effects\00_agot_scripted_effects_dragonpits.txt
+agot_change_dragonpit_status
+agot_change_dragonpit_status_ai
+
+C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\scripted_effects\00_administrative_effects.txt
+change_to_administrative_effect
+
+C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2962333032\common\scripted_guis\00_agot_scripted_gui_dragons.txt
+agot_dragonpit_amenities_gui
+agot_view_dragons_in_dragonpit
+
+C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2962333032\common\scripted_triggers\00_agot_scripted_triggers_dragon.txt
+can_this_dragonpit_be_destroyed_when_dragonpit_building_is_replaced
+agot_has_an_active_dragonpit
+agot_title_is_an_active_dragonpit
+has_any_dragonpits
+has_dragonmont_dragonpit
+agot_can_use_dragonpit_amenities
 
 # traits
 authoritative
