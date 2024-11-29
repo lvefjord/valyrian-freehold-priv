@@ -14,7 +14,7 @@
 		type = male
 		birth = 7846.1.1
 		title = k_dragonstone
-		government = freehold_government
+		government = lp_feudal_government
 		culture = high_valyrian
 		religion = valyrian
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
