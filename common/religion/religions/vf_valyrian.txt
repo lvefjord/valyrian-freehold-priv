@@ -151,11 +151,11 @@ valyrian_religion = {
 			holy_site = vf_dragonstone
 
 			#Tenets
-			doctrine = tenet_knighthood #?
+			doctrine = tenet_fp3_fedayeen
 			doctrine = tenet_divine_marriage
 			doctrine = tenet_pursuit_of_power
 			doctrine = tenet_esotericism
-			doctrine = tenet_dragon_bonding
+			doctrine = tenet_sacred_shadows
 
 			#Doctrines
 			doctrine = doctrine_gender_male_dominated
