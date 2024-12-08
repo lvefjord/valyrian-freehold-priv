@@ -1,12 +1,11 @@
 ﻿####################
 High prio:
 
-
+changes the lord lady stuff and find something that fits for consort
 ####################
 Lower prio:
 
 remove the less lore friendly stuff from religion/culture
-rename duchies to proper hv
 2nd bookmark: add some historical chars for westeros empires and the free cities potentially (where holes are)
 
 ####################
