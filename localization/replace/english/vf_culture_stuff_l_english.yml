@@ -1,0 +1,5 @@
+﻿l_english:
+ vf_tradition_freehold_name:0 "Might of the Freehold"
+ vf_tradition_freehold_desc:0 ""
+ culture_parameter_vf_slaveowner_trait_gives_bonuses:0 "The [GetTrait('slave_master').GetName( GetNullCharacter )] [trait|E] has additional bonuses"
+ 

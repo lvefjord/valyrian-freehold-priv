@@ -10,7 +10,7 @@
 		agot_tradition_insular_marriage
 		tradition_eye_for_an_eye
 		tradition_sorcerous_metallurgy
-		tradition_republican_legacy
+		vf_tradition_freehold
 		agot_tradition_valyrian
 	}
 
