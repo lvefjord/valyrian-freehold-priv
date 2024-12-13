@@ -49,6 +49,9 @@ vf_game_start = {
 				game_start_date >= 7888.1.1
 			}
 			vf_add_special_buildings_7888 = yes
+			culture:high_valyrian = {
+				add_innovation = innovation_agot_anti_dragon_fighting
+			}
 		}
 
 		too_lazy_to_change_the_generated_counties_liege_in_the_files_effect = yes

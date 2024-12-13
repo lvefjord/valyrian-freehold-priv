@@ -1,0 +1,31 @@
+﻿slave_master = {
+	category = fame
+	opposites = {
+		slave
+		freedman
+	}
+
+	opposite_opinion = -100
+
+	dread_baseline_add = 25
+	enemy_hostile_scheme_success_chance_add = 20
+
+	culture_modifier = {
+		parameter = vf_slaveowner_trait_gives_bonuses
+		monthly_dynasty_prestige_mult = 0.1
+		monthly_prestige_gain_mult = 0.1
+	}
+
+	name = trait_slave_owner
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_slave_owner_desc
+			}
+			desc = trait_slave_owner_character_desc
+		}
+	}
+}
