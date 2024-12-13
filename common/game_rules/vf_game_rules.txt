@@ -1,0 +1,15 @@
+﻿valyrian_or_english = { #english or spanish?
+	categories = {
+		historicity	
+	}
+
+	default = default_vf_title_names
+
+	default_vf_title_names = {
+
+	}
+
+	english_vf_titles_names = {
+		
+	}
+}

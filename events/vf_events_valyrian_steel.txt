@@ -1,181 +1,181 @@
-namespace = vf_valyrian_steel
-
-# Head of Atreides dynasty bestows dusk on someone
-vf_valyrian_steel.0001 = {
-	type = character_event
-	title = agot_valyrian_steel.0001.t
-	desc = agot_valyrian_steel.0001.desc
-	theme = faith
-
-	left_portrait = {
-		character = root
-		animation = personality_honorable
-	}
-
-	right_portrait = {
-		character = scope:my_relation
-		animation = personality_honorable
-	}
-
-	trigger = {
-		any_character_artifact = {
-			has_variable = dusk_artifact
-		}
-		NOT = { has_character_flag = is_sword_of_evening }
-		scope:my_relation = { save_temporary_scope_as = potential_sword_of_evening }
-		scope:potential_sword_of_evening = {
-			worthy_sword_of_the_evening_trigger = yes
-		}
-	}
-
-	# Grant them dusk
-	option = {
-		name = agot_valyrian_steel.0001.a
-
-		dynasty = {
-			add_dynasty_prestige = 500
-		}
-
-		scope:my_relation = {
-			trigger_event = agot_valyrian_steel.0002
-		}
-
-		ai_chance = {
-			base = 100
-		}
-	}
-
-	# Deny them the sword
-	option = {
-		name = agot_valyrian_steel.0001.b
-
-		ai_chance = {
-			base = 0
-		}
-	}
-}
-
-#Knight recieves dusk
-vf_valyrian_steel.0002 = {
-	type = character_event
-	title = agot_valyrian_steel.0002.t
-	desc = agot_valyrian_steel.0002.desc
-	theme = faith
-
-	left_portrait = {
-		character = root
-		animation = personality_honorable
-	}
-
-	right_portrait = {
-		character = scope:my_relation
-		animation = personality_honorable
-	}
-
-	immediate = {
-		scope:actor ?= { save_scope_as = my_relation }
-	}
-
-	#Accept
-	option = {
-		name = agot_valyrian_steel.0002.a
-
-		if = {
-			limit = { worthy_sword_of_the_evening_trigger = yes }
-
-			give_nickname = nick_the_sword_of_the_evening
-
-			add_character_flag = is_sword_of_evening
-
-			add_prestige = massive_prestige_value
-			add_prestige_level = 1
-		}
-
-		dynasty:dynn_Atreides.dynast = {
-			random_character_artifact = {
-				limit  = { has_variable = dusk_artifact }
-				save_scope_as = dusk
-			}
-		}
-
-		scope:dusk = {
-			set_owner = root
-		}
-
-		hidden_effect = {
-			add_character_flag = claimed_dusk
-			scope:dusk = {
-				equip_artifact_to_owner_replace = yes
-			}
-		}
-
-		ai_chance = {
-			base = 0
-			modifier = {
-				add = 100
-				worthy_sword_of_the_evening_trigger = yes
-			}
-			modifier = {
-				add = 50
-				has_trait = arrogant
-			}
-			modifier = {
-				add = 50
-				has_trait = greedy
-			}
-			modifier = {
-				add = 25
-				has_trait = ambitious
-			}
-		}
-	}
-
-	#Refuse
-	option = {
-		name = agot_valyrian_steel.0002.b
-
-		hidden_effect = {
-			save_scope_as = refused_sword
-			dynasty:dynn_Atreides.dynast = {
-				send_interface_toast = {
-					title = dusk_refused_title
-					custom_tooltip = dusk_refused_desc
-					left_icon = root
-				}
-			}
-		}
-
-		ai_chance = {
-			base = 0
-			modifier = {
-				add = 25
-				worthy_sword_of_the_evening_trigger = no
-			}
-			modifier = {
-				add = 50
-				worthy_sword_of_the_evening_trigger = no
-				has_trait = humble
-			}
-			modifier = {
-				add = 50
-				worthy_sword_of_the_evening_trigger = no
-				has_trait = craven
-			}
-			modifier = {
-				add = 50
-				worthy_sword_of_the_evening_trigger = no
-				has_trait = content
-			}
-			modifier = {
-				add = 50
-				worthy_sword_of_the_evening_trigger = no
-				has_trait = honest
-			}
-			modifier = {
-				add = 50
-				worthy_sword_of_the_evening_trigger = no
-				has_trait = just
-			}
-		}
-	}
-}
+##namespace = vf_valyrian_steel
+#
+## Head of Atreides dynasty bestows dusk on someone
+#vf_valyrian_steel.0001 = {
+#	type = character_event
+#	title = agot_valyrian_steel.0001.t
+#	desc = agot_valyrian_steel.0001.desc
+#	theme = faith
+#
+#	left_portrait = {
+#		character = root
+#		animation = personality_honorable
+#	}
+#
+#	right_portrait = {
+#		character = scope:my_relation
+#		animation = personality_honorable
+#	}
+#
+#	trigger = {
+#		any_character_artifact = {
+#			has_variable = dusk_artifact
+#		}
+#		NOT = { has_character_flag = is_sword_of_evening }
+#		scope:my_relation = { save_temporary_scope_as = potential_sword_of_evening }
+#		scope:potential_sword_of_evening = {
+#			worthy_sword_of_the_evening_trigger = yes
+#		}
+#	}
+#
+#	# Grant them dusk
+#	option = {
+#		name = agot_valyrian_steel.0001.a
+#
+#		dynasty = {
+#			add_dynasty_prestige = 500
+#		}
+#
+#		scope:my_relation = {
+#			trigger_event = agot_valyrian_steel.0002
+#		}
+#
+#		ai_chance = {
+#			base = 100
+#		}
+#	}
+#
+#	# Deny them the sword
+#	option = {
+#		name = agot_valyrian_steel.0001.b
+#
+#		ai_chance = {
+#			base = 0
+#		}
+#	}
+#}
+#
+##Knight recieves dusk
+#vf_valyrian_steel.0002 = {
+#	type = character_event
+#	title = agot_valyrian_steel.0002.t
+#	desc = agot_valyrian_steel.0002.desc
+#	theme = faith
+#
+#	left_portrait = {
+#		character = root
+#		animation = personality_honorable
+#	}
+#
+#	right_portrait = {
+#		character = scope:my_relation
+#		animation = personality_honorable
+#	}
+#
+#	immediate = {
+#		scope:actor ?= { save_scope_as = my_relation }
+#	}
+#
+#	#Accept
+#	option = {
+#		name = agot_valyrian_steel.0002.a
+#
+#		if = {
+#			limit = { worthy_sword_of_the_evening_trigger = yes }
+#
+#			give_nickname = nick_the_sword_of_the_evening
+#
+#			add_character_flag = is_sword_of_evening
+#
+#			add_prestige = massive_prestige_value
+#			add_prestige_level = 1
+#		}
+#
+#		dynasty:dynn_Atreides.dynast = {
+#			random_character_artifact = {
+#				limit  = { has_variable = dusk_artifact }
+#				save_scope_as = dusk
+#			}
+#		}
+#
+#		scope:dusk = {
+#			set_owner = root
+#		}
+#
+#		hidden_effect = {
+#			add_character_flag = claimed_dusk
+#			scope:dusk = {
+#				equip_artifact_to_owner_replace = yes
+#			}
+#		}
+#
+#		ai_chance = {
+#			base = 0
+#			modifier = {
+#				add = 100
+#				worthy_sword_of_the_evening_trigger = yes
+#			}
+#			modifier = {
+#				add = 50
+#				has_trait = arrogant
+#			}
+#			modifier = {
+#				add = 50
+#				has_trait = greedy
+#			}
+#			modifier = {
+#				add = 25
+#				has_trait = ambitious
+#			}
+#		}
+#	}
+#
+#	#Refuse
+#	option = {
+#		name = agot_valyrian_steel.0002.b
+#
+#		hidden_effect = {
+#			save_scope_as = refused_sword
+#			dynasty:dynn_Atreides.dynast = {
+#				send_interface_toast = {
+#					title = dusk_refused_title
+#					custom_tooltip = dusk_refused_desc
+#					left_icon = root
+#				}
+#			}
+#		}
+#
+#		ai_chance = {
+#			base = 0
+#			modifier = {
+#				add = 25
+#				worthy_sword_of_the_evening_trigger = no
+#			}
+#			modifier = {
+#				add = 50
+#				worthy_sword_of_the_evening_trigger = no
+#				has_trait = humble
+#			}
+#			modifier = {
+#				add = 50
+#				worthy_sword_of_the_evening_trigger = no
+#				has_trait = craven
+#			}
+#			modifier = {
+#				add = 50
+#				worthy_sword_of_the_evening_trigger = no
+#				has_trait = content
+#			}
+#			modifier = {
+#				add = 50
+#				worthy_sword_of_the_evening_trigger = no
+#				has_trait = honest
+#			}
+#			modifier = {
+#				add = 50
+#				worthy_sword_of_the_evening_trigger = no
+#				has_trait = just
+#			}
+#		}
+#	}
+#}

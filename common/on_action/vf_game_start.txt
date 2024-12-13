@@ -12,6 +12,38 @@ on_game_start_after_lobby = {
 
 vf_game_start = {
 	effect = {
+		title:e_valyria = {
+			if = {
+				limit = {
+					has_game_rule = english_vf_titles_names
+				}
+				set_title_name = e_valyria_eng
+			}
+		}
+		title:k_valyria = {
+			if = {
+				limit = {
+					has_game_rule = english_vf_titles_names
+				}
+				set_title_name = k_valyria_eng
+			}
+		}
+		title:k_landsoflongsummer = {
+			if = {
+				limit = {
+					has_game_rule = english_vf_titles_names
+				}
+				set_title_name = k_landsoflongsummer_eng
+			}
+		}
+		title:k_firekingdom = {
+			if = {
+				limit = {
+					has_game_rule = english_vf_titles_names
+				}
+				set_title_name = k_firekingdom_eng
+			}
+		}
 		if = {
 			limit = {
 				game_start_date >= 7888.1.1

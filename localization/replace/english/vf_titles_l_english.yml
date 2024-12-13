@@ -1,8 +1,21 @@
 ﻿l_english:
  e_valyria:0 "Valyrio Ezīmillion"
+ e_valyria_adj:0 "Valyrio"
  k_valyria:0 "Izula Ampā Perzyssy"
+ k_valyria_adj:0 "Izula Ampā Perzyssy"
  k_landsoflongsummer:0 "Jaedo Bōso Dārio"
+ k_landsoflongsummer_adj:0 "Jaedo Bōso"
  k_firekingdom:0 "Dārion Perzio"
+ k_firekingdom_adj:0 "Perzio"
+
+ e_valyria_eng:0 "the Valyrian Freehold"
+ e_valyria_eng_adj:0 "Valyrian"
+ k_valyria_eng:0 "the Fourteen Flames"
+ k_valyria_eng_adj:0 "Flame"
+ k_landsoflongsummer_eng:0 "the Long Summer"
+ k_landsoflongsummer_eng_adj:0 "Summer"
+ k_firekingdom_eng:0 "the Ashes"
+ k_firekingdom_eng_adj:0 "Ashen"
 
  ##############
  ## duchies  ##

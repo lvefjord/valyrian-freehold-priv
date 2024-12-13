@@ -1,7 +1,7 @@
 ﻿Melnibone_3 = {
     name = Maegon
     dynasty = dynn_Melnibone
-    dna = Melnibone_3
+#   dna = Melnibone_3
     father = Melnibone_1
     mother = Melnibone_2
 
@@ -20,7 +20,7 @@
 Melnibone_4 = {
     name = Baela
     dynasty = dynn_Melnibone
-    dna = Melnibone_4
+#   dna = Melnibone_4
     female = yes
     father = Melnibone_1
     mother = Melnibone_2
@@ -40,7 +40,7 @@ Melnibone_4 = {
 Melnibone_5 = {
     name = Rhaegar
     dynasty = dynn_Melnibone
-    dna = Melnibone_5
+#   dna = Melnibone_5
     father = Melnibone_1_dad
 
     religion = valyrian
@@ -62,7 +62,7 @@ Melnibone_5 = {
 Melnibone_6 = {
     name = Daenys
     dynasty = dynn_Melnibone
-    dna = Melnibone_6
+#   dna = Melnibone_6
     female = yes
     father = Melnibone_1_dad
 
@@ -85,7 +85,7 @@ Melnibone_6 = {
 Melnibone_7 = {
     name = Aerys
     dynasty = dynn_Melnibone
-    dna = Melnibone_7
+#   dna = Melnibone_7
     father = Melnibone_1_dad
 
     religion = valyrian
@@ -106,7 +106,7 @@ Melnibone_7 = {
 Jentys_3 = {
     name = Aelor
     dynasty = dynn_Jentys
-    dna = Jentys_3
+#   dna = Jentys_3
     father = Jentys_1
     mother = Jentys_1_wife
 
@@ -125,7 +125,7 @@ Jentys_3 = {
 Jentys_4 = {
     name = Maelys
     dynasty = dynn_Jentys
-    dna = Jentys_4
+#   dna = Jentys_4
     father = Jentys_1_dad
 
     religion = valyrian
@@ -147,7 +147,7 @@ Jentys_4 = {
 Jentys_5 = {
     name = Helaena
     dynasty = dynn_Jentys
-    dna = Jentys_5
+#   dna = Jentys_5
     female = yes
     father = Jentys_1_dad
 
@@ -170,9 +170,8 @@ Jentys_5 = {
 Jentys_6 = {
     name = Naerys
     dynasty = dynn_Jentys
-    dna = Jentys_6
+#   dna = Jentys_6
     female = yes
-    spouse = Jentys_1_dad
 
     religion = valyrian
     culture = high_valyrian
@@ -188,6 +187,9 @@ Jentys_6 = {
     7840.1.1 = {
         birth = yes
     }
+    7856.1.1 = {
+        add_spouse = Jentys_1_dad
+    }
     7880.1.1 = {
         death = yes
     }
@@ -195,7 +197,7 @@ Jentys_6 = {
 Azantys_3 = {
     name = Rhaella
     dynasty = dynn_Azantys
-    dna = Azantys_3
+#   dna = Azantys_3
     female = yes
     father = Azantys_1
     mother = Azantys_1_wife
@@ -215,7 +217,7 @@ Azantys_3 = {
 Azantys_4 = {
     name = Aelor
     dynasty = dynn_Azantys
-    dna = Azantys_4
+#   dna = Azantys_4
     father = Azantys_1_dad
 
     religion = valyrian
@@ -237,9 +239,8 @@ Azantys_4 = {
 Azantys_5 = {
     name = Daenaera
     dynasty = dynn_Azantys
-    dna = Azantys_5
+#   dna = Azantys_5
     female = yes
-    spouse = Azantys_1_dad
 
     religion = valyrian
     culture = high_valyrian
@@ -255,6 +256,9 @@ Azantys_5 = {
     7840.1.1 = {
         birth = yes
     }
+    7856.1.1 = {
+        add_spouse = Azantys_1_dad
+    }
     7880.1.1 = {
         death = yes
     }
@@ -262,7 +266,7 @@ Azantys_5 = {
 Issaros_3 = {
     name = Aelor
     dynasty = dynn_Issaros
-    dna = Issaros_3
+#   dna = Issaros_3
     father = Issaros_1_dad
 
     religion = valyrian
@@ -283,7 +287,7 @@ Issaros_3 = {
 Issaros_4 = {
     name = Rhaena
     dynasty = dynn_Issaros
-    dna = Issaros_4
+#   dna = Issaros_4
     female = yes
     mother = Issaros_1_wife
 
@@ -302,9 +306,8 @@ Issaros_4 = {
 Issaros_5 = {
     name = Aelinor
     dynasty = dynn_Issaros
-    dna = Issaros_5
+#   dna = Issaros_5
     female = yes
-    spouse = Issaros_1_dad
 
     religion = valyrian
     culture = high_valyrian
@@ -320,6 +323,9 @@ Issaros_5 = {
     7840.4.14 = {
         birth = yes
     }
+    7857.1.1 = {
+        add_spouse = Issaros_1_dad
+    }
     7890.6.30 = {
         death = yes
     }
@@ -327,7 +333,7 @@ Issaros_5 = {
 Jaelarys_3 = {
     name = Maelor
     dynasty = dynn_Jaelarys
-    dna = Jaelarys_3
+#   dna = Jaelarys_3
     father = Jaelarys_1_dad
 
     religion = valyrian
@@ -349,7 +355,7 @@ Jaelarys_3 = {
 Jaelarys_4 = {
     name = Rhaella
     dynasty = dynn_Jaelarys
-    dna = Jaelarys_4
+#   dna = Jaelarys_4
     female = yes
     mother = Jaelarys_1_wife
 
@@ -368,9 +374,8 @@ Jaelarys_4 = {
 Jaelarys_5 = {
     name = Aelinor
     dynasty = dynn_Jaelarys
-    dna = Jaelarys_5
+#   dna = Jaelarys_5
     female = yes
-    spouse = Jaelarys_1_dad
 
     religion = valyrian
     culture = high_valyrian
@@ -386,6 +391,9 @@ Jaelarys_5 = {
     7842.7.11 = {
         birth = yes
     }
+    7859.1.1 = {
+        add_spouse = Jaelarys_1_dad
+    }
     7892.1.1 = {
         death = yes
     }
@@ -393,7 +401,7 @@ Jaelarys_5 = {
 Zalarys_3 = {
     name = Baela
     dynasty = dynn_Zalarys
-    dna = Zalarys_3
+#   dna = Zalarys_3
     female = yes
     mother = Zalarys_1_wife
 
@@ -412,7 +420,7 @@ Zalarys_3 = {
 Zalarys_4 = {
     name = Maegon
     dynasty = dynn_Zalarys
-    dna = Zalarys_4
+#   dna = Zalarys_4
     father = Zalarys_1_dad
 
     religion = valyrian
@@ -433,9 +441,8 @@ Zalarys_4 = {
 Zalarys_5 = {
     name = Aelinor
     dynasty = dynn_Zalarys
-    dna = Zalarys_5
+#   dna = Zalarys_5
     female = yes
-    spouse = Zalarys_1_dad
 
     religion = valyrian
     culture = high_valyrian
@@ -451,6 +458,9 @@ Zalarys_5 = {
     7845.1.1 = {
         birth = yes
     }
+    7861.1.1 = {
+        add_spouse = Zalarys_1_dad
+    }
     7890.1.1 = {
         death = yes
     }
@@ -458,7 +468,7 @@ Zalarys_5 = {
 Vaeritrix_3 = {
     name = Rhaella
     dynasty = dynn_Vaeritrix
-    dna = Vaeritrix_3
+#   dna = Vaeritrix_3
     female = yes
     mother = Vaeritrix_1_wife
 
@@ -477,7 +487,7 @@ Vaeritrix_3 = {
 Vaeritrix_4 = {
     name = Baelor
     dynasty = dynn_Vaeritrix
-    dna = Vaeritrix_4
+#   dna = Vaeritrix_4
     father = Vaeritrix_1
 
     religion = valyrian
@@ -495,7 +505,7 @@ Vaeritrix_4 = {
 Vaeritrix_5 = {
     name = Maegor
     dynasty = dynn_Vaeritrix
-    dna = Vaeritrix_5
+#   dna = Vaeritrix_5
     father = Vaeritrix_1_dad
 
     religion = valyrian
@@ -516,7 +526,7 @@ Vaeritrix_5 = {
 Aegustys_3 = {
     name = Aelinor
     dynasty = dynn_Aegustys
-    dna = Aegustys_3
+#   dna = Aegustys_3
     female = yes
     mother = Aegustys_1_wife
 
@@ -535,7 +545,7 @@ Aegustys_3 = {
 Aegustys_4 = {
     name = Valarr
     dynasty = dynn_Aegustys
-    dna = Aegustys_4
+#   dna = Aegustys_4
     father = Aegustys_1
 
     religion = valyrian
@@ -553,9 +563,8 @@ Aegustys_4 = {
 Aegustys_5 = {
     name = Rhaena
     dynasty = dynn_Aegustys
-    dna = Aegustys_5
+#   dna = Aegustys_5
     female = yes
-    spouse = Aegustys_1_dad
 
     religion = valyrian
     culture = high_valyrian
@@ -570,6 +579,9 @@ Aegustys_5 = {
 
     7845.2.14 = {
         birth = yes
+    }
+    7862.1.1 = {
+        add_spouse = Aegustys_1_dad
     }
     7895.7.21 = {
         death = yes

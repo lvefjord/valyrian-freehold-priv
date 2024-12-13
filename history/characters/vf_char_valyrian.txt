@@ -2,7 +2,7 @@
 Mataeryon_2 = {
 	name = Maegor
 	dynasty = dynn_Mataeryon
-	dna = Mataeryon_2
+	#dna = Mataeryon_2
 	father = Mataeryon_1
 
 	religion = valyrian
@@ -25,7 +25,7 @@ Mataeryon_2 = {
 Varezys_2 = {
 	name = Varys
 	dynasty = dynn_Varezys
-	dna = Varezys_2
+	#dna = Varezys_2
 	father = Varezys_1
 
 	religion = valyrian
@@ -50,7 +50,7 @@ Varezys_2 = {
 Atreides_1 = {
 	name = Daemon # Daemon, the Sword of the Evening | Dragonlord 1/39 # HAS LAND
 	dynasty = dynn_Atreides
-	dna = Atreides_1
+	#dna = Atreides_1
 
 	martial = 10
 	diplomacy = 3
@@ -94,7 +94,7 @@ Atreides_1 = {
 Atreides_2 = {
 	name = Naerys # Wife of Lord Daemon
 	dynasty = dynn_Atreides
-	dna = Atreides_2
+	#dna = Atreides_2
 	female = yes
 
 	martial = 2
@@ -128,7 +128,7 @@ Atreides_2 = {
 Atreides_3 = {
 	name = Aemond
 	dynasty = dynn_Atreides
-	dna = Atreides_3
+	#dna = Atreides_3
 	father = Atreides_1
 	mother = Atreides_2
 
@@ -157,7 +157,7 @@ Atreides_3 = {
 Qorbareon_ancestor_1 = {
 	name = Qaenys
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_ancestor
+	#dna = Qorbareon_ancestor
 
 	religion = valyrian
 	culture = high_valyrian
@@ -182,7 +182,7 @@ Qorbareon_ancestor_1 = {
 Qorbareon_ancestor_2 = {
 	name = Qaenor
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_ancestor
+	#dna = Qorbareon_ancestor
 	father = Qorbareon_ancestor_1
 
 	religion = valyrian
@@ -208,7 +208,7 @@ Qorbareon_ancestor_2 = {
 Qorbareon_1 = {
 	name = Rhaelene # Aunt and wife of Lord Rhaemon
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_1
+	#dna = Qorbareon_1
 	female = yes
 	father = Qorbareon_ancestor_1
 
@@ -239,7 +239,7 @@ Qorbareon_1 = {
 Qorbareon_2 = {
 	name = Rhaemon # Lord Rhaemon Qorbareon | Dragonlord 2/39 # HAS LAND
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_2
+	#dna = Qorbareon_2
 	father = Qorbareon_ancestor_2
 
 	martial = 4
@@ -276,7 +276,7 @@ Qorbareon_2 = {
 Qorbareon_3 = {
 	name = Arano # Brother of Lord Rhaemon
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_3
+	#dna = Qorbareon_3
 	father = Qorbareon_ancestor_2
 
 	#martial = 
@@ -302,7 +302,7 @@ Qorbareon_3 = {
 Qorbareon_4 = {
 	name = Rogo # Brother of Lord Rhaemon
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_4
+	#dna = Qorbareon_4
 	father = Qorbareon_ancestor_2
 
 	#martial = 
@@ -328,7 +328,7 @@ Qorbareon_4 = {
 Qorbareon_5 = {
 	name = Ellara # Sister of Lord Rhaemon
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_5
+	#dna = Qorbareon_5
 	father = Qorbareon_ancestor_2
 	female = yes
 
@@ -355,7 +355,7 @@ Qorbareon_5 = {
 Qorbareon_6 = {
 	name = Laerion # Son of Lord Rhaemon
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_6
+	#dna = Qorbareon_6
 	father = Qorbareon_2
 	mother = Qorbareon_9
 
@@ -394,7 +394,7 @@ Qorbareon_6 = {
 Qorbareon_7 = {
 	name = Daerion # Son of Lord Rhaemon
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_7
+	#dna = Qorbareon_7
 	father = Qorbareon_2
 	mother = Qorbareon_9
 
@@ -432,7 +432,7 @@ Qorbareon_7 = {
 Qorbareon_8 = {
 	name = Dyaerys # Son of Lord Rhaemon
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_8
+	#dna = Qorbareon_8
 	father = Qorbareon_2
 	mother = Qorbareon_9
 
@@ -470,7 +470,7 @@ Qorbareon_8 = {
 Qorbareon_9 = {
 	name = Aemma # Second wife of Lord Rhaemon
 	dynasty = dynn_Qorbareon
-	dna = Qorbareon_9
+	#dna = Qorbareon_9
 	female = yes
 	father = Qorbareon_ancestor_2
 
@@ -496,7 +496,7 @@ Qorbareon_9 = {
 Stavaryen_1_dad = {
 	name = Vargo
 	dynasty = dynn_Stavaryen
-	dna = Stavaryen_1_dad
+	#dna = Stavaryen_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -520,7 +520,7 @@ Stavaryen_1_dad = {
 Stavaryen_1 = {
 	name = Vargo # Lord Vargo Stavaryen | Dragonlord 3/39 # HAS LAND
 	dynasty = dynn_Stavaryen
-	dna = Stavaryen_1
+	#dna = Stavaryen_1
 	father = Stavaryen_1_dad
 
 	martial = 5
@@ -553,7 +553,7 @@ Stavaryen_1 = {
 Stavaryen_2 = {
 	name = Norenya # Wife of Lord Vargo
 	dynasty = dynn_Stavaryen
-	dna = Stavaryen_2
+	#dna = Stavaryen_2
 	female = yes
 	father = Stavaryen_1_dad
 
@@ -585,7 +585,7 @@ Stavaryen_2 = {
 Stavaryen_3 = {
 	name = Vaenora # Daughter of Lord Vargo
 	dynasty = dynn_Stavaryen
-	dna = Stavaryen_3
+	#dna = Stavaryen_3
 	female = yes
 	
 	martial = 2
@@ -619,7 +619,7 @@ Stavaryen_3 = {
 Stavaryen_4 = {
 	name = Vargo # Son of Lord Vargo
 	dynasty = dynn_Stavaryen
-	dna = Stavaryen_4
+	#dna = Stavaryen_4
 
 	martial = 1
 	diplomacy = 1
@@ -652,7 +652,7 @@ Stavaryen_4 = {
 Stavaryen_5 = {
 	name = Parios # Son of Lord Vargo
 	dynasty = dynn_Stavaryen
-	dna = Stavaryen_5
+	#dna = Stavaryen_5
 
 	martial = 3
 	diplomacy = 0
@@ -684,7 +684,7 @@ Stavaryen_5 = {
 Stavaryen_6 = {
 	name = Naesys # Daughter of Lord Vargo
 	dynasty = dynn_Stavaryen
-	dna = Stavaryen_6
+	#dna = Stavaryen_6
 	female = yes
 
 	martial = 2
@@ -717,7 +717,7 @@ Stavaryen_6 = {
 Stavaryen_7 = {
 	name = Garios # Son of Lord Vargo
 	dynasty = dynn_Stavaryen
-	dna = Stavaryen_7
+	#dna = Stavaryen_7
 
 	martial = 2
 	diplomacy = 4
@@ -749,7 +749,7 @@ Stavaryen_7 = {
 Melnibone_1 = {
 	name = Elric # The White Wolf | Dragonlord 4/39 # HAS LAND
 	dynasty = dynn_Melnibone
-	dna = Targaryen_96
+	#dna = Targaryen_96
 
 	religion = valyrian
 	culture = high_valyrian
@@ -778,7 +778,7 @@ Melnibone_2 = {
 	name = Cymoril # Elrics bae
 	dynasty = dynn_Melnibone
 	female = yes
-	dna = Targaryen_97
+	#dna = Targaryen_97
 
 	religion = valyrian
 	culture = high_valyrian
@@ -792,7 +792,7 @@ Melnibone_2 = {
 Jentys_1_dad = {
 	name = Daemond
 	dynasty = dynn_Jentys
-	dna = Jentys_1_dad
+	#dna = Jentys_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -859,7 +859,7 @@ Jentys_2 = {
 Azantys_1_dad = {
 	name = Aenys
 	dynasty = dynn_Azantys
-	dna = Azantys_1_dad
+	#dna = Azantys_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -951,7 +951,7 @@ Azantys_2 = {
 Issaros_1_dad = {
 	name = Daenor
 	dynasty = dynn_Issaros
-	dna = Issaros_1_dad
+	#dna = Issaros_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1041,7 +1041,7 @@ Issaros_2 = {
 Jaelarys_1_dad = {
 	name = Aerys
 	dynasty = dynn_Jaelarys
-	dna = Jaelarys_1_dad
+	#dna = Jaelarys_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1133,7 +1133,7 @@ Jaelarys_2 = {
 Zalarys_1_dad = {
 	name = Vaemys
 	dynasty = dynn_Zalarys
-	dna = Zalarys_1_dad
+	#dna = Zalarys_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1224,7 +1224,7 @@ Zalarys_2 = {
 Vaeritrix_1_dad = {
 	name = Aegon
 	dynasty = dynn_Vaeritrix
-	dna = Vaeritrix_1_dad
+	#dna = Vaeritrix_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1315,7 +1315,7 @@ Vaeritrix_2 = {
 Aegustys_1_dad = {
 	name = Aeulius
 	dynasty = dynn_Aegustys
-	dna = Aegustys_1_dad
+	#dna = Aegustys_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1475,7 +1475,7 @@ Taenys_3 = {
 Zaldrizys_1_dad = {
 	name = Aemon
 	dynasty = dynn_Zaldrizys
-	dna = Zaldrizys_1_dad
+	#dna = Zaldrizys_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1565,7 +1565,7 @@ Zaldrizys_2 = {
 Vermaxos_1_dad = {
 	name = Rhaegar 
 	dynasty = dynn_Vermaxos
-	dna = Vermaxos_1_dad
+	#dna = Vermaxos_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1633,7 +1633,7 @@ Vermaxos_1_wife = {
 Paelinox_1_dad = {
 	name = Aenyx # Father of Lord Aegon
 	dynasty = dynn_Paelinox
-	dna = Paelinox_1_dad
+	#dna = Paelinox_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1682,7 +1682,7 @@ Paelinox_1_wife = {
 	dynasty = dynn_Paelinox
 	father = Paelinox_1_dad
 	female = yes
-	dna = Paelinox_1_wife
+	#dna = Paelinox_1_wife
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1725,7 +1725,7 @@ Paelinox_2 = {
 Ramessid_1_dad = {
 	name = Ramesys # Father of Lord Ramesys
 	dynasty = dynn_Ramessid
-	dna = Ramessid_1_dad
+	#dna = Ramessid_1_dad
 
 	religion = valyrian
 	culture = high_valyrian
@@ -1776,7 +1776,7 @@ Ramessid_1_wife = {
 	name = Nefertaery # Wife of Lord Ramesys
 	dynasty = dynn_Ramessid
 	father = Ramessid_1_dad
-	dna = Ramessid_1_wife
+	#dna = Ramessid_1_wife
 	female = yes
 
 	religion = valyrian

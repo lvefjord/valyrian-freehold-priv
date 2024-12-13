@@ -1,0 +1,7 @@
+﻿l_english:
+ rule_valyrian_or_english:0 "#P BTD:#! Empire- and Kingdom-tier titles in High Valyrian or English"
+ setting_default_vf_title_names:0 "High Valyrian"
+ setting_default_vf_title_names_desc:0 "The Empire- and Kingdom-tier titles in the Freehold will be translated to High Valyrian, by yours truly."
+
+ setting_english_vf_titles_names:0 "English"
+ setting_english_vf_titles_names_desc:0 "The Empire- and Kingdom-tier titles in the Freehold will be in English."

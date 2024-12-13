@@ -41,6 +41,33 @@ c_paelion = {
 		liege = d_mazioragon
 	}
 }
+c_laerion = {
+	7886.7.16 = {
+		holder = mrcount_16
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_mazioragon
+	}
+}
+c_saelzor = {
+	7880.8.1 = {
+		holder = mrcount_17
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_mazioragon
+	}
+}
+c_erythor = {
+	7881.9.21 = {
+		holder = mrcount_19
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_mazioragon
+	}
+}
 
 d_oregon = {
 	7885.5.1 = {
@@ -63,6 +90,24 @@ d_oregon = {
 c_oelyth = {
 	7885.5.1 = {
 		holder = Stavaryen_1
+		liege = d_oregon
+	}
+}
+c_qaenor = {
+	7883.12.12 = {
+		holder = mrcount_8
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_oregon
+	}
+}
+c_vaelythor = {
+	7877.2.23 = {
+		holder = mrcount_13
+		government = freehold_government
+	}
+	7885.5.2 = {
 		liege = d_oregon
 	}
 }
@@ -91,6 +136,25 @@ c_yrnith = {
 		liege = d_paletilla
 	}
 }
+c_xaeryth = {
+	7873.4.26 = {
+		holder = mrcount_12
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_paletilla
+	}
+}
+c_zhaenor = {
+	7882.3.24 = {
+		holder = mrcount_15
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_paletilla
+	}
+}
+
 d_lentazma = {
 	7885.5.1 = {
 		holder = Sonaryen_1
@@ -115,6 +179,34 @@ c_maenythor = {
 		liege = d_lentazma
 	}
 }
+c_brythorion = {
+	7886.3.29 = {
+		holder = mrcount_114
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_lentazma
+	}
+}
+c_qaenorion = {
+	7884.4.4 = {
+		holder = mrcount_115
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_lentazma
+	}
+}
+c_vaelzorion = {
+	7874.1.21 = {
+		holder = mrcount_120
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_lentazma
+	}
+}
+
 d_parkliapos = {
 	7885.5.1 = {
 		holder = Vuloryon_1
@@ -139,6 +231,25 @@ c_ilyrion = {
 		liege = d_parkliapos
 	}
 }
+c_ulythar = {
+	7881.12.21 = {
+		holder = mrcount_110
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_parkliapos
+	}
+}
+c_saelynor = {
+	7879.9.11 = {
+		holder = mrcount_111
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_parkliapos
+	}
+}
+
 d_kyvanon = {
 	7885.5.1 = {
 		holder = Bargerion_1
@@ -163,6 +274,25 @@ c_saelrion = {
 		liege = d_kyvanon
 	}
 }
+c_taelythar = {
+	7886.7.11 = {
+		holder = mrcount_116
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_kyvanon
+	}
+}
+c_laelthor = {
+	7881.8.5 = {
+		holder = mrcount_80
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_kyvanon
+	}
+}
+
 d_midemagon = {
 	7885.5.1 = {
 		holder = Musarion_1
@@ -187,6 +317,25 @@ c_gaelzor = {
 		liege = d_midemagon
 	}
 }
+c_faelynor = {
+	7882.6.9 = {
+		holder = mrcount_118
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_midemagon
+	}
+}
+c_haenorion = {
+	7887.10.21 = {
+		holder = mrcount_119
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_midemagon
+	}
+}
+
 d_mivojughagon = {
 	7885.5.1 = {
 		holder = Nilfarion_1
@@ -211,6 +360,25 @@ c_xaelrynor = {
 		liege = d_mivojughagon
 	}
 }
+c_jaelrithor = {
+	7884.4.28 = {
+		holder = mrcount_122
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_mivojughagon
+	}
+}
+c_naerythion = {
+	7885.9.11 = {
+		holder = mrcount_123
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_mivojughagon
+	}
+}
+
 d_levitsos = {
 	7885.5.1 = {
 		holder = Orarion_1
@@ -235,6 +403,34 @@ c_daenyth = {
 		liege = d_levitsos
 	}
 }
+c_daenyth = {
+	7874.10.14 = {
+		holder = mrcount_23
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_levitsos
+	}
+}
+c_vaelor = {
+	7875.4.7 = {
+		holder = mrcount_24
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_levitsos
+	}
+}
+c_maelrion = {
+	7880.8.13 = {
+		holder = mrcount_25
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_levitsos
+	}
+}
+
 d_loragon = {
 	7885.5.1 = {
 		holder = Roloros_1
@@ -259,6 +455,25 @@ c_qaelyx = {
 		liege = d_loragon
 	}
 }
+c_aerith = {
+	7876.5.8 = {
+		holder = mrcount_21
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_loragon
+	}
+}
+c_raelyx = {
+	7881.10.15 = {
+		holder = mrcount_22
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_loragon
+	}
+}
+
 d_ozletagon = {
 	7885.5.1 = {
 		holder = Aderion_1
@@ -283,6 +498,25 @@ c_haelyx = {
 		liege = d_ozletagon
 	}
 }
+c_gaelthor = {
+	7884.7.8 = {
+		holder = mrcount_9
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_ozletagon
+	}
+}
+c_maenor = {
+	7885.4.25 = {
+		holder = mrcount_11
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_ozletagon
+	}
+}
+
 d_munazma = {
 	7885.5.1 = {
 		holder = Doros_1
@@ -307,6 +541,25 @@ c_raelythor = {
 		liege = d_munazma
 	}
 }
+c_aelyrion = {
+	7875.10.15 = {
+		holder = mrcount_125
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_munazma
+	}
+}
+c_qaelythorion = {
+	7887.9.9 = {
+		holder = mrcount_126
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_munazma
+	}
+}
+
 d_obagon = {
 	7885.5.1 = {
 		holder = Danderion_1
@@ -331,6 +584,34 @@ c_daelthor = {
 		liege = d_obagon
 	}
 }
+c_rhaenor = {
+	7877.2.13 = {
+		holder = mrcount_4
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_obagon
+	}
+}
+c_naeryth = {
+	7873.1.11 = {
+		holder = mrcount_5
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_obagon
+	}
+}
+c_valthar = {
+	7883.9.22 = {
+		holder = mrcount_6
+		government = freehold_government
+	}
+	7885.5.2 = {
+		liege = d_obagon
+	}
+}
+
 d_noghoqitta = {
 	7885.5.1 = {
 		holder = Vyros_1
@@ -352,6 +633,15 @@ d_noghoqitta = {
 c_aelzor = {
 	7885.5.1 = {
 		holder = Vyros_1
+		liege = d_noghoqitta
+	}
+}
+c_velys = {
+	7880.2.28 = {
+		holder = mrcount_2
+		government = freehold_government
+	}
+	7885.5.2 = {
 		liege = d_noghoqitta
 	}
 }
