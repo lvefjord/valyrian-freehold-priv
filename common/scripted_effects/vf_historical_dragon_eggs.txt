@@ -46,6 +46,9 @@
 		character:Doros_4 = {
 			add_to_list = egg_getters
 		}
+		character:Atreides_3 = {
+			add_to_list = egg_getters
+		}
 		every_in_list = {
 			list = egg_getters
 			save_scope_as = egg_getter
