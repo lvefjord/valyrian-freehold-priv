@@ -93,7 +93,7 @@
 			gene_dragon_primary_color_hue = 0.74
 			gene_dragon_metallic_scales_strength = 0.76
 			gene_dragon_wounded = 0.46
-			gene_dragon_body_shading_template = 2
+			gene_dragon_body_shading_template = 1
 			gene_dragon_body_shading_value = 0.98
 			gene_dragon_wings_shading_template = 9
 			gene_dragon_wings_shading_value = 0.22
