@@ -1,0 +1,59 @@
+﻿high_valyrian = {
+	color = { 0.71 0.37 0.60 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_valyrian
+	language = language_valyrian
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		agot_tradition_insular_marriage
+		tradition_eye_for_an_eye
+		tradition_sorcerous_metallurgy
+		tradition_republican_legacy
+		agot_tradition_valyrian
+	}
+
+	name_list = name_list_high_valyrian
+
+	coa_gfx = {
+		valyrian_coa_gfx
+	}
+	building_gfx = {
+		indian_west_building_gfx
+		mediterranean_building_gfx
+	}
+	clothing_gfx = {
+		high_valyrian_clothing_gfx
+		valyrian_clothing_gfx
+		western_clothing_gfx
+	}
+	unit_gfx = {
+		eastern_unit_gfx
+	}
+
+	ethnicities = {
+		10 = high_valyrian_ethnicity_01
+		10 = high_valyrian_ethnicity_02
+		10 = high_valyrian_ethnicity_03
+		10 = high_valyrian_ethnicity_04
+		10 = high_valyrian_ethnicity_05
+		10 = high_valyrian_ethnicity_06
+		10 = high_valyrian_ethnicity_07
+		10 = high_valyrian_ethnicity_08
+		10 = high_valyrian_ethnicity_09
+		10 = high_valyrian_ethnicity_10
+		10 = high_valyrian_ethnicity_11
+		10 = high_valyrian_ethnicity_12
+		10 = high_valyrian_ethnicity_13
+		10 = high_valyrian_ethnicity_14
+		10 = high_valyrian_ethnicity_15
+		10 = high_valyrian_ethnicity_16
+		10 = high_valyrian_ethnicity_17
+		10 = high_valyrian_ethnicity_18
+		10 = high_valyrian_ethnicity_19
+		10 = high_valyrian_ethnicity_20
+		10 = high_valyrian_ethnicity_21
+		10 = high_valyrian_ethnicity_22
+	}
+}
