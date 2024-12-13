@@ -1626,3 +1626,42 @@ dragon_verox = {
 	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
+dragon_terrax = {
+	name = Terrax
+
+	religion = valyrian
+	culture = dragon
+
+	trait = dragon
+	trait = education_dragon_4
+	trait = dragon_physique_good_1
+	trait = dragon_calculating
+	trait = dragon_supporting
+	trait = dragon_friendly
+
+
+	disallow_random_traits = yes
+
+	7850.1.1 = {
+		birth = yes
+		effect = {
+			set_variable = {
+			name = color_grading
+			value = flag:darker
+			}
+			set_variable = {
+			name = color
+			value = flag:blue
+			}
+		}
+	}
+	7885.1.1 = {
+		effect = {
+			agot_tame_dragon = {
+				TAMER = character:Atreides_2 # Naerys
+				DRAGON = ROOT
+			}
+		}
+	}
+	8092.1.1 = { death = { death_reason = death_old_age } }
+}

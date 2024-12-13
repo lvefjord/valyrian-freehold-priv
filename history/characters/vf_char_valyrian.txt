@@ -122,7 +122,7 @@ Atreides_2 = {
 		birth = yes
 		add_character_flag = has_scripted_appearance
 	}
-	7885.1.1 = { trait = dragonrider } # PH Dragon (Create)
+	7885.1.1 = { trait = dragonrider } # Terrax
 	7950.1.1 = { death = { death_reason = death_old_age } }
 }
 Atreides_3 = {
