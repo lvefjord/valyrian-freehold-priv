@@ -1626,8 +1626,8 @@ dragon_verox = {
 	}
 	7992.1.1 = { death = { death_reason = death_old_age } }
 }
-dragon_terrax = {
-	name = Terrax
+dragon_terraks = {
+	name = Terraks
 
 	religion = valyrian
 	culture = dragon
